@@ -1,9 +1,9 @@
 model:
-  baseUrl: https://example.invalid/v1
-  modelName: replace-with-multimodal-model
+  baseUrl: https://open.bigmodel.cn/api/paas/v4/
+  modelName: GLM-5V-Turbo
   temperature: 0.0
   maxTokens: 8192
-  timeoutSeconds: 120
+  timeoutSeconds: 360
 
 platform:
   baseUrl: https://example.invalid

@@ -279,11 +279,11 @@ class ObservedRegion(_TopologyModel):
 class TopologyObservation(_TopologyModel):
     task_id: NonEmptyString
     image: ImageInfo
-    observed_nodes: list[ObservedNode] = Field(default_factory=list)
-    observed_links: list[ObservedLink] = Field(default_factory=list)
-    observed_regions: list[ObservedRegion] = Field(default_factory=list)
-    evidence: list[Evidence] = Field(default_factory=list)
-    unresolved_items: list[UnresolvedItem] = Field(default_factory=list)
+    observed_nodes: list[ObservedNode]
+    observed_links: list[ObservedLink]
+    observed_regions: list[ObservedRegion]
+    evidence: list[Evidence]
+    unresolved_items: list[UnresolvedItem]
     summary: dict[str, JsonValue]
 
 

@@ -7,6 +7,7 @@ from collections.abc import Mapping
 from pathlib import Path
 
 import yaml
+from dotenv import load_dotenv
 from pydantic import (
     BaseModel,
     ConfigDict,
@@ -25,6 +26,10 @@ from .models import (
     PlatformNodeType,
     SemanticDeviceType,
 )
+
+
+_REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(dotenv_path=_REPOSITORY_ROOT / ".env", override=False)
 
 
 def _to_camel(value: str) -> str:

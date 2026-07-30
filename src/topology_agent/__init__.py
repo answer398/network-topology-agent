@@ -1,4 +1,4 @@
-"""Public M1 and M2 contracts for the network topology agent."""
+"""Public M1 through M3 contracts for the network topology agent."""
 
 from .config import load_app_config, load_device_mapping
 from .image import (
@@ -10,6 +10,14 @@ from .image import (
     scale_original_point,
     view_bbox_to_original,
     view_point_to_original,
+)
+from .llm import (
+    ModelCallResult,
+    ModelImage,
+    ModelUsage,
+    OpenAICompatibleModelClient,
+    RawModelResult,
+    SkillName,
 )
 from .models import (
     ConfigurationError,
@@ -38,11 +46,17 @@ __all__ = [
     "ImageView",
     "InputError",
     "ModelInvocationError",
+    "ModelCallResult",
+    "ModelImage",
+    "ModelUsage",
+    "OpenAICompatibleModelClient",
     "PayloadValidationError",
     "PlatformResourceError",
     "PlatformSubmissionError",
     "PlatformTopologyPayload",
     "ResolvedTopologyIR",
+    "RawModelResult",
+    "SkillName",
     "SubmissionResult",
     "SubmissionUncertainError",
     "TaskInput",

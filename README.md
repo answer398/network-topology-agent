@@ -30,8 +30,10 @@ M1 已提供：
 - 平台 Payload、验证报告和提交结果模型；
 - 由 Pydantic 模型直接生成 JSON Schema。
 
-加载配置前设置 `TOPOLOGY_MODEL_API_KEY`、`TOPOLOGY_PLATFORM_USERNAME` 和
-`TOPOLOGY_PLATFORM_PASSWORD`。配置和 Payload 可按以下方式解析：
+在仓库根目录的 `.env` 中填写 `TOPOLOGY_MODEL_API_KEY`、
+`TOPOLOGY_PLATFORM_USERNAME` 和 `TOPOLOGY_PLATFORM_PASSWORD`，或直接设置同名
+shell 环境变量。配置模块会自动加载 `.env`，且不会覆盖 shell 中已有的值。
+配置和 Payload 可按以下方式解析：
 
 ```python
 from pathlib import Path
@@ -52,7 +54,7 @@ M2 已提供：
 - 全局缩放图、重叠切片、原图坐标裁剪和双向坐标映射；
 - 供后续模块统一消费的 `ImageBundle`。
 
-Pillow 会随 editable install 一并安装。设置上述三个环境变量后，可加载图片：
+Pillow 会随 editable install 一并安装。准备上述三个配置变量后，可加载图片：
 
 ```bash
 .venv/bin/python - <<'PY'
@@ -64,4 +66,82 @@ print(bundle.image_info, bundle.sha256, len(bundle.tile_views))
 PY
 ```
 
-M3～M8 的模型调用、视觉识别、拓扑推理、平台交互、Payload 编译、验证、编排和提交尚未实现。
+M3 已提供：
+
+- `system.md`、`extraction.md`、`repair.md` 三个固定 Prompt；
+- `topology_recognition`、`network_reasoning`、`platform_mapping` 三个固定 Skill，每次调用只加载其中一个；
+- GLM-5V-Turbo OpenAI 兼容 Chat Completions 同步调用；
+- Pillow 图片的内存 PNG data URL 编码、JSON mode、本地 Pydantic Schema 校验和一次有限修复；
+- 429、502、503、504 有限重试、调用预算以及请求和 Token 统计。
+
+模型密钥固定使用 `TOPOLOGY_MODEL_API_KEY`。项目启动时会自动读取仓库根目录中
+已被 `.gitignore` 忽略的 `.env`，无需每次手动执行 `source`：
+
+```bash
+cp .env.example .env
+# 在 .env 中填写真实值，然后直接运行项目命令。
+```
+
+`.env` 不得提交。若同一变量同时存在于 shell 和 `.env`，以 shell 中的值为准。
+
+以下命令使用 `config/app.yaml` 中的真实兼容地址和模型名执行一次文本结构化调用。
+它只加载 `network_reasoning`，不要求填写平台凭据：
+
+```bash
+.venv/bin/python - <<'PY'
+import os
+
+import yaml
+from pydantic import BaseModel
+
+from topology_agent import OpenAICompatibleModelClient, SkillName
+from topology_agent.config import ModelConfig
+
+with open("config/app.yaml", encoding="utf-8") as stream:
+    raw_model = yaml.safe_load(stream)["model"]
+model_config = ModelConfig.model_validate(
+    {**raw_model, "apiKey": os.environ["TOPOLOGY_MODEL_API_KEY"]}
+)
+
+class Probe(BaseModel):
+    ok: bool
+    note: str
+
+client = OpenAICompatibleModelClient(
+    model_config=model_config,
+    api_key=model_config.api_key,
+    max_model_calls=2,
+)
+result = client.call_structured(
+    task_text="Return ok=true and a short note confirming JSON mode.",
+    images=(),
+    response_model=Probe,
+    skill=SkillName.NETWORK_REASONING,
+)
+print(result.value, result.usage)
+PY
+```
+
+M2 的 `ImageView` 可直接构造 M3 图片输入；发送哪些视图由后续 M4 决定：
+
+```bash
+.venv/bin/python - <<'PY'
+from pathlib import Path
+
+import yaml
+
+from topology_agent import ModelImage, load_image_bundle
+from topology_agent.config import ImageProcessingConfig
+
+raw = yaml.safe_load(Path("config/app.yaml").read_text(encoding="utf-8"))
+bundle = load_image_bundle(
+    "path/to/topology.png",
+    ImageProcessingConfig.model_validate(raw["image"]),
+)
+view = bundle.global_view
+model_image = ModelImage(view_id=view.view_id, image=view.image)
+print(model_image.view_id, model_image.image.size)
+PY
+```
+
+M4～M8 的视觉识别编排、拓扑推理、平台交互、Payload 编译、验证、编排和提交尚未实现。
