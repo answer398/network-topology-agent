@@ -1,0 +1,437 @@
+{
+  "config": {
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "tileWidth": 512,
+    "tileHeight": 512,
+    "overlapRatio": 0.2
+  },
+  "images": {
+    "111.png": {
+      "sha256": "dba5d863fb37d031d3066b81ee984f0b29d002a8d54a9154923904a3958877cf",
+      "hashRepeatMatched": true,
+      "format": "PNG",
+      "originalSize": {
+        "width": 879,
+        "height": 628
+      },
+      "globalView": {
+        "viewId": "global_000",
+        "file": "111_global_000.png",
+        "size": {
+          "width": 879,
+          "height": 628
+        },
+        "originalBounds": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 879.0,
+          "height": 628.0
+        },
+        "scaleX": 1.0,
+        "scaleY": 1.0
+      },
+      "tileCount": 4,
+      "tiles": [
+        {
+          "viewId": "tile_r000_c000",
+          "file": "111_tile_r000_c000.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r000_c001",
+          "file": "111_tile_r000_c001.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 367.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c000",
+          "file": "111_tile_r001_c000.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 0.0,
+            "y": 116.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c001",
+          "file": "111_tile_r001_c001.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 367.0,
+            "y": 116.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        }
+      ]
+    },
+    "222_v1.png": {
+      "sha256": "cba7a1e837a1fff8df75fb8b0ca11858248c33ca63cf1debc8a2b67fc4ded25d",
+      "hashRepeatMatched": true,
+      "format": "PNG",
+      "originalSize": {
+        "width": 1915,
+        "height": 1243
+      },
+      "globalView": {
+        "viewId": "global_000",
+        "file": "222_v1_global_000.png",
+        "size": {
+          "width": 1024,
+          "height": 665
+        },
+        "originalBounds": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1915.0,
+          "height": 1243.0
+        },
+        "scaleX": 1.8701171875,
+        "scaleY": 1.869172932330827
+      },
+      "tileCount": 15,
+      "tiles": [
+        {
+          "viewId": "tile_r000_c000",
+          "file": "222_v1_tile_r000_c000.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r000_c001",
+          "file": "222_v1_tile_r000_c001.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 409.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r000_c002",
+          "file": "222_v1_tile_r000_c002.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 818.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r000_c003",
+          "file": "222_v1_tile_r000_c003.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1227.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r000_c004",
+          "file": "222_v1_tile_r000_c004.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1403.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c000",
+          "file": "222_v1_tile_r001_c000.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 0.0,
+            "y": 409.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c001",
+          "file": "222_v1_tile_r001_c001.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 409.0,
+            "y": 409.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c002",
+          "file": "222_v1_tile_r001_c002.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 818.0,
+            "y": 409.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c003",
+          "file": "222_v1_tile_r001_c003.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1227.0,
+            "y": 409.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r001_c004",
+          "file": "222_v1_tile_r001_c004.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1403.0,
+            "y": 409.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r002_c000",
+          "file": "222_v1_tile_r002_c000.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 0.0,
+            "y": 731.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r002_c001",
+          "file": "222_v1_tile_r002_c001.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 409.0,
+            "y": 731.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r002_c002",
+          "file": "222_v1_tile_r002_c002.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 818.0,
+            "y": 731.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r002_c003",
+          "file": "222_v1_tile_r002_c003.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1227.0,
+            "y": 731.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        },
+        {
+          "viewId": "tile_r002_c004",
+          "file": "222_v1_tile_r002_c004.png",
+          "size": {
+            "width": 512,
+            "height": 512
+          },
+          "originalBounds": {
+            "x": 1403.0,
+            "y": 731.0,
+            "width": 512.0,
+            "height": 512.0
+          },
+          "scaleX": 1.0,
+          "scaleY": 1.0
+        }
+      ]
+    }
+  },
+  "crop": {
+    "sourceImage": "222_v1.png",
+    "viewId": "capability_crop",
+    "file": "222_v1_capability_crop.png",
+    "size": {
+      "width": 320,
+      "height": 180
+    },
+    "originalBounds": {
+      "x": 100.0,
+      "y": 120.0,
+      "width": 320.0,
+      "height": 180.0
+    }
+  },
+  "coordinateConversion": {
+    "tileViewId": "tile_r001_c001",
+    "tileOriginalBounds": {
+      "x": 409.0,
+      "y": 409.0,
+      "width": 512.0,
+      "height": 512.0
+    },
+    "viewPoint": {
+      "x": 50.0,
+      "y": 60.0
+    },
+    "originalPoint": {
+      "x": 459.0,
+      "y": 469.0
+    },
+    "roundTripViewPoint": {
+      "x": 50.0,
+      "y": 60.0
+    },
+    "viewBoundingBox": {
+      "x": 20.0,
+      "y": 30.0,
+      "width": 100.0,
+      "height": 80.0
+    },
+    "originalBoundingBox": {
+      "x": 429.0,
+      "y": 439.0,
+      "width": 100.0,
+      "height": 80.0
+    }
+  },
+  "canvasScaling": {
+    "originalSize": {
+      "width": 1915,
+      "height": 1243
+    },
+    "originalPoint": {
+      "x": 459.0,
+      "y": 469.0
+    },
+    "targetSize": {
+      "width": 1920,
+      "height": 1080
+    },
+    "targetPoint": {
+      "x": 460.1984334203656,
+      "y": 407.49798873692674
+    }
+  }
+}
