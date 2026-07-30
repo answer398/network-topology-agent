@@ -1,0 +1,80 @@
+switch_l2:
+  nodeType: SW
+  devType: SW
+  resourceRole: switch_l2
+  imageKeywords: []
+switch_l3:
+  nodeType: TSW
+  devType: TSW
+  resourceRole: switch_l3
+  imageKeywords: []
+router:
+  nodeType: VM
+  devType: DRT
+  resourceRole: router
+  imageKeywords: [router]
+public_router:
+  nodeType: VM
+  devType: PRT
+  resourceRole: public_router
+  imageKeywords: [public router, router]
+firewall:
+  nodeType: VM
+  devType: FW
+  resourceRole: firewall
+  imageKeywords: [firewall]
+ids:
+  nodeType: VM
+  devType: IDS
+  resourceRole: ids
+  imageKeywords: [ids]
+waf:
+  nodeType: VM
+  devType: WAF
+  resourceRole: waf
+  imageKeywords: [waf]
+des:
+  nodeType: VM
+  devType: DES
+  resourceRole: des
+  imageKeywords: [des]
+client:
+  nodeType: VM
+  devType: CLIENT
+  resourceRole: client
+  imageKeywords: [PC, client]
+server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: server
+  imageKeywords: [server]
+web_server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: web_server
+  imageKeywords: [web server, server]
+database_server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: database_server
+  imageKeywords: [database server, server]
+mail_server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: mail_server
+  imageKeywords: [mail server, server]
+monitor_server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: monitor_server
+  imageKeywords: [monitor server, server]
+vpc_server:
+  nodeType: VM
+  devType: SERVER
+  resourceRole: vpc_server
+  imageKeywords: [VPC server, server]
+unknown:
+  nodeType: null
+  devType: null
+  resourceRole: null
+  imageKeywords: []

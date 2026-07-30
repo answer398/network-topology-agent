@@ -1,0 +1,36 @@
+model:
+  baseUrl: https://example.invalid/v1
+  modelName: replace-with-multimodal-model
+  temperature: 0.0
+  maxTokens: 8192
+  timeoutSeconds: 120
+
+platform:
+  baseUrl: https://example.invalid
+  paths:
+    login: /identity/anonymity/unsafe/login
+    imageList: /image/list
+    flavorList: /flavor/listBySpace
+    topologyImport: /projects/meshTopo/agent/import
+  successCodes: [1, 200]
+  timeoutSeconds: 30
+
+image:
+  maxWidth: 4096
+  maxHeight: 4096
+  tileWidth: 1536
+  tileHeight: 1536
+  overlapRatio: 0.15
+
+defaults:
+  version: v2
+  mtu: 1350
+  enableDhcp: true
+  dns: ""
+
+budget:
+  maxModelCalls: 12
+  maxLocalReviews: 1
+
+runtime:
+  runsDir: runtime/runs
