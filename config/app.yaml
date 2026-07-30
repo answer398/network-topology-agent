@@ -18,8 +18,8 @@ platform:
 image:
   maxWidth: 4096
   maxHeight: 4096
-  tileWidth: 1536
-  tileHeight: 1536
+  tileWidth: 720
+  tileHeight: 720
   overlapRatio: 0.15
 
 defaults:

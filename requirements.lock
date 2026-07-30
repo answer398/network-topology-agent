@@ -1,6 +1,8 @@
 annotated-types==0.8.0
+pillow==12.3.0
 pydantic==2.13.4
 pydantic_core==2.46.4
 PyYAML==6.0.3
+-e git+https://github.com/answer398/network-topology-agent.git@201426e0ab925019f82b5b839d2ee4d976ec9f12#egg=topology_agent
 typing-inspection==0.4.2
 typing_extensions==4.16.0

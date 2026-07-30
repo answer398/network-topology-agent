@@ -21,7 +21,7 @@ python3 -m venv .venv
 
 后续 Python 和 pip 命令必须使用 `.venv/bin/python`。
 
-## M1 能力
+## 已完成能力
 
 M1 已提供：
 
@@ -45,4 +45,23 @@ payload = PlatformTopologyPayload.model_validate_json(
 print(config.model.model_name, payload.version)
 ```
 
-M2 及后续图片处理、模型调用、拓扑推理、平台交互、编译和编排功能尚未实现。
+M2 已提供：
+
+- PNG、JPG、JPEG 加载、EXIF 方向纠正和 RGB 规范化；
+- 未增强原图、确定性像素哈希和一次保守增强；
+- 全局缩放图、重叠切片、原图坐标裁剪和双向坐标映射；
+- 供后续模块统一消费的 `ImageBundle`。
+
+Pillow 会随 editable install 一并安装。设置上述三个环境变量后，可加载图片：
+
+```bash
+.venv/bin/python - <<'PY'
+from topology_agent import load_app_config, load_image_bundle
+
+config = load_app_config("config/app.yaml")
+bundle = load_image_bundle("path/to/topology.png", config.image)
+print(bundle.image_info, bundle.sha256, len(bundle.tile_views))
+PY
+```
+
+M3～M8 的模型调用、视觉识别、拓扑推理、平台交互、Payload 编译、验证、编排和提交尚未实现。
