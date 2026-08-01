@@ -6,12 +6,13 @@ model:
   timeoutSeconds: 360
 
 platform:
-  baseUrl: https://example.invalid
+  baseUrl: http://10.199.100.253/api
   paths:
     login: /identity/anonymity/unsafe/login
-    imageList: /image/list
-    flavorList: /flavor/listBySpace
-    topologyImport: /projects/meshTopo/agent/import
+    imageList: /resource-manager/image/list
+    flavorList: /resource-manager/flavor/listBySpace
+    topologyClear: /topo-edit/topo/{projectId}/clearTopo/{networkId}
+    topologyImport: /topo-edit/projects/meshTopo/agent/import
   successCodes: [1, 200]
   timeoutSeconds: 30
 
