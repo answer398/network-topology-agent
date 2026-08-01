@@ -132,6 +132,16 @@ class UnresolvedCategory(StrEnum):
     CROSSING_UNCERTAIN = "CROSSING_UNCERTAIN"
     MULTIPLE_GATEWAY_CANDIDATES = "MULTIPLE_GATEWAY_CANDIDATES"
     UNSUPPORTED_TOPOLOGY_PATTERN = "UNSUPPORTED_TOPOLOGY_PATTERN"
+    NODE_DUPLICATION_AMBIGUITY = "NODE_DUPLICATION_AMBIGUITY"
+    NODE_TYPE_CONFLICT = "NODE_TYPE_CONFLICT"
+    NODE_NAME_CONFLICT = "NODE_NAME_CONFLICT"
+    TEXT_NODE_BINDING_AMBIGUITY = "TEXT_NODE_BINDING_AMBIGUITY"
+    INTERFACE_NODE_BINDING_AMBIGUITY = "INTERFACE_NODE_BINDING_AMBIGUITY"
+    IP_INTERFACE_BINDING_AMBIGUITY = "IP_INTERFACE_BINDING_AMBIGUITY"
+    LINK_ENDPOINT_AMBIGUITY = "LINK_ENDPOINT_AMBIGUITY"
+    REGION_MEMBERSHIP_AMBIGUITY = "REGION_MEMBERSHIP_AMBIGUITY"
+    CROSSING_OR_CONNECTION_AMBIGUITY = "CROSSING_OR_CONNECTION_AMBIGUITY"
+    EVIDENCE_CONFLICT = "EVIDENCE_CONFLICT"
 
 
 class PlatformNodeType(StrEnum):
@@ -171,12 +181,26 @@ class Point(_TopologyModel):
     x: NonNegativeCoordinate
     y: NonNegativeCoordinate
 
+    @field_validator("x", "y", mode="before")
+    @classmethod
+    def reject_boolean_coordinates(cls, value: object) -> object:
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            raise ValueError("coordinate must be a finite number")
+        return value
+
 
 class BoundingBox(_TopologyModel):
     x: NonNegativeCoordinate
     y: NonNegativeCoordinate
     width: PositiveDimension
     height: PositiveDimension
+
+    @field_validator("x", "y", "width", "height", mode="before")
+    @classmethod
+    def reject_boolean_dimensions(cls, value: object) -> object:
+        if isinstance(value, bool) or not isinstance(value, (int, float)):
+            raise ValueError("bounding-box values must be finite numbers")
+        return value
 
 
 class ImageInfo(_TopologyModel):
@@ -230,8 +254,8 @@ class ObservedInterface(_TopologyModel):
     name_candidates: list[NonEmptyString] = Field(default_factory=list)
     raw_ip_text: str | None = None
     ip_candidates: list[IPv4Candidate] = Field(default_factory=list)
-    label_bbox: BoundingBox | None = None
-    ip_bbox: BoundingBox | None = None
+    label_bbox: BoundingBox | None = Field(default=None, alias="labelBBox")
+    ip_bbox: BoundingBox | None = Field(default=None, alias="ipBBox")
     nearby_link_ids: list[NonEmptyString] = Field(default_factory=list)
     confidence: Confidence
     evidence_ids: list[EvidenceId] = Field(default_factory=list)

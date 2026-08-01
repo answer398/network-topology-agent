@@ -31,7 +31,8 @@ src/topology_agent/models.py
 
 ## 2.1 TopologyObservation
 
-保存多模态模型直接从图片得到的观察结果。
+保存三个完整全图视觉阶段经过程序预融合、一次纯文本语义融合补丁和程序最终强校验后
+得到的观察结果。最终对象由程序构造，模型不直接输出完整 `TopologyObservation`。
 
 允许：
 
@@ -41,6 +42,10 @@ src/topology_agent/models.py
 - 未绑定接口；
 - 低置信度；
 - 未解析项。
+
+M04 的所有坐标在返回前统一转换为 EXIF 纠正后的原图像素坐标，Evidence 只引用
+`global_structure`、`global_links` 和 `global_text`。纯文本 Fusion 不创建图片 Evidence，
+不修改坐标，也不执行 CIDR、网关或广播域推理。
 
 ## 2.2 TopologyIR
 
@@ -132,6 +137,21 @@ segment_001
 
 这些 ID 不等于最终平台 ID。
 
+M04 在程序预融合阶段为最终 Observation 分配确定性 ID：
+
+| 对象 | 前缀示例 |
+|---|---|
+| 节点观察 | `obs_node_001` |
+| 接口观察 | `obs_if_001` |
+| 链路观察 | `obs_link_001` |
+| 区域观察 | `obs_region_001` |
+| 图片证据 | `evidence_001` |
+| 未解析项 | `unresolved_001` |
+
+四阶段内部冲突使用 `conflict_001` 等稳定 ID，但冲突是 M04 私有融合上下文，不泄漏到
+不支持该字段的公开 `TopologyObservation`。以上所有 ID 均只要求任务内唯一，不使用
+随机 UUID，也不等于 IR 或平台对象 ID。
+
 ---
 
 ## 5. 坐标约定
@@ -158,7 +178,8 @@ segment_001
 - 原点位于左上角；
 - `x` 向右增加；
 - `y` 向下增加；
-- 切片识别结果必须转换回原图坐标；
+- `global_structure`、`global_links`、`global_text` 的识别坐标必须转换回原图；
+- 边界框分别转换左上角和右下角，折线逐点转换，误差不超过 1 像素；
 - 平台坐标由编译器另行转换。
 
 ---
@@ -246,7 +267,7 @@ TopologyObservation
 | `regionCandidates` | List | 否 | 区域候选 |
 | `confidence` | Number | 是 | 节点置信度 |
 | `evidenceIds` | List | 是 | 证据引用 |
-| `sourceViewIds` | List | 是 | 全图或切片来源 |
+| `sourceViewIds` | List | 是 | 三个业务全图视图中的真实来源 |
 
 设备语义类型：
 
@@ -482,7 +503,7 @@ SegmentIR 只存在于 ResolvedTopologyIR。
 |---|---|---:|---|
 | `evidenceId` | String | 是 | 证据 ID |
 | `sourceType` | String | 是 | 证据类型 |
-| `sourceViewId` | String/Null | 否 | 全图或切片 |
+| `sourceViewId` | String/Null | 否 | `global_structure`、`global_links` 或 `global_text` |
 | `bbox` | BoundingBox/Null | 否 | 证据位置 |
 | `rawText` | String/Null | 否 | 图片原文 |
 | `description` | String | 是 | 说明 |
@@ -538,7 +559,7 @@ UNSUPPORTED_TOPOLOGY_PATTERN
 - 中心距离；
 - 名称；
 - 图标类别；
-- 来源切片；
+- 来源阶段和完整视图；
 - 邻接链路。
 
 不得只按名称去重。

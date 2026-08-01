@@ -1,9 +1,14 @@
 model:
-  baseUrl: https://open.bigmodel.cn/api/paas/v4/
-  modelName: GLM-5V-Turbo
+  baseUrl: https://llm-9i4swuft956lxkp5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+  modelName: qwen3.7-plus
+  textOnlyModelName: qwen3.7-max
+  enableThinking: false
   temperature: 0.0
-  maxTokens: 8192
-  timeoutSeconds: 360
+  maxTokens: 24576
+  timeoutSeconds: 1200
+  textStage:
+    maxTokens: 8192
+    degradedMaxTokens: 4096
 
 platform:
   baseUrl: https://example.invalid
@@ -16,11 +21,7 @@ platform:
   timeoutSeconds: 30
 
 image:
-  maxWidth: 4096
-  maxHeight: 4096
-  tileWidth: 512
-  tileHeight: 512
-  overlapRatio: 0.20
+  maxLongEdge: 1600
 
 defaults:
   version: v2
@@ -30,7 +31,6 @@ defaults:
 
 budget:
   maxModelCalls: 12
-  maxLocalReviews: 1
 
 runtime:
   runsDir: runtime/runs

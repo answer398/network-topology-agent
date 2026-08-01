@@ -21,7 +21,10 @@
 ```text
 图片输入
   → 图片预处理
-  → 多模态模型结构化识别
+  → 三次完整全图视觉识别
+  → 一次纯文本语义融合补丁
+  → 程序最终融合与强校验
+  → TopologyObservation
   → Topology IR
   → 网络语义推理
   → 平台镜像和 Flavor 查询
@@ -86,7 +89,7 @@ network-topology-agent/
 ├── prompts/
 │   ├── system.md                         # Agent 总约束和禁止事项。
 │   ├── extraction.md                     # 图片拓扑结构化提取提示词。
-│   └── repair.md                         # 对指定低置信度区域进行一次局部复核。
+│   └── repair.md                         # 有限 JSON 和 Schema 形状修复提示词。
 │
 ├── skills/
 │   ├── topology_recognition.md            # 节点、文字、接口、连线和区域识别规则。
@@ -106,9 +109,9 @@ network-topology-agent/
 │       ├── cli.py                        # 读取图片、projectId、networkId 等任务参数。
 │       ├── config.py                     # 加载 YAML 和环境变量。
 │       ├── models.py                     # Observation、IR、Payload、验证结果等数据模型。
-│       ├── image.py                      # 图片读取、缩放、切片、裁剪和坐标转换。
+│       ├── image.py                      # 图片读取、完整全图视图、标注和坐标转换。
 │       ├── llm.py                        # 多模态模型调用、结构化输出和有限重试。
-│       ├── recognition.py                # 全图/局部识别并生成 TopologyObservation。
+│       ├── recognition.py                # 三次全图识别和一次文本融合，生成 Observation。
 │       ├── topology.py                   # 规范化、去重、接口绑定和网络语义推理。
 │       ├── platform.py                   # 登录、镜像、Flavor 和拓扑导入接口。
 │       ├── compiler.py                   # ID、资源绑定、平台 Payload 编译和布局。
@@ -158,6 +161,18 @@ Python 代码：约 3,500～5,000 行
   → M08 平台导入
 ```
 
+其中 M04 固定内部数据流为：
+
+```text
+global_structure 结构识别
+  → 稳定编号与 global_links
+  → 链路识别
+  → global_text 文字识别
+  → 程序预融合和冲突上下文
+  → Qwen3.7-Plus 纯文本融合补丁
+  → 程序最终融合与强校验
+```
+
 ---
 
 # 4. M01：工程基础与数据模型
@@ -179,12 +194,11 @@ config/device_mapping.yaml
 
 `app.yaml` 包含：
 
-- 模型 Base URL、模型名、温度、Token、超时；
+- 模型 Base URL、模型名、推理模式、温度、Token、超时；
 - 平台 Base URL、接口路径和成功码；
-- 图片最大尺寸、切片尺寸和重叠比例；
+- 图片完整全图视图的最长边限制；
 - 默认 version、MTU、DHCP、DNS；
-- 最大模型调用次数；
-- 最大局部复核次数；
+- 最大逻辑模型调用次数，M04 开始前至少剩余 4 次；
 - 运行产物目录。
 
 敏感信息由环境变量读取：
@@ -274,7 +288,8 @@ M01 完成条件：
 
 ## 5.1 开发目标
 
-将输入图片转换为多模态模型可读取的全局图和必要切片，并保证坐标可以映射回原图。
+将输入图片转换为三个覆盖完整拓扑的确定性全图视图，并保证所有视图坐标可以映射回
+EXIF 纠正后的原图。
 
 ## 5.2 需要实现
 
@@ -283,12 +298,25 @@ M01 完成条件：
 - PNG/JPG/JPEG 加载；
 - EXIF 方向纠正；
 - RGB 转换；
+- 保留规范化原图对象且不原地修改；
 - 原图哈希；
-- 全局缩放图；
-- 大图重叠切片；
-- 指定区域裁剪；
-- 切片坐标到原图坐标转换；
-- 原图坐标到平台坐标的基础转换函数。
+- 按 `maxLongEdge` 等比例缩小的 `global_structure`，原图不超过限制时不放大；
+- 在 `global_structure` 基础上绘制稳定节点、区域编号的 `global_links`；
+- 只经过一次保守文字增强的 `global_text`；
+- 三个全图视图与原图之间的点、边界框和折线双向坐标转换；
+- 在 `ImageInfo` 中登记确定性的完整视图 ID 和图片 SHA-256。
+
+三个业务视图固定为：
+
+```text
+global_structure
+global_links
+global_text
+```
+
+其中 `global_links` 在结构识别完成后根据稳定的 `Nxxx`、`Rxxx` 编号动态生成。三个
+视图都覆盖完整图片、保持方向和宽高比，不写入临时图片文件。M02 不生成切片、局部
+裁剪或复核视图，也不处理平台坐标和模型调用。
 
 当前不实现：
 
@@ -297,7 +325,8 @@ M01 完成条件：
 - OCR 专用流水线；
 - 图像缓存数据库。
 
-图片增强只保留一次保守锐化或对比度调整，避免破坏连线。
+文字增强只保留一次轻微锐化或对比度调整，不做强二值化或形态学处理，避免删除、
+粘连或新增连线。编号标注使用确定性样式和位置，不大面积遮挡设备、接口文字或链路。
 
 ## 5.3 主要文件
 
@@ -316,17 +345,19 @@ src/topology_agent/image.py
 | 测试内容 | 测试操作 | 期望结果 |
 |---|---|---|
 | 样例图片加载 | 分别输入 `111.png`、`222_v1.png` | 两张图片均成功读取，宽高和格式正确 |
-| JPG 支持 | 将一张样例转换为 JPG 后输入 | 正常生成全局图和切片 |
+| JPG 支持 | 将一张样例转换为 JPG 后输入 | 正常生成结构和文字完整视图 |
 | 损坏图片 | 输入不可解析的伪 PNG | 明确返回图片输入错误 |
-| 大图切片 | 使用 `222_v1.png` 生成重叠切片 | 原图所有区域均被覆盖，无空白区 |
-| 坐标还原 | 选择切片中一个点映射回原图 | 误差不超过 1 像素 |
+| 完整视图覆盖 | 检查三个业务视图登记信息 | 均覆盖完整原图，无边缘丢失和局部视图 |
+| 最长边限制 | 输入长边超过配置的图片 | 只等比例缩小；不固定为正方形且不放大小图 |
+| 编号标注 | 使用相同节点和区域观察生成两次链路图 | 编号、颜色和标注位置一致，主要链路未被遮挡 |
+| 坐标还原 | 将全图视图中的点、边界框和折线映射回原图 | 误差不超过 1 像素 |
 | 宽高比 | 比较缩放前后尺寸 | 宽高比误差小于 0.1% |
 | 线条保持 | 人工对比原图和增强图 | 主要连线未被删除、粘连或新增 |
 | 哈希用途 | 检查代码逻辑 | 哈希只用于运行记录，不用于选择预存答案 |
 
 M02 完成条件：
 
-> 能稳定产生全图、切片和坐标映射，不需要后续模块了解图片处理细节。
+> 能稳定产生三个完整全图视图和原图坐标映射，不需要后续模块复制图片处理逻辑。
 
 ---
 
@@ -346,7 +377,9 @@ M02 完成条件：
 - `extraction.md`
 - `repair.md`
 
-不单独保留完整 audit Prompt。初次识别结果的自审要求写入 `extraction.md`。
+`extraction.md` 提供 `structure`、`links`、`text`、`fusion` 四阶段的共同约束，具体
+阶段任务由 M04 组装。`repair.md` 只修复 JSON 格式、字段形状、枚举拼写和 Schema
+结构，不补充原响应中不存在的视觉事实，也不构成新的业务阶段。
 
 ### Skill
 
@@ -358,7 +391,7 @@ M02 完成条件：
 
 模型调用时：
 
-- 图片识别加载 `topology_recognition`；
+- M04 的三个视觉阶段和文本融合阶段都只加载 `topology_recognition`；
 - 需要模型辅助判断网络歧义时加载 `network_reasoning`；
 - 平台语义核对时加载 `platform_mapping`；
 - 默认不一次发送三个完整 Skill。
@@ -368,14 +401,17 @@ M02 完成条件：
 在 `llm.py` 中实现一个 OpenAI 兼容客户端，支持：
 
 - 图片和文本输入；
+- 不带图片的纯文本结构化输入；
 - JSON Schema 结构化输出；
 - 普通文本中的 JSON 提取；
 - 超时；
 - 429、502、503、504 有限重试；
-- 调用次数和 Token 记录；
+- 逻辑调用、真实 HTTP 请求和 Token 分别记录；
+- 在工作流启动前检查剩余逻辑调用预算；
 - API Key 脱敏。
 
-不实现多供应商插件层。通过 Base URL 和模型名切换 OpenAI 兼容服务。
+当前活动模型代码为配置中的 `qwen3.7-plus`，Base URL 和认证沿用可工作的 OpenAI
+兼容配置。业务代码读取配置中的模型名，不实现多供应商插件层或模型专用分支。
 
 ## 6.3 主要文件
 
@@ -408,6 +444,8 @@ skills/platform_mapping.md
 | 400 | 模拟请求参数错误 | 不进行无意义重试 |
 | 超出预算 | 达到最大模型调用次数 | 停止调用并将任务标记为模型失败 |
 | Skill 加载 | 执行图片识别请求 | 只加载 `topology_recognition`，不加载另外两个完整 Skill |
+| 文本融合输入 | 执行 M04 Fusion 调用 | 请求不包含图片或图片 data URL，返回强类型融合补丁 |
+| 调用统计 | 比较一次逻辑调用及其 HTTP 尝试 | 逻辑调用为 1，HTTP 请求数和 Token 单独记录 |
 | 固定答案检查 | 搜索 Prompt 和 Skill | 不存在样例完整 JSON、固定工程 ID 或固定镜像 ID |
 
 M03 完成条件：
@@ -420,41 +458,161 @@ M03 完成条件：
 
 ## 7.1 开发目标
 
-使用全图和有限局部裁剪，从图片生成 `TopologyObservation`。
+固定执行三次完整全图视觉识别和一次 Qwen3.7-Plus 纯文本语义融合，由程序生成并
+强校验最终 `TopologyObservation`。
 
 ## 7.2 需要实现
 
-在 `recognition.py` 中完成：
+`recognize_topology` 接收非空 `task_id`、已有 `ImageBundle` 和已有 M03 客户端，不
+重新加载图片、创建客户端或读取整份配置。公共返回值始终是强类型
+`TopologyObservation`。
 
-1. 全图识别：
-   - 区域；
-   - 节点候选；
-   - 节点名称；
-   - 粗粒度设备类型；
-   - 主要链路；
-   - 接口和 IP 文本。
-2. 对低置信度或小文字区域进行局部裁剪复核。
-3. 合并全图和局部结果。
-4. 为节点、接口、IP、链路和区域保存：
-   - 原始文本；
-   - 边界框；
-   - 置信度；
-   - 证据；
-   - 候选值。
-5. 将无法可靠判断的内容放入 `unresolvedItems`。
-
-调用策略：
-
-```text
-全图识别：1 次
-局部补充：最多 2 批
+```python
+recognize_topology(
+    *,
+    task_id: str,
+    image_bundle: ImageBundle,
+    model_client: OpenAICompatibleModelClient,
+) -> TopologyObservation
 ```
 
-不实现：
+固定调用顺序如下，禁止并发、异步、跳过阶段或追加第五次业务调用：
 
-- 独立 overview/node/link/region 多级 Agent；
-- 大量逐节点模型调用；
-- 无限视觉复核。
+```text
+1. structure：global_structure，全图视觉调用
+2. links：global_links，全图视觉调用
+3. text：global_text，全图视觉调用
+4. fusion：三阶段结构化摘要，纯文本调用
+```
+
+M04 开始前检查至少还有 4 次逻辑调用预算；不足时在第一次视觉请求之前失败。M03 的
+有限传输重试和 Schema 修复按真实 HTTP 请求单独统计，不增加业务阶段。
+
+M04 每次运行在 `runtime/runs/<taskId>/attempt_###/` 中记录独立的 `recognition.jsonl`，其中
+包含每个阶段的开始、成功或失败、真实 HTTP/Token 统计及脱敏错误类别。三个视觉阶段实际使用
+的完整视图保存为 `global_structure.png`、`global_links.png` 和 `global_text.png`；每次请求在
+发送前保存对应的 `*_context.json`，其中只有 task、全图坐标关系和程序构造的紧凑结构化上下文。
+这些文件是 M04 的运行验收产物，不是 M02 预处理产生的临时图片；Fusion 只记录纯文本上下文和
+结构化补丁，不生成或发送第四张图片。
+
+每个视觉阶段成功后保存其程序归一化的 Evidence 快照，最终强校验成功后保存
+`topology_observation.json`。运行产物不得包含 API Key、Authorization、图片 data URL、完整
+Prompt、完整 Schema、原始模型响应或 reasoning_content，也不得作为响应缓存跳过固定四阶段调用。
+重跑创建新的 attempt，并重新执行四次业务逻辑调用。
+
+### Pass 1：structure
+
+- 从完整 `global_structure` 识别可见设备、节点边界框和中心、粗粒度类型候选、区域框、
+  原始名称候选、证据和未解析项；
+- 不负责完整链路、精确接口和 IPv4，也不计算 CIDR、网关或广播域；
+- 程序不信任模型临时 ID，按边界框从上到下、从左到右稳定分配 `N001`、`R001` 等编号；
+- 程序用这些稳定编号生成覆盖完整图片的 `global_links`。
+
+### Pass 2：links
+
+- 使用编号标注完整图识别主要物理或逻辑连线、端点候选、折线路径、一对多扇出、
+  视觉交叉和遗漏节点；
+- 端点优先引用已有 `Nxxx`，无法唯一判断时保留多个候选，不把区域边框、装饰线或
+  单纯交叉点当成设备链路；
+- 新发现节点先做明显几何重复检查，确认不重复时顺序追加稳定节点编号；
+- 不重新执行结构或链路阶段，不增加视觉调用。
+
+### Pass 3：text
+
+- 使用只增强一次的完整 `global_text` 识别节点名、接口名、IPv4、前缀、区域标题和
+  文字的候选归属；
+- 保留 `rawText`、文字边界框、所有合理候选、置信度、证据和未解析项；
+- 模糊字符不得静默改写，文字无法可靠绑定节点或接口时不得仅按最近距离强制选择；
+- 不计算网络地址，不推断网关、广播域、路由或平台字段。
+
+### 程序预融合
+
+程序把三个全图视图中的节点、接口文字、链路、区域、Evidence 和未解析项转换到 EXIF
+纠正后的原图像素坐标，分配稳定的 Observation、Evidence、未解析项和冲突 ID，合并
+完全相同的候选与证据，并建立无歧义引用。语义不明确的问题形成结构化冲突，至少覆盖：
+
+```text
+NODE_DUPLICATION_AMBIGUITY
+NODE_TYPE_CONFLICT
+NODE_NAME_CONFLICT
+TEXT_NODE_BINDING_AMBIGUITY
+INTERFACE_NODE_BINDING_AMBIGUITY
+IP_INTERFACE_BINDING_AMBIGUITY
+LINK_ENDPOINT_AMBIGUITY
+REGION_MEMBERSHIP_AMBIGUITY
+CROSSING_OR_CONNECTION_AMBIGUITY
+EVIDENCE_CONFLICT
+```
+
+冲突使用稳定 `conflictId`，每个选项使用稳定 `candidateIndex`，并携带必要的来源阶段、
+来源视图、置信度、Evidence 引用和空间摘要。
+
+### Pass 4：fusion
+
+- 固定使用配置中的 `qwen3.7-plus` 和 `topology_recognition` Skill；
+- 只发送节点、接口、链路、区域、冲突、未解析项和 Evidence 的紧凑结构化文本，不发送
+  图片、图片 data URL、完整 Prompt 历史或模型 reasoning 内容；
+- 模型只返回引用现有 `conflictId`、`candidateIndex` 的强类型融合补丁，不直接返回最终
+  Observation，不创建新视觉事实，也不修改稳定 ID、坐标、折线、Evidence 或来源视图；
+- 即使 `conflicts=[]` 也执行，并应返回 `decisions=[]`；
+- 证据不足时使用保留多个候选或保持未解析，不要求消除全部未解析项。
+
+允许的补丁动作至少包括：
+
+```text
+SELECT_CANDIDATE
+KEEP_MULTIPLE_CANDIDATES
+MERGE_OBJECTS
+KEEP_OBJECTS_SEPARATE
+BIND_REFERENCE
+LEAVE_UNRESOLVED
+```
+
+程序逐条校验融合决策。高置信度唯一裁决仍保留原始候选和证据；中等置信度只调整
+候选顺序；低置信度不应用唯一裁决。阈值沿用统一策略：`confidence >= 0.85` 才可应用
+唯一裁决，`0.60 <= confidence < 0.85` 只调整排序，低于 `0.60` 保持多个候选或未解析。
+未知冲突、非法候选索引、对象类型不匹配或非法引用等决策必须拒绝并保留未解析项，
+不能静默修正。
+
+### 最终融合与强校验
+
+程序应用合法补丁、更新引用、保留未裁决冲突，重新计算 `summary`，再执行 Pydantic
+和内部一致性检查：
+
+- `taskId`、原图宽高、格式和哈希必须来自输入；
+- 所有最终坐标位于原图范围，边界框有正面积，中心与边界框一致，折线至少有两个点；
+- 节点、接口、链路、区域、Evidence 和未解析项 ID 唯一且引用存在；
+- Evidence 的 `sourceViewId` 只允许 `global_structure`、`global_links`、`global_text`；
+- 接口所属节点、链路端点、区域成员、邻近链路和 Evidence 引用全部合法；
+- 区域不是节点，区域边框不是链路，交叉线不自动表示连接；
+- 结果不包含平台 ID、平台资源、CIDR、网关、广播域或其他 M05 结果。
+
+每张图片固定记录四阶段逻辑调用、HTTP 请求、输入和输出 Token，以及节点、文字观察、
+冲突、裁决、拒绝决策和最终未解析项统计。逻辑调用必须满足：
+
+```text
+structureLogicalCalls = 1
+linksLogicalCalls = 1
+textLogicalCalls = 1
+fusionLogicalCalls = 1
+totalLogicalCalls = 4
+```
+
+运行统计至少包括：
+
+```text
+structureHttpRequests, linksHttpRequests, textHttpRequests, fusionHttpRequests
+structureInputTokens, structureOutputTokens
+linksInputTokens, linksOutputTokens
+textInputTokens, textOutputTokens
+fusionInputTokens, fusionOutputTokens
+totalHttpRequests, totalInputTokens, totalOutputTokens, totalTokens
+nodeCountAfterPass1, additionalNodeCountAfterPass2, textObservationCount
+fusionConflictCount, fusionDecisionCount, rejectedFusionDecisionCount
+finalUnresolvedCount
+```
+
+统计不得记录 API Key、完整请求体或 reasoning 内容。
 
 ## 7.3 主要文件
 
@@ -465,59 +623,32 @@ src/topology_agent/recognition.py
 ## 7.4 代码量预估
 
 ```text
-400～600 行 Python
+单一 recognition.py，不拆分为多 Agent 或工作流框架
 ```
 
 ## 7.5 验收标准
 
-### 111
+使用真实 `qwen3.7-plus` 分别处理 `111.png` 和 `222_v1.png`，不使用样例 JSON、
+预置响应、文件名、哈希或尺寸分支。每张图按模型实际识别结果验收，不规定必须识别出
+固定对象数量。
 
 | 检查项 | 期望结果 |
-|---|---:|
-| 节点数 | 9 |
-| 二层交换机 | 3 |
-| 路由器 | 2 |
-| 客户端 | 4 |
-| 链路数 | 8 |
-| 区域数 | 0 |
-
-额外要求：
-
-- 不把 IP、接口文字或普通标签识别为节点；
-- 每个节点具有名称、类型、边界框、置信度和证据；
-- 每条链路具有两个存在的节点候选；
-- 模糊文字进入候选或未解析项。
-
-### 222
-
-| 检查项 | 期望结果 |
-|---|---:|
-| 节点数 | 32 |
-| 二层交换机 | 10 |
-| 路由器 | 3 |
-| 防火墙 | 1 |
-| 客户端 | 12 |
-| 服务器类节点 | 6 |
-| 链路数 | 31 |
-| 区域数 | 4 |
-
-区域名称：
-
-- `LAB JARINGAN`
-- `RUANG SERVER`
-- `MANAJEMENT`
-- `CLIENT`
-
-额外要求：
-
-- 区域框不被识别为链路；
-- 区域不被识别为节点；
-- 不根据防火墙图标自动生成 NAT 或端口映射；
-- 图片中不可见的描述和 OSPF 不进入 Observation。
+|---|---|
+| 固定阶段 | structure、links、text、fusion 各 1 次逻辑调用，总计 4 次 |
+| 完整视图 | 三次视觉请求分别发送三个完整视图，不存在局部图片；Fusion 不发送图片 |
+| 强类型结果 | 最终结果通过 `TopologyObservation` Pydantic 校验，至少包含模型实际识别到的节点 |
+| 几何 | 所有最终坐标位于原图范围，Fusion 未修改坐标 |
+| Evidence | 引用合法且只来自三个业务全图视图，原始证据不会因融合删除 |
+| 引用 | 链路端点、接口所属节点、区域成员和 nearbyLinkIds 引用存在 |
+| 文字不确定性 | 原始文字保留，模糊文字使用候选或未解析项 |
+| Fusion 门禁 | 未创建未知对象；非法决策被拒绝并计数，不触发第五次调用 |
+| Summary | 由程序根据最终列表重新计算 |
+| 模块边界 | 不包含平台字段，也不执行 CIDR、网关、广播域或路由推理 |
 
 M04 完成条件：
 
-> Observation 能准确表达图片中可见的节点、文字、连线和区域，并显式保存不确定性。
+> 三个完整全图视觉阶段和一次纯文本融合固定完成，程序能构造、校验并返回保留候选、
+> Evidence 和不确定性的 `TopologyObservation`。
 
 ---
 
@@ -533,7 +664,7 @@ M04 完成条件：
 
 ### 规范化
 
-- 重叠切片节点去重；
+- Observation 中仍保留的重复节点候选去重；
 - `rawName` 和 `normalizedName`；
 - 接口与节点绑定；
 - IP 与接口绑定；
@@ -560,7 +691,8 @@ M04 完成条件：
 - 多个网关候选无法消解时随机选择；
 - 用默认值覆盖明确视觉证据。
 
-只有出现少量视觉歧义时，才允许通过 M03 进行一次局部复核。
+M05 不重新查看图片，也不追加视觉调用。M04 仍保留的阻塞性视觉歧义必须作为未解析项
+终止后续编译，不能在 M05 中猜测补全。
 
 ## 8.3 主要文件
 
@@ -580,7 +712,7 @@ src/topology_agent/topology.py
 
 | 测试内容 | 测试操作 | 期望结果 |
 |---|---|---|
-| 重叠节点 | 将同一节点放入两个切片结果 | 只保留一个 NodeIR |
+| 重复节点候选 | 构造同一设备的两个 Observation 候选 | 只保留一个 NodeIR |
 | 同名不同节点 | 构造两个同名、位置不同的节点 | 不被错误合并 |
 | 反向重复链路 | 同时提供 A→B、B→A | 只保留一条 LinkIR |
 | 接口归属 | 查看接口引用 | 每个接口恰好属于一个节点 |
@@ -1083,7 +1215,7 @@ M01
 | 多个规范化文件 | 使用一个 `topology.py` |
 | 多个编译器文件 | 使用一个 `compiler.py` |
 | 多个验证器文件 | 使用一个 `validator.py` |
-| 独立 repair 包 | 保留一次局部复核和少量确定性修复 |
+| 独立 repair 包 | M03 只保留有限 JSON/Schema 修复，业务融合由 M04 固定完成 |
 | 复杂状态机 | 使用 6 个核心状态 |
 | metrics/trace/replay | 不纳入当前实现 |
 | HTTP service | 不纳入当前实现 |

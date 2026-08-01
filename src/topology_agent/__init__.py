@@ -1,18 +1,21 @@
-"""Public M1 through M3 contracts for the network topology agent."""
+"""Public M1 through M4 contracts for the network topology agent."""
 
 from .config import load_app_config, load_device_mapping
 from .image import (
     ImageBundle,
     ImageView,
-    create_crop_view,
     load_image_bundle,
+    original_bbox_to_view,
+    original_polyline_to_view,
     original_point_to_view,
     scale_original_point,
     view_bbox_to_original,
+    view_polyline_to_original,
     view_point_to_original,
 )
 from .llm import (
     ModelCallResult,
+    ModelHttpAttempt,
     ModelImage,
     ModelUsage,
     OpenAICompatibleModelClient,
@@ -37,6 +40,7 @@ from .models import (
     TopologyUnresolvedError,
     ValidationReport,
 )
+from .recognition import RecognitionStatistics, recognize_topology
 
 __version__ = "0.1.0"
 
@@ -47,6 +51,7 @@ __all__ = [
     "InputError",
     "ModelInvocationError",
     "ModelCallResult",
+    "ModelHttpAttempt",
     "ModelImage",
     "ModelUsage",
     "OpenAICompatibleModelClient",
@@ -56,6 +61,7 @@ __all__ = [
     "PlatformTopologyPayload",
     "ResolvedTopologyIR",
     "RawModelResult",
+    "RecognitionStatistics",
     "SkillName",
     "SubmissionResult",
     "SubmissionUncertainError",
@@ -65,12 +71,15 @@ __all__ = [
     "TopologyObservation",
     "TopologyUnresolvedError",
     "ValidationReport",
-    "create_crop_view",
     "load_app_config",
     "load_device_mapping",
     "load_image_bundle",
+    "original_bbox_to_view",
+    "original_polyline_to_view",
     "original_point_to_view",
+    "recognize_topology",
     "scale_original_point",
     "view_bbox_to_original",
+    "view_polyline_to_original",
     "view_point_to_original",
 ]

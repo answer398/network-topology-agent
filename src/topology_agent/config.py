@@ -13,10 +13,12 @@ from pydantic import (
     ConfigDict,
     Field,
     SecretStr,
+    StrictInt,
     StringConstraints,
     TypeAdapter,
     ValidationError,
     field_validator,
+    model_validator,
 )
 from typing_extensions import Annotated
 
@@ -49,12 +51,28 @@ class _ConfigModel(BaseModel):
 NonEmptyString = Annotated[str, StringConstraints(strip_whitespace=True, min_length=1)]
 
 
+class TextStageModelConfig(_ConfigModel):
+    """Bounded output budget for the image-backed visual text pass."""
+
+    max_tokens: Annotated[StrictInt, Field(gt=0)] = 8192
+    degraded_max_tokens: Annotated[StrictInt, Field(gt=0)] = 4096
+
+    @model_validator(mode="after")
+    def require_lower_timeout_budget(self) -> "TextStageModelConfig":
+        if self.degraded_max_tokens >= self.max_tokens:
+            raise ValueError("degradedMaxTokens must be lower than maxTokens")
+        return self
+
+
 class ModelConfig(_ConfigModel):
     base_url: NonEmptyString
     model_name: NonEmptyString
+    text_only_model_name: NonEmptyString | None = None
+    enable_thinking: bool
     temperature: Annotated[float, Field(ge=0.0, le=2.0)]
     max_tokens: Annotated[int, Field(gt=0)]
     timeout_seconds: Annotated[float, Field(gt=0.0)]
+    text_stage: TextStageModelConfig = Field(default_factory=TextStageModelConfig)
     api_key: SecretStr
 
 
@@ -75,11 +93,7 @@ class PlatformConfig(_ConfigModel):
 
 
 class ImageProcessingConfig(_ConfigModel):
-    max_width: Annotated[int, Field(gt=0)]
-    max_height: Annotated[int, Field(gt=0)]
-    tile_width: Annotated[int, Field(gt=0)]
-    tile_height: Annotated[int, Field(gt=0)]
-    overlap_ratio: Annotated[float, Field(ge=0.0, lt=1.0)]
+    max_long_edge: Annotated[StrictInt, Field(gt=0)]
 
 
 class DefaultsConfig(_ConfigModel):
@@ -90,8 +104,7 @@ class DefaultsConfig(_ConfigModel):
 
 
 class BudgetConfig(_ConfigModel):
-    max_model_calls: Annotated[int, Field(gt=0)]
-    max_local_reviews: Annotated[int, Field(ge=0)]
+    max_model_calls: Annotated[StrictInt, Field(ge=4)]
 
 
 class RuntimeConfig(_ConfigModel):
