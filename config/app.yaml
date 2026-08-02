@@ -4,11 +4,12 @@ model:
   textOnlyModelName: qwen3.7-max
   enableThinking: false
   temperature: 0.0
-  maxTokens: 24576
+  maxTokens: 32768
   timeoutSeconds: 1200
   textStage:
-    maxTokens: 8192
-    degradedMaxTokens: 4096
+    maxTokens: 32768
+    degradedMaxTokens: 8192
+    enableThinking: false
 
 platform:
   baseUrl: https://example.invalid
@@ -21,7 +22,7 @@ platform:
   timeoutSeconds: 30
 
 image:
-  maxLongEdge: 1600
+  maxLongEdge: 4096
 
 defaults:
   version: v2

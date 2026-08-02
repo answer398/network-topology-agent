@@ -142,6 +142,11 @@ class UnresolvedCategory(StrEnum):
     REGION_MEMBERSHIP_AMBIGUITY = "REGION_MEMBERSHIP_AMBIGUITY"
     CROSSING_OR_CONNECTION_AMBIGUITY = "CROSSING_OR_CONNECTION_AMBIGUITY"
     EVIDENCE_CONFLICT = "EVIDENCE_CONFLICT"
+    INTERFACE_BINDING_AMBIGUITY = "INTERFACE_BINDING_AMBIGUITY"
+    INTERFACE_IP_MISSING = "INTERFACE_IP_MISSING"
+    INTERFACE_NAME_MISSING = "INTERFACE_NAME_MISSING"
+    LINK_GEOMETRY_INCONSISTENT = "LINK_GEOMETRY_INCONSISTENT"
+    TEXT_COVERAGE_INCOMPLETE = "TEXT_COVERAGE_INCOMPLETE"
 
 
 class PlatformNodeType(StrEnum):
@@ -250,6 +255,7 @@ class UnresolvedItem(_TopologyModel):
 
 class ObservedInterface(_TopologyModel):
     observation_id: NonEmptyString
+    node_candidates: list[NonEmptyString] = Field(default_factory=list)
     raw_name: str | None = None
     name_candidates: list[NonEmptyString] = Field(default_factory=list)
     raw_ip_text: str | None = None
@@ -304,6 +310,7 @@ class TopologyObservation(_TopologyModel):
     task_id: NonEmptyString
     image: ImageInfo
     observed_nodes: list[ObservedNode]
+    observed_interfaces: list[ObservedInterface] = Field(default_factory=list)
     observed_links: list[ObservedLink]
     observed_regions: list[ObservedRegion]
     evidence: list[Evidence]

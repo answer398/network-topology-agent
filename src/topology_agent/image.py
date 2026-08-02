@@ -206,8 +206,8 @@ def view_point_to_original(view: ImageView, point: Point) -> Point:
     if not (0.0 <= y < view.height):
         raise InputError(f"point is outside view {view.view_id!r}")
     return Point(
-        x=view.original_bounds.x + x * view.scale_x,
-        y=view.original_bounds.y + y * view.scale_y,
+        x=round(view.original_bounds.x + x * view.scale_x, 3),
+        y=round(view.original_bounds.y + y * view.scale_y, 3),
     )
 
 
@@ -227,10 +227,10 @@ def view_bbox_to_original(view: ImageView, bbox: BoundingBox) -> BoundingBox:
     right = min(float(view.width), right)
     bottom = min(float(view.height), bottom)
     return BoundingBox(
-        x=view.original_bounds.x + left * view.scale_x,
-        y=view.original_bounds.y + top * view.scale_y,
-        width=(right - left) * view.scale_x,
-        height=(bottom - top) * view.scale_y,
+        x=round(view.original_bounds.x + left * view.scale_x, 3),
+        y=round(view.original_bounds.y + top * view.scale_y, 3),
+        width=round((right - left) * view.scale_x, 3),
+        height=round((bottom - top) * view.scale_y, 3),
     )
 
 

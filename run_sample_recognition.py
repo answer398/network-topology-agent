@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 from datetime import datetime, timezone
@@ -24,41 +25,48 @@ CASES = {
 }
 
 
-def _latest_attempt(task_id: str, before: set[Path]) -> Path | None:
-    task_dir = ROOT / "runtime" / "runs" / task_id
-    current = {path for path in task_dir.glob("attempt_*") if path.is_dir()}
-    created = sorted(current - before)
-    return created[-1] if created else (max(current, default=None, key=lambda path: path.name))
+def _parse_cases() -> tuple[str, ...]:
+    parser = argparse.ArgumentParser(
+        description="Run topology recognition for bundled 111 and/or 222 images."
+    )
+    parser.add_argument("cases", nargs="*", choices=tuple(CASES))
+    values = parser.parse_args().cases
+    return tuple(values) if values else tuple(CASES)
 
 
-def _relative(path: Path | None) -> str | None:
-    return None if path is None else path.resolve().relative_to(ROOT).as_posix()
+def _display_path(path: Path) -> str:
+    try:
+        return path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return str(path)
 
 
 def main() -> int:
-    config_path = ROOT / "config" / "app.yaml"
-    raw = yaml.safe_load(config_path.read_text(encoding="utf-8"))
-    model = ModelConfig.model_validate(
+    cases = _parse_cases()
+    raw = yaml.safe_load((ROOT / "config" / "app.yaml").read_text(encoding="utf-8"))
+    if not isinstance(raw, dict):
+        raise ValueError("config/app.yaml must contain an object")
+    model_config = ModelConfig.model_validate(
         {**raw["model"], "apiKey": os.environ["TOPOLOGY_MODEL_API_KEY"]}
     )
     image_config = ImageProcessingConfig.model_validate(raw["image"])
     results: list[dict[str, object]] = []
 
-    for task_id, image_path in CASES.items():
-        task_dir = ROOT / "runtime" / "runs" / task_id
-        before = {path for path in task_dir.glob("attempt_*") if path.is_dir()}
-        client: OpenAICompatibleModelClient | None = None
-        result: dict[str, object] = {"taskId": task_id, "imagePath": _relative(image_path)}
+    for task_id in cases:
+        image_path = CASES[task_id]
+        result: dict[str, object] = {
+            "taskId": task_id,
+            "imagePath": _display_path(image_path),
+        }
         try:
-            bundle = load_image_bundle(image_path, image_config)
             client = OpenAICompatibleModelClient(
-                model_config=model,
-                api_key=model.api_key,
+                model_config=model_config,
+                api_key=model_config.api_key,
                 max_model_calls=4,
             )
             observation = recognize_topology(
                 task_id=task_id,
-                image_bundle=bundle,
+                image_bundle=load_image_bundle(image_path, image_config),
                 model_client=client,
             )
             result.update(
@@ -73,21 +81,13 @@ def main() -> int:
             )
         except Exception as exc:
             result.update(status="failed", errorType=type(exc).__name__)
-        finally:
-            close = getattr(getattr(client, "_http_client", None), "close", None)
-            if callable(close):
-                close()
-
-        attempt = _latest_attempt(task_id, before)
-        result["attemptDirectory"] = _relative(attempt)
-        result["recognitionLog"] = _relative(
-            None if attempt is None else attempt / "recognition.jsonl"
-        )
         results.append(result)
-        print(f"[{task_id}] {result['status']} log={result['recognitionLog'] or '-'}")
+        print(json.dumps(result, ensure_ascii=False, separators=(",", ":")))
 
     started_at = datetime.now(timezone.utc)
-    output = ROOT / "runtime" / "runs" / (
+    output_dir = ROOT / "runtime" / "runs"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output = output_dir / (
         "sample_recognition_summary_" + started_at.strftime("%Y%m%dT%H%M%S.%fZ") + ".json"
     )
     output.write_text(
@@ -99,7 +99,7 @@ def main() -> int:
         + "\n",
         encoding="utf-8",
     )
-    print(f"summary={_relative(output)}")
+    print(_display_path(output))
     return 0 if all(item["status"] == "succeeded" for item in results) else 1
 
 

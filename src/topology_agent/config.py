@@ -56,6 +56,7 @@ class TextStageModelConfig(_ConfigModel):
 
     max_tokens: Annotated[StrictInt, Field(gt=0)] = 8192
     degraded_max_tokens: Annotated[StrictInt, Field(gt=0)] = 4096
+    enable_thinking: bool = False
 
     @model_validator(mode="after")
     def require_lower_timeout_budget(self) -> "TextStageModelConfig":

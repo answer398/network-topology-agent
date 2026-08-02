@@ -101,6 +101,8 @@ class ModelHttpAttempt:
     stage: str | None
     model: str
     max_tokens: int
+    thinking_enabled: bool
+    response_format_enabled: bool
     request_started_at: str
     first_byte_at: str | None
     request_ended_at: str
@@ -120,6 +122,8 @@ class ModelHttpAttempt:
     exception_type: str | None = None
     retry_cause: str | None = None
     next_max_tokens: int | None = None
+    provider_error_code: str | None = None
+    provider_error_type: str | None = None
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -129,6 +133,8 @@ class ModelHttpAttempt:
             "stage": self.stage,
             "model": self.model,
             "maxTokens": self.max_tokens,
+            "thinkingEnabled": self.thinking_enabled,
+            "responseFormatEnabled": self.response_format_enabled,
             "requestStartedAt": self.request_started_at,
             "firstByteAt": self.first_byte_at,
             "requestEndedAt": self.request_ended_at,
@@ -148,6 +154,8 @@ class ModelHttpAttempt:
             "exceptionType": self.exception_type,
             "retryCause": self.retry_cause,
             "nextMaxTokens": self.next_max_tokens,
+            "providerErrorCode": self.provider_error_code,
+            "providerErrorType": self.provider_error_type,
         }
 
 
@@ -156,6 +164,7 @@ class _RequestSpec:
     stage: str | None
     model_name: str
     max_tokens: int
+    enable_thinking: bool
     degraded_max_tokens: int | None = None
 
 
@@ -178,6 +187,7 @@ class _ActiveHttpAttempt:
     request_started_monotonic: float
     request_body_bytes: int
     request_body_sha256: str
+    response_format_enabled: bool
     first_byte_at: str | None = None
     first_byte_monotonic: float | None = None
     http_status: int | None = None
@@ -197,6 +207,7 @@ class ModelCallResult(Generic[T]):
     loaded_skill: SkillName
     repaired: bool
     http_attempts: tuple[ModelHttpAttempt, ...] = ()
+    responses: tuple[dict[str, Any], ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
@@ -208,6 +219,7 @@ class RawModelResult:
     usage: ModelUsage
     loaded_skill: SkillName | None
     http_attempts: tuple[ModelHttpAttempt, ...] = ()
+    responses: tuple[dict[str, Any], ...] = ()
 
 
 def load_prompt(
@@ -290,6 +302,7 @@ class OpenAICompatibleModelClient:
         )
         self._text_max_tokens = model_config.text_stage.max_tokens
         self._text_degraded_max_tokens = model_config.text_stage.degraded_max_tokens
+        self._text_enable_thinking = model_config.text_stage.enable_thinking
         self._max_model_calls = max_model_calls
         self._prompt_root = Path(prompt_root)
         self._skill_root = Path(skill_root)
@@ -297,6 +310,7 @@ class OpenAICompatibleModelClient:
         self._skill_cache: dict[SkillName, str] = {}
         self._usage = ModelUsage()
         self._http_attempts: list[ModelHttpAttempt] = []
+        self._last_call_responses: tuple[dict[str, Any], ...] = ()
         self._attempt_sequence = 0
         self._active_http_attempt: _ActiveHttpAttempt | None = None
 
@@ -345,6 +359,12 @@ class OpenAICompatibleModelClient:
         return tuple(self._http_attempts)
 
     @property
+    def last_call_responses(self) -> tuple[dict[str, Any], ...]:
+        """Return secret-free response bodies from the most recent logical call."""
+
+        return self._last_call_responses
+
+    @property
     def remaining_model_calls(self) -> int:
         """Return the number of unused logical model calls."""
 
@@ -370,13 +390,14 @@ class OpenAICompatibleModelClient:
         request_stage: str | None = None,
         response_validation_context: Mapping[str, object] | None = None,
     ) -> ModelCallResult[T]:
-        """Call JSON mode and validate the final object with a Pydantic model.
+        """Call the model and validate the final object with a Pydantic model.
 
         Empty images are accepted only when the caller explicitly enables the
         topology-recognition text-only fusion path.
         """
 
         task = _validate_task_text(task_text)
+        self._last_call_responses = ()
         checked_skill = _validate_skill(skill)
         if not isinstance(allow_repair, bool):
             raise InputError("allowRepair must be a boolean")
@@ -420,13 +441,24 @@ class OpenAICompatibleModelClient:
         request_metadata = _request_metadata(
             system_prompt, user_text, schema_text, messages
         )
+        # The provider's constrained JSON generator is unreliable for the long
+        # structure response. Links, text, and fusion keep provider JSON mode;
+        # every response is still parsed and validated locally.
+        provider_json_mode = not checked_images or stage != "structure"
         self._consume_logical_call_budget()
         completion, raw_text = self._request_text(
             messages,
-            json_mode=True,
+            json_mode=provider_json_mode,
             request_spec=request_spec,
             metadata=request_metadata,
         )
+        response_records = [_completion_record(completion, raw_text)]
+        self._last_call_responses = tuple(response_records)
+        if _completion_finish_reason(completion) == "length":
+            raise ModelInvocationError(
+                "model response was truncated (finishReason=length); "
+                "the structured output is incomplete"
+            )
         final_completion = completion
         final_request_spec = request_spec
         repaired = False
@@ -452,6 +484,13 @@ class OpenAICompatibleModelClient:
                     system_prompt, repair_text, schema_text, repair_messages
                 ),
             )
+            response_records.append(_completion_record(final_completion, raw_text))
+            self._last_call_responses = tuple(response_records)
+            if _completion_finish_reason(final_completion) == "length":
+                raise ModelInvocationError(
+                    "model repair response was truncated (finishReason=length); "
+                    "the structured output is incomplete"
+                )
             final_request_spec = repair_request_spec
             repaired = True
             try:
@@ -472,6 +511,7 @@ class OpenAICompatibleModelClient:
             loaded_skill=checked_skill,
             repaired=repaired,
             http_attempts=tuple(self._http_attempts[attempt_start:]),
+            responses=tuple(response_records),
         )
 
     def call_text(
@@ -484,6 +524,7 @@ class OpenAICompatibleModelClient:
         """Make a small non-streaming text call without local JSON validation."""
 
         task = _validate_task_text(task_text)
+        self._last_call_responses = ()
         checked_skill = None if skill is None else _validate_skill(skill)
         checked_images = _validate_images(images, checked_skill)
         before = self.usage
@@ -509,6 +550,8 @@ class OpenAICompatibleModelClient:
             request_spec=request_spec,
             metadata=_request_metadata(system_prompt, user_text, None, messages),
         )
+        response_records = (_completion_record(completion, raw_text),)
+        self._last_call_responses = response_records
         usage = _usage_delta(self.usage, before)
         return RawModelResult(
             raw_text=raw_text,
@@ -518,6 +561,7 @@ class OpenAICompatibleModelClient:
             usage=usage,
             loaded_skill=checked_skill,
             http_attempts=tuple(self._http_attempts[attempt_start:]),
+            responses=response_records,
         )
 
     def _prompt(self, filename: str) -> str:
@@ -537,24 +581,28 @@ class OpenAICompatibleModelClient:
                     stage=stage,
                     model_name=self._text_only_model_name,
                     max_tokens=self._text_max_tokens,
+                    enable_thinking=self._text_enable_thinking,
                     degraded_max_tokens=self._text_degraded_max_tokens,
                 )
             return _RequestSpec(
                 stage=stage,
                 model_name=self._text_only_model_name,
                 max_tokens=self._max_tokens,
+                enable_thinking=self._enable_thinking,
             )
         if stage == "text":
             return _RequestSpec(
                 stage=stage,
                 model_name=self._model_name,
                 max_tokens=self._text_max_tokens,
+                enable_thinking=self._text_enable_thinking,
                 degraded_max_tokens=self._text_degraded_max_tokens,
             )
         return _RequestSpec(
             stage=stage,
             model_name=self._model_name,
             max_tokens=self._max_tokens,
+            enable_thinking=self._enable_thinking,
         )
 
     def _on_http_response(self, response: httpx.Response) -> None:
@@ -585,7 +633,7 @@ class OpenAICompatibleModelClient:
                 "messages": messages,
                 "temperature": self._temperature,
                 "max_tokens": max_tokens,
-                "extra_body": {"enable_thinking": self._enable_thinking},
+                "extra_body": {"enable_thinking": request_spec.enable_thinking},
             }
             if json_mode:
                 parameters["response_format"] = {"type": "json_object"}
@@ -737,6 +785,7 @@ class OpenAICompatibleModelClient:
             request_started_monotonic=time.perf_counter(),
             request_body_bytes=len(request_body),
             request_body_sha256=hashlib.sha256(request_body).hexdigest(),
+            response_format_enabled="response_format" in parameters,
         )
 
     def _finish_http_attempt(
@@ -755,6 +804,7 @@ class OpenAICompatibleModelClient:
             active.first_byte_at = ended_at
             active.first_byte_monotonic = ended_monotonic
         usage = _completion_usage(completion)
+        provider_error = _completion_provider_error(completion)
         duration_ms = max(0.0, (ended_monotonic - active.request_started_monotonic) * 1000)
         ttfb_ms = (
             None
@@ -773,6 +823,8 @@ class OpenAICompatibleModelClient:
                 stage=active.request_spec.stage,
                 model=active.request_spec.model_name,
                 max_tokens=active.max_tokens,
+                thinking_enabled=active.request_spec.enable_thinking,
+                response_format_enabled=active.response_format_enabled,
                 request_started_at=active.request_started_at,
                 first_byte_at=active.first_byte_at,
                 request_ended_at=ended_at,
@@ -792,6 +844,12 @@ class OpenAICompatibleModelClient:
                 exception_type=None if exception is None else type(exception).__name__,
                 retry_cause=retry_cause,
                 next_max_tokens=next_max_tokens,
+                provider_error_code=(
+                    provider_error[0] if provider_error is not None else None
+                ),
+                provider_error_type=(
+                    provider_error[1] if provider_error is not None else None
+                ),
             )
         )
         if self._active_http_attempt is active:
@@ -811,7 +869,13 @@ class OpenAICompatibleModelClient:
             request_spec=request_spec,
             metadata=metadata,
         )
-        return completion, _completion_text(completion)
+        try:
+            return completion, _completion_text(completion)
+        except ModelInvocationError as exc:
+            self._last_call_responses = (
+                _completion_record(completion, "", content_error=str(exc)),
+            )
+            raise
 
     def _consume_logical_call_budget(self) -> None:
         self.ensure_model_call_budget(1)
@@ -998,7 +1062,8 @@ def _view_description(images: Sequence[ModelImage]) -> str:
         return "## Image views\nNo image views were supplied."
     lines = [
         "## Image views",
-        "Coordinates use each listed view's top-left corner as (0, 0).",
+        "Visual geometry uses current-view pixels with the image center as origin (0,0), "
+        "x rightward and y downward; use at most two decimal places and do not normalize coordinates.",
     ]
     lines.extend(
         f"- viewId={item.view_id}; width={item.image.width}; height={item.image.height}"
@@ -1048,6 +1113,14 @@ def _repair_user_text(
 
 
 def _completion_text(completion: Any) -> str:
+    provider_error = _completion_provider_error(completion)
+    if provider_error is not None:
+        code, error_type, message = provider_error
+        identity = code or error_type or "unknown_provider_error"
+        detail = f": {message}" if message else ""
+        raise ModelInvocationError(
+            _safe_excerpt(f"model provider error {identity}{detail}", limit=800)
+        )
     choices = getattr(completion, "choices", None)
     if not isinstance(choices, list) or not choices:
         raise ModelInvocationError("model response has no choices")
@@ -1056,6 +1129,26 @@ def _completion_text(completion: Any) -> str:
     if not isinstance(content, str) or not content.strip():
         raise ModelInvocationError("model response choice has no text content")
     return content
+
+
+def _completion_provider_error(
+    completion: Any | None,
+) -> tuple[str | None, str | None, str | None] | None:
+    error = _attribute(completion, "error")
+    if error is None and completion is not None:
+        try:
+            payload = completion.model_dump(mode="python")
+        except (AttributeError, TypeError, ValueError):
+            payload = None
+        error = _attribute(payload, "error")
+    if error is None:
+        return None
+
+    def optional_text(name: str) -> str | None:
+        value = _attribute(error, name)
+        return value.strip() if isinstance(value, str) and value.strip() else None
+
+    return optional_text("code"), optional_text("type"), optional_text("message")
 
 
 def _completion_model(completion: Any, configured_model: str) -> str:
@@ -1068,6 +1161,60 @@ def _completion_request_id(completion: Any) -> str | None:
     if not isinstance(value, str) or not value.strip():
         return None
     return value.strip()[:200]
+
+
+def _completion_record(
+    completion: Any,
+    raw_text: str,
+    *,
+    content_error: str | None = None,
+) -> dict[str, Any]:
+    """Capture the provider response without request data or credentials."""
+
+    try:
+        payload = completion.model_dump(mode="json")
+    except (AttributeError, TypeError, ValueError):
+        payload = {
+            "model": _completion_model(completion, ""),
+            "requestId": _completion_request_id(completion),
+            "finishReason": _completion_finish_reason(completion),
+        }
+    if not isinstance(payload, Mapping):
+        payload = {}
+    result = {
+        "model": _completion_model(completion, ""),
+        "requestId": _completion_request_id(completion),
+        "finishReason": _completion_finish_reason(completion),
+        "rawText": _redact_output_value(raw_text),
+        "response": _redact_output_value(dict(payload)),
+    }
+    if content_error:
+        result["contentError"] = _safe_excerpt(content_error, limit=800)
+    return result
+
+
+def _redact_output_value(value: Any, key: str | None = None) -> Any:
+    """Redact credentials and image data while retaining model output verbatim otherwise."""
+
+    if isinstance(value, str):
+        if key is not None and any(
+            marker in key.casefold()
+            for marker in ("api_key", "apikey", "authorization", "password", "token")
+        ):
+            return "[secret-redacted]"
+        value = _DATA_URL_PATTERN.sub("[image-data-redacted]", value)
+        value = _AUTH_PATTERN.sub(r"\1[secret-redacted]", value)
+        return _SECRET_PATTERN.sub("[secret-redacted]", value)
+    if isinstance(value, Mapping):
+        return {
+            str(item_key): _redact_output_value(item_value, str(item_key))
+            for item_key, item_value in value.items()
+        }
+    if isinstance(value, list):
+        return [_redact_output_value(item, key) for item in value]
+    if isinstance(value, tuple):
+        return [_redact_output_value(item, key) for item in value]
+    return value
 
 
 def _completion_finish_reason(completion: Any | None) -> str | None:
@@ -1131,12 +1278,15 @@ def _is_json_object(candidate: str) -> bool:
 
 
 def _balanced_object_candidates(text: str):
-    for start, character in enumerate(text):
-        if character != "{":
-            continue
+    start = 0
+    while True:
+        start = text.find("{", start)
+        if start < 0:
+            return
         stack: list[str] = []
         in_string = False
         escaped = False
+        completed = False
         for index in range(start, len(text)):
             current = text[index]
             if in_string:
@@ -1154,11 +1304,17 @@ def _balanced_object_candidates(text: str):
             elif current in "}]":
                 expected = "{" if current == "}" else "["
                 if not stack or stack[-1] != expected:
-                    break
+                    return
                 stack.pop()
                 if not stack:
                     yield text[start : index + 1]
+                    start = index + 1
+                    completed = True
                     break
+        if not completed:
+            # A truncated outer object must never be replaced by one of its
+            # balanced child objects.
+            return
 
 
 def _safe_excerpt(text: str, *, limit: int = 240) -> str:
