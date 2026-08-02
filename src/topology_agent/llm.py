@@ -441,10 +441,11 @@ class OpenAICompatibleModelClient:
         request_metadata = _request_metadata(
             system_prompt, user_text, schema_text, messages
         )
-        # The provider's constrained JSON generator is unreliable for the long
-        # structure response. Links, text, and fusion keep provider JSON mode;
-        # every response is still parsed and validated locally.
-        provider_json_mode = not checked_images or stage != "structure"
+        # The provider's constrained JSON generator aborts unreliably on long
+        # outputs (invalid_parameter_error / "output became abnormal"), so every
+        # image-backed pass emits free-form text that is parsed and validated
+        # locally. Only the short text-only fusion pass keeps provider JSON mode.
+        provider_json_mode = not checked_images
         self._consume_logical_call_budget()
         completion, raw_text = self._request_text(
             messages,
@@ -743,6 +744,18 @@ class OpenAICompatibleModelClient:
                 raise ModelInvocationError(
                     f"unexpected model client failure ({type(exc).__name__})"
                 ) from None
+
+            if _is_abnormal_json_provider_error(completion) and retry_index < len(
+                _HTTP_RETRY_DELAYS
+            ):
+                self._finish_http_attempt(
+                    active,
+                    completion=completion,
+                    retry_cause="provider_abnormal_json",
+                )
+                time.sleep(_HTTP_RETRY_DELAYS[retry_index])
+                retry_index += 1
+                continue
 
             self._record_response_usage(completion)
             self._finish_http_attempt(active, completion=completion)
@@ -1149,6 +1162,21 @@ def _completion_provider_error(
         return value.strip() if isinstance(value, str) and value.strip() else None
 
     return optional_text("code"), optional_text("type"), optional_text("message")
+
+
+def _is_abnormal_json_provider_error(completion: Any | None) -> bool:
+    """Detect the provider's transient abort while emitting a JSON response.
+
+    The provider returns HTTP 200 with an error body reading "Model output
+    became abnormal while generating a JSON response for response_format" and
+    zero output. It is transient, so one retry is worthwhile.
+    """
+
+    provider_error = _completion_provider_error(completion)
+    if provider_error is None:
+        return False
+    _, _, message = provider_error
+    return isinstance(message, str) and "became abnormal" in message.casefold()
 
 
 def _completion_model(completion: Any, configured_model: str) -> str:

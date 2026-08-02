@@ -2,10 +2,10 @@ model:
   baseUrl: https://llm-9i4swuft956lxkp5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
   modelName: qwen3.7-plus
   textOnlyModelName: qwen3.7-max
-  enableThinking: false
+  enableThinking: true
   temperature: 0.0
   maxTokens: 32768
-  timeoutSeconds: 1200
+  timeoutSeconds: 2400
   textStage:
     maxTokens: 32768
     degradedMaxTokens: 8192
