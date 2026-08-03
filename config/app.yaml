@@ -1,11 +1,15 @@
 model:
-  baseUrl: your-base-url
+  baseUrl: https://llm-9i4swuft956lxkp5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
   modelName: qwen3.7-plus
   textOnlyModelName: qwen3.7-max
   enableThinking: true
   temperature: 0.0
-  maxTokens: 8192
-  timeoutSeconds: 360
+  maxTokens: 32768
+  timeoutSeconds: 2400
+  textStage:
+    maxTokens: 32768
+    degradedMaxTokens: 8192
+    enableThinking: false
 
 platform:
   baseUrl: http://10.199.100.253/api
@@ -19,11 +23,7 @@ platform:
   timeoutSeconds: 30
 
 image:
-  maxWidth: 4096
-  maxHeight: 4096
-  tileWidth: 512
-  tileHeight: 512
-  overlapRatio: 0.20
+  maxLongEdge: 4096
 
 defaults:
   version: v2
@@ -33,7 +33,6 @@ defaults:
 
 budget:
   maxModelCalls: 12
-  maxLocalReviews: 1
 
 runtime:
   runsDir: runtime/runs
