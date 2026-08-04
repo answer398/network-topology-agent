@@ -401,6 +401,23 @@
     "companyId": ""
   },
   {
+    "id": "RS00-004-008192-00100",
+    "flavorName": "4C-8G-100G",
+    "cpu": 4,
+    "disk": 100,
+    "ram": 8192,
+    "description": "",
+    "created": "2026-08-02 00:56:48",
+    "isBase": "0",
+    "creator": "2a0a4076a02b4a0b941a808d6476de78",
+    "creatorName": "选手11",
+    "creatorAvatar": "/files//photo/0e0ae42bcd2b420490c7005eb96ae94d.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
+  },
+  {
     "id": "RS00-004-016384-00150",
     "flavorName": "4C-16G-150G",
     "cpu": 4,

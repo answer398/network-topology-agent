@@ -13,6 +13,8 @@ model:
 
 platform:
   baseUrl: http://10.199.100.253/api
+  offlineImageFile: data/list_images.json
+  offlineFlavorFile: data/list_flavors.json
   paths:
     login: /identity/anonymity/unsafe/login
     imageList: /resource-manager/image/list

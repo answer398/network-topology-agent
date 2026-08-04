@@ -18,5 +18,6 @@ dependencies = [
     "requests>=2,<3",
 ]
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.setuptools]
+packages = ["topology_agent", "api"]
+package-dir = {"" = "src", "api" = "api"}

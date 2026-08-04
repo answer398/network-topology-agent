@@ -950,19 +950,25 @@ class _RecognitionRunArtifacts:
 
     @classmethod
     def create(
-        cls, task_id: str, bundle: ImageBundle
+        cls,
+        task_id: str,
+        bundle: ImageBundle,
+        artifact_dir: str | Path | None = None,
     ) -> "_RecognitionRunArtifacts":
-        if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}", task_id):
-            directory_name = task_id
+        if artifact_dir is None:
+            if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,127}", task_id):
+                directory_name = task_id
+            else:
+                digest = hashlib.sha256(task_id.encode("utf-8")).hexdigest()[:16]
+                directory_name = f"task_{digest}"
+            task_dir = (
+                Path(__file__).resolve().parents[2]
+                / "runtime"
+                / "runs"
+                / directory_name
+            )
         else:
-            digest = hashlib.sha256(task_id.encode("utf-8")).hexdigest()[:16]
-            directory_name = f"task_{digest}"
-        task_dir = (
-            Path(__file__).resolve().parents[2]
-            / "runtime"
-            / "runs"
-            / directory_name
-        )
+            task_dir = Path(artifact_dir)
         try:
             task_dir.mkdir(parents=True, exist_ok=True)
             run_dir = _next_attempt_directory(task_dir)
@@ -1169,6 +1175,7 @@ def recognize_topology(
     task_id: str,
     image_bundle: ImageBundle,
     model_client: OpenAICompatibleModelClient,
+    artifact_dir: str | Path | None = None,
 ) -> TopologyObservation:
     """Run structure, links, text, and text-only fusion exactly once each."""
 
@@ -1182,7 +1189,9 @@ def recognize_topology(
     _ensure_four_call_budget(model_client)
     initial_logical_calls = _client_logical_call_count(model_client)
     model_client.last_stage_usages = {}
-    artifacts = _RecognitionRunArtifacts.create(task_id, image_bundle)
+    artifacts = _RecognitionRunArtifacts.create(
+        task_id, image_bundle, artifact_dir=artifact_dir
+    )
 
     evidence: dict[str, Evidence] = {}
     unresolved: list[UnresolvedItem] = []

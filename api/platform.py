@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import json
 from collections import Counter, defaultdict
-from collections.abc import Mapping
-from ipaddress import IPv4Interface, IPv4Network
+from collections.abc import Mapping, Sequence
+from ipaddress import IPv4Address, IPv4Interface, IPv4Network
 from pathlib import Path
 from urllib.parse import quote
 from uuid import uuid4
@@ -18,7 +18,6 @@ _CONFIG_PATH = Path(__file__).resolve().parents[1] / "config" / "app.yaml"
 _DEVICE_MAPPING_PATH = (
     Path(__file__).resolve().parents[1] / "config" / "device_mapping.yaml"
 )
-_DATA_PATH = Path(__file__).resolve().parents[1] / "data"
 try:
     _raw_config = yaml.safe_load(_CONFIG_PATH.read_text(encoding="utf-8"))
     _platform = _raw_config["platform"]
@@ -69,6 +68,72 @@ class TopologyPlatformClient:
         self._token = _login_token(response)
         self._credentials = (username, password, rememberMe)
 
+    def list_images(
+        self,
+        *,
+        pageIndex: int = 1,
+        pageSize: int = 100,
+        fetchAll: bool = True,
+        imageName: str | None = None,
+        status: str | None = "ACTIVE",
+        virtualization: str | None = None,
+        visibility: str | None = None,
+        osType: str | None = None,
+        osVersion: str | None = None,
+        platformId: int | None = None,
+        platformType: str | None = None,
+        hardwareArchitecture: str | None = None,
+        hasEdr: str | None = None,
+        virtio: bool | None = None,
+        qga: bool | None = None,
+        cloud: bool | None = None,
+        nodeType: str | None = None,
+        id: str | None = None,
+    ) -> list[dict[str, object]]:
+        """Query every available image page with this client's token."""
+
+        filters = _filters(
+            imageName=imageName,
+            status=status,
+            virtualization=virtualization,
+            visibility=visibility,
+            osType=osType,
+            osVersion=osVersion,
+            platformId=platformId,
+            platformType=platformType,
+            hardwareArchitecture=hardwareArchitecture,
+            hasEdr=hasEdr,
+            virtio=virtio,
+            qga=qga,
+            cloud=cloud,
+            nodeType=nodeType,
+            id=id,
+        )
+        return _list_all_for_client(
+            self, IMAGE_LIST_PATH, pageIndex, pageSize, fetchAll, filters
+        )
+
+    def list_flavors(
+        self,
+        *,
+        pageIndex: int = 1,
+        pageSize: int = 100,
+        fetchAll: bool = True,
+        id: str | None = None,
+        flavorName: str | None = None,
+        cpu: int | None = None,
+        disk: int | None = None,
+        ram: int | None = None,
+    ) -> list[dict[str, object]]:
+        """Query every available flavor page with this client's token."""
+
+        filters = _filters(
+            id=id, flavorName=flavorName, cpu=cpu, disk=disk, ram=ram
+        )
+        return _list_all_for_client(
+            self, FLAVOR_LIST_PATH, pageIndex, pageSize, fetchAll, filters
+        )
+
     def import_topology(
         self, payload: Mapping[str, object]
     ) -> dict[str, object]:
@@ -83,29 +148,34 @@ class TopologyPlatformClient:
                 params=params,
                 json=body,
             )
-        except requests.Timeout as exc:
+        except (requests.Timeout, requests.ConnectionError) as exc:
             raise TimeoutError(
-                "topology import timed out; write state is unknown and was not retried"
+                "topology import transport failed; write state is unknown and was not retried"
             ) from exc
         return _response_object(response, "topology import")
 
     def formatData(
         self,
         obs_data: Mapping[str, object],
-        projectId: str,
-        networkId: str,
+        projectId: str | None,
+        networkId: str | None,
+        *,
+        image_items: Sequence[Mapping[str, object]] | None = None,
+        flavor_items: Sequence[Mapping[str, object]] | None = None,
     ) -> dict[str, object]:
-        """Format an observation mapping without requiring platform login."""
+        """Format an observation using supplied or currently available resources."""
 
         if not isinstance(obs_data, Mapping):
             raise TypeError("obs_data must be an object")
-        image_items = _load_catalog(_DATA_PATH / "list_images.json", "image")
-        flavor_items = _load_catalog(_DATA_PATH / "list_flavors.json", "flavor")
+        if image_items is None:
+            image_items = self.list_images()
+        if flavor_items is None:
+            flavor_items = self.list_flavors()
         device_mapping = _load_device_mapping()
         return _format_data(
             obs_data,
-            image_items,
-            flavor_items,
+            _catalog_items(image_items, "image"),
+            _catalog_items(flavor_items, "flavor"),
             device_mapping,
             projectId,
             networkId,
@@ -118,9 +188,9 @@ class TopologyPlatformClient:
         )
         try:
             response = self._authorized_request("DELETE", path)
-        except requests.Timeout as exc:
+        except (requests.Timeout, requests.ConnectionError) as exc:
             raise TimeoutError(
-                "topology clear timed out; state is unknown and import was not attempted"
+                "topology clear transport failed; state is unknown and import was not attempted"
             ) from exc
         if response.status_code != 204:
             _response_object(response, "topology clear")
@@ -269,27 +339,50 @@ def import_topology(
             params=params,
             json=body,
         )
-    except requests.Timeout as exc:
+    except (requests.Timeout, requests.ConnectionError) as exc:
         raise TimeoutError(
-            "topology import timed out; write state is unknown and was not retried"
+            "topology import transport failed; write state is unknown and was not retried"
         ) from exc
     return _response_object(response, "topology import")
 
 
-def _load_catalog(path: Path, label: str) -> list[dict[str, object]]:
+def load_resource_snapshot(
+    image_path: str | Path, flavor_path: str | Path
+) -> tuple[list[dict[str, object]], list[dict[str, object]]]:
+    """Load image and flavor catalogs from local JSON snapshots."""
+
+    return (
+        _read_resource_snapshot(image_path, "image"),
+        _read_resource_snapshot(flavor_path, "flavor"),
+    )
+
+
+def _catalog_items(
+    value: Sequence[Mapping[str, object]], label: str
+) -> list[dict[str, object]]:
+    if not isinstance(value, Sequence) or isinstance(value, (str, bytes)):
+        raise TypeError(f"{label}_items must be a sequence of objects")
+    if any(not isinstance(item, Mapping) for item in value):
+        raise TypeError(f"{label}_items must be a sequence of objects")
+    return [dict(item) for item in value]
+
+
+def _read_resource_snapshot(path: str | Path, label: str) -> list[dict[str, object]]:
+    snapshot_path = Path(path)
     try:
-        value = json.loads(path.read_text(encoding="utf-8"))
+        value = json.loads(snapshot_path.read_text(encoding="utf-8"))
     except OSError as exc:
-        raise ValueError(f"cannot read {label} catalog: {path}") from exc
-    except (UnicodeError, json.JSONDecodeError) as exc:
-        raise ValueError(f"invalid {label} catalog JSON: {path}") from exc
+        raise ValueError(f"cannot read offline {label} snapshot: {snapshot_path}") from exc
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"invalid offline {label} snapshot: {snapshot_path}") from exc
     if isinstance(value, Mapping):
-        data = value.get("data")
-        if isinstance(data, Mapping):
-            value = data.get("items")
-    if not isinstance(value, list) or any(not isinstance(item, Mapping) for item in value):
-        raise ValueError(f"{label} catalog must be an array or contain data.items")
-    return [dict(item) for item in value if isinstance(item, Mapping)]
+        if isinstance(value.get("items"), list):
+            value = value["items"]
+        elif isinstance(value.get("data"), Mapping):
+            data = value["data"]
+            if isinstance(data.get("items"), list):
+                value = data["items"]
+    return _catalog_items(value, f"offline {label}_items")
 
 
 def _load_device_mapping() -> dict[str, dict[str, object]]:
@@ -467,11 +560,14 @@ def _format_data(
     images: list[dict[str, object]],
     flavors: list[dict[str, object]],
     device_mapping: dict[str, dict[str, object]],
-    project_id: str,
-    network_id: str,
+    project_id: str | None,
+    network_id: str | None,
 ) -> dict[str, object]:
-    project_id = _text(project_id, "projectId")
-    network_id = _text(network_id, "networkId")
+    if (project_id is None) != (network_id is None):
+        raise ValueError("projectId and networkId must be supplied together")
+    if project_id is not None and network_id is not None:
+        project_id = _text(project_id, "projectId")
+        network_id = _text(network_id, "networkId")
     blocking = [
         item
         for item in _mapping_list(observation.get("unresolvedItems", []), "unresolvedItems")
@@ -943,57 +1039,219 @@ def _format_data(
             formatted_link["dNicName"] = nic_names[target_interface]
         link_list.append(formatted_link)
 
-    payload = {
+    payload: dict[str, object] = {
         "linkList": link_list,
-        "networkId": network_id,
         "networkList": network_list,
         "nodeList": node_list,
         "portMappingList": [],
-        "projectId": project_id,
         "subnetList": subnet_list,
         "version": DEFAULT_VERSION,
     }
-    _validate_formatted_data(payload)
+    if project_id is not None and network_id is not None:
+        payload["projectId"] = project_id
+        payload["networkId"] = network_id
+    _validate_formatted_data(payload, require_external_ids=project_id is not None)
     return payload
 
 
-def _validate_formatted_data(payload: Mapping[str, object]) -> None:
-    _topology_request(payload)
+def validate_payload(payload: Mapping[str, object]) -> None:
+    """Validate a complete platform payload before an import request."""
+
+    _validate_formatted_data(payload)
+
+
+def _validate_formatted_data(
+    payload: Mapping[str, object], *, require_external_ids: bool = True
+) -> None:
+    if not isinstance(payload, Mapping):
+        raise TypeError("payload must be an object")
+    if require_external_ids:
+        _topology_request(payload)
+    else:
+        for field in (
+            "networkList",
+            "subnetList",
+            "nodeList",
+            "linkList",
+            "portMappingList",
+        ):
+            if not isinstance(payload.get(field), list):
+                raise ValueError(f"{field} must be an array")
     node_list = _mapping_list(payload["nodeList"], "nodeList")
     network_list = _mapping_list(payload["networkList"], "networkList")
     subnet_list = _mapping_list(payload["subnetList"], "subnetList")
     link_list = _mapping_list(payload["linkList"], "linkList")
-    node_ids = {str(node.get("properties", {}).get("id")) for node in node_list}
-    network_ids = {str(network.get("id")) for network in network_list}
-    subnet_ids = {str(subnet.get("id")) for subnet in subnet_list}
-    for network in network_list:
-        if str(network.get("nodeId")) not in node_ids:
-            raise ValueError("formatted network references an unknown node")
-    for subnet in subnet_list:
-        if str(subnet.get("networkId")) not in network_ids:
-            raise ValueError("formatted subnet references an unknown network")
-    for node in node_list:
-        for nic in _mapping_list(node.get("nicList", []), "nicList"):
-            if str(nic.get("subnetId")) not in subnet_ids:
-                raise ValueError("formatted NIC references an unknown subnet")
-    for link in link_list:
-        if str(link.get("sDevId")) not in node_ids or str(link.get("dDevId")) not in node_ids:
-            raise ValueError("formatted link references an unknown node")
-    linked_node_ids = {
-        str(link[field])
-        for link in link_list
-        for field in ("sDevId", "dDevId")
-        if field in link
-    }
-    for node in node_list:
+
+    def unique_text(
+        value: object, label: str, seen: set[str]
+    ) -> str:
+        result = _text(value, label)
+        if result in seen:
+            raise ValueError(f"duplicate {label} ID: {result}")
+        seen.add(result)
+        return result
+
+    node_ids: set[str] = set()
+    node_types: dict[str, str] = {}
+    node_nic_names: dict[str, set[str]] = {}
+    pending_nics: list[tuple[str, dict[str, object], int]] = []
+    valid_dev_types = {"SERVER", "CLIENT", "DRT", "FW", "IDS", "WAF", "PRT", "DES"}
+
+    for index, node in enumerate(node_list):
+        node_type = _text(node.get("type"), f"nodeList[{index}].type")
+        if node_type not in {"VM", "SW", "TSW"}:
+            raise ValueError(f"unsupported node type: {node_type}")
         properties = node.get("properties")
-        node_id = properties.get("id") if isinstance(properties, Mapping) else None
-        if (
-            node.get("type") == "VM"
-            and str(node_id) in linked_node_ids
-            and not node.get("nicList")
+        if not isinstance(properties, Mapping):
+            raise ValueError(f"nodeList[{index}].properties must be an object")
+        node_id = unique_text(
+            properties.get("id"), f"nodeList[{index}].properties.id", node_ids
+        )
+        node_types[node_id] = node_type
+        _text(properties.get("devType"), f"nodeList[{index}].properties.devType")
+        _text(properties.get("nodeName"), f"nodeList[{index}].properties.nodeName")
+        _text(properties.get("x"), f"nodeList[{index}].properties.x")
+        _text(properties.get("y"), f"nodeList[{index}].properties.y")
+
+        dev_type = str(properties["devType"])
+        expected_dev_type = {"SW": "SW", "TSW": "TSW"}.get(node_type)
+        if expected_dev_type is not None and dev_type != expected_dev_type:
+            raise ValueError(
+                f"node {node_id} type {node_type} conflicts with devType {dev_type}"
+            )
+        if node_type == "VM":
+            if dev_type not in valid_dev_types:
+                raise ValueError(f"unsupported VM devType: {dev_type}")
+            for field in ("imageId", "imageName", "sysType"):
+                _text(properties.get(field), f"node {node_id}.properties.{field}")
+            flavor = properties.get("flavor")
+            if not isinstance(flavor, Mapping):
+                raise ValueError(f"node {node_id}.properties.flavor must be an object")
+            for field in ("cpu", "ram", "disk"):
+                _text(flavor.get(field), f"node {node_id}.properties.flavor.{field}")
+
+        nic_list = _mapping_list(node.get("nicList", []), f"node {node_id}.nicList")
+        if node_type != "VM" and nic_list:
+            raise ValueError(f"switch node {node_id} must not contain NICs")
+        names: set[str] = set()
+        for nic_index, nic in enumerate(nic_list):
+            nic_name = _text(nic.get("name"), f"node {node_id}.nicList[{nic_index}].name")
+            if nic_name in names:
+                raise ValueError(f"duplicate NIC name on node {node_id}: {nic_name}")
+            names.add(nic_name)
+            pending_nics.append((node_id, nic, nic_index))
+        node_nic_names[node_id] = names
+
+    network_ids: set[str] = set()
+    for index, network in enumerate(network_list):
+        network_id = unique_text(network.get("id"), f"networkList[{index}].id", network_ids)
+        node_id = _text(network.get("nodeId"), f"network {network_id}.nodeId")
+        if node_id not in node_ids:
+            raise ValueError(f"formatted network references an unknown node: {node_id}")
+        if node_types[node_id] not in {"SW", "TSW"}:
+            raise ValueError(f"network {network_id} must be anchored to a switch")
+        _text(network.get("name"), f"network {network_id}.name")
+        mtu = network.get("mtu")
+        if mtu is not None and (
+            isinstance(mtu, bool) or not isinstance(mtu, int) or mtu <= 0
         ):
-            raise ValueError("linked VM nodes must contain at least one NIC")
+            raise ValueError(f"network {network_id}.mtu must be a positive integer")
+        members = network.get("transmitNodeIdList", [])
+        if not isinstance(members, list):
+            raise ValueError(f"network {network_id}.transmitNodeIdList must be an array")
+        member_ids: set[str] = set()
+        for member in members:
+            member_id = _text(member, f"network {network_id}.transmitNodeIdList")
+            if member_id in member_ids:
+                raise ValueError(f"duplicate network member: {member_id}")
+            if member_id not in node_ids:
+                raise ValueError(f"network {network_id} references an unknown member: {member_id}")
+            member_ids.add(member_id)
+
+    subnet_ids: set[str] = set()
+    subnet_networks: dict[str, IPv4Network] = {}
+    for index, subnet in enumerate(subnet_list):
+        subnet_id = unique_text(subnet.get("id"), f"subnetList[{index}].id", subnet_ids)
+        network_id = _text(subnet.get("networkId"), f"subnet {subnet_id}.networkId")
+        if network_id not in network_ids:
+            raise ValueError(f"formatted subnet references an unknown network: {network_id}")
+        _text(subnet.get("name"), f"subnet {subnet_id}.name")
+        cidr_text = _text(subnet.get("cidr"), f"subnet {subnet_id}.cidr")
+        try:
+            subnet_networks[subnet_id] = IPv4Network(cidr_text, strict=True)
+        except ValueError as exc:
+            raise ValueError(f"invalid CIDR in subnet {subnet_id}") from exc
+        gateway = subnet.get("gatewayIp")
+        if gateway is not None:
+            gateway_text = _text(gateway, f"subnet {subnet_id}.gatewayIp")
+            try:
+                gateway_ip = IPv4Address(gateway_text)
+            except ValueError as exc:
+                raise ValueError(f"invalid gateway in subnet {subnet_id}") from exc
+            if gateway_ip not in subnet_networks[subnet_id]:
+                raise ValueError(f"gateway is outside subnet {subnet_id}")
+        if "dns" in subnet:
+            dns = subnet.get("dns")
+            if not isinstance(dns, str):
+                raise ValueError(f"subnet {subnet_id}.dns must be a string")
+        if "enableDhcp" in subnet and not isinstance(subnet["enableDhcp"], bool):
+            raise ValueError(f"subnet {subnet_id}.enableDhcp must be a boolean")
+
+    nic_ids: set[str] = set()
+    used_ips: set[IPv4Address] = set()
+    for node_id, nic, nic_index in pending_nics:
+        nic_id = unique_text(nic.get("id"), f"node {node_id}.nicList[{nic_index}].id", nic_ids)
+        subnet_id = _text(nic.get("subnetId"), f"NIC {nic_id}.subnetId")
+        subnet = subnet_networks.get(subnet_id)
+        if subnet is None:
+            raise ValueError(f"NIC {nic_id} references an unknown subnet: {subnet_id}")
+        ip_text = _text(nic.get("ip"), f"NIC {nic_id}.ip")
+        try:
+            ip = IPv4Address(ip_text)
+        except ValueError as exc:
+            raise ValueError(f"invalid IP on NIC {nic_id}") from exc
+        if ip in used_ips:
+            raise ValueError(f"duplicate IP address: {ip}")
+        if ip not in subnet:
+            raise ValueError(f"IP {ip} is outside subnet {subnet_id}")
+        used_ips.add(ip)
+
+    link_keys: set[tuple[tuple[str, str], tuple[str, str]]] = set()
+    link_ids: set[str] = set()
+    linked_node_ids: set[str] = set()
+    for index, link in enumerate(link_list):
+        link_id = unique_text(link.get("id"), f"linkList[{index}].id", link_ids)
+        source_id = _text(link.get("sDevId"), f"link {link_id}.sDevId")
+        target_id = _text(link.get("dDevId"), f"link {link_id}.dDevId")
+        if source_id not in node_ids or target_id not in node_ids:
+            raise ValueError(f"formatted link {link_id} references an unknown node")
+        if source_id == target_id:
+            raise ValueError(f"formatted link {link_id} cannot connect a node to itself")
+        source_nic = ""
+        target_nic = ""
+        if link.get("sNicName") is not None:
+            source_nic = _text(link.get("sNicName"), f"link {link_id}.sNicName")
+            if source_nic not in node_nic_names[source_id]:
+                raise ValueError(f"link {link_id} references an unknown source NIC")
+        if link.get("dNicName") is not None:
+            target_nic = _text(link.get("dNicName"), f"link {link_id}.dNicName")
+            if target_nic not in node_nic_names[target_id]:
+                raise ValueError(f"link {link_id} references an unknown target NIC")
+        key = tuple(sorted(((source_id, source_nic), (target_id, target_nic))))
+        if key in link_keys:
+            raise ValueError(f"duplicate link endpoints: {link_id}")
+        link_keys.add(key)
+        linked_node_ids.update((source_id, target_id))
+
+    for node_id in linked_node_ids:
+        if node_types[node_id] == "VM" and not node_nic_names[node_id]:
+            raise ValueError(f"linked VM node {node_id} must contain at least one NIC")
+
+    port_mappings = payload.get("portMappingList")
+    if not isinstance(port_mappings, list):
+        raise ValueError("portMappingList must be an array")
+    if any(not isinstance(item, str) for item in port_mappings):
+        raise ValueError("portMappingList must contain strings")
 
 
 def _list_all(
@@ -1015,6 +1273,44 @@ def _list_all(
         response = _authorized_post(
             path,
             token,
+            params={"pageIndex": page, "pageSize": page_size},
+            json=filters,
+        )
+        data = _response_data(response, "resource query")
+        if not isinstance(data, Mapping) or not isinstance(data.get("items"), list):
+            raise RuntimeError("resource query response.data.items must be an array")
+        items = data["items"]
+        if any(not isinstance(item, Mapping) for item in items):
+            raise RuntimeError("resource query items must be objects")
+        result.extend(dict(item) for item in items if isinstance(item, Mapping))
+
+        total = data.get("total")
+        consumed = (page - 1) * page_size + len(items)
+        reached_total = isinstance(total, int) and consumed >= total
+        if not fetch_all or not items or len(items) < page_size or reached_total:
+            return result
+        page += 1
+
+
+def _list_all_for_client(
+    client: TopologyPlatformClient,
+    path: str,
+    page_index: int,
+    page_size: int,
+    fetch_all: bool,
+    filters: dict[str, object],
+) -> list[dict[str, object]]:
+    _positive_integer("pageIndex", page_index)
+    _positive_integer("pageSize", page_size)
+    if not isinstance(fetch_all, bool):
+        raise TypeError("fetchAll must be a boolean")
+
+    result: list[dict[str, object]] = []
+    page = page_index
+    while True:
+        response = client._authorized_request(
+            "POST",
+            path,
             params={"pageIndex": page, "pageSize": page_size},
             json=filters,
         )

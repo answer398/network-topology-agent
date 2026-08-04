@@ -11,15 +11,19 @@ Typical usage::
 from .platform import (
     TopologyPlatformClient,
     import_topology,
+    load_resource_snapshot,
     list_flavors,
     list_images,
     login,
+    validate_payload,
 )
 
 __all__ = [
     "TopologyPlatformClient",
     "import_topology",
+    "load_resource_snapshot",
     "list_flavors",
     "list_images",
     "login",
+    "validate_payload",
 ]

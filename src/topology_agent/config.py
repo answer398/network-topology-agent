@@ -5,9 +5,8 @@ from __future__ import annotations
 import os
 from collections.abc import Mapping
 from pathlib import Path
-
 import yaml
-from dotenv import load_dotenv
+from dotenv import dotenv_values, load_dotenv
 from pydantic import (
     BaseModel,
     ConfigDict,
@@ -31,7 +30,8 @@ from .models import (
 
 
 _REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
-load_dotenv(dotenv_path=_REPOSITORY_ROOT / ".env", override=False)
+_DOTENV_PATH = _REPOSITORY_ROOT / ".env"
+load_dotenv(dotenv_path=_DOTENV_PATH, override=False)
 
 
 def _to_camel(value: str) -> str:
@@ -74,13 +74,14 @@ class ModelConfig(_ConfigModel):
     max_tokens: Annotated[int, Field(gt=0)]
     timeout_seconds: Annotated[float, Field(gt=0.0)]
     text_stage: TextStageModelConfig = Field(default_factory=TextStageModelConfig)
-    api_key: SecretStr
+    api_key: SecretStr | None = None
 
 
 class PlatformPathsConfig(_ConfigModel):
     login: NonEmptyString
     image_list: NonEmptyString
     flavor_list: NonEmptyString
+    topology_clear: NonEmptyString
     topology_import: NonEmptyString
 
 
@@ -89,8 +90,20 @@ class PlatformConfig(_ConfigModel):
     paths: PlatformPathsConfig
     success_codes: list[int] = Field(min_length=1)
     timeout_seconds: Annotated[float, Field(gt=0.0)]
-    username: SecretStr
-    password: SecretStr
+    offline_image_file: NonEmptyString = "data/list_images.json"
+    offline_flavor_file: NonEmptyString = "data/list_flavors.json"
+    username: SecretStr | None = None
+    password: SecretStr | None = None
+
+    @model_validator(mode="after")
+    def validate_platform_credentials(self) -> "PlatformConfig":
+        has_username = self.username is not None
+        has_password = self.password is not None
+        if has_username != has_password:
+            raise ValueError(
+                "platform.username and platform.password must be provided together"
+            )
+        return self
 
 
 class ImageProcessingConfig(_ConfigModel):
@@ -167,7 +180,10 @@ def _format_validation_error(label: str, exc: ValidationError) -> ConfigurationE
 
 
 def _inject_secrets(
-    data: dict[str, object], environment: Mapping[str, str]
+    data: dict[str, object],
+    environment: Mapping[str, str],
+    *,
+    require_model_api_key: bool,
 ) -> dict[str, object]:
     result = dict(data)
     for section_name in {section for section, _ in _ENVIRONMENT_FIELDS.values()}:
@@ -188,11 +204,16 @@ def _inject_secrets(
             )
         result[section_name] = section_data
 
+    required_variables = (
+        {"TOPOLOGY_MODEL_API_KEY"} if require_model_api_key else set()
+    )
+
     missing = []
     for variable, (section_name, field_name) in _ENVIRONMENT_FIELDS.items():
         value = environment.get(variable)
         if not isinstance(value, str) or not value.strip():
-            missing.append(f"{section_name}.{field_name} ({variable})")
+            if variable in required_variables:
+                missing.append(f"{section_name}.{field_name} ({variable})")
             continue
         section = result[section_name]
         if isinstance(section, dict):
@@ -207,15 +228,36 @@ def _inject_secrets(
 def load_app_config(
     path: str | Path = Path("config/app.yaml"),
     environ: Mapping[str, str] | None = None,
+    *,
+    require_model_api_key: bool = True,
 ) -> AppConfig:
-    """Load application YAML and inject the three fixed secret variables."""
+    """Load application YAML and inject the required environment secrets."""
 
-    environment = os.environ if environ is None else environ
-    data = _inject_secrets(_read_yaml(path), environment)
+    environment = _environment_with_dotenv_fallback() if environ is None else environ
+    data = _inject_secrets(
+        _read_yaml(path),
+        environment,
+        require_model_api_key=require_model_api_key,
+    )
     try:
         return AppConfig.model_validate(data)
     except ValidationError as exc:
         raise _format_validation_error("application configuration", exc) from None
+
+
+def _environment_with_dotenv_fallback() -> dict[str, str]:
+    """Keep non-empty shell values while allowing dotenv to fill empty ones."""
+
+    environment = dict(os.environ)
+    dotenv_data = dotenv_values(_DOTENV_PATH)
+    for variable in _ENVIRONMENT_FIELDS:
+        current = environment.get(variable)
+        if isinstance(current, str) and current.strip():
+            continue
+        value = dotenv_data.get(variable)
+        if isinstance(value, str) and value.strip():
+            environment[variable] = value
+    return environment
 
 
 def load_device_mapping(
