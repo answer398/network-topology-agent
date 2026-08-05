@@ -1,15 +1,17 @@
 model:
   baseUrl: https://llm-9i4swuft956lxkp5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
-  modelName: qwen3.7-plus
-  textOnlyModelName: qwen3.7-max
+  modelName: qwen3.8-max
+  textOnlyModelName: qwen3.8-max
   enableThinking: true
+  thinkingBudget: 8129
   temperature: 0.0
   maxTokens: 32768
   timeoutSeconds: 2400
   textStage:
     maxTokens: 32768
     degradedMaxTokens: 8192
-    enableThinking: false
+    enableThinking: true
+    thinkingBudget: 8192
 
 platform:
   baseUrl: http://10.199.100.253/api

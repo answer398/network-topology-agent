@@ -92,7 +92,7 @@ TOPOLOGY_PLATFORM_PASSWORD=
 
 `config/app.yaml` 保存非敏感配置，包括：
 
-- 模型 Base URL、模型名、Token 上限、超时和调用预算；
+- 模型 Base URL、模型名、Token 上限、thinking 开关与预算、超时和调用预算；
 - 平台 Base URL、登录、资源查询、清理拓扑和导入接口路径；
 - 图片最长边限制；
 - 默认版本、MTU、DHCP 和 DNS；

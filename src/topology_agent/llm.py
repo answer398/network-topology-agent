@@ -102,6 +102,7 @@ class ModelHttpAttempt:
     model: str
     max_tokens: int
     thinking_enabled: bool
+    thinking_budget: int
     response_format_enabled: bool
     request_started_at: str
     first_byte_at: str | None
@@ -134,6 +135,7 @@ class ModelHttpAttempt:
             "model": self.model,
             "maxTokens": self.max_tokens,
             "thinkingEnabled": self.thinking_enabled,
+            "thinkingBudget": self.thinking_budget,
             "responseFormatEnabled": self.response_format_enabled,
             "requestStartedAt": self.request_started_at,
             "firstByteAt": self.first_byte_at,
@@ -165,6 +167,7 @@ class _RequestSpec:
     model_name: str
     max_tokens: int
     enable_thinking: bool
+    thinking_budget: int
     degraded_max_tokens: int | None = None
 
 
@@ -294,6 +297,7 @@ class OpenAICompatibleModelClient:
         self._model_name = model_config.model_name
         self._base_url = model_config.base_url
         self._enable_thinking = model_config.enable_thinking
+        self._thinking_budget = model_config.thinking_budget
         self._temperature = model_config.temperature
         self._max_tokens = model_config.max_tokens
         self._timeout_seconds = model_config.timeout_seconds
@@ -303,6 +307,7 @@ class OpenAICompatibleModelClient:
         self._text_max_tokens = model_config.text_stage.max_tokens
         self._text_degraded_max_tokens = model_config.text_stage.degraded_max_tokens
         self._text_enable_thinking = model_config.text_stage.enable_thinking
+        self._text_thinking_budget = model_config.text_stage.thinking_budget
         self._max_model_calls = max_model_calls
         self._prompt_root = Path(prompt_root)
         self._skill_root = Path(skill_root)
@@ -583,6 +588,7 @@ class OpenAICompatibleModelClient:
                     model_name=self._text_only_model_name,
                     max_tokens=self._text_max_tokens,
                     enable_thinking=self._text_enable_thinking,
+                    thinking_budget=self._text_thinking_budget,
                     degraded_max_tokens=self._text_degraded_max_tokens,
                 )
             return _RequestSpec(
@@ -590,6 +596,7 @@ class OpenAICompatibleModelClient:
                 model_name=self._text_only_model_name,
                 max_tokens=self._max_tokens,
                 enable_thinking=self._enable_thinking,
+                thinking_budget=self._thinking_budget,
             )
         if stage == "text":
             return _RequestSpec(
@@ -597,6 +604,7 @@ class OpenAICompatibleModelClient:
                 model_name=self._model_name,
                 max_tokens=self._text_max_tokens,
                 enable_thinking=self._text_enable_thinking,
+                thinking_budget=self._text_thinking_budget,
                 degraded_max_tokens=self._text_degraded_max_tokens,
             )
         return _RequestSpec(
@@ -604,6 +612,7 @@ class OpenAICompatibleModelClient:
             model_name=self._model_name,
             max_tokens=self._max_tokens,
             enable_thinking=self._enable_thinking,
+            thinking_budget=self._thinking_budget,
         )
 
     def _on_http_response(self, response: httpx.Response) -> None:
@@ -634,7 +643,15 @@ class OpenAICompatibleModelClient:
                 "messages": messages,
                 "temperature": self._temperature,
                 "max_tokens": max_tokens,
-                "extra_body": {"enable_thinking": request_spec.enable_thinking},
+                "extra_body": {
+                    "enable_thinking": request_spec.enable_thinking,
+                    **(
+                        {"thinking_budget": request_spec.thinking_budget}
+                        if request_spec.enable_thinking
+                        and request_spec.thinking_budget > 0
+                        else {}
+                    ),
+                },
             }
             if json_mode:
                 parameters["response_format"] = {"type": "json_object"}
@@ -837,6 +854,11 @@ class OpenAICompatibleModelClient:
                 model=active.request_spec.model_name,
                 max_tokens=active.max_tokens,
                 thinking_enabled=active.request_spec.enable_thinking,
+                thinking_budget=(
+                    active.request_spec.thinking_budget
+                    if active.request_spec.enable_thinking
+                    else 0
+                ),
                 response_format_enabled=active.response_format_enabled,
                 request_started_at=active.request_started_at,
                 first_byte_at=active.first_byte_at,

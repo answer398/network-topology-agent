@@ -57,6 +57,7 @@ class TextStageModelConfig(_ConfigModel):
     max_tokens: Annotated[StrictInt, Field(gt=0)] = 8192
     degraded_max_tokens: Annotated[StrictInt, Field(gt=0)] = 4096
     enable_thinking: bool = False
+    thinking_budget: Annotated[StrictInt, Field(ge=0)] = 0
 
     @model_validator(mode="after")
     def require_lower_timeout_budget(self) -> "TextStageModelConfig":
@@ -70,6 +71,7 @@ class ModelConfig(_ConfigModel):
     model_name: NonEmptyString
     text_only_model_name: NonEmptyString | None = None
     enable_thinking: bool
+    thinking_budget: Annotated[StrictInt, Field(ge=0)]
     temperature: Annotated[float, Field(ge=0.0, le=2.0)]
     max_tokens: Annotated[int, Field(gt=0)]
     timeout_seconds: Annotated[float, Field(gt=0.0)]
