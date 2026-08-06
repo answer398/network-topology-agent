@@ -6,3 +6,4 @@
 {"sequence":6,"timestamp":"2026-08-06T07:18:37.343+00:00","event":"recognitionFailed","errorType":"InputError"}
 {"sequence":7,"timestamp":"2026-08-06T07:46:17.594+00:00","event":"recognitionStarted","taskId":"challenge3","imagePath":"D:\\Projects\\network-topology-agent\\runtime\\topo\\challenge3.png"}
 {"sequence":8,"timestamp":"2026-08-06T07:46:18.879+00:00","event":"offlineResourcesLoaded","reason":"recognition","imageFile":"D:\\Projects\\network-topology-agent\\data\\list_images.json","flavorFile":"D:\\Projects\\network-topology-agent\\data\\list_flavors.json","imageCount":278,"flavorCount":45}
+{"sequence":3,"timestamp":"2026-08-06T08:21:46.470+00:00","event":"recognitionFailed","errorType":"ModelInvocationError"}
