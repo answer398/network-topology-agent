@@ -1,9 +1,0 @@
-{"sequence":1,"timestamp":"2026-08-06T06:37:36.867+00:00","event":"recognitionStarted","taskId":"challenge3","imagePath":"D:\\Projects\\network-topology-agent\\runtime\\topo\\challenge3.png"}
-{"sequence":2,"timestamp":"2026-08-06T06:37:38.149+00:00","event":"offlineResourcesLoaded","reason":"recognition","imageFile":"D:\\Projects\\network-topology-agent\\data\\list_images.json","flavorFile":"D:\\Projects\\network-topology-agent\\data\\list_flavors.json","imageCount":278,"flavorCount":45}
-{"sequence":3,"timestamp":"2026-08-06T07:08:55.950+00:00","event":"recognitionFailed","errorType":"ModelInvocationError"}
-{"sequence":4,"timestamp":"2026-08-06T07:14:15.804+00:00","event":"recognitionStarted","taskId":"challenge3","imagePath":"D:\\Projects\\network-topology-agent\\runtime\\topo\\challenge3.png"}
-{"sequence":5,"timestamp":"2026-08-06T07:14:17.093+00:00","event":"offlineResourcesLoaded","reason":"recognition","imageFile":"D:\\Projects\\network-topology-agent\\data\\list_images.json","flavorFile":"D:\\Projects\\network-topology-agent\\data\\list_flavors.json","imageCount":278,"flavorCount":45}
-{"sequence":6,"timestamp":"2026-08-06T07:18:37.343+00:00","event":"recognitionFailed","errorType":"InputError"}
-{"sequence":7,"timestamp":"2026-08-06T07:46:17.594+00:00","event":"recognitionStarted","taskId":"challenge3","imagePath":"D:\\Projects\\network-topology-agent\\runtime\\topo\\challenge3.png"}
-{"sequence":8,"timestamp":"2026-08-06T07:46:18.879+00:00","event":"offlineResourcesLoaded","reason":"recognition","imageFile":"D:\\Projects\\network-topology-agent\\data\\list_images.json","flavorFile":"D:\\Projects\\network-topology-agent\\data\\list_flavors.json","imageCount":278,"flavorCount":45}
-{"sequence":3,"timestamp":"2026-08-06T08:21:46.470+00:00","event":"recognitionFailed","errorType":"ModelInvocationError"}

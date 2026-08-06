@@ -1,2 +1,0 @@
-{"sequence":1,"timestamp":"2026-08-06T05:53:21.275+00:00","event":"resourceRefreshStarted"}
-{"sequence":2,"timestamp":"2026-08-06T05:53:31.460+00:00","event":"resourceRefreshSucceeded","imageFile":"D:\\Projects\\network-topology-agent\\data\\list_images.json","flavorFile":"D:\\Projects\\network-topology-agent\\data\\list_flavors.json","imageCount":278,"flavorCount":45}
