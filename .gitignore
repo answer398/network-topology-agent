@@ -8,7 +8,7 @@ build/
 dist/
 runtime/runs/*
 runtime/topo/*
-runtime/*/result.json
 runtime/*/submission_result.json
 runtime/*/submission_response.json
 runtime/*/log/
+.venv-win
