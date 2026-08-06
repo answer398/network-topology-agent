@@ -1,0 +1,5228 @@
+{
+  "taskId": "222",
+  "imageWidth": 1915,
+  "imageHeight": 1243,
+  "nodes": [
+    {
+      "id": "obs_node_001",
+      "stableNumber": "N001",
+      "bbox": {
+        "x": 1800.0,
+        "y": 30.0,
+        "width": 67.0,
+        "height": 90.0
+      },
+      "center": {
+        "x": 1833.5,
+        "y": 75.0
+      },
+      "nameCandidates": [
+        "VPC"
+      ],
+      "typeCandidates": [
+        "vpc_server"
+      ],
+      "evidenceIds": [
+        "evidence_001",
+        "evidence_002",
+        "evidence_107"
+      ]
+    },
+    {
+      "id": "obs_node_002",
+      "stableNumber": "N002",
+      "bbox": {
+        "x": 1275.0,
+        "y": 45.0,
+        "width": 87.0,
+        "height": 63.0
+      },
+      "center": {
+        "x": 1318.5,
+        "y": 76.5
+      },
+      "nameCandidates": [
+        "Cisco-5500-FW1"
+      ],
+      "typeCandidates": [
+        "firewall"
+      ],
+      "evidenceIds": [
+        "evidence_003",
+        "evidence_004",
+        "evidence_106"
+      ]
+    },
+    {
+      "id": "obs_node_003",
+      "stableNumber": "N003",
+      "bbox": {
+        "x": 1545.0,
+        "y": 47.0,
+        "width": 103.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1596.5,
+        "y": 72.0
+      },
+      "nameCandidates": [
+        "A9"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ]
+    },
+    {
+      "id": "obs_node_004",
+      "stableNumber": "N004",
+      "bbox": {
+        "x": 975.0,
+        "y": 58.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1026.0,
+        "y": 83.0
+      },
+      "nameCandidates": [
+        "A7"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ]
+    },
+    {
+      "id": "obs_node_005",
+      "stableNumber": "N005",
+      "bbox": {
+        "x": 180.0,
+        "y": 140.0,
+        "width": 82.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 221.0,
+        "y": 176.0
+      },
+      "nameCandidates": [
+        "A1-pc1"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_009",
+        "evidence_010",
+        "evidence_108"
+      ]
+    },
+    {
+      "id": "obs_node_006",
+      "stableNumber": "N006",
+      "bbox": {
+        "x": 1575.0,
+        "y": 270.0,
+        "width": 67.0,
+        "height": 90.0
+      },
+      "center": {
+        "x": 1608.5,
+        "y": 315.0
+      },
+      "nameCandidates": [
+        "VPC2"
+      ],
+      "typeCandidates": [
+        "vpc_server"
+      ],
+      "evidenceIds": [
+        "evidence_011",
+        "evidence_012",
+        "evidence_111"
+      ]
+    },
+    {
+      "id": "obs_node_007",
+      "stableNumber": "N007",
+      "bbox": {
+        "x": 985.0,
+        "y": 292.0,
+        "width": 77.0,
+        "height": 58.0
+      },
+      "center": {
+        "x": 1023.5,
+        "y": 321.0
+      },
+      "nameCandidates": [
+        "Cisco-9000-Core-R1"
+      ],
+      "typeCandidates": [
+        "router"
+      ],
+      "evidenceIds": [
+        "evidence_013",
+        "evidence_014",
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "id": "obs_node_008",
+      "stableNumber": "N008",
+      "bbox": {
+        "x": 1275.0,
+        "y": 292.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1326.0,
+        "y": 317.0
+      },
+      "nameCandidates": [
+        "A8"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_015",
+        "evidence_016"
+      ]
+    },
+    {
+      "id": "obs_node_009",
+      "stableNumber": "N009",
+      "bbox": {
+        "x": 180.0,
+        "y": 295.0,
+        "width": 82.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 221.0,
+        "y": 331.0
+      },
+      "nameCandidates": [
+        "A1-pc2"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_017",
+        "evidence_018",
+        "evidence_112"
+      ]
+    },
+    {
+      "id": "obs_node_010",
+      "stableNumber": "N010",
+      "bbox": {
+        "x": 410.0,
+        "y": 305.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 461.0,
+        "y": 330.0
+      },
+      "nameCandidates": [
+        "A1"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_019",
+        "evidence_020"
+      ]
+    },
+    {
+      "id": "obs_node_011",
+      "stableNumber": "N011",
+      "bbox": {
+        "x": 180.0,
+        "y": 445.0,
+        "width": 82.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 221.0,
+        "y": 481.0
+      },
+      "nameCandidates": [
+        "A1-pc3"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_021",
+        "evidence_022",
+        "evidence_113"
+      ]
+    },
+    {
+      "id": "obs_node_012",
+      "stableNumber": "N012",
+      "bbox": {
+        "x": 975.0,
+        "y": 605.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1026.0,
+        "y": 630.0
+      },
+      "nameCandidates": [
+        "A10"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_023",
+        "evidence_024"
+      ]
+    },
+    {
+      "id": "obs_node_013",
+      "stableNumber": "N013",
+      "bbox": {
+        "x": 570.0,
+        "y": 610.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 610.0,
+        "y": 640.0
+      },
+      "nameCandidates": [
+        "Cisco-9000-R1"
+      ],
+      "typeCandidates": [
+        "router"
+      ],
+      "evidenceIds": [
+        "evidence_025",
+        "evidence_026",
+        "evidence_114",
+        "evidence_115"
+      ]
+    },
+    {
+      "id": "obs_node_014",
+      "stableNumber": "N014",
+      "bbox": {
+        "x": 1408.0,
+        "y": 610.0,
+        "width": 79.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 1447.5,
+        "y": 640.0
+      },
+      "nameCandidates": [
+        "Cisco-9000-R2"
+      ],
+      "typeCandidates": [
+        "router"
+      ],
+      "evidenceIds": [
+        "evidence_027",
+        "evidence_028",
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "id": "obs_node_015",
+      "stableNumber": "N015",
+      "bbox": {
+        "x": 160.0,
+        "y": 915.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 211.0,
+        "y": 940.0
+      },
+      "nameCandidates": [
+        "A2"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_029",
+        "evidence_030"
+      ]
+    },
+    {
+      "id": "obs_node_016",
+      "stableNumber": "N016",
+      "bbox": {
+        "x": 1180.0,
+        "y": 915.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1231.0,
+        "y": 940.0
+      },
+      "nameCandidates": [
+        "A5"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_031",
+        "evidence_032"
+      ]
+    },
+    {
+      "id": "obs_node_017",
+      "stableNumber": "N017",
+      "bbox": {
+        "x": 510.0,
+        "y": 920.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 561.0,
+        "y": 945.0
+      },
+      "nameCandidates": [
+        "A3"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_033",
+        "evidence_034"
+      ]
+    },
+    {
+      "id": "obs_node_018",
+      "stableNumber": "N018",
+      "bbox": {
+        "x": 760.0,
+        "y": 920.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 811.0,
+        "y": 945.0
+      },
+      "nameCandidates": [
+        "A4"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_035",
+        "evidence_036"
+      ]
+    },
+    {
+      "id": "obs_node_019",
+      "stableNumber": "N019",
+      "bbox": {
+        "x": 1650.0,
+        "y": 920.0,
+        "width": 102.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 1701.0,
+        "y": 945.0
+      },
+      "nameCandidates": [
+        "A6"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_037",
+        "evidence_038"
+      ]
+    },
+    {
+      "id": "obs_node_020",
+      "stableNumber": "N020",
+      "bbox": {
+        "x": 473.0,
+        "y": 1065.0,
+        "width": 64.0,
+        "height": 95.0
+      },
+      "center": {
+        "x": 505.0,
+        "y": 1112.5
+      },
+      "nameCandidates": [
+        "Web"
+      ],
+      "typeCandidates": [
+        "web_server"
+      ],
+      "evidenceIds": [
+        "evidence_039",
+        "evidence_040",
+        "evidence_121"
+      ]
+    },
+    {
+      "id": "obs_node_021",
+      "stableNumber": "N021",
+      "bbox": {
+        "x": 593.0,
+        "y": 1065.0,
+        "width": 64.0,
+        "height": 95.0
+      },
+      "center": {
+        "x": 625.0,
+        "y": 1112.5
+      },
+      "nameCandidates": [
+        "DB"
+      ],
+      "typeCandidates": [
+        "database_server"
+      ],
+      "evidenceIds": [
+        "evidence_041",
+        "evidence_042",
+        "evidence_122"
+      ]
+    },
+    {
+      "id": "obs_node_022",
+      "stableNumber": "N022",
+      "bbox": {
+        "x": 713.0,
+        "y": 1065.0,
+        "width": 64.0,
+        "height": 95.0
+      },
+      "center": {
+        "x": 745.0,
+        "y": 1112.5
+      },
+      "nameCandidates": [
+        "Mail"
+      ],
+      "typeCandidates": [
+        "mail_server"
+      ],
+      "evidenceIds": [
+        "evidence_043",
+        "evidence_044",
+        "evidence_123"
+      ]
+    },
+    {
+      "id": "obs_node_023",
+      "stableNumber": "N023",
+      "bbox": {
+        "x": 833.0,
+        "y": 1065.0,
+        "width": 64.0,
+        "height": 95.0
+      },
+      "center": {
+        "x": 865.0,
+        "y": 1112.5
+      },
+      "nameCandidates": [
+        "Monitor"
+      ],
+      "typeCandidates": [
+        "monitor_server"
+      ],
+      "evidenceIds": [
+        "evidence_045",
+        "evidence_046",
+        "evidence_124"
+      ]
+    },
+    {
+      "id": "obs_node_024",
+      "stableNumber": "N024",
+      "bbox": {
+        "x": 48.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 87.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A2-pc1"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_047",
+        "evidence_048",
+        "evidence_118"
+      ]
+    },
+    {
+      "id": "obs_node_025",
+      "stableNumber": "N025",
+      "bbox": {
+        "x": 168.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 207.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A2-pc2"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_049",
+        "evidence_050",
+        "evidence_119"
+      ]
+    },
+    {
+      "id": "obs_node_026",
+      "stableNumber": "N026",
+      "bbox": {
+        "x": 288.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 327.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A2-pc3"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_051",
+        "evidence_052",
+        "evidence_120"
+      ]
+    },
+    {
+      "id": "obs_node_027",
+      "stableNumber": "N027",
+      "bbox": {
+        "x": 1060.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1099.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A5-pc3"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_053",
+        "evidence_054",
+        "evidence_125"
+      ]
+    },
+    {
+      "id": "obs_node_028",
+      "stableNumber": "N028",
+      "bbox": {
+        "x": 1185.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1224.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A5-pc4"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_055",
+        "evidence_056",
+        "evidence_126"
+      ]
+    },
+    {
+      "id": "obs_node_029",
+      "stableNumber": "N029",
+      "bbox": {
+        "x": 1310.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1349.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A5-pc5"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_057",
+        "evidence_058",
+        "evidence_127"
+      ]
+    },
+    {
+      "id": "obs_node_030",
+      "stableNumber": "N030",
+      "bbox": {
+        "x": 1520.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1559.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A6-pc1"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_059",
+        "evidence_060",
+        "evidence_128"
+      ]
+    },
+    {
+      "id": "obs_node_031",
+      "stableNumber": "N031",
+      "bbox": {
+        "x": 1645.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1684.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A6-pc2"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_061",
+        "evidence_062",
+        "evidence_129"
+      ]
+    },
+    {
+      "id": "obs_node_032",
+      "stableNumber": "N032",
+      "bbox": {
+        "x": 1770.0,
+        "y": 1090.0,
+        "width": 79.0,
+        "height": 72.0
+      },
+      "center": {
+        "x": 1809.5,
+        "y": 1126.0
+      },
+      "nameCandidates": [
+        "A6-pc3"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_063",
+        "evidence_064",
+        "evidence_130"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "obs_if_003",
+      "nodeId": "obs_node_001",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.10.5/24",
+      "ipCandidates": [
+        "192.168.10.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_107",
+        "evidence_077"
+      ]
+    },
+    {
+      "id": "obs_if_001",
+      "nodeId": "obs_node_002",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "10.0.6.3/24",
+      "ipCandidates": [
+        "10.0.6.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_106",
+        "evidence_075"
+      ]
+    },
+    {
+      "id": "obs_if_002",
+      "nodeId": "obs_node_002",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "192.168.10.1/24",
+      "ipCandidates": [
+        "192.168.10.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_106",
+        "evidence_076"
+      ]
+    },
+    {
+      "id": "obs_if_030",
+      "nodeId": "obs_node_003",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_076"
+      ]
+    },
+    {
+      "id": "obs_if_031",
+      "nodeId": "obs_node_003",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_077"
+      ]
+    },
+    {
+      "id": "obs_if_029",
+      "nodeId": "obs_node_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_075"
+      ]
+    },
+    {
+      "id": "obs_if_032",
+      "nodeId": "obs_node_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_078"
+      ]
+    },
+    {
+      "id": "obs_if_004",
+      "nodeId": "obs_node_005",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.3/24",
+      "ipCandidates": [
+        "10.0.1.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_108",
+        "evidence_079"
+      ]
+    },
+    {
+      "id": "obs_if_009",
+      "nodeId": "obs_node_006",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.20.5/24",
+      "ipCandidates": [
+        "192.168.20.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_111",
+        "evidence_084"
+      ]
+    },
+    {
+      "id": "obs_if_005",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "10.0.6.1/24",
+      "ipCandidates": [
+        "10.0.6.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "id": "obs_if_006",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "10.0.1.1/24",
+      "ipCandidates": [
+        "10.0.1.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "id": "obs_if_007",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "192.168.20.1/24",
+      "ipCandidates": [
+        "192.168.20.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "id": "obs_if_008",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "192.168.30.1/24",
+      "ipCandidates": [
+        "192.168.30.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "id": "obs_if_033",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_078"
+      ]
+    },
+    {
+      "id": "obs_if_038",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_082"
+      ]
+    },
+    {
+      "id": "obs_if_039",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_083"
+      ]
+    },
+    {
+      "id": "obs_if_042",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_085"
+      ]
+    },
+    {
+      "id": "obs_if_040",
+      "nodeId": "obs_node_008",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_083"
+      ]
+    },
+    {
+      "id": "obs_if_041",
+      "nodeId": "obs_node_008",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_084"
+      ]
+    },
+    {
+      "id": "obs_if_010",
+      "nodeId": "obs_node_009",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.4/24",
+      "ipCandidates": [
+        "10.0.1.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_112",
+        "evidence_080"
+      ]
+    },
+    {
+      "id": "obs_if_034",
+      "nodeId": "obs_node_010",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_079"
+      ]
+    },
+    {
+      "id": "obs_if_035",
+      "nodeId": "obs_node_010",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_080"
+      ]
+    },
+    {
+      "id": "obs_if_036",
+      "nodeId": "obs_node_010",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_081"
+      ]
+    },
+    {
+      "id": "obs_if_037",
+      "nodeId": "obs_node_010",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_082"
+      ]
+    },
+    {
+      "id": "obs_if_011",
+      "nodeId": "obs_node_011",
+      "nodeCandidates": [
+        "obs_node_011"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.5/24",
+      "ipCandidates": [
+        "10.0.1.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_113",
+        "evidence_081"
+      ]
+    },
+    {
+      "id": "obs_if_043",
+      "nodeId": "obs_node_012",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_085"
+      ]
+    },
+    {
+      "id": "obs_if_044",
+      "nodeId": "obs_node_012",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_086"
+      ]
+    },
+    {
+      "id": "obs_if_045",
+      "nodeId": "obs_node_012",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_087"
+      ]
+    },
+    {
+      "id": "obs_if_012",
+      "nodeId": "obs_node_013",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1",
+        "GE0/2",
+        "GE0/3",
+        "GE0/4"
+      ],
+      "rawIpText": "192.168.30.3/24\n10.0.2.1\n10.0.3.1\n10.0.10.1",
+      "ipCandidates": [
+        "192.168.30.3/24",
+        "192.168.30.3",
+        "10.0.2.1",
+        "10.0.3.1",
+        "10.0.10.1",
+        "10.0.2.1/24",
+        "10.0.3.1/24",
+        "10.0.10.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_114",
+        "evidence_115",
+        "evidence_086"
+      ]
+    },
+    {
+      "id": "obs_if_047",
+      "nodeId": "obs_node_013",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "id": "obs_if_049",
+      "nodeId": "obs_node_013",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "id": "obs_if_051",
+      "nodeId": "obs_node_013",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    },
+    {
+      "id": "obs_if_013",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "192.168.30.4/24",
+      "ipCandidates": [
+        "192.168.30.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "id": "obs_if_014",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "10.0.4.1/24",
+      "ipCandidates": [
+        "10.0.4.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "id": "obs_if_015",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": null,
+      "nameCandidates": [],
+      "rawIpText": "10.0.5.1/24",
+      "ipCandidates": [
+        "10.0.5.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "id": "obs_if_046",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_087"
+      ]
+    },
+    {
+      "id": "obs_if_053",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_091"
+      ]
+    },
+    {
+      "id": "obs_if_055",
+      "nodeId": "obs_node_014",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_092"
+      ]
+    },
+    {
+      "id": "obs_if_048",
+      "nodeId": "obs_node_015",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "id": "obs_if_057",
+      "nodeId": "obs_node_015",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_093"
+      ]
+    },
+    {
+      "id": "obs_if_058",
+      "nodeId": "obs_node_015",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_094"
+      ]
+    },
+    {
+      "id": "obs_if_059",
+      "nodeId": "obs_node_015",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_095"
+      ]
+    },
+    {
+      "id": "obs_if_054",
+      "nodeId": "obs_node_016",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_091"
+      ]
+    },
+    {
+      "id": "obs_if_064",
+      "nodeId": "obs_node_016",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_100"
+      ]
+    },
+    {
+      "id": "obs_if_065",
+      "nodeId": "obs_node_016",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_101"
+      ]
+    },
+    {
+      "id": "obs_if_066",
+      "nodeId": "obs_node_016",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_102"
+      ]
+    },
+    {
+      "id": "obs_if_050",
+      "nodeId": "obs_node_017",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "id": "obs_if_060",
+      "nodeId": "obs_node_017",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_096"
+      ]
+    },
+    {
+      "id": "obs_if_061",
+      "nodeId": "obs_node_017",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_097"
+      ]
+    },
+    {
+      "id": "obs_if_052",
+      "nodeId": "obs_node_018",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    },
+    {
+      "id": "obs_if_062",
+      "nodeId": "obs_node_018",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_098"
+      ]
+    },
+    {
+      "id": "obs_if_063",
+      "nodeId": "obs_node_018",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_099"
+      ]
+    },
+    {
+      "id": "obs_if_056",
+      "nodeId": "obs_node_019",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_092",
+        "evidence_105"
+      ]
+    },
+    {
+      "id": "obs_if_067",
+      "nodeId": "obs_node_019",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_103"
+      ]
+    },
+    {
+      "id": "obs_if_068",
+      "nodeId": "obs_node_019",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_104"
+      ]
+    },
+    {
+      "id": "obs_if_019",
+      "nodeId": "obs_node_020",
+      "nodeCandidates": [
+        "obs_node_020"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.3.3/24",
+      "ipCandidates": [
+        "10.0.3.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_121",
+        "evidence_096"
+      ]
+    },
+    {
+      "id": "obs_if_020",
+      "nodeId": "obs_node_021",
+      "nodeCandidates": [
+        "obs_node_021"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.3.4/24",
+      "ipCandidates": [
+        "10.0.3.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_122",
+        "evidence_097"
+      ]
+    },
+    {
+      "id": "obs_if_021",
+      "nodeId": "obs_node_022",
+      "nodeCandidates": [
+        "obs_node_022"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.10.3/24",
+      "ipCandidates": [
+        "10.0.10.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_123",
+        "evidence_098"
+      ]
+    },
+    {
+      "id": "obs_if_022",
+      "nodeId": "obs_node_023",
+      "nodeCandidates": [
+        "obs_node_023"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.10.4/24",
+      "ipCandidates": [
+        "10.0.10.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_124",
+        "evidence_099"
+      ]
+    },
+    {
+      "id": "obs_if_016",
+      "nodeId": "obs_node_024",
+      "nodeCandidates": [
+        "obs_node_024"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.3/24",
+      "ipCandidates": [
+        "10.0.2.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_118",
+        "evidence_093"
+      ]
+    },
+    {
+      "id": "obs_if_017",
+      "nodeId": "obs_node_025",
+      "nodeCandidates": [
+        "obs_node_025"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.4/24",
+      "ipCandidates": [
+        "10.0.2.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_119",
+        "evidence_094"
+      ]
+    },
+    {
+      "id": "obs_if_018",
+      "nodeId": "obs_node_026",
+      "nodeCandidates": [
+        "obs_node_026"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.5/24",
+      "ipCandidates": [
+        "10.0.2.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_120",
+        "evidence_095"
+      ]
+    },
+    {
+      "id": "obs_if_023",
+      "nodeId": "obs_node_027",
+      "nodeCandidates": [
+        "obs_node_027"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.3/24",
+      "ipCandidates": [
+        "10.0.4.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_125",
+        "evidence_100"
+      ]
+    },
+    {
+      "id": "obs_if_024",
+      "nodeId": "obs_node_028",
+      "nodeCandidates": [
+        "obs_node_028"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.4/24",
+      "ipCandidates": [
+        "10.0.4.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_126",
+        "evidence_101"
+      ]
+    },
+    {
+      "id": "obs_if_025",
+      "nodeId": "obs_node_029",
+      "nodeCandidates": [
+        "obs_node_029"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.5/24",
+      "ipCandidates": [
+        "10.0.4.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_127",
+        "evidence_102"
+      ]
+    },
+    {
+      "id": "obs_if_026",
+      "nodeId": "obs_node_030",
+      "nodeCandidates": [
+        "obs_node_030"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.3/24",
+      "ipCandidates": [
+        "10.0.5.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_128",
+        "evidence_103"
+      ]
+    },
+    {
+      "id": "obs_if_027",
+      "nodeId": "obs_node_031",
+      "nodeCandidates": [
+        "obs_node_031"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.4/24",
+      "ipCandidates": [
+        "10.0.5.4/24"
+      ],
+      "evidenceIds": [
+        "evidence_129",
+        "evidence_104"
+      ]
+    },
+    {
+      "id": "obs_if_028",
+      "nodeId": "obs_node_032",
+      "nodeCandidates": [
+        "obs_node_032"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.5/24",
+      "ipCandidates": [
+        "10.0.5.5/24"
+      ],
+      "evidenceIds": [
+        "evidence_130",
+        "evidence_105"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "obs_link_001",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_002"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_029"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_001"
+      ],
+      "polyline": [
+        {
+          "x": 1077.0,
+          "y": 83.0
+        },
+        {
+          "x": 1275.0,
+          "y": 76.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_075"
+      ]
+    },
+    {
+      "id": "obs_link_002",
+      "sourceNodeCandidates": [
+        "obs_node_002"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_003"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_002"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_030"
+      ],
+      "polyline": [
+        {
+          "x": 1362.0,
+          "y": 76.0
+        },
+        {
+          "x": 1545.0,
+          "y": 72.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_076"
+      ]
+    },
+    {
+      "id": "obs_link_003",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_001"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_031"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_003"
+      ],
+      "polyline": [
+        {
+          "x": 1648.0,
+          "y": 72.0
+        },
+        {
+          "x": 1800.0,
+          "y": 75.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_077"
+      ]
+    },
+    {
+      "id": "obs_link_004",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_007"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_032"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_033"
+      ],
+      "polyline": [
+        {
+          "x": 1026.0,
+          "y": 108.0
+        },
+        {
+          "x": 1023.5,
+          "y": 292.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_078"
+      ]
+    },
+    {
+      "id": "obs_link_005",
+      "sourceNodeCandidates": [
+        "obs_node_005"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_010"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_004"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_034"
+      ],
+      "polyline": [
+        {
+          "x": 262.0,
+          "y": 196.0
+        },
+        {
+          "x": 410.0,
+          "y": 330.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_079"
+      ]
+    },
+    {
+      "id": "obs_link_006",
+      "sourceNodeCandidates": [
+        "obs_node_009"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_010"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_010"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_035"
+      ],
+      "polyline": [
+        {
+          "x": 262.0,
+          "y": 331.0
+        },
+        {
+          "x": 410.0,
+          "y": 330.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_080"
+      ]
+    },
+    {
+      "id": "obs_link_007",
+      "sourceNodeCandidates": [
+        "obs_node_011"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_010"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_011"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_036"
+      ],
+      "polyline": [
+        {
+          "x": 262.0,
+          "y": 481.0
+        },
+        {
+          "x": 410.0,
+          "y": 332.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_081"
+      ]
+    },
+    {
+      "id": "obs_link_008",
+      "sourceNodeCandidates": [
+        "obs_node_010"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_007"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_037"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_038"
+      ],
+      "polyline": [
+        {
+          "x": 512.0,
+          "y": 330.0
+        },
+        {
+          "x": 985.0,
+          "y": 321.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_082"
+      ]
+    },
+    {
+      "id": "obs_link_009",
+      "sourceNodeCandidates": [
+        "obs_node_007"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_008"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_039"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_040"
+      ],
+      "polyline": [
+        {
+          "x": 1062.0,
+          "y": 321.0
+        },
+        {
+          "x": 1275.0,
+          "y": 317.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_083"
+      ]
+    },
+    {
+      "id": "obs_link_010",
+      "sourceNodeCandidates": [
+        "obs_node_008"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_006"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_041"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_009"
+      ],
+      "polyline": [
+        {
+          "x": 1377.0,
+          "y": 317.0
+        },
+        {
+          "x": 1575.0,
+          "y": 315.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_084"
+      ]
+    },
+    {
+      "id": "obs_link_011",
+      "sourceNodeCandidates": [
+        "obs_node_007"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_012"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_042"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_043"
+      ],
+      "polyline": [
+        {
+          "x": 1023.5,
+          "y": 350.0
+        },
+        {
+          "x": 1026.0,
+          "y": 605.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_085"
+      ]
+    },
+    {
+      "id": "obs_link_012",
+      "sourceNodeCandidates": [
+        "obs_node_012"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_013"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_044"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_012"
+      ],
+      "polyline": [
+        {
+          "x": 975.0,
+          "y": 630.0
+        },
+        {
+          "x": 650.0,
+          "y": 640.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_086"
+      ]
+    },
+    {
+      "id": "obs_link_013",
+      "sourceNodeCandidates": [
+        "obs_node_012"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_014"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_045"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_046"
+      ],
+      "polyline": [
+        {
+          "x": 1077.0,
+          "y": 630.0
+        },
+        {
+          "x": 1408.0,
+          "y": 640.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_087"
+      ]
+    },
+    {
+      "id": "obs_link_014",
+      "sourceNodeCandidates": [
+        "obs_node_013"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_015"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_012",
+        "obs_if_047"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_048"
+      ],
+      "polyline": [
+        {
+          "x": 585.0,
+          "y": 665.0
+        },
+        {
+          "x": 240.0,
+          "y": 915.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "id": "obs_link_015",
+      "sourceNodeCandidates": [
+        "obs_node_013"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_017"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_012",
+        "obs_if_049"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_050"
+      ],
+      "polyline": [
+        {
+          "x": 605.0,
+          "y": 670.0
+        },
+        {
+          "x": 565.0,
+          "y": 920.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "id": "obs_link_016",
+      "sourceNodeCandidates": [
+        "obs_node_013"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_018"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_012",
+        "obs_if_051"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_052"
+      ],
+      "polyline": [
+        {
+          "x": 630.0,
+          "y": 668.0
+        },
+        {
+          "x": 790.0,
+          "y": 920.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    },
+    {
+      "id": "obs_link_017",
+      "sourceNodeCandidates": [
+        "obs_node_014"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_016"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_053"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_054"
+      ],
+      "polyline": [
+        {
+          "x": 1430.0,
+          "y": 668.0
+        },
+        {
+          "x": 1255.0,
+          "y": 915.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_091"
+      ]
+    },
+    {
+      "id": "obs_link_018",
+      "sourceNodeCandidates": [
+        "obs_node_014"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_019"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_055"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_056"
+      ],
+      "polyline": [
+        {
+          "x": 1470.0,
+          "y": 668.0
+        },
+        {
+          "x": 1690.0,
+          "y": 920.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_092"
+      ]
+    },
+    {
+      "id": "obs_link_019",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_024"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_057"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_016"
+      ],
+      "polyline": [
+        {
+          "x": 185.0,
+          "y": 965.0
+        },
+        {
+          "x": 88.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_093"
+      ]
+    },
+    {
+      "id": "obs_link_020",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_025"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_058"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_017"
+      ],
+      "polyline": [
+        {
+          "x": 211.0,
+          "y": 965.0
+        },
+        {
+          "x": 208.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_094"
+      ]
+    },
+    {
+      "id": "obs_link_021",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_026"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_059"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_018"
+      ],
+      "polyline": [
+        {
+          "x": 237.0,
+          "y": 965.0
+        },
+        {
+          "x": 328.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_095"
+      ]
+    },
+    {
+      "id": "obs_link_022",
+      "sourceNodeCandidates": [
+        "obs_node_017"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_020"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_060"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_019"
+      ],
+      "polyline": [
+        {
+          "x": 535.0,
+          "y": 970.0
+        },
+        {
+          "x": 505.0,
+          "y": 1065.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_096"
+      ]
+    },
+    {
+      "id": "obs_link_023",
+      "sourceNodeCandidates": [
+        "obs_node_017"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_021"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_061"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_020"
+      ],
+      "polyline": [
+        {
+          "x": 587.0,
+          "y": 970.0
+        },
+        {
+          "x": 625.0,
+          "y": 1065.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_097"
+      ]
+    },
+    {
+      "id": "obs_link_024",
+      "sourceNodeCandidates": [
+        "obs_node_018"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_022"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_062"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_021"
+      ],
+      "polyline": [
+        {
+          "x": 785.0,
+          "y": 970.0
+        },
+        {
+          "x": 745.0,
+          "y": 1065.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_098"
+      ]
+    },
+    {
+      "id": "obs_link_025",
+      "sourceNodeCandidates": [
+        "obs_node_018"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_023"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_063"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_022"
+      ],
+      "polyline": [
+        {
+          "x": 837.0,
+          "y": 970.0
+        },
+        {
+          "x": 865.0,
+          "y": 1065.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_099"
+      ]
+    },
+    {
+      "id": "obs_link_026",
+      "sourceNodeCandidates": [
+        "obs_node_016"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_027"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_064"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_023"
+      ],
+      "polyline": [
+        {
+          "x": 1205.0,
+          "y": 965.0
+        },
+        {
+          "x": 1100.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_100"
+      ]
+    },
+    {
+      "id": "obs_link_027",
+      "sourceNodeCandidates": [
+        "obs_node_016"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_028"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_065"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_024"
+      ],
+      "polyline": [
+        {
+          "x": 1231.0,
+          "y": 965.0
+        },
+        {
+          "x": 1225.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_101"
+      ]
+    },
+    {
+      "id": "obs_link_028",
+      "sourceNodeCandidates": [
+        "obs_node_016"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_029"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_066"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_025"
+      ],
+      "polyline": [
+        {
+          "x": 1257.0,
+          "y": 965.0
+        },
+        {
+          "x": 1350.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_102"
+      ]
+    },
+    {
+      "id": "obs_link_029",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_030"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_067"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_026"
+      ],
+      "polyline": [
+        {
+          "x": 1675.0,
+          "y": 970.0
+        },
+        {
+          "x": 1560.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.88,
+      "evidenceIds": [
+        "evidence_103"
+      ]
+    },
+    {
+      "id": "obs_link_030",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_031"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_068"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_027"
+      ],
+      "polyline": [
+        {
+          "x": 1701.0,
+          "y": 970.0
+        },
+        {
+          "x": 1685.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_104"
+      ]
+    },
+    {
+      "id": "obs_link_031",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_032"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_056"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_028"
+      ],
+      "polyline": [
+        {
+          "x": 1727.0,
+          "y": 970.0
+        },
+        {
+          "x": 1810.0,
+          "y": 1090.0
+        }
+      ],
+      "confidence": 0.8,
+      "evidenceIds": [
+        "evidence_105"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "obs_region_001",
+      "stableNumber": "R001",
+      "bbox": {
+        "x": 2.0,
+        "y": 848.0,
+        "width": 378.0,
+        "height": 390.0
+      },
+      "nameCandidates": [
+        "LAB JARINGAN"
+      ],
+      "memberNodeCandidates": [
+        "obs_node_015",
+        "obs_node_024",
+        "obs_node_025",
+        "obs_node_026"
+      ],
+      "evidenceIds": [
+        "evidence_065",
+        "evidence_066"
+      ]
+    },
+    {
+      "id": "obs_region_002",
+      "stableNumber": "R002",
+      "bbox": {
+        "x": 443.0,
+        "y": 858.0,
+        "width": 485.0,
+        "height": 380.0
+      },
+      "nameCandidates": [
+        "RUANG SERVER"
+      ],
+      "memberNodeCandidates": [
+        "obs_node_017",
+        "obs_node_018",
+        "obs_node_020",
+        "obs_node_021",
+        "obs_node_022",
+        "obs_node_023"
+      ],
+      "evidenceIds": [
+        "evidence_067",
+        "evidence_068"
+      ]
+    },
+    {
+      "id": "obs_region_003",
+      "stableNumber": "R003",
+      "bbox": {
+        "x": 1030.0,
+        "y": 858.0,
+        "width": 395.0,
+        "height": 380.0
+      },
+      "nameCandidates": [
+        "MANAJEMENT"
+      ],
+      "memberNodeCandidates": [
+        "obs_node_016",
+        "obs_node_027",
+        "obs_node_028",
+        "obs_node_029"
+      ],
+      "evidenceIds": [
+        "evidence_069",
+        "evidence_070"
+      ]
+    },
+    {
+      "id": "obs_region_004",
+      "stableNumber": "R004",
+      "bbox": {
+        "x": 1487.0,
+        "y": 858.0,
+        "width": 391.0,
+        "height": 380.0
+      },
+      "nameCandidates": [
+        "CLIENT"
+      ],
+      "memberNodeCandidates": [
+        "obs_node_019",
+        "obs_node_030",
+        "obs_node_031",
+        "obs_node_032"
+      ],
+      "evidenceIds": [
+        "evidence_071",
+        "evidence_072"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "conflictId": "conflict_001",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_003"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_005",
+            "evidence_006"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_005",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1545.0,
+                "y": 47.0,
+                "width": 103.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_006",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1594.0,
+                "y": 120.0,
+                "width": 16.0,
+                "height": 14.0
+              },
+              "rawText": "A9",
+              "description": "label A9 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_005",
+            "evidence_006"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_005",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1545.0,
+                "y": 47.0,
+                "width": 103.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_006",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1594.0,
+                "y": 120.0,
+                "width": 16.0,
+                "height": 14.0
+              },
+              "rawText": "A9",
+              "description": "label A9 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 1545.0,
+          "y": 47.0,
+          "width": 103.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1596.5,
+          "y": 72.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_002",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_004"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_007",
+            "evidence_008"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_007",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 975.0,
+                "y": 58.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs at top center",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_008",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1016.0,
+                "y": 20.0,
+                "width": 22.0,
+                "height": 14.0
+              },
+              "rawText": "A7",
+              "description": "label A7 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_007",
+            "evidence_008"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_007",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 975.0,
+                "y": 58.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs at top center",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_008",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1016.0,
+                "y": 20.0,
+                "width": 22.0,
+                "height": 14.0
+              },
+              "rawText": "A7",
+              "description": "label A7 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 975.0,
+          "y": 58.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1026.0,
+          "y": 83.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_003",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_008"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_015",
+            "evidence_016"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_015",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1275.0,
+                "y": 292.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_016",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1320.0,
+                "y": 368.0,
+                "width": 16.0,
+                "height": 14.0
+              },
+              "rawText": "A8",
+              "description": "label A8 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_015",
+            "evidence_016"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_015",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1275.0,
+                "y": 292.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_016",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1320.0,
+                "y": 368.0,
+                "width": 16.0,
+                "height": 14.0
+              },
+              "rawText": "A8",
+              "description": "label A8 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_015",
+        "evidence_016"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 1275.0,
+          "y": 292.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1326.0,
+          "y": 317.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_004",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_010"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_019",
+            "evidence_020"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_019",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 410.0,
+                "y": 305.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_020",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 455.0,
+                "y": 270.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A1",
+              "description": "label A1 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_019",
+            "evidence_020"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_019",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 410.0,
+                "y": 305.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_020",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 455.0,
+                "y": 270.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A1",
+              "description": "label A1 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_019",
+        "evidence_020"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 410.0,
+          "y": 305.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 461.0,
+          "y": 330.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_005",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_012"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_023",
+            "evidence_024"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_023",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 975.0,
+                "y": 605.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs at center",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_024",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1012.0,
+                "y": 690.0,
+                "width": 24.0,
+                "height": 14.0
+              },
+              "rawText": "A10",
+              "description": "label A10 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_023",
+            "evidence_024"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_023",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 975.0,
+                "y": 605.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon with arrow glyphs at center",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_024",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1012.0,
+                "y": 690.0,
+                "width": 24.0,
+                "height": 14.0
+              },
+              "rawText": "A10",
+              "description": "label A10 below switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_023",
+        "evidence_024"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 975.0,
+          "y": 605.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1026.0,
+          "y": 630.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_006",
+      "conflictType": "IP_INTERFACE_BINDING_AMBIGUITY",
+      "targetIds": [
+        "obs_if_012"
+      ],
+      "field": "ipCandidates",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "192.168.30.3/24",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_115"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "192.168.30.3",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 2,
+          "value": "10.0.2.1",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 3,
+          "value": "10.0.3.1",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 4,
+          "value": "10.0.10.1",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 5,
+          "value": "10.0.2.1/24",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 6,
+          "value": "10.0.3.1/24",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 7,
+          "value": "10.0.10.1/24",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_114",
+        "evidence_115",
+        "evidence_086"
+      ],
+      "spatialContext": {
+        "nodeId": "obs_node_013",
+        "labelBBox": {
+          "x": 530.0,
+          "y": 555.0,
+          "width": 100.0,
+          "height": 20.0
+        },
+        "ipBBox": {
+          "x": 530.0,
+          "y": 555.0,
+          "width": 100.0,
+          "height": 20.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_007",
+      "conflictType": "EVIDENCE_CONFLICT",
+      "targetIds": [
+        "obs_if_012"
+      ],
+      "field": "rawName",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "GE0/1",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "GE0/2",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 2,
+          "value": "GE0/3",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "candidateIndex": 3,
+          "value": "GE0/4",
+          "sourceStage": "text",
+          "sourceViewId": "global_text",
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_086"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_114",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 470.0,
+                "y": 555.0,
+                "width": 200.0,
+                "height": 120.0
+              },
+              "rawText": "192.168.30.3/24 GE0/1\n10.0.2.1/24 GE0/2\n10.0.3.1/24 GE0/3\n10.0.10.1/24 GE0/4",
+              "description": "Interface and IP labels around Cisco-9000-R1",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_115",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_text",
+              "bbox": {
+                "x": 530.0,
+                "y": 555.0,
+                "width": 100.0,
+                "height": 20.0
+              },
+              "rawText": "192.168.30.3/24",
+              "description": "visible text",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_086",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 650.0,
+                "y": 628.0,
+                "width": 325.0,
+                "height": 14.0
+              },
+              "rawText": null,
+              "description": "horizontal line from N012 left edge to N013 right edge",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_114",
+        "evidence_115",
+        "evidence_086"
+      ],
+      "spatialContext": {
+        "nodeId": "obs_node_013",
+        "labelBBox": {
+          "x": 530.0,
+          "y": 555.0,
+          "width": 100.0,
+          "height": 20.0
+        },
+        "ipBBox": {
+          "x": 530.0,
+          "y": 555.0,
+          "width": 100.0,
+          "height": 20.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_008",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_015"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_029",
+            "evidence_030"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_029",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 160.0,
+                "y": 915.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside LAB JARINGAN box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_030",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 205.0,
+                "y": 884.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A2",
+              "description": "label A2 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_029",
+            "evidence_030"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_029",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 160.0,
+                "y": 915.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside LAB JARINGAN box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_030",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 205.0,
+                "y": 884.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A2",
+              "description": "label A2 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_029",
+        "evidence_030"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 160.0,
+          "y": 915.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 211.0,
+          "y": 940.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_009",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_016"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_031",
+            "evidence_032"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_031",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1180.0,
+                "y": 915.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside MANAJEMENT box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_032",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1225.0,
+                "y": 884.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A5",
+              "description": "label A5 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_031",
+            "evidence_032"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_031",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1180.0,
+                "y": 915.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside MANAJEMENT box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_032",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1225.0,
+                "y": 884.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A5",
+              "description": "label A5 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_031",
+        "evidence_032"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 1180.0,
+          "y": 915.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1231.0,
+          "y": 940.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_010",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_017"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_033",
+            "evidence_034"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_033",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 510.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside RUANG SERVER box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_034",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 600.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A3",
+              "description": "label A3 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_033",
+            "evidence_034"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_033",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 510.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside RUANG SERVER box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_034",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 600.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A3",
+              "description": "label A3 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_033",
+        "evidence_034"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 510.0,
+          "y": 920.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 561.0,
+          "y": 945.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_011",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_018"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_035",
+            "evidence_036"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_035",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 760.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside RUANG SERVER box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_036",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 843.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A4",
+              "description": "label A4 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_035",
+            "evidence_036"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_035",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 760.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside RUANG SERVER box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_036",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 843.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A4",
+              "description": "label A4 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_035",
+        "evidence_036"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 760.0,
+          "y": 920.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 811.0,
+          "y": 945.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_012",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_019"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_037",
+            "evidence_038"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_037",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1650.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside CLIENT box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_038",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1695.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A6",
+              "description": "label A6 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_037",
+            "evidence_038"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_037",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1650.0,
+                "y": 920.0,
+                "width": 102.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "rectangular switch icon inside CLIENT box",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_038",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 1695.0,
+                "y": 886.0,
+                "width": 12.0,
+                "height": 14.0
+              },
+              "rawText": "A6",
+              "description": "label A6 above switch icon",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_037",
+        "evidence_038"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 1650.0,
+          "y": 920.0,
+          "width": 102.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 1701.0,
+          "y": 945.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_013",
+      "conflictType": "INTERFACE_BINDING_AMBIGUITY",
+      "targetIds": [
+        "obs_link_014"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "obs_if_012",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_088"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_088",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 240.0,
+                "y": 665.0,
+                "width": 345.0,
+                "height": 250.0
+              },
+              "rawText": null,
+              "description": "long diagonal line from N013 lower-left to N015 top-right, crosses R001 border",
+              "confidence": 0.88
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "obs_if_047",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_088"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_088",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 240.0,
+                "y": 665.0,
+                "width": 345.0,
+                "height": 250.0
+              },
+              "rawText": null,
+              "description": "long diagonal line from N013 lower-left to N015 top-right, crosses R001 border",
+              "confidence": 0.88
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_088"
+      ],
+      "spatialContext": {
+        "polyline": [
+          {
+            "x": 585.0,
+            "y": 665.0
+          },
+          {
+            "x": 240.0,
+            "y": 915.0
+          }
+        ],
+        "endpointField": "sourceInterfaceCandidates"
+      }
+    },
+    {
+      "conflictId": "conflict_014",
+      "conflictType": "INTERFACE_BINDING_AMBIGUITY",
+      "targetIds": [
+        "obs_link_015"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "obs_if_012",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_089"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_089",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 563.0,
+                "y": 670.0,
+                "width": 44.0,
+                "height": 250.0
+              },
+              "rawText": null,
+              "description": "steep diagonal line from N013 bottom to N017 top",
+              "confidence": 0.88
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "obs_if_049",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_089"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_089",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 563.0,
+                "y": 670.0,
+                "width": 44.0,
+                "height": 250.0
+              },
+              "rawText": null,
+              "description": "steep diagonal line from N013 bottom to N017 top",
+              "confidence": 0.88
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_089"
+      ],
+      "spatialContext": {
+        "polyline": [
+          {
+            "x": 605.0,
+            "y": 670.0
+          },
+          {
+            "x": 565.0,
+            "y": 920.0
+          }
+        ],
+        "endpointField": "sourceInterfaceCandidates"
+      }
+    },
+    {
+      "conflictId": "conflict_015",
+      "conflictType": "INTERFACE_BINDING_AMBIGUITY",
+      "targetIds": [
+        "obs_link_016"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "obs_if_012",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_090"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_090",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 628.0,
+                "y": 668.0,
+                "width": 164.0,
+                "height": 252.0
+              },
+              "rawText": null,
+              "description": "diagonal line from N013 lower-right to N018 top",
+              "confidence": 0.88
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "obs_if_051",
+          "sourceStage": "links",
+          "sourceViewId": "global_links",
+          "confidence": 0.88,
+          "evidenceIds": [
+            "evidence_090"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_090",
+              "sourceType": "VISUAL_LINE",
+              "sourceViewId": "global_links",
+              "bbox": {
+                "x": 628.0,
+                "y": 668.0,
+                "width": 164.0,
+                "height": 252.0
+              },
+              "rawText": null,
+              "description": "diagonal line from N013 lower-right to N018 top",
+              "confidence": 0.88
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_090"
+      ],
+      "spatialContext": {
+        "polyline": [
+          {
+            "x": 630.0,
+            "y": 668.0
+          },
+          {
+            "x": 790.0,
+            "y": 920.0
+          }
+        ],
+        "endpointField": "sourceInterfaceCandidates"
+      }
+    }
+  ],
+  "unresolvedItems": [
+    {
+      "tempId": "unresolved_001",
+      "category": "UNSUPPORTED_TOPOLOGY_PATTERN",
+      "objectIds": [
+        "obs_node_010",
+        "obs_node_015",
+        "obs_node_017",
+        "obs_node_018",
+        "obs_node_016",
+        "obs_node_019",
+        "obs_node_004",
+        "obs_node_008",
+        "obs_node_003",
+        "obs_node_012"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "switch icons carry no layer-specific marking",
+      "blocking": false,
+      "recommendedAction": "preserve candidates",
+      "evidenceIds": [
+        "evidence_073"
+      ]
+    },
+    {
+      "tempId": "unresolved_002",
+      "category": "UNSUPPORTED_TOPOLOGY_PATTERN",
+      "objectIds": [
+        "obs_node_019"
+      ],
+      "field": "interfaceCandidates",
+      "candidates": [
+        "GE0/1 (uplink to N014)",
+        "GE0/1 (downlink to N032)"
+      ],
+      "reason": "label GE0/1 appears twice near N019, once at the uplink and once at the right-side downlink",
+      "blocking": false,
+      "recommendedAction": "preserve candidates",
+      "evidenceIds": [
+        "evidence_074"
+      ]
+    },
+    {
+      "tempId": "unresolved_003",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_005"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "10.0.6.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "tempId": "unresolved_004",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_006"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "10.0.1.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "tempId": "unresolved_005",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_007"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "192.168.20.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "tempId": "unresolved_006",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_008"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "192.168.30.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_109",
+        "evidence_110"
+      ]
+    },
+    {
+      "tempId": "unresolved_007",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_013"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "192.168.30.4/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "tempId": "unresolved_008",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_014"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "10.0.4.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "tempId": "unresolved_009",
+      "category": "INTERFACE_NAME_MISSING",
+      "objectIds": [
+        "obs_if_015"
+      ],
+      "field": "rawName",
+      "candidates": [
+        "10.0.5.1/24"
+      ],
+      "reason": "IPv4 was visible but no interface name was visible in the same text observation",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117"
+      ]
+    },
+    {
+      "tempId": "unresolved_010",
+      "category": "INTERFACE_BINDING_AMBIGUITY",
+      "objectIds": [
+        "obs_link_014"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidates": [
+        "obs_if_012",
+        "obs_if_047"
+      ],
+      "reason": "sourceInterfaceCandidates has multiple or unbound interface candidates",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "tempId": "unresolved_011",
+      "category": "INTERFACE_BINDING_AMBIGUITY",
+      "objectIds": [
+        "obs_link_015"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidates": [
+        "obs_if_012",
+        "obs_if_049"
+      ],
+      "reason": "sourceInterfaceCandidates has multiple or unbound interface candidates",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "tempId": "unresolved_012",
+      "category": "INTERFACE_BINDING_AMBIGUITY",
+      "objectIds": [
+        "obs_link_016"
+      ],
+      "field": "sourceInterfaceCandidates",
+      "candidates": [
+        "obs_if_012",
+        "obs_if_051"
+      ],
+      "reason": "sourceInterfaceCandidates has multiple or unbound interface candidates",
+      "blocking": false,
+      "recommendedAction": "use Fusion Pass or retain unresolved",
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    }
+  ],
+  "pendingBindings": []
+}

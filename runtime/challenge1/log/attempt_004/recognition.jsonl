@@ -1,0 +1,12 @@
+{"sequence":1,"event":"recognitionStarted","taskId":"challenge1","imageWidth":2062,"imageHeight":881,"imageFormat":"PNG","imageSha256":"f881aa63ed547cbb21612bc7586b00d4a858c585f2377db877f52dbabd6aa8fc","expectedLogicalCalls":4,"attemptId":"attempt_004"}
+{"sequence":2,"event":"stageStarted","stage":"structure","viewId":"global_structure","imageAttached":true}
+{"sequence":3,"event":"stageImageRendered","stage":"structure","viewId":"global_structure","filename":"global_structure.png","width":2062,"height":881,"coversCompleteImage":true}
+{"sequence":4,"event":"stageContextWritten","stage":"structure","filename":"structure_context.json"}
+{"sequence":5,"event":"modelResponsesWritten","stage":"structure","filename":"structure_model_responses.json","responseCount":1}
+{"sequence":6,"event":"stageEvidenceWritten","stage":"structure","viewId":"global_structure","filename":"structure_evidence.json","evidenceCount":27}
+{"sequence":7,"event":"httpAttempt","attemptSequence":1,"attempt":1,"logicalCallIndex":1,"stage":"structure","model":"qwen3.8-max","maxTokens":49062,"thinkingEnabled":true,"thinkingBudget":16348,"responseFormatEnabled":false,"requestStartedAt":"2026-08-06T07:59:20.877+00:00","firstByteAt":"2026-08-06T08:02:30.618+00:00","requestEndedAt":"2026-08-06T08:02:30.628+00:00","durationMs":189751.133,"ttfbMs":189740.438,"requestBodyBytes":301282,"imageBytes":192930,"promptBytes":42180,"schemaBytes":8678,"requestBodySha256":"e2cb894843d57df5dc7086838d11f39ae4c672abd7f6987c1e1157bd69af54df","inputTokens":12764,"outputTokens":10349,"totalTokens":23113,"cachedTokens":0,"finishReason":"stop","httpStatus":200,"exceptionType":null,"retryCause":null,"nextMaxTokens":null,"providerErrorCode":null,"providerErrorType":null}
+{"sequence":8,"event":"stageSucceeded","stage":"structure","logicalCalls":1,"httpRequests":1,"inputTokens":12764,"outputTokens":10349}
+{"sequence":9,"event":"stageCounts","stage":"structure","nodeCount":13,"regionCount":0}
+{"sequence":10,"event":"stageStarted","stage":"links","viewId":"global_links","imageAttached":true}
+{"sequence":11,"event":"stageImageRendered","stage":"links","viewId":"global_links","filename":"global_links.png","width":2062,"height":881,"coversCompleteImage":true}
+{"sequence":12,"event":"stageContextWritten","stage":"links","filename":"links_context.json"}

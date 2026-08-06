@@ -1,0 +1,32 @@
+{
+  "decisions": [
+    {
+      "conflictId": "conflict_001",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.95,
+      "reasonCode": "MODEL_NAME_2960_L2"
+    },
+    {
+      "conflictId": "conflict_002",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.95,
+      "reasonCode": "MODEL_NAME_2960_L2"
+    },
+    {
+      "conflictId": "conflict_003",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.95,
+      "reasonCode": "MODEL_NAME_2960_L2"
+    }
+  ],
+  "consistencyFindings": []
+}

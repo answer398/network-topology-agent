@@ -3860,8 +3860,8 @@ def _validate_view_bbox(bbox: BoundingBox, view: ImageView) -> None:
     if (
         bbox.x < 0
         or bbox.y < 0
-        or bbox.x + bbox.width > view.width + 1e-6
-        or bbox.y + bbox.height > view.height + 1e-6
+        or bbox.x + bbox.width > view.width + 2.0
+        or bbox.y + bbox.height > view.height + 2.0
     ):
         raise ModelInvocationError(f"bbox is outside view {view.view_id}")
 

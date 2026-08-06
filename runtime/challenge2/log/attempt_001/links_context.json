@@ -1,0 +1,627 @@
+{
+  "taskId": "challenge2",
+  "currentStage": "links",
+  "image": {
+    "width": 3005,
+    "height": 2012,
+    "format": "PNG"
+  },
+  "view": {
+    "viewId": "global_links",
+    "width": 3005,
+    "height": 2012,
+    "coversCompleteImage": true,
+    "coordinateMapping": {
+      "modelSource": "current-view pixels centered at image center (0,0), x right, y down, at most two decimals",
+      "target": "EXIF-corrected original pixels",
+      "viewCenterX": 1502.5,
+      "viewCenterY": 1006.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0
+    }
+  },
+  "numberedStructure": {
+    "nodes": [
+      {
+        "id": "N001",
+        "bbox": {
+          "x": 1042.5,
+          "y": -991.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1090.0,
+          "y": -943.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N002",
+        "bbox": {
+          "x": 614.5,
+          "y": -888.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": 663.5,
+          "y": -838.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N003",
+        "bbox": {
+          "x": 1042.5,
+          "y": -776.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1090.0,
+          "y": -728.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N004",
+        "bbox": {
+          "x": -240.5,
+          "y": -706.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -191.5,
+          "y": -656.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N005",
+        "bbox": {
+          "x": -702.5,
+          "y": -696.0,
+          "width": 90.0,
+          "height": 85.0
+        },
+        "center": {
+          "x": -657.5,
+          "y": -653.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N006",
+        "bbox": {
+          "x": 222.5,
+          "y": -696.0,
+          "width": 90.0,
+          "height": 85.0
+        },
+        "center": {
+          "x": 267.5,
+          "y": -653.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N007",
+        "bbox": {
+          "x": 1042.5,
+          "y": -528.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1090.0,
+          "y": -480.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N008",
+        "bbox": {
+          "x": 614.5,
+          "y": -491.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": 663.5,
+          "y": -441.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N009",
+        "bbox": {
+          "x": -705.5,
+          "y": -446.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -656.5,
+          "y": -396.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N010",
+        "bbox": {
+          "x": 1042.5,
+          "y": -308.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1090.0,
+          "y": -260.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N011",
+        "bbox": {
+          "x": -702.5,
+          "y": -181.0,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -657.5,
+          "y": -136.0
+        },
+        "typeCandidates": [
+          "firewall"
+        ]
+      },
+      {
+        "id": "N012",
+        "bbox": {
+          "x": -1030.5,
+          "y": 34.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -981.5,
+          "y": 84.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N013",
+        "bbox": {
+          "x": -355.5,
+          "y": 44.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -306.5,
+          "y": 94.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N014",
+        "bbox": {
+          "x": 342.5,
+          "y": 44.0,
+          "width": 90.0,
+          "height": 85.0
+        },
+        "center": {
+          "x": 387.5,
+          "y": 86.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N015",
+        "bbox": {
+          "x": -1037.5,
+          "y": 307.0,
+          "width": 90.0,
+          "height": 85.0
+        },
+        "center": {
+          "x": -992.5,
+          "y": 349.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N016",
+        "bbox": {
+          "x": -340.5,
+          "y": 434.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -291.5,
+          "y": 484.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N017",
+        "bbox": {
+          "x": 139.5,
+          "y": 434.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": 188.5,
+          "y": 484.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N018",
+        "bbox": {
+          "x": 614.5,
+          "y": 434.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": 663.5,
+          "y": 484.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N019",
+        "bbox": {
+          "x": 1119.5,
+          "y": 434.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": 1168.5,
+          "y": 484.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N020",
+        "bbox": {
+          "x": -1305.5,
+          "y": 544.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -1256.5,
+          "y": 594.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N021",
+        "bbox": {
+          "x": -860.5,
+          "y": 544.0,
+          "width": 98.0,
+          "height": 100.0
+        },
+        "center": {
+          "x": -811.5,
+          "y": 594.0
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N022",
+        "bbox": {
+          "x": -474.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -427.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N023",
+        "bbox": {
+          "x": -229.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -182.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N024",
+        "bbox": {
+          "x": 10.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 58.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N025",
+        "bbox": {
+          "x": 250.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 298.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N026",
+        "bbox": {
+          "x": 490.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 538.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N027",
+        "bbox": {
+          "x": 730.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 778.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N028",
+        "bbox": {
+          "x": 970.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1018.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N029",
+        "bbox": {
+          "x": 1150.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1198.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N030",
+        "bbox": {
+          "x": 1360.5,
+          "y": 819.0,
+          "width": 95.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": 1408.0,
+          "y": 866.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N031",
+        "bbox": {
+          "x": -1402.5,
+          "y": 824.0,
+          "width": 50.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -1377.5,
+          "y": 871.5
+        },
+        "typeCandidates": [
+          "web_server",
+          "server"
+        ]
+      },
+      {
+        "id": "N032",
+        "bbox": {
+          "x": -1197.5,
+          "y": 824.0,
+          "width": 50.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -1172.5,
+          "y": 871.5
+        },
+        "typeCandidates": [
+          "database_server",
+          "server"
+        ]
+      },
+      {
+        "id": "N033",
+        "bbox": {
+          "x": -937.5,
+          "y": 824.0,
+          "width": 50.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -912.5,
+          "y": 871.5
+        },
+        "typeCandidates": [
+          "mail_server",
+          "server"
+        ]
+      },
+      {
+        "id": "N034",
+        "bbox": {
+          "x": -717.5,
+          "y": 824.0,
+          "width": 50.0,
+          "height": 95.0
+        },
+        "center": {
+          "x": -692.5,
+          "y": 871.5
+        },
+        "typeCandidates": [
+          "monitor_server",
+          "server"
+        ]
+      }
+    ],
+    "regions": [
+      {
+        "id": "R001",
+        "bbox": {
+          "x": -292.5,
+          "y": -831.0,
+          "width": 175.0,
+          "height": 65.0
+        }
+      },
+      {
+        "id": "R002",
+        "bbox": {
+          "x": -907.5,
+          "y": -426.0,
+          "width": 165.0,
+          "height": 65.0
+        }
+      },
+      {
+        "id": "R003",
+        "bbox": {
+          "x": -297.5,
+          "y": -31.0,
+          "width": 160.0,
+          "height": 65.0
+        }
+      },
+      {
+        "id": "R004",
+        "bbox": {
+          "x": -872.5,
+          "y": 59.0,
+          "width": 160.0,
+          "height": 65.0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8267 @@
+{
+  "taskId": "222",
+  "image": {
+    "width": 1915,
+    "height": 1243,
+    "format": "PNG",
+    "viewIds": [
+      "original",
+      "global_structure",
+      "global_links",
+      "global_text"
+    ]
+  },
+  "observedNodes": [
+    {
+      "observationId": "obs_node_001",
+      "rawName": "Cisco-5500-FW1",
+      "nameCandidates": [
+        "Cisco-5500-FW1"
+      ],
+      "semanticType": "firewall",
+      "typeCandidates": [
+        "firewall"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1256.0,
+        "y": 38.0,
+        "width": 70.0,
+        "height": 55.0
+      },
+      "center": {
+        "x": 1291.0,
+        "y": 65.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_001",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "10.0.6.3/24",
+          "ipCandidates": [
+            "10.0.6.3/24"
+          ],
+          "labelBBox": {
+            "x": 1186.0,
+            "y": 83.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1186.0,
+            "y": 98.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_001"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_104",
+            "evidence_105"
+          ]
+        },
+        {
+          "observationId": "obs_if_002",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "192.168.10.1/24",
+          "ipCandidates": [
+            "192.168.10.1/24"
+          ],
+          "labelBBox": {
+            "x": 1286.0,
+            "y": 83.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1286.0,
+            "y": 98.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_002",
+            "obs_link_001"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_106",
+            "evidence_107",
+            "evidence_073",
+            "evidence_074"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.98,
+      "evidenceIds": [
+        "evidence_001",
+        "evidence_002",
+        "evidence_104",
+        "evidence_105",
+        "evidence_106",
+        "evidence_107"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_002",
+      "rawName": "VPC",
+      "nameCandidates": [
+        "VPC"
+      ],
+      "semanticType": "vpc_server",
+      "typeCandidates": [
+        "vpc_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1726.0,
+        "y": 43.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 1746.0,
+        "y": 73.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_003",
+          "nodeCandidates": [
+            "obs_node_002"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.10.5/24",
+          "ipCandidates": [
+            "192.168.10.5/24"
+          ],
+          "labelBBox": {
+            "x": 1706.0,
+            "y": 63.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1706.0,
+            "y": 108.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_003"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_108",
+            "evidence_109",
+            "evidence_075"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_003",
+        "evidence_004",
+        "evidence_108",
+        "evidence_109"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_003",
+      "rawName": "A7",
+      "nameCandidates": [
+        "A7"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1006.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1036.0,
+        "y": 73.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_032",
+          "nodeCandidates": [
+            "obs_node_003"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_001"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_073"
+          ]
+        },
+        {
+          "observationId": "obs_if_035",
+          "nodeCandidates": [
+            "obs_node_003"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_004"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_076"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_004",
+      "rawName": "A9",
+      "nameCandidates": [
+        "A9"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1506.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1536.0,
+        "y": 73.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_033",
+          "nodeCandidates": [
+            "obs_node_004"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_002"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_074"
+          ]
+        },
+        {
+          "observationId": "obs_if_034",
+          "nodeCandidates": [
+            "obs_node_004"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_003"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_075"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_005",
+      "rawName": "A1-pc1",
+      "nameCandidates": [
+        "A1-pc1"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 126.0,
+        "y": 133.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 151.0,
+        "y": 155.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_004",
+          "nodeCandidates": [
+            "obs_node_005"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.1.3/24",
+          "ipCandidates": [
+            "10.0.1.3/24"
+          ],
+          "labelBBox": {
+            "x": 106.0,
+            "y": 133.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 106.0,
+            "y": 178.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_005"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_110",
+            "evidence_111",
+            "evidence_077"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_009",
+        "evidence_010",
+        "evidence_110",
+        "evidence_111"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_006",
+      "rawName": "Cisco-9000-Core-R1",
+      "nameCandidates": [
+        "Cisco-9000-Core-R1"
+      ],
+      "semanticType": "router",
+      "typeCandidates": [
+        "router"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1006.0,
+        "y": 263.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 1036.0,
+        "y": 293.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_005",
+          "nodeCandidates": [
+            "obs_node_006"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": "10.0.6.1/24",
+          "ipCandidates": [
+            "10.0.6.1/24"
+          ],
+          "labelBBox": {
+            "x": 986.0,
+            "y": 233.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 986.0,
+            "y": 248.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_004"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_112",
+            "evidence_113",
+            "evidence_076"
+          ]
+        },
+        {
+          "observationId": "obs_if_006",
+          "nodeCandidates": [
+            "obs_node_006"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "10.0.1.1/24",
+          "ipCandidates": [
+            "10.0.1.1/24"
+          ],
+          "labelBBox": {
+            "x": 936.0,
+            "y": 273.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 936.0,
+            "y": 288.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_008"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_114",
+            "evidence_115",
+            "evidence_080"
+          ]
+        },
+        {
+          "observationId": "obs_if_007",
+          "nodeCandidates": [
+            "obs_node_006"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": "192.168.20.1/24",
+          "ipCandidates": [
+            "192.168.20.1/24"
+          ],
+          "labelBBox": {
+            "x": 1086.0,
+            "y": 273.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1086.0,
+            "y": 288.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_009"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_116",
+            "evidence_117",
+            "evidence_081"
+          ]
+        },
+        {
+          "observationId": "obs_if_008",
+          "nodeCandidates": [
+            "obs_node_006"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "192.168.30.1/24",
+          "ipCandidates": [
+            "192.168.30.1/24"
+          ],
+          "labelBBox": {
+            "x": 986.0,
+            "y": 323.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 986.0,
+            "y": 338.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_011"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_118",
+            "evidence_119",
+            "evidence_083"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.98,
+      "evidenceIds": [
+        "evidence_011",
+        "evidence_012",
+        "evidence_112",
+        "evidence_113",
+        "evidence_114",
+        "evidence_115",
+        "evidence_116",
+        "evidence_117",
+        "evidence_118",
+        "evidence_119"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_007",
+      "rawName": "VPC2",
+      "nameCandidates": [
+        "VPC2"
+      ],
+      "semanticType": "vpc_server",
+      "typeCandidates": [
+        "vpc_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1526.0,
+        "y": 263.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 1546.0,
+        "y": 293.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_009",
+          "nodeCandidates": [
+            "obs_node_007"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.20.5/24",
+          "ipCandidates": [
+            "192.168.20.5/24"
+          ],
+          "labelBBox": {
+            "x": 1506.0,
+            "y": 283.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1506.0,
+            "y": 328.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_010"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_120",
+            "evidence_121",
+            "evidence_082"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_013",
+        "evidence_014",
+        "evidence_120",
+        "evidence_121"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_008",
+      "rawName": "A1-pc2",
+      "nameCandidates": [
+        "A1-pc2"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 126.0,
+        "y": 273.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 151.0,
+        "y": 295.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_010",
+          "nodeCandidates": [
+            "obs_node_008"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.1.4/24",
+          "ipCandidates": [
+            "10.0.1.4/24"
+          ],
+          "labelBBox": {
+            "x": 106.0,
+            "y": 273.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 106.0,
+            "y": 318.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_006"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_122",
+            "evidence_123",
+            "evidence_078"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_015",
+        "evidence_016",
+        "evidence_122",
+        "evidence_123"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_009",
+      "rawName": "A1",
+      "nameCandidates": [
+        "A1"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 326.0,
+        "y": 273.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 356.0,
+        "y": 293.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_036",
+          "nodeCandidates": [
+            "obs_node_009"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_005"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_077"
+          ]
+        },
+        {
+          "observationId": "obs_if_037",
+          "nodeCandidates": [
+            "obs_node_009"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_006"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_078"
+          ]
+        },
+        {
+          "observationId": "obs_if_038",
+          "nodeCandidates": [
+            "obs_node_009"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_007"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_079"
+          ]
+        },
+        {
+          "observationId": "obs_if_039",
+          "nodeCandidates": [
+            "obs_node_009"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_008"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_080"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_017",
+        "evidence_018"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_010",
+      "rawName": "A8",
+      "nameCandidates": [
+        "A8"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1306.0,
+        "y": 273.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1336.0,
+        "y": 293.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_040",
+          "nodeCandidates": [
+            "obs_node_010"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_009"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_081"
+          ]
+        },
+        {
+          "observationId": "obs_if_041",
+          "nodeCandidates": [
+            "obs_node_010"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_010"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_082"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_019",
+        "evidence_020"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_011",
+      "rawName": "A1-pc3",
+      "nameCandidates": [
+        "A1-pc3"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 126.0,
+        "y": 413.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 151.0,
+        "y": 435.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_011",
+          "nodeCandidates": [
+            "obs_node_011"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.1.5/24",
+          "ipCandidates": [
+            "10.0.1.5/24"
+          ],
+          "labelBBox": {
+            "x": 106.0,
+            "y": 413.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 106.0,
+            "y": 458.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_007"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_124",
+            "evidence_125",
+            "evidence_079"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_021",
+        "evidence_022",
+        "evidence_124",
+        "evidence_125"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_012",
+      "rawName": "Cisco-9000-R1",
+      "nameCandidates": [
+        "Cisco-9000-R1"
+      ],
+      "semanticType": "router",
+      "typeCandidates": [
+        "router"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 326.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 356.0,
+        "y": 643.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_012",
+          "nodeCandidates": [
+            "obs_node_012"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "192.168.30.3/24",
+          "ipCandidates": [
+            "192.168.30.3/24"
+          ],
+          "labelBBox": {
+            "x": 306.0,
+            "y": 583.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 306.0,
+            "y": 598.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_012"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_126",
+            "evidence_127",
+            "evidence_084"
+          ]
+        },
+        {
+          "observationId": "obs_if_013",
+          "nodeCandidates": [
+            "obs_node_012"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "10.0.2.1/24",
+          "ipCandidates": [
+            "10.0.2.1/24"
+          ],
+          "labelBBox": {
+            "x": 256.0,
+            "y": 633.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 256.0,
+            "y": 648.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_014"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_128",
+            "evidence_129",
+            "evidence_086"
+          ]
+        },
+        {
+          "observationId": "obs_if_014",
+          "nodeCandidates": [
+            "obs_node_012"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": "10.0.3.1/24",
+          "ipCandidates": [
+            "10.0.3.1/24"
+          ],
+          "labelBBox": {
+            "x": 306.0,
+            "y": 663.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 306.0,
+            "y": 678.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_015"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_130",
+            "evidence_131",
+            "evidence_087"
+          ]
+        },
+        {
+          "observationId": "obs_if_015",
+          "nodeCandidates": [
+            "obs_node_012"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": "10.0.10.1/24",
+          "ipCandidates": [
+            "10.0.10.1/24"
+          ],
+          "labelBBox": {
+            "x": 406.0,
+            "y": 663.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 406.0,
+            "y": 678.0,
+            "width": 80.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_016"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_132",
+            "evidence_133",
+            "evidence_088"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.98,
+      "evidenceIds": [
+        "evidence_023",
+        "evidence_024",
+        "evidence_126",
+        "evidence_127",
+        "evidence_128",
+        "evidence_129",
+        "evidence_130",
+        "evidence_131",
+        "evidence_132",
+        "evidence_133"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_013",
+      "rawName": "A10",
+      "nameCandidates": [
+        "A10"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1006.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1036.0,
+        "y": 633.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_042",
+          "nodeCandidates": [
+            "obs_node_013"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_011"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_083"
+          ]
+        },
+        {
+          "observationId": "obs_if_043",
+          "nodeCandidates": [
+            "obs_node_013"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_012"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_084"
+          ]
+        },
+        {
+          "observationId": "obs_if_044",
+          "nodeCandidates": [
+            "obs_node_013"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_013"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_085"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_025",
+        "evidence_026"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_014",
+      "rawName": "Cisco-9000-R2",
+      "nameCandidates": [
+        "Cisco-9000-R2"
+      ],
+      "semanticType": "router",
+      "typeCandidates": [
+        "router"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1306.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 1336.0,
+        "y": 643.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_016",
+          "nodeCandidates": [
+            "obs_node_014"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "192.168.30.4/24",
+          "ipCandidates": [
+            "192.168.30.4/24"
+          ],
+          "labelBBox": {
+            "x": 1286.0,
+            "y": 583.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1286.0,
+            "y": 598.0,
+            "width": 90.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_013"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_134",
+            "evidence_135",
+            "evidence_085"
+          ]
+        },
+        {
+          "observationId": "obs_if_017",
+          "nodeCandidates": [
+            "obs_node_014"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "10.0.4.1/24",
+          "ipCandidates": [
+            "10.0.4.1/24"
+          ],
+          "labelBBox": {
+            "x": 1236.0,
+            "y": 663.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1236.0,
+            "y": 678.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_017"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_136",
+            "evidence_137",
+            "evidence_089"
+          ]
+        },
+        {
+          "observationId": "obs_if_018",
+          "nodeCandidates": [
+            "obs_node_014"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": "10.0.5.1/24",
+          "ipCandidates": [
+            "10.0.5.1/24"
+          ],
+          "labelBBox": {
+            "x": 1386.0,
+            "y": 663.0,
+            "width": 40.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1386.0,
+            "y": 678.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_018"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_138",
+            "evidence_139",
+            "evidence_090"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.98,
+      "evidenceIds": [
+        "evidence_027",
+        "evidence_028",
+        "evidence_134",
+        "evidence_135",
+        "evidence_136",
+        "evidence_137",
+        "evidence_138",
+        "evidence_139"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_015",
+      "rawName": "A2",
+      "nameCandidates": [
+        "A2"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 226.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 256.0,
+        "y": 853.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_045",
+          "nodeCandidates": [
+            "obs_node_015"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_014"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_086"
+          ]
+        },
+        {
+          "observationId": "obs_if_050",
+          "nodeCandidates": [
+            "obs_node_015"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_019"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_091"
+          ]
+        },
+        {
+          "observationId": "obs_if_051",
+          "nodeCandidates": [
+            "obs_node_015"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_020"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_092"
+          ]
+        },
+        {
+          "observationId": "obs_if_052",
+          "nodeCandidates": [
+            "obs_node_015"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_021"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_093"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_029",
+        "evidence_030"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_016",
+      "rawName": "A3",
+      "nameCandidates": [
+        "A3"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 526.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 556.0,
+        "y": 853.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_046",
+          "nodeCandidates": [
+            "obs_node_016"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_015"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_087"
+          ]
+        },
+        {
+          "observationId": "obs_if_053",
+          "nodeCandidates": [
+            "obs_node_016"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_022"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_094"
+          ]
+        },
+        {
+          "observationId": "obs_if_054",
+          "nodeCandidates": [
+            "obs_node_016"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_023"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_095"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_031",
+        "evidence_032"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_017",
+      "rawName": "A4",
+      "nameCandidates": [
+        "A4"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 726.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 756.0,
+        "y": 853.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_047",
+          "nodeCandidates": [
+            "obs_node_017"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_016"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_088"
+          ]
+        },
+        {
+          "observationId": "obs_if_055",
+          "nodeCandidates": [
+            "obs_node_017"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_024"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_096"
+          ]
+        },
+        {
+          "observationId": "obs_if_056",
+          "nodeCandidates": [
+            "obs_node_017"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_025"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_097"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_033",
+        "evidence_034"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_018",
+      "rawName": "A5",
+      "nameCandidates": [
+        "A5"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1126.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1156.0,
+        "y": 853.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_048",
+          "nodeCandidates": [
+            "obs_node_018"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_017"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_089"
+          ]
+        },
+        {
+          "observationId": "obs_if_057",
+          "nodeCandidates": [
+            "obs_node_018"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_026"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_098"
+          ]
+        },
+        {
+          "observationId": "obs_if_058",
+          "nodeCandidates": [
+            "obs_node_018"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_027"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_099"
+          ]
+        },
+        {
+          "observationId": "obs_if_059",
+          "nodeCandidates": [
+            "obs_node_018"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_028"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_100"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_035",
+        "evidence_036"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_019",
+      "rawName": "A6",
+      "nameCandidates": [
+        "A6"
+      ],
+      "semanticType": "switch_l2",
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1526.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "center": {
+        "x": 1556.0,
+        "y": 853.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_049",
+          "nodeCandidates": [
+            "obs_node_019"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_018"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_090"
+          ]
+        },
+        {
+          "observationId": "obs_if_060",
+          "nodeCandidates": [
+            "obs_node_019"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_029"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_101"
+          ]
+        },
+        {
+          "observationId": "obs_if_061",
+          "nodeCandidates": [
+            "obs_node_019"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_030"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_102"
+          ]
+        },
+        {
+          "observationId": "obs_if_062",
+          "nodeCandidates": [
+            "obs_node_019"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_031"
+          ],
+          "confidence": 0.9,
+          "evidenceIds": [
+            "evidence_103"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_037",
+        "evidence_038"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_020",
+      "rawName": "Web",
+      "nameCandidates": [
+        "Web"
+      ],
+      "semanticType": "web_server",
+      "typeCandidates": [
+        "web_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 446.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 466.0,
+        "y": 993.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_022",
+          "nodeCandidates": [
+            "obs_node_020"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.3.3/24",
+          "ipCandidates": [
+            "10.0.3.3/24"
+          ],
+          "labelBBox": {
+            "x": 426.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 426.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_022"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_146",
+            "evidence_147",
+            "evidence_094"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_039",
+        "evidence_040",
+        "evidence_146",
+        "evidence_147"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_021",
+      "rawName": "DB",
+      "nameCandidates": [
+        "DB"
+      ],
+      "semanticType": "database_server",
+      "typeCandidates": [
+        "database_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 546.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 566.0,
+        "y": 993.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_023",
+          "nodeCandidates": [
+            "obs_node_021"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.3.4/24",
+          "ipCandidates": [
+            "10.0.3.4/24"
+          ],
+          "labelBBox": {
+            "x": 526.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 526.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_023"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_148",
+            "evidence_149",
+            "evidence_095"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_041",
+        "evidence_042",
+        "evidence_148",
+        "evidence_149"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_022",
+      "rawName": "Mail",
+      "nameCandidates": [
+        "Mail"
+      ],
+      "semanticType": "mail_server",
+      "typeCandidates": [
+        "mail_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 646.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 666.0,
+        "y": 993.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_024",
+          "nodeCandidates": [
+            "obs_node_022"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.10.3/24",
+          "ipCandidates": [
+            "10.0.10.3/24"
+          ],
+          "labelBBox": {
+            "x": 626.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 626.0,
+            "y": 1058.0,
+            "width": 80.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_024"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_150",
+            "evidence_151",
+            "evidence_096"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_043",
+        "evidence_044",
+        "evidence_150",
+        "evidence_151"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_023",
+      "rawName": "Monitor",
+      "nameCandidates": [
+        "Monitor"
+      ],
+      "semanticType": "monitor_server",
+      "typeCandidates": [
+        "monitor_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 746.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "center": {
+        "x": 766.0,
+        "y": 993.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_025",
+          "nodeCandidates": [
+            "obs_node_023"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.10.4/24",
+          "ipCandidates": [
+            "10.0.10.4/24"
+          ],
+          "labelBBox": {
+            "x": 726.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 726.0,
+            "y": 1058.0,
+            "width": 80.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_025"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_152",
+            "evidence_153",
+            "evidence_097"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_045",
+        "evidence_046",
+        "evidence_152",
+        "evidence_153"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_024",
+      "rawName": "A2-pc1",
+      "nameCandidates": [
+        "A2-pc1"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 126.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 151.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_019",
+          "nodeCandidates": [
+            "obs_node_024"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.2.3/24",
+          "ipCandidates": [
+            "10.0.2.3/24"
+          ],
+          "labelBBox": {
+            "x": 106.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 106.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_019"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_140",
+            "evidence_141",
+            "evidence_091"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_047",
+        "evidence_048",
+        "evidence_140",
+        "evidence_141"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_025",
+      "rawName": "A2-pc2",
+      "nameCandidates": [
+        "A2-pc2"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 226.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 251.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_020",
+          "nodeCandidates": [
+            "obs_node_025"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.2.4/24",
+          "ipCandidates": [
+            "10.0.2.4/24"
+          ],
+          "labelBBox": {
+            "x": 206.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 206.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_020"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_142",
+            "evidence_143",
+            "evidence_092"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_049",
+        "evidence_050",
+        "evidence_142",
+        "evidence_143"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_026",
+      "rawName": "A2-pc3",
+      "nameCandidates": [
+        "A2-pc3"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 326.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 351.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_021",
+          "nodeCandidates": [
+            "obs_node_026"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.2.5/24",
+          "ipCandidates": [
+            "10.0.2.5/24"
+          ],
+          "labelBBox": {
+            "x": 306.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 306.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_021"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_144",
+            "evidence_145",
+            "evidence_093"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_051",
+        "evidence_052",
+        "evidence_144",
+        "evidence_145"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_027",
+      "rawName": "A5-pc3",
+      "nameCandidates": [
+        "A5-pc3"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1026.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1051.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_026",
+          "nodeCandidates": [
+            "obs_node_027"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.4.3/24",
+          "ipCandidates": [
+            "10.0.4.3/24"
+          ],
+          "labelBBox": {
+            "x": 1006.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1006.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_026"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_154",
+            "evidence_155",
+            "evidence_098"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_053",
+        "evidence_054",
+        "evidence_154",
+        "evidence_155"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_028",
+      "rawName": "A5-pc4",
+      "nameCandidates": [
+        "A5-pc4"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1126.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1151.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_027",
+          "nodeCandidates": [
+            "obs_node_028"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.4.4/24",
+          "ipCandidates": [
+            "10.0.4.4/24"
+          ],
+          "labelBBox": {
+            "x": 1106.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1106.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_027"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_156",
+            "evidence_157",
+            "evidence_099"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_055",
+        "evidence_056",
+        "evidence_156",
+        "evidence_157"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_029",
+      "rawName": "A5-pc5",
+      "nameCandidates": [
+        "A5-pc5"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1226.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1251.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_028",
+          "nodeCandidates": [
+            "obs_node_029"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.4.5/24",
+          "ipCandidates": [
+            "10.0.4.5/24"
+          ],
+          "labelBBox": {
+            "x": 1206.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1206.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_028"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_158",
+            "evidence_159",
+            "evidence_100"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_057",
+        "evidence_058",
+        "evidence_158",
+        "evidence_159"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_030",
+      "rawName": "A6-pc1",
+      "nameCandidates": [
+        "A6-pc1"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1426.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1451.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_029",
+          "nodeCandidates": [
+            "obs_node_030"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.5.3/24",
+          "ipCandidates": [
+            "10.0.5.3/24"
+          ],
+          "labelBBox": {
+            "x": 1406.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1406.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_029"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_160",
+            "evidence_161",
+            "evidence_101"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_059",
+        "evidence_060",
+        "evidence_160",
+        "evidence_161"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_031",
+      "rawName": "A6-pc2",
+      "nameCandidates": [
+        "A6-pc2"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1526.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1551.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_030",
+          "nodeCandidates": [
+            "obs_node_031"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.5.4/24",
+          "ipCandidates": [
+            "10.0.5.4/24"
+          ],
+          "labelBBox": {
+            "x": 1506.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1506.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_030"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_162",
+            "evidence_163",
+            "evidence_102"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_061",
+        "evidence_062",
+        "evidence_162",
+        "evidence_163"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_032",
+      "rawName": "A6-pc3",
+      "nameCandidates": [
+        "A6-pc3"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1626.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "center": {
+        "x": 1651.0,
+        "y": 995.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_031",
+          "nodeCandidates": [
+            "obs_node_032"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "10.0.5.5/24",
+          "ipCandidates": [
+            "10.0.5.5/24"
+          ],
+          "labelBBox": {
+            "x": 1606.0,
+            "y": 1013.0,
+            "width": 30.0,
+            "height": 15.0
+          },
+          "ipBBox": {
+            "x": 1606.0,
+            "y": 1058.0,
+            "width": 70.0,
+            "height": 15.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_031"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_164",
+            "evidence_165",
+            "evidence_103"
+          ]
+        }
+      ],
+      "regionCandidates": [
+        "obs_region_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_063",
+        "evidence_064",
+        "evidence_164",
+        "evidence_165"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    }
+  ],
+  "observedInterfaces": [
+    {
+      "observationId": "obs_if_001",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "10.0.6.3/24",
+      "ipCandidates": [
+        "10.0.6.3/24"
+      ],
+      "labelBBox": {
+        "x": 1186.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1186.0,
+        "y": 98.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_104",
+        "evidence_105"
+      ]
+    },
+    {
+      "observationId": "obs_if_002",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "192.168.10.1/24",
+      "ipCandidates": [
+        "192.168.10.1/24"
+      ],
+      "labelBBox": {
+        "x": 1286.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1286.0,
+        "y": 98.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_002",
+        "obs_link_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_106",
+        "evidence_107",
+        "evidence_073",
+        "evidence_074"
+      ]
+    },
+    {
+      "observationId": "obs_if_003",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.10.5/24",
+      "ipCandidates": [
+        "192.168.10.5/24"
+      ],
+      "labelBBox": {
+        "x": 1706.0,
+        "y": 63.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1706.0,
+        "y": 108.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_108",
+        "evidence_109",
+        "evidence_075"
+      ]
+    },
+    {
+      "observationId": "obs_if_004",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.3/24",
+      "ipCandidates": [
+        "10.0.1.3/24"
+      ],
+      "labelBBox": {
+        "x": 106.0,
+        "y": 133.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 106.0,
+        "y": 178.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_005"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_110",
+        "evidence_111",
+        "evidence_077"
+      ]
+    },
+    {
+      "observationId": "obs_if_005",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": "10.0.6.1/24",
+      "ipCandidates": [
+        "10.0.6.1/24"
+      ],
+      "labelBBox": {
+        "x": 986.0,
+        "y": 233.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 986.0,
+        "y": 248.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_112",
+        "evidence_113",
+        "evidence_076"
+      ]
+    },
+    {
+      "observationId": "obs_if_006",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "10.0.1.1/24",
+      "ipCandidates": [
+        "10.0.1.1/24"
+      ],
+      "labelBBox": {
+        "x": 936.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 936.0,
+        "y": 288.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_008"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_114",
+        "evidence_115",
+        "evidence_080"
+      ]
+    },
+    {
+      "observationId": "obs_if_007",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": "192.168.20.1/24",
+      "ipCandidates": [
+        "192.168.20.1/24"
+      ],
+      "labelBBox": {
+        "x": 1086.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1086.0,
+        "y": 288.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_009"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_116",
+        "evidence_117",
+        "evidence_081"
+      ]
+    },
+    {
+      "observationId": "obs_if_008",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.30.1/24",
+      "ipCandidates": [
+        "192.168.30.1/24"
+      ],
+      "labelBBox": {
+        "x": 986.0,
+        "y": 323.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 986.0,
+        "y": 338.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_011"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_118",
+        "evidence_119",
+        "evidence_083"
+      ]
+    },
+    {
+      "observationId": "obs_if_009",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.20.5/24",
+      "ipCandidates": [
+        "192.168.20.5/24"
+      ],
+      "labelBBox": {
+        "x": 1506.0,
+        "y": 283.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1506.0,
+        "y": 328.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_010"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_120",
+        "evidence_121",
+        "evidence_082"
+      ]
+    },
+    {
+      "observationId": "obs_if_010",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.4/24",
+      "ipCandidates": [
+        "10.0.1.4/24"
+      ],
+      "labelBBox": {
+        "x": 106.0,
+        "y": 273.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 106.0,
+        "y": 318.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_006"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_122",
+        "evidence_123",
+        "evidence_078"
+      ]
+    },
+    {
+      "observationId": "obs_if_011",
+      "nodeCandidates": [
+        "obs_node_011"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.1.5/24",
+      "ipCandidates": [
+        "10.0.1.5/24"
+      ],
+      "labelBBox": {
+        "x": 106.0,
+        "y": 413.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 106.0,
+        "y": 458.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_007"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_124",
+        "evidence_125",
+        "evidence_079"
+      ]
+    },
+    {
+      "observationId": "obs_if_012",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.30.3/24",
+      "ipCandidates": [
+        "192.168.30.3/24"
+      ],
+      "labelBBox": {
+        "x": 306.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 306.0,
+        "y": 598.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_012"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_126",
+        "evidence_127",
+        "evidence_084"
+      ]
+    },
+    {
+      "observationId": "obs_if_013",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "10.0.2.1/24",
+      "ipCandidates": [
+        "10.0.2.1/24"
+      ],
+      "labelBBox": {
+        "x": 256.0,
+        "y": 633.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 256.0,
+        "y": 648.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_014"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_128",
+        "evidence_129",
+        "evidence_086"
+      ]
+    },
+    {
+      "observationId": "obs_if_014",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": "10.0.3.1/24",
+      "ipCandidates": [
+        "10.0.3.1/24"
+      ],
+      "labelBBox": {
+        "x": 306.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 306.0,
+        "y": 678.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_015"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_130",
+        "evidence_131",
+        "evidence_087"
+      ]
+    },
+    {
+      "observationId": "obs_if_015",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": "10.0.10.1/24",
+      "ipCandidates": [
+        "10.0.10.1/24"
+      ],
+      "labelBBox": {
+        "x": 406.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 406.0,
+        "y": 678.0,
+        "width": 80.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_016"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_132",
+        "evidence_133",
+        "evidence_088"
+      ]
+    },
+    {
+      "observationId": "obs_if_016",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.30.4/24",
+      "ipCandidates": [
+        "192.168.30.4/24"
+      ],
+      "labelBBox": {
+        "x": 1286.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1286.0,
+        "y": 598.0,
+        "width": 90.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_013"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_134",
+        "evidence_135",
+        "evidence_085"
+      ]
+    },
+    {
+      "observationId": "obs_if_017",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "10.0.4.1/24",
+      "ipCandidates": [
+        "10.0.4.1/24"
+      ],
+      "labelBBox": {
+        "x": 1236.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1236.0,
+        "y": 678.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_017"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_136",
+        "evidence_137",
+        "evidence_089"
+      ]
+    },
+    {
+      "observationId": "obs_if_018",
+      "nodeCandidates": [
+        "obs_node_014"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": "10.0.5.1/24",
+      "ipCandidates": [
+        "10.0.5.1/24"
+      ],
+      "labelBBox": {
+        "x": 1386.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1386.0,
+        "y": 678.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_018"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_138",
+        "evidence_139",
+        "evidence_090"
+      ]
+    },
+    {
+      "observationId": "obs_if_019",
+      "nodeCandidates": [
+        "obs_node_024"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.3/24",
+      "ipCandidates": [
+        "10.0.2.3/24"
+      ],
+      "labelBBox": {
+        "x": 106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 106.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_019"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_140",
+        "evidence_141",
+        "evidence_091"
+      ]
+    },
+    {
+      "observationId": "obs_if_020",
+      "nodeCandidates": [
+        "obs_node_025"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.4/24",
+      "ipCandidates": [
+        "10.0.2.4/24"
+      ],
+      "labelBBox": {
+        "x": 206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 206.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_020"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_142",
+        "evidence_143",
+        "evidence_092"
+      ]
+    },
+    {
+      "observationId": "obs_if_021",
+      "nodeCandidates": [
+        "obs_node_026"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.2.5/24",
+      "ipCandidates": [
+        "10.0.2.5/24"
+      ],
+      "labelBBox": {
+        "x": 306.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 306.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_021"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_144",
+        "evidence_145",
+        "evidence_093"
+      ]
+    },
+    {
+      "observationId": "obs_if_022",
+      "nodeCandidates": [
+        "obs_node_020"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.3.3/24",
+      "ipCandidates": [
+        "10.0.3.3/24"
+      ],
+      "labelBBox": {
+        "x": 426.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 426.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_022"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_146",
+        "evidence_147",
+        "evidence_094"
+      ]
+    },
+    {
+      "observationId": "obs_if_023",
+      "nodeCandidates": [
+        "obs_node_021"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.3.4/24",
+      "ipCandidates": [
+        "10.0.3.4/24"
+      ],
+      "labelBBox": {
+        "x": 526.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 526.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_023"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_148",
+        "evidence_149",
+        "evidence_095"
+      ]
+    },
+    {
+      "observationId": "obs_if_024",
+      "nodeCandidates": [
+        "obs_node_022"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.10.3/24",
+      "ipCandidates": [
+        "10.0.10.3/24"
+      ],
+      "labelBBox": {
+        "x": 626.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 626.0,
+        "y": 1058.0,
+        "width": 80.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_024"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_150",
+        "evidence_151",
+        "evidence_096"
+      ]
+    },
+    {
+      "observationId": "obs_if_025",
+      "nodeCandidates": [
+        "obs_node_023"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.10.4/24",
+      "ipCandidates": [
+        "10.0.10.4/24"
+      ],
+      "labelBBox": {
+        "x": 726.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 726.0,
+        "y": 1058.0,
+        "width": 80.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_025"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_152",
+        "evidence_153",
+        "evidence_097"
+      ]
+    },
+    {
+      "observationId": "obs_if_026",
+      "nodeCandidates": [
+        "obs_node_027"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.3/24",
+      "ipCandidates": [
+        "10.0.4.3/24"
+      ],
+      "labelBBox": {
+        "x": 1006.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1006.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_026"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_154",
+        "evidence_155",
+        "evidence_098"
+      ]
+    },
+    {
+      "observationId": "obs_if_027",
+      "nodeCandidates": [
+        "obs_node_028"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.4/24",
+      "ipCandidates": [
+        "10.0.4.4/24"
+      ],
+      "labelBBox": {
+        "x": 1106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1106.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_027"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_156",
+        "evidence_157",
+        "evidence_099"
+      ]
+    },
+    {
+      "observationId": "obs_if_028",
+      "nodeCandidates": [
+        "obs_node_029"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.4.5/24",
+      "ipCandidates": [
+        "10.0.4.5/24"
+      ],
+      "labelBBox": {
+        "x": 1206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1206.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_028"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_158",
+        "evidence_159",
+        "evidence_100"
+      ]
+    },
+    {
+      "observationId": "obs_if_029",
+      "nodeCandidates": [
+        "obs_node_030"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.3/24",
+      "ipCandidates": [
+        "10.0.5.3/24"
+      ],
+      "labelBBox": {
+        "x": 1406.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1406.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_029"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_160",
+        "evidence_161",
+        "evidence_101"
+      ]
+    },
+    {
+      "observationId": "obs_if_030",
+      "nodeCandidates": [
+        "obs_node_031"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.4/24",
+      "ipCandidates": [
+        "10.0.5.4/24"
+      ],
+      "labelBBox": {
+        "x": 1506.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1506.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_030"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_162",
+        "evidence_163",
+        "evidence_102"
+      ]
+    },
+    {
+      "observationId": "obs_if_031",
+      "nodeCandidates": [
+        "obs_node_032"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "10.0.5.5/24",
+      "ipCandidates": [
+        "10.0.5.5/24"
+      ],
+      "labelBBox": {
+        "x": 1606.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "ipBBox": {
+        "x": 1606.0,
+        "y": 1058.0,
+        "width": 70.0,
+        "height": 15.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_031"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_164",
+        "evidence_165",
+        "evidence_103"
+      ]
+    },
+    {
+      "observationId": "obs_if_032",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_073"
+      ]
+    },
+    {
+      "observationId": "obs_if_033",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_074"
+      ]
+    },
+    {
+      "observationId": "obs_if_034",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_075"
+      ]
+    },
+    {
+      "observationId": "obs_if_035",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_004"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_076"
+      ]
+    },
+    {
+      "observationId": "obs_if_036",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_005"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_077"
+      ]
+    },
+    {
+      "observationId": "obs_if_037",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_006"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_078"
+      ]
+    },
+    {
+      "observationId": "obs_if_038",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_007"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_079"
+      ]
+    },
+    {
+      "observationId": "obs_if_039",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_008"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_080"
+      ]
+    },
+    {
+      "observationId": "obs_if_040",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_009"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_081"
+      ]
+    },
+    {
+      "observationId": "obs_if_041",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_010"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_082"
+      ]
+    },
+    {
+      "observationId": "obs_if_042",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_011"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_083"
+      ]
+    },
+    {
+      "observationId": "obs_if_043",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_012"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_084"
+      ]
+    },
+    {
+      "observationId": "obs_if_044",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_013"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_085"
+      ]
+    },
+    {
+      "observationId": "obs_if_045",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_014"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_086"
+      ]
+    },
+    {
+      "observationId": "obs_if_046",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_015"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_087"
+      ]
+    },
+    {
+      "observationId": "obs_if_047",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_016"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "observationId": "obs_if_048",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_017"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "observationId": "obs_if_049",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_018"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    },
+    {
+      "observationId": "obs_if_050",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_019"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_091"
+      ]
+    },
+    {
+      "observationId": "obs_if_051",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_020"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_092"
+      ]
+    },
+    {
+      "observationId": "obs_if_052",
+      "nodeCandidates": [
+        "obs_node_015"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_021"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_093"
+      ]
+    },
+    {
+      "observationId": "obs_if_053",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_022"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_094"
+      ]
+    },
+    {
+      "observationId": "obs_if_054",
+      "nodeCandidates": [
+        "obs_node_016"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_023"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_095"
+      ]
+    },
+    {
+      "observationId": "obs_if_055",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_024"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_096"
+      ]
+    },
+    {
+      "observationId": "obs_if_056",
+      "nodeCandidates": [
+        "obs_node_017"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_025"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_097"
+      ]
+    },
+    {
+      "observationId": "obs_if_057",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_026"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_098"
+      ]
+    },
+    {
+      "observationId": "obs_if_058",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_027"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_099"
+      ]
+    },
+    {
+      "observationId": "obs_if_059",
+      "nodeCandidates": [
+        "obs_node_018"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_028"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_100"
+      ]
+    },
+    {
+      "observationId": "obs_if_060",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_029"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_101"
+      ]
+    },
+    {
+      "observationId": "obs_if_061",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_030"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_102"
+      ]
+    },
+    {
+      "observationId": "obs_if_062",
+      "nodeCandidates": [
+        "obs_node_019"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_031"
+      ],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_103"
+      ]
+    }
+  ],
+  "observedLinks": [
+    {
+      "observationId": "obs_link_001",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_001"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_032"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_002"
+      ],
+      "polyline": [
+        {
+          "x": 1066.0,
+          "y": 73.0
+        },
+        {
+          "x": 1256.0,
+          "y": 73.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_073"
+      ]
+    },
+    {
+      "observationId": "obs_link_002",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_004"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_002"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_033"
+      ],
+      "polyline": [
+        {
+          "x": 1326.0,
+          "y": 73.0
+        },
+        {
+          "x": 1506.0,
+          "y": 73.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_074"
+      ]
+    },
+    {
+      "observationId": "obs_link_003",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_002"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_034"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_003"
+      ],
+      "polyline": [
+        {
+          "x": 1566.0,
+          "y": 73.0
+        },
+        {
+          "x": 1726.0,
+          "y": 73.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_075"
+      ]
+    },
+    {
+      "observationId": "obs_link_004",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_006"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_035"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_005"
+      ],
+      "polyline": [
+        {
+          "x": 1036.0,
+          "y": 93.0
+        },
+        {
+          "x": 1036.0,
+          "y": 263.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_076"
+      ]
+    },
+    {
+      "observationId": "obs_link_005",
+      "sourceNodeCandidates": [
+        "obs_node_005"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_009"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_004"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_036"
+      ],
+      "polyline": [
+        {
+          "x": 176.0,
+          "y": 178.0
+        },
+        {
+          "x": 326.0,
+          "y": 273.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_077"
+      ]
+    },
+    {
+      "observationId": "obs_link_006",
+      "sourceNodeCandidates": [
+        "obs_node_008"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_009"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_010"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_037"
+      ],
+      "polyline": [
+        {
+          "x": 201.0,
+          "y": 295.5
+        },
+        {
+          "x": 326.0,
+          "y": 293.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_078"
+      ]
+    },
+    {
+      "observationId": "obs_link_007",
+      "sourceNodeCandidates": [
+        "obs_node_011"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_009"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_011"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_038"
+      ],
+      "polyline": [
+        {
+          "x": 176.0,
+          "y": 435.5
+        },
+        {
+          "x": 326.0,
+          "y": 313.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_079"
+      ]
+    },
+    {
+      "observationId": "obs_link_008",
+      "sourceNodeCandidates": [
+        "obs_node_009"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_006"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_039"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_006"
+      ],
+      "polyline": [
+        {
+          "x": 386.0,
+          "y": 293.0
+        },
+        {
+          "x": 1006.0,
+          "y": 293.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_080"
+      ]
+    },
+    {
+      "observationId": "obs_link_009",
+      "sourceNodeCandidates": [
+        "obs_node_006"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_010"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_007"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_040"
+      ],
+      "polyline": [
+        {
+          "x": 1066.0,
+          "y": 293.0
+        },
+        {
+          "x": 1306.0,
+          "y": 293.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_081"
+      ]
+    },
+    {
+      "observationId": "obs_link_010",
+      "sourceNodeCandidates": [
+        "obs_node_010"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_007"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_041"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_009"
+      ],
+      "polyline": [
+        {
+          "x": 1366.0,
+          "y": 293.0
+        },
+        {
+          "x": 1526.0,
+          "y": 293.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_082"
+      ]
+    },
+    {
+      "observationId": "obs_link_011",
+      "sourceNodeCandidates": [
+        "obs_node_006"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_013"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_008"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_042"
+      ],
+      "polyline": [
+        {
+          "x": 1036.0,
+          "y": 323.0
+        },
+        {
+          "x": 1036.0,
+          "y": 613.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_083"
+      ]
+    },
+    {
+      "observationId": "obs_link_012",
+      "sourceNodeCandidates": [
+        "obs_node_013"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_012"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_043"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_012"
+      ],
+      "polyline": [
+        {
+          "x": 1006.0,
+          "y": 633.0
+        },
+        {
+          "x": 386.0,
+          "y": 643.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_084"
+      ]
+    },
+    {
+      "observationId": "obs_link_013",
+      "sourceNodeCandidates": [
+        "obs_node_013"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_014"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_044"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_016"
+      ],
+      "polyline": [
+        {
+          "x": 1066.0,
+          "y": 633.0
+        },
+        {
+          "x": 1306.0,
+          "y": 643.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_085"
+      ]
+    },
+    {
+      "observationId": "obs_link_014",
+      "sourceNodeCandidates": [
+        "obs_node_012"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_015"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_013"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_045"
+      ],
+      "polyline": [
+        {
+          "x": 341.0,
+          "y": 673.0
+        },
+        {
+          "x": 256.0,
+          "y": 833.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_086"
+      ]
+    },
+    {
+      "observationId": "obs_link_015",
+      "sourceNodeCandidates": [
+        "obs_node_012"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_016"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_014"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_046"
+      ],
+      "polyline": [
+        {
+          "x": 371.0,
+          "y": 673.0
+        },
+        {
+          "x": 556.0,
+          "y": 833.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_087"
+      ]
+    },
+    {
+      "observationId": "obs_link_016",
+      "sourceNodeCandidates": [
+        "obs_node_012"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_017"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_015"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_047"
+      ],
+      "polyline": [
+        {
+          "x": 386.0,
+          "y": 673.0
+        },
+        {
+          "x": 756.0,
+          "y": 833.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_088"
+      ]
+    },
+    {
+      "observationId": "obs_link_017",
+      "sourceNodeCandidates": [
+        "obs_node_014"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_018"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_017"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_048"
+      ],
+      "polyline": [
+        {
+          "x": 1321.0,
+          "y": 673.0
+        },
+        {
+          "x": 1156.0,
+          "y": 833.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_089"
+      ]
+    },
+    {
+      "observationId": "obs_link_018",
+      "sourceNodeCandidates": [
+        "obs_node_014"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_019"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_018"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_049"
+      ],
+      "polyline": [
+        {
+          "x": 1351.0,
+          "y": 673.0
+        },
+        {
+          "x": 1556.0,
+          "y": 833.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_090"
+      ]
+    },
+    {
+      "observationId": "obs_link_019",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_024"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_050"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_019"
+      ],
+      "polyline": [
+        {
+          "x": 241.0,
+          "y": 873.0
+        },
+        {
+          "x": 151.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_091"
+      ]
+    },
+    {
+      "observationId": "obs_link_020",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_025"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_051"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_020"
+      ],
+      "polyline": [
+        {
+          "x": 256.0,
+          "y": 873.0
+        },
+        {
+          "x": 251.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_092"
+      ]
+    },
+    {
+      "observationId": "obs_link_021",
+      "sourceNodeCandidates": [
+        "obs_node_015"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_026"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_052"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_021"
+      ],
+      "polyline": [
+        {
+          "x": 271.0,
+          "y": 873.0
+        },
+        {
+          "x": 351.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_093"
+      ]
+    },
+    {
+      "observationId": "obs_link_022",
+      "sourceNodeCandidates": [
+        "obs_node_016"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_020"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_053"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_022"
+      ],
+      "polyline": [
+        {
+          "x": 541.0,
+          "y": 873.0
+        },
+        {
+          "x": 466.0,
+          "y": 963.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_094"
+      ]
+    },
+    {
+      "observationId": "obs_link_023",
+      "sourceNodeCandidates": [
+        "obs_node_016"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_021"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_054"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_023"
+      ],
+      "polyline": [
+        {
+          "x": 571.0,
+          "y": 873.0
+        },
+        {
+          "x": 566.0,
+          "y": 963.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_095"
+      ]
+    },
+    {
+      "observationId": "obs_link_024",
+      "sourceNodeCandidates": [
+        "obs_node_017"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_022"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_055"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_024"
+      ],
+      "polyline": [
+        {
+          "x": 741.0,
+          "y": 873.0
+        },
+        {
+          "x": 666.0,
+          "y": 963.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_096"
+      ]
+    },
+    {
+      "observationId": "obs_link_025",
+      "sourceNodeCandidates": [
+        "obs_node_017"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_023"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_056"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_025"
+      ],
+      "polyline": [
+        {
+          "x": 771.0,
+          "y": 873.0
+        },
+        {
+          "x": 766.0,
+          "y": 963.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_097"
+      ]
+    },
+    {
+      "observationId": "obs_link_026",
+      "sourceNodeCandidates": [
+        "obs_node_018"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_027"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_057"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_026"
+      ],
+      "polyline": [
+        {
+          "x": 1141.0,
+          "y": 873.0
+        },
+        {
+          "x": 1051.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_098"
+      ]
+    },
+    {
+      "observationId": "obs_link_027",
+      "sourceNodeCandidates": [
+        "obs_node_018"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_028"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_058"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_027"
+      ],
+      "polyline": [
+        {
+          "x": 1156.0,
+          "y": 873.0
+        },
+        {
+          "x": 1151.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_099"
+      ]
+    },
+    {
+      "observationId": "obs_link_028",
+      "sourceNodeCandidates": [
+        "obs_node_018"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_029"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_059"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_028"
+      ],
+      "polyline": [
+        {
+          "x": 1171.0,
+          "y": 873.0
+        },
+        {
+          "x": 1251.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_100"
+      ]
+    },
+    {
+      "observationId": "obs_link_029",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_030"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_060"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_029"
+      ],
+      "polyline": [
+        {
+          "x": 1541.0,
+          "y": 873.0
+        },
+        {
+          "x": 1451.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_101"
+      ]
+    },
+    {
+      "observationId": "obs_link_030",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_031"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_061"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_030"
+      ],
+      "polyline": [
+        {
+          "x": 1556.0,
+          "y": 873.0
+        },
+        {
+          "x": 1551.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_102"
+      ]
+    },
+    {
+      "observationId": "obs_link_031",
+      "sourceNodeCandidates": [
+        "obs_node_019"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_032"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_062"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_031"
+      ],
+      "polyline": [
+        {
+          "x": 1571.0,
+          "y": 873.0
+        },
+        {
+          "x": 1651.0,
+          "y": 973.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_103"
+      ]
+    }
+  ],
+  "observedRegions": [
+    {
+      "observationId": "obs_region_001",
+      "rawName": "LAB JARINGAN",
+      "nameCandidates": [
+        "LAB JARINGAN"
+      ],
+      "bbox": {
+        "x": 26.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "fillColor": null,
+      "memberNodeCandidates": [
+        "obs_node_015",
+        "obs_node_024",
+        "obs_node_025",
+        "obs_node_026"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_065",
+        "evidence_066"
+      ]
+    },
+    {
+      "observationId": "obs_region_002",
+      "rawName": "RUANG SERVER",
+      "nameCandidates": [
+        "RUANG SERVER"
+      ],
+      "bbox": {
+        "x": 426.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "fillColor": null,
+      "memberNodeCandidates": [
+        "obs_node_016",
+        "obs_node_017",
+        "obs_node_020",
+        "obs_node_021",
+        "obs_node_022",
+        "obs_node_023"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_067",
+        "evidence_068"
+      ]
+    },
+    {
+      "observationId": "obs_region_003",
+      "rawName": "MANAJEMENT",
+      "nameCandidates": [
+        "MANAJEMENT"
+      ],
+      "bbox": {
+        "x": 926.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "fillColor": null,
+      "memberNodeCandidates": [
+        "obs_node_018",
+        "obs_node_027",
+        "obs_node_028",
+        "obs_node_029"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_069",
+        "evidence_070"
+      ]
+    },
+    {
+      "observationId": "obs_region_004",
+      "rawName": "CLIENT",
+      "nameCandidates": [
+        "CLIENT"
+      ],
+      "bbox": {
+        "x": 1326.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "fillColor": null,
+      "memberNodeCandidates": [
+        "obs_node_019",
+        "obs_node_030",
+        "obs_node_031",
+        "obs_node_032"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_071",
+        "evidence_072"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "evidence_001",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1256.0,
+        "y": 38.0,
+        "width": 70.0,
+        "height": 55.0
+      },
+      "rawText": null,
+      "description": "Brick wall icon indicating firewall device.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_002",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1246.0,
+        "y": 3.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-5500-FW1",
+      "description": "Device label above the icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_003",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1726.0,
+        "y": 43.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_004",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1736.0,
+        "y": 113.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "VPC",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_005",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1006.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_006",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1026.0,
+        "y": 18.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A7",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_007",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1506.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_008",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1526.0,
+        "y": 98.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A9",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_009",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 126.0,
+        "y": 133.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_010",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 131.0,
+        "y": 188.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_011",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1006.0,
+        "y": 263.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_012",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 986.0,
+        "y": 333.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-Core-R1",
+      "description": "Label below the router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_013",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1526.0,
+        "y": 263.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_014",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1531.0,
+        "y": 333.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "VPC2",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_015",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 126.0,
+        "y": 273.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_016",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 131.0,
+        "y": 328.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_017",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 326.0,
+        "y": 273.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_018",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 346.0,
+        "y": 238.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A1",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1306.0,
+        "y": 273.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1326.0,
+        "y": 328.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A8",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 126.0,
+        "y": 413.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 131.0,
+        "y": 468.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 326.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 306.0,
+        "y": 558.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-R1",
+      "description": "Label above the router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1006.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1026.0,
+        "y": 663.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "A10",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1306.0,
+        "y": 613.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1286.0,
+        "y": 558.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-R2",
+      "description": "Label above the router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 226.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 246.0,
+        "y": 808.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A2",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 526.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 546.0,
+        "y": 808.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A3",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 726.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 746.0,
+        "y": 808.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A4",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1126.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1146.0,
+        "y": 808.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A5",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1526.0,
+        "y": 833.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1546.0,
+        "y": 808.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A6",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 446.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 456.0,
+        "y": 1033.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "Web",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 546.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 556.0,
+        "y": 1033.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "DB",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_043",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 646.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_044",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 656.0,
+        "y": 1033.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "Mail",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_045",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 746.0,
+        "y": 963.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_046",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 736.0,
+        "y": 1033.0,
+        "width": 50.0,
+        "height": 15.0
+      },
+      "rawText": "Monitor",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_047",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 126.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_048",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 131.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_049",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 226.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_050",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 231.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_051",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 326.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_052",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 331.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_053",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1026.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_054",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1031.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_055",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1126.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_056",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1131.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc4",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_057",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1226.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_058",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1231.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc5",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_059",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1426.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_060",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1431.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_061",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1526.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_062",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1531.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_063",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1626.0,
+        "y": 973.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC icon inside region.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_064",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1631.0,
+        "y": 1028.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_065",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 26.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A2 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_066",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 46.0,
+        "y": 773.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "LAB JARINGAN",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_067",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 426.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A3, A4 and servers.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_068",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 446.0,
+        "y": 773.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "RUANG SERVER",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_069",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 926.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A5 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_070",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 946.0,
+        "y": 773.0,
+        "width": 80.0,
+        "height": 15.0
+      },
+      "rawText": "MANAJEMENT",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_071",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1326.0,
+        "y": 763.0,
+        "width": 400.0,
+        "height": 320.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A6 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_072",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1346.0,
+        "y": 773.0,
+        "width": 50.0,
+        "height": 15.0
+      },
+      "rawText": "CLIENT",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_073",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1066.0,
+        "y": 71.0,
+        "width": 190.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting A7 switch to FW1 firewall.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1326.0,
+        "y": 71.0,
+        "width": 180.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting FW1 firewall to A9 switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1566.0,
+        "y": 71.0,
+        "width": 160.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting A9 switch to VPC server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1034.0,
+        "y": 93.0,
+        "width": 4.0,
+        "height": 170.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting A7 switch down to Core-R1 router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 176.0,
+        "y": 178.0,
+        "width": 150.0,
+        "height": 95.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A1-pc1 to A1 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 201.0,
+        "y": 291.0,
+        "width": 125.0,
+        "height": 6.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A1-pc2 to A1 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 176.0,
+        "y": 313.0,
+        "width": 150.0,
+        "height": 122.5
+      },
+      "rawText": null,
+      "description": "Diagonal line from A1-pc3 to A1 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 386.0,
+        "y": 291.0,
+        "width": 620.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Long horizontal line connecting A1 switch to Core-R1 router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1066.0,
+        "y": 291.0,
+        "width": 240.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting Core-R1 router to A8 switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1366.0,
+        "y": 291.0,
+        "width": 160.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting A8 switch to VPC2 server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1034.0,
+        "y": 323.0,
+        "width": 4.0,
+        "height": 290.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting Core-R1 router down to A10 switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 386.0,
+        "y": 631.0,
+        "width": 620.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting A10 switch to Cisco-9000-R1 router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1066.0,
+        "y": 631.0,
+        "width": 240.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting A10 switch to Cisco-9000-R2 router.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 256.0,
+        "y": 673.0,
+        "width": 85.0,
+        "height": 160.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from Cisco-9000-R1 to A2 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 371.0,
+        "y": 673.0,
+        "width": 185.0,
+        "height": 160.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from Cisco-9000-R1 to A3 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 386.0,
+        "y": 673.0,
+        "width": 370.0,
+        "height": 160.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from Cisco-9000-R1 to A4 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1156.0,
+        "y": 673.0,
+        "width": 165.0,
+        "height": 160.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from Cisco-9000-R2 to A5 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1351.0,
+        "y": 673.0,
+        "width": 205.0,
+        "height": 160.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from Cisco-9000-R2 to A6 switch.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 151.0,
+        "y": 873.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A2 switch to A2-pc1.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 251.0,
+        "y": 873.0,
+        "width": 7.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A2 switch to A2-pc2.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 271.0,
+        "y": 873.0,
+        "width": 80.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A2 switch to A2-pc3.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 466.0,
+        "y": 873.0,
+        "width": 75.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A3 switch to Web server.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 566.0,
+        "y": 873.0,
+        "width": 7.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A3 switch to DB server.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 666.0,
+        "y": 873.0,
+        "width": 75.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A4 switch to Mail server.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 766.0,
+        "y": 873.0,
+        "width": 7.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A4 switch to Monitor server.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1051.0,
+        "y": 873.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A5 switch to A5-pc3.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1149.0,
+        "y": 873.0,
+        "width": 9.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A5 switch to A5-pc4.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1171.0,
+        "y": 873.0,
+        "width": 80.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A5 switch to A5-pc5.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_101",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1451.0,
+        "y": 873.0,
+        "width": 90.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A6 switch to A6-pc1.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1549.0,
+        "y": 873.0,
+        "width": 9.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A6 switch to A6-pc2.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1571.0,
+        "y": 873.0,
+        "width": 80.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A6 switch to A6-pc3.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1186.0,
+        "y": 83.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n10.0.6.3/24",
+      "description": "Interface and IP text near FW1 left side",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1186.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 10.0.6.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_106",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 83.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n192.168.10.1/24",
+      "description": "Interface and IP text near FW1 right side",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_107",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 192.168.10.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_108",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1706.0,
+        "y": 63.0,
+        "width": 90.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n192.168.10.5/24",
+      "description": "Interface and IP text near VPC",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_109",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1706.0,
+        "y": 63.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 192.168.10.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_110",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 133.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.3/24",
+      "description": "Interface and IP text near A1-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_111",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 133.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_112",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 233.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.6.1/24",
+      "description": "Interface and IP text near Core-R1 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_113",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 233.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.6.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_114",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 936.0,
+        "y": 273.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.1.1/24",
+      "description": "Interface and IP text near Core-R1 left",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_115",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 936.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.1.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_116",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1086.0,
+        "y": 273.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/4\n192.168.20.1/24",
+      "description": "Interface and IP text near Core-R1 right",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_117",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1086.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/4 192.168.20.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_118",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 323.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.1/24",
+      "description": "Interface and IP text near Core-R1 bottom",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_119",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 323.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_120",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 283.0,
+        "width": 90.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n192.168.20.5/24",
+      "description": "Interface and IP text near VPC2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_121",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 283.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 192.168.20.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_122",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 273.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.4/24",
+      "description": "Interface and IP text near A1-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_123",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 273.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_124",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 413.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.5/24",
+      "description": "Interface and IP text near A1-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_125",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 413.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_126",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 583.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.3/24",
+      "description": "Interface and IP text near R1 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_127",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_128",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 256.0,
+        "y": 633.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.2.1/24",
+      "description": "Interface and IP text near R1 left-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_129",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 256.0,
+        "y": 633.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.2.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_130",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.3.1/24",
+      "description": "Interface and IP text near R1 bottom-left",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_131",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.3.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_132",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 406.0,
+        "y": 663.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/4\n10.0.10.1/24",
+      "description": "Interface and IP text near R1 bottom-right",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_133",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 406.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/4 10.0.10.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_134",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 583.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.4/24",
+      "description": "Interface and IP text near R2 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_135",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_136",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1236.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.4.1/24",
+      "description": "Interface and IP text near R2 left-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_137",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1236.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.4.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_138",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1386.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.5.1/24",
+      "description": "Interface and IP text near R2 right-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_139",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1386.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.5.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_140",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.3/24",
+      "description": "Interface and IP text near A2-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_141",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_142",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 206.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.4/24",
+      "description": "Interface and IP text near A2-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_143",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_144",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.5/24",
+      "description": "Interface and IP text near A2-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_145",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_146",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 426.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.3.3/24",
+      "description": "Interface and IP text near Web",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_147",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 426.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.3.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_148",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 526.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.3.4/24",
+      "description": "Interface and IP text near DB",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_149",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 526.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.3.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_150",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 626.0,
+        "y": 1013.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.10.3/24",
+      "description": "Interface and IP text near Mail",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_151",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 626.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.10.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_152",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 726.0,
+        "y": 1013.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.10.4/24",
+      "description": "Interface and IP text near Monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_153",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 726.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.10.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_154",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1006.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.3/24",
+      "description": "Interface and IP text near A5-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_155",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1006.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_156",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1106.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.4/24",
+      "description": "Interface and IP text near A5-pc4",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_157",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_158",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1206.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.5/24",
+      "description": "Interface and IP text near A5-pc5",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_159",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_160",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1406.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.3/24",
+      "description": "Interface and IP text near A6-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_161",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1406.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_162",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.4/24",
+      "description": "Interface and IP text near A6-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_163",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_164",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1606.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.5/24",
+      "description": "Interface and IP text near A6-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_165",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1606.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    }
+  ],
+  "unresolvedItems": [
+    {
+      "tempId": "unresolved_001",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_003"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ]
+    },
+    {
+      "tempId": "unresolved_002",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_004"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ]
+    },
+    {
+      "tempId": "unresolved_003",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_009"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_017",
+        "evidence_018"
+      ]
+    },
+    {
+      "tempId": "unresolved_004",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_010"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_019",
+        "evidence_020"
+      ]
+    },
+    {
+      "tempId": "unresolved_005",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_013"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_025",
+        "evidence_026"
+      ]
+    },
+    {
+      "tempId": "unresolved_006",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_015"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_029",
+        "evidence_030"
+      ]
+    },
+    {
+      "tempId": "unresolved_007",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_016"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_031",
+        "evidence_032"
+      ]
+    },
+    {
+      "tempId": "unresolved_008",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_017"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_033",
+        "evidence_034"
+      ]
+    },
+    {
+      "tempId": "unresolved_009",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_018"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_035",
+        "evidence_036"
+      ]
+    },
+    {
+      "tempId": "unresolved_010",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_019"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "fusion action LEAVE_UNRESOLVED preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_037",
+        "evidence_038"
+      ]
+    }
+  ],
+  "summary": {
+    "nodeCount": 32,
+    "interfaceCount": 62,
+    "linkCount": 31,
+    "regionCount": 4,
+    "evidenceCount": 165,
+    "unresolvedCount": 10,
+    "blockingUnresolvedCount": 0,
+    "nodes": 32,
+    "interfaces": 62,
+    "links": 31,
+    "regions": 4,
+    "evidence": 165,
+    "unresolvedItems": 10,
+    "structureLogicalCalls": 1,
+    "linksLogicalCalls": 1,
+    "textLogicalCalls": 1,
+    "fusionLogicalCalls": 1,
+    "structureHttpRequests": 1,
+    "linksHttpRequests": 1,
+    "textHttpRequests": 1,
+    "fusionHttpRequests": 1,
+    "structureInputTokens": 13321,
+    "structureOutputTokens": 13489,
+    "linksInputTokens": 15823,
+    "linksOutputTokens": 8793,
+    "textInputTokens": 18692,
+    "textOutputTokens": 12137,
+    "fusionInputTokens": 32102,
+    "fusionOutputTokens": 1165,
+    "totalLogicalCalls": 4,
+    "totalHttpRequests": 4,
+    "totalInputTokens": 79938,
+    "totalOutputTokens": 35584,
+    "totalTokens": 115522,
+    "nodeCountAfterPass1": 32,
+    "additionalNodeCountAfterPass2": 0,
+    "textObservationCount": 31,
+    "fusionConflictCount": 16,
+    "fusionDecisionCount": 16,
+    "rejectedFusionDecisionCount": 0,
+    "finalUnresolvedCount": 10
+  }
+}

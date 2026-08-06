@@ -1,0 +1,1215 @@
+{
+  "taskId": "222",
+  "currentStage": "text",
+  "image": {
+    "width": 1915,
+    "height": 1243,
+    "format": "PNG"
+  },
+  "view": {
+    "viewId": "global_text",
+    "width": 1915,
+    "height": 1243,
+    "coversCompleteImage": true,
+    "coordinateMapping": {
+      "modelSource": "current-view pixels centered at image center (0,0), x right, y down, at most two decimals",
+      "target": "EXIF-corrected original pixels",
+      "viewCenterX": 957.5,
+      "viewCenterY": 621.5,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0
+    }
+  },
+  "currentTopology": {
+    "nodes": [
+      {
+        "id": "N001",
+        "observationId": "obs_node_001",
+        "bbox": {
+          "x": 848.5,
+          "y": -589.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": 880.5,
+          "y": -545.5
+        },
+        "typeCandidates": [
+          "vpc_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "VPC"
+        ]
+      },
+      {
+        "id": "N002",
+        "observationId": "obs_node_002",
+        "bbox": {
+          "x": 314.5,
+          "y": -576.5,
+          "width": 90.0,
+          "height": 63.0
+        },
+        "center": {
+          "x": 359.5,
+          "y": -545.0
+        },
+        "typeCandidates": [
+          "firewall"
+        ],
+        "knownNameCandidates": [
+          "Cisco-5500-FW1",
+          "FW1"
+        ]
+      },
+      {
+        "id": "N003",
+        "observationId": "obs_node_003",
+        "bbox": {
+          "x": 590.5,
+          "y": -576.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": 641.5,
+          "y": -554.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A9"
+        ]
+      },
+      {
+        "id": "N004",
+        "observationId": "obs_node_004",
+        "bbox": {
+          "x": 17.5,
+          "y": -559.5,
+          "width": 103.0,
+          "height": 44.0
+        },
+        "center": {
+          "x": 69.0,
+          "y": -537.5
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A7"
+        ]
+      },
+      {
+        "id": "N005",
+        "observationId": "obs_node_005",
+        "bbox": {
+          "x": -779.5,
+          "y": -481.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -739.5,
+          "y": -446.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A1-pc1"
+        ]
+      },
+      {
+        "id": "N006",
+        "observationId": "obs_node_006",
+        "bbox": {
+          "x": 618.5,
+          "y": -349.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": 650.5,
+          "y": -305.5
+        },
+        "typeCandidates": [
+          "vpc_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "VPC2"
+        ]
+      },
+      {
+        "id": "N007",
+        "observationId": "obs_node_007",
+        "bbox": {
+          "x": 24.5,
+          "y": -328.5,
+          "width": 70.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 59.5,
+          "y": -303.5
+        },
+        "typeCandidates": [
+          "router"
+        ],
+        "knownNameCandidates": [
+          "Cisco-9000-Core-R1",
+          "Core-R1"
+        ]
+      },
+      {
+        "id": "N008",
+        "observationId": "obs_node_008",
+        "bbox": {
+          "x": -779.5,
+          "y": -326.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -739.5,
+          "y": -291.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A1-pc2"
+        ]
+      },
+      {
+        "id": "N009",
+        "observationId": "obs_node_009",
+        "bbox": {
+          "x": 314.5,
+          "y": -326.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": 365.5,
+          "y": -304.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A8"
+        ]
+      },
+      {
+        "id": "N010",
+        "observationId": "obs_node_010",
+        "bbox": {
+          "x": -547.5,
+          "y": -316.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": -496.5,
+          "y": -294.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A1"
+        ]
+      },
+      {
+        "id": "N011",
+        "observationId": "obs_node_011",
+        "bbox": {
+          "x": -779.5,
+          "y": -173.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -739.5,
+          "y": -138.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A1-pc3"
+        ]
+      },
+      {
+        "id": "N012",
+        "observationId": "obs_node_012",
+        "bbox": {
+          "x": 17.5,
+          "y": -11.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": 68.5,
+          "y": 11.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A10"
+        ]
+      },
+      {
+        "id": "N013",
+        "observationId": "obs_node_013",
+        "bbox": {
+          "x": -384.5,
+          "y": -8.5,
+          "width": 70.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": -349.5,
+          "y": 16.5
+        },
+        "typeCandidates": [
+          "router"
+        ],
+        "knownNameCandidates": [
+          "Cisco-9000-R1"
+        ]
+      },
+      {
+        "id": "N014",
+        "observationId": "obs_node_014",
+        "bbox": {
+          "x": 445.5,
+          "y": -8.5,
+          "width": 70.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 480.5,
+          "y": 16.5
+        },
+        "typeCandidates": [
+          "router"
+        ],
+        "knownNameCandidates": [
+          "Cisco-9000-R2"
+        ]
+      },
+      {
+        "id": "N015",
+        "observationId": "obs_node_015",
+        "bbox": {
+          "x": -797.5,
+          "y": 283.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": -746.5,
+          "y": 306.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A2"
+        ]
+      },
+      {
+        "id": "N016",
+        "observationId": "obs_node_016",
+        "bbox": {
+          "x": -447.5,
+          "y": 283.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": -396.5,
+          "y": 306.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A3"
+        ]
+      },
+      {
+        "id": "N017",
+        "observationId": "obs_node_017",
+        "bbox": {
+          "x": -194.5,
+          "y": 283.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": -143.5,
+          "y": 306.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A4"
+        ]
+      },
+      {
+        "id": "N018",
+        "observationId": "obs_node_018",
+        "bbox": {
+          "x": 222.5,
+          "y": 283.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": 273.5,
+          "y": 306.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A5"
+        ]
+      },
+      {
+        "id": "N019",
+        "observationId": "obs_node_019",
+        "bbox": {
+          "x": 692.5,
+          "y": 283.5,
+          "width": 102.0,
+          "height": 45.0
+        },
+        "center": {
+          "x": 743.5,
+          "y": 306.0
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ],
+        "knownNameCandidates": [
+          "A6"
+        ]
+      },
+      {
+        "id": "N020",
+        "observationId": "obs_node_020",
+        "bbox": {
+          "x": -487.5,
+          "y": 440.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": -455.5,
+          "y": 484.5
+        },
+        "typeCandidates": [
+          "web_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "Web"
+        ]
+      },
+      {
+        "id": "N021",
+        "observationId": "obs_node_021",
+        "bbox": {
+          "x": -365.5,
+          "y": 440.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": -333.5,
+          "y": 484.5
+        },
+        "typeCandidates": [
+          "database_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "DB"
+        ]
+      },
+      {
+        "id": "N022",
+        "observationId": "obs_node_022",
+        "bbox": {
+          "x": -242.5,
+          "y": 440.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": -210.5,
+          "y": 484.5
+        },
+        "typeCandidates": [
+          "mail_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "Mail",
+          "Mai1"
+        ]
+      },
+      {
+        "id": "N023",
+        "observationId": "obs_node_023",
+        "bbox": {
+          "x": -120.5,
+          "y": 440.5,
+          "width": 64.0,
+          "height": 88.0
+        },
+        "center": {
+          "x": -88.5,
+          "y": 484.5
+        },
+        "typeCandidates": [
+          "monitor_server",
+          "server"
+        ],
+        "knownNameCandidates": [
+          "Monitor"
+        ]
+      },
+      {
+        "id": "N024",
+        "observationId": "obs_node_024",
+        "bbox": {
+          "x": -907.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -867.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A2-pc1"
+        ]
+      },
+      {
+        "id": "N025",
+        "observationId": "obs_node_025",
+        "bbox": {
+          "x": -787.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -747.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A2-pc2"
+        ]
+      },
+      {
+        "id": "N026",
+        "observationId": "obs_node_026",
+        "bbox": {
+          "x": -665.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": -625.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A2-pc3"
+        ]
+      },
+      {
+        "id": "N027",
+        "observationId": "obs_node_027",
+        "bbox": {
+          "x": 102.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 142.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A5-pc3"
+        ]
+      },
+      {
+        "id": "N028",
+        "observationId": "obs_node_028",
+        "bbox": {
+          "x": 227.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 267.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A5-pc4"
+        ]
+      },
+      {
+        "id": "N029",
+        "observationId": "obs_node_029",
+        "bbox": {
+          "x": 352.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 392.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A5-pc5"
+        ]
+      },
+      {
+        "id": "N030",
+        "observationId": "obs_node_030",
+        "bbox": {
+          "x": 562.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 602.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A6-pc1"
+        ]
+      },
+      {
+        "id": "N031",
+        "observationId": "obs_node_031",
+        "bbox": {
+          "x": 687.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 727.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A6-pc2"
+        ]
+      },
+      {
+        "id": "N032",
+        "observationId": "obs_node_032",
+        "bbox": {
+          "x": 812.5,
+          "y": 463.5,
+          "width": 80.0,
+          "height": 70.0
+        },
+        "center": {
+          "x": 852.5,
+          "y": 498.5
+        },
+        "typeCandidates": [
+          "client"
+        ],
+        "knownNameCandidates": [
+          "A6-pc3"
+        ]
+      }
+    ],
+    "regions": [
+      {
+        "id": "R001",
+        "observationId": "obs_region_001",
+        "bbox": {
+          "x": -956.5,
+          "y": 221.5,
+          "width": 382.0,
+          "height": 398.0
+        },
+        "knownNameCandidates": [
+          "LAB JARINGAN"
+        ]
+      },
+      {
+        "id": "R002",
+        "observationId": "obs_region_002",
+        "bbox": {
+          "x": -514.5,
+          "y": 221.5,
+          "width": 487.0,
+          "height": 398.0
+        },
+        "knownNameCandidates": [
+          "RUANG SERVER"
+        ]
+      },
+      {
+        "id": "R003",
+        "observationId": "obs_region_003",
+        "bbox": {
+          "x": 55.5,
+          "y": 221.5,
+          "width": 407.0,
+          "height": 398.0
+        },
+        "knownNameCandidates": [
+          "MANAJEMENT"
+        ]
+      },
+      {
+        "id": "R004",
+        "observationId": "obs_region_004",
+        "bbox": {
+          "x": 520.5,
+          "y": 221.5,
+          "width": 399.0,
+          "height": 398.0
+        },
+        "knownNameCandidates": [
+          "CLIENT"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "id": "obs_link_001",
+        "sourceNodeCandidates": [
+          "obs_node_004"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_002"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/1"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_002",
+        "sourceNodeCandidates": [
+          "obs_node_002"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_003"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_003",
+        "sourceNodeCandidates": [
+          "obs_node_003"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_001"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_004",
+        "sourceNodeCandidates": [
+          "obs_node_004"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_007"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/3"
+        ]
+      },
+      {
+        "id": "obs_link_005",
+        "sourceNodeCandidates": [
+          "obs_node_005"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_010"
+        ],
+        "knownSourceInterfaceLabels": [
+          "eth0"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_006",
+        "sourceNodeCandidates": [
+          "obs_node_008"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_010"
+        ],
+        "knownSourceInterfaceLabels": [
+          "eth0"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/2"
+        ]
+      },
+      {
+        "id": "obs_link_007",
+        "sourceNodeCandidates": [
+          "obs_node_011"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_010"
+        ],
+        "knownSourceInterfaceLabels": [
+          "eth0"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/4"
+        ]
+      },
+      {
+        "id": "obs_link_008",
+        "sourceNodeCandidates": [
+          "obs_node_010"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_007"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/2"
+        ]
+      },
+      {
+        "id": "obs_link_009",
+        "sourceNodeCandidates": [
+          "obs_node_007"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_009"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/4"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_010",
+        "sourceNodeCandidates": [
+          "obs_node_009"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_006"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_011",
+        "sourceNodeCandidates": [
+          "obs_node_007"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_012"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/1"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/3"
+        ]
+      },
+      {
+        "id": "obs_link_012",
+        "sourceNodeCandidates": [
+          "obs_node_012"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_013"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_013",
+        "sourceNodeCandidates": [
+          "obs_node_012"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_014"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/1"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_014",
+        "sourceNodeCandidates": [
+          "obs_node_013"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_015"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_015",
+        "sourceNodeCandidates": [
+          "obs_node_013"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_016"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/2"
+        ]
+      },
+      {
+        "id": "obs_link_016",
+        "sourceNodeCandidates": [
+          "obs_node_013"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_017"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/4"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_017",
+        "sourceNodeCandidates": [
+          "obs_node_014"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_018"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/1"
+        ]
+      },
+      {
+        "id": "obs_link_018",
+        "sourceNodeCandidates": [
+          "obs_node_014"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_019"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "GE0/4"
+        ]
+      },
+      {
+        "id": "obs_link_019",
+        "sourceNodeCandidates": [
+          "obs_node_015"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_024"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/4"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_020",
+        "sourceNodeCandidates": [
+          "obs_node_015"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_025"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_021",
+        "sourceNodeCandidates": [
+          "obs_node_015"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_026"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_022",
+        "sourceNodeCandidates": [
+          "obs_node_016"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_020"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_023",
+        "sourceNodeCandidates": [
+          "obs_node_016"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_021"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/1"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_024",
+        "sourceNodeCandidates": [
+          "obs_node_017"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_022"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_025",
+        "sourceNodeCandidates": [
+          "obs_node_017"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_023"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_026",
+        "sourceNodeCandidates": [
+          "obs_node_018"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_027"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_027",
+        "sourceNodeCandidates": [
+          "obs_node_018"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_028"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_028",
+        "sourceNodeCandidates": [
+          "obs_node_018"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_029"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/4"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_029",
+        "sourceNodeCandidates": [
+          "obs_node_019"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_030"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/3"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_030",
+        "sourceNodeCandidates": [
+          "obs_node_019"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_031"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/2"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      },
+      {
+        "id": "obs_link_031",
+        "sourceNodeCandidates": [
+          "obs_node_019"
+        ],
+        "targetNodeCandidates": [
+          "obs_node_032"
+        ],
+        "knownSourceInterfaceLabels": [
+          "GE0/1"
+        ],
+        "knownTargetInterfaceLabels": [
+          "eth0"
+        ]
+      }
+    ]
+  },
+  "outputLimits": {
+    "textBlocks": 44,
+    "interfaces": 40,
+    "ipv4Observations": 159,
+    "prefixObservations": 159
+  }
+}

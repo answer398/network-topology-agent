@@ -1,0 +1,118 @@
+{
+  "stage": "text",
+  "sourceViewId": "global_text",
+  "evidence": [
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 204.5,
+        "y": 79.0,
+        "width": 95.0,
+        "height": 29.0
+      },
+      "rawText": "GE0/0 192.168.12.1/24",
+      "description": "Interface and IP text near R1 right side",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 94.5,
+        "y": 99.0,
+        "width": 95.0,
+        "height": 29.0
+      },
+      "rawText": "GE0/1 192.168.1.1/24",
+      "description": "Interface and IP text near R1 bottom side",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 674.5,
+        "y": 79.0,
+        "width": 95.0,
+        "height": 29.0
+      },
+      "rawText": "GE0/0 192.168.12.2/24",
+      "description": "Interface and IP text near R2 left side",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 754.5,
+        "y": 99.0,
+        "width": 95.0,
+        "height": 29.0
+      },
+      "rawText": "GE0/1 192.168.2.1/24",
+      "description": "Interface and IP text near R2 right side",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 44.5,
+        "y": 459.0,
+        "width": 95.0,
+        "height": 84.0
+      },
+      "rawText": "eth0 192.168.1.2/24",
+      "description": "Interface and IP text for PC-PT",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 194.5,
+        "y": 459.0,
+        "width": 95.0,
+        "height": 84.0
+      },
+      "rawText": "eth0 192.168.1.3/24",
+      "description": "Interface and IP text for PC-PT2",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 604.5,
+        "y": 459.0,
+        "width": 95.0,
+        "height": 84.0
+      },
+      "rawText": "eth0 192.168.2.2/24",
+      "description": "Interface and IP text for PC-PT3",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 774.5,
+        "y": 459.0,
+        "width": 95.0,
+        "height": 84.0
+      },
+      "rawText": "eth0 192.168.2.3/24",
+      "description": "Interface and IP text for PC-PT4",
+      "confidence": 0.98
+    }
+  ]
+}

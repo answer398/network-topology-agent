@@ -1,0 +1,118 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 201.0,
+        "y": 58.0,
+        "width": 214.0,
+        "height": 2.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting N001 and N002",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 471.0,
+        "y": 58.0,
+        "width": 214.0,
+        "height": 2.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting N002 and N003",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 172.0,
+        "y": 80.0,
+        "width": 2.0,
+        "height": 198.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting N001 and N004",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 712.0,
+        "y": 80.0,
+        "width": 2.0,
+        "height": 198.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting N003 and N005",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 102.0,
+        "y": 320.0,
+        "width": 58.0,
+        "height": 178.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting N004 and N006",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 187.0,
+        "y": 320.0,
+        "width": 87.0,
+        "height": 178.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting N004 and N007",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 642.0,
+        "y": 320.0,
+        "width": 58.0,
+        "height": 178.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting N005 and N008",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 727.0,
+        "y": 320.0,
+        "width": 87.0,
+        "height": 178.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting N005 and N009",
+      "confidence": 0.95
+    }
+  ]
+}

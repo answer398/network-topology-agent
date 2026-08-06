@@ -1,0 +1,874 @@
+{
+  "stage": "text",
+  "sourceViewId": "global_text",
+  "evidence": [
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1186.0,
+        "y": 83.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n10.0.6.3/24",
+      "description": "Interface and IP text near FW1 left side",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1186.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 10.0.6.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_106",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 83.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n192.168.10.1/24",
+      "description": "Interface and IP text near FW1 right side",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_107",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 83.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 192.168.10.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_108",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1706.0,
+        "y": 63.0,
+        "width": 90.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n192.168.10.5/24",
+      "description": "Interface and IP text near VPC",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_109",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1706.0,
+        "y": 63.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 192.168.10.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_110",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 133.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.3/24",
+      "description": "Interface and IP text near A1-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_111",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 133.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_112",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 233.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.6.1/24",
+      "description": "Interface and IP text near Core-R1 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_113",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 233.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.6.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_114",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 936.0,
+        "y": 273.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.1.1/24",
+      "description": "Interface and IP text near Core-R1 left",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_115",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 936.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.1.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_116",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1086.0,
+        "y": 273.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/4\n192.168.20.1/24",
+      "description": "Interface and IP text near Core-R1 right",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_117",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1086.0,
+        "y": 273.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/4 192.168.20.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_118",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 323.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.1/24",
+      "description": "Interface and IP text near Core-R1 bottom",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_119",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 986.0,
+        "y": 323.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_120",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 283.0,
+        "width": 90.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n192.168.20.5/24",
+      "description": "Interface and IP text near VPC2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_121",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 283.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 192.168.20.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_122",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 273.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.4/24",
+      "description": "Interface and IP text near A1-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_123",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 273.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_124",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 413.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.1.5/24",
+      "description": "Interface and IP text near A1-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_125",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 413.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.1.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_126",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 583.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.3/24",
+      "description": "Interface and IP text near R1 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_127",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_128",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 256.0,
+        "y": 633.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.2.1/24",
+      "description": "Interface and IP text near R1 left-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_129",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 256.0,
+        "y": 633.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.2.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_130",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.3.1/24",
+      "description": "Interface and IP text near R1 bottom-left",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_131",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.3.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_132",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 406.0,
+        "y": 663.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/4\n10.0.10.1/24",
+      "description": "Interface and IP text near R1 bottom-right",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_133",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 406.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/4 10.0.10.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_134",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 583.0,
+        "width": 90.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/1\n192.168.30.4/24",
+      "description": "Interface and IP text near R2 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_135",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1286.0,
+        "y": 583.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/1 192.168.30.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_136",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1236.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/2\n10.0.4.1/24",
+      "description": "Interface and IP text near R2 left-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_137",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1236.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/2 10.0.4.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_138",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1386.0,
+        "y": 663.0,
+        "width": 70.0,
+        "height": 30.0
+      },
+      "rawText": "GE0/3\n10.0.5.1/24",
+      "description": "Interface and IP text near R2 right-down",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_139",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1386.0,
+        "y": 663.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "GE0/3 10.0.5.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_140",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.3/24",
+      "description": "Interface and IP text near A2-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_141",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_142",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 206.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.4/24",
+      "description": "Interface and IP text near A2-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_143",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_144",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.2.5/24",
+      "description": "Interface and IP text near A2-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_145",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 306.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.2.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_146",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 426.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.3.3/24",
+      "description": "Interface and IP text near Web",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_147",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 426.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.3.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_148",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 526.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.3.4/24",
+      "description": "Interface and IP text near DB",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_149",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 526.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.3.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_150",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 626.0,
+        "y": 1013.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.10.3/24",
+      "description": "Interface and IP text near Mail",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_151",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 626.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.10.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_152",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 726.0,
+        "y": 1013.0,
+        "width": 80.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.10.4/24",
+      "description": "Interface and IP text near Monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_153",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 726.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.10.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_154",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1006.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.3/24",
+      "description": "Interface and IP text near A5-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_155",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1006.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_156",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1106.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.4/24",
+      "description": "Interface and IP text near A5-pc4",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_157",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1106.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_158",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1206.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.4.5/24",
+      "description": "Interface and IP text near A5-pc5",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_159",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1206.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.4.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_160",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1406.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.3/24",
+      "description": "Interface and IP text near A6-pc1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_161",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1406.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.3/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_162",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.4/24",
+      "description": "Interface and IP text near A6-pc2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_163",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1506.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.4/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_164",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1606.0,
+        "y": 1013.0,
+        "width": 70.0,
+        "height": 60.0
+      },
+      "rawText": "eth0\n10.0.5.5/24",
+      "description": "Interface and IP text near A6-pc3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_165",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1606.0,
+        "y": 1013.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "eth0 10.0.5.5/24",
+      "description": "visible text",
+      "confidence": 0.95
+    }
+  ]
+}

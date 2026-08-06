@@ -1,0 +1,1293 @@
+{
+  "linkList": [
+    {
+      "dDevId": "Vdc0ff6324d584a098868af391557ea92",
+      "id": "Leafdeb0fe0b44b03b698646da5daa4fc",
+      "sDevId": "Wc1b6b09825814821a42d6108905d3e38",
+      "dNicName": "Cisco-5500-FW1-GE0/1"
+    },
+    {
+      "dDevId": "Vdc0ff6324d584a098868af391557ea92",
+      "id": "L9e31797a13f94569a191444742568c6a",
+      "sDevId": "Wf4db2d66fd644a288980fdc9421e82de",
+      "dNicName": "Cisco-5500-FW1-GE0/2"
+    },
+    {
+      "dDevId": "V146a41c50ad84316ab467b3a58b3dc32",
+      "id": "L2569673be05c4115b02097d4199d6fed",
+      "sDevId": "Wf4db2d66fd644a288980fdc9421e82de",
+      "dNicName": "VPC-eth0"
+    },
+    {
+      "dDevId": "V3e252c200e46449c935e5f552c2910e1",
+      "id": "La17926a4dd894dcbb449af421e99dc77",
+      "sDevId": "Wc1b6b09825814821a42d6108905d3e38",
+      "dNicName": "Cisco-9000-Core-R1-GE0/3"
+    },
+    {
+      "dDevId": "V3744bb219ca04be184b2109cc99f86f5",
+      "id": "Lf30f4ad835fb416ca3679a88c9481131",
+      "sDevId": "Wa6c54960abb34fffb86c701b95ef5280",
+      "dNicName": "A1-pc1-eth0"
+    },
+    {
+      "dDevId": "V30baec0ea5164059a8bc706f15a30871",
+      "id": "Lda12898f82374669974f01ca474612cf",
+      "sDevId": "Wa6c54960abb34fffb86c701b95ef5280",
+      "dNicName": "A1-pc2-eth0"
+    },
+    {
+      "dDevId": "Vb45854b02678495aa1ef8c15741c6949",
+      "id": "Lcd2dc79ed4c145feacd32a7d23c0564e",
+      "sDevId": "Wa6c54960abb34fffb86c701b95ef5280",
+      "dNicName": "A1-pc3-eth0"
+    },
+    {
+      "dDevId": "V3e252c200e46449c935e5f552c2910e1",
+      "id": "L688f293ca5534c64ad4b66a752889c00",
+      "sDevId": "Wa6c54960abb34fffb86c701b95ef5280",
+      "dNicName": "Cisco-9000-Core-R1-GE0/2"
+    },
+    {
+      "dDevId": "V3e252c200e46449c935e5f552c2910e1",
+      "id": "L69d330527cb64a20bc4d2e4746555ccd",
+      "sDevId": "Wc635536f22ae49d3b6e4943c8de63e38",
+      "dNicName": "Cisco-9000-Core-R1-GE0/4"
+    },
+    {
+      "dDevId": "Vbce44f7d453d4df5947d648e6000412a",
+      "id": "L0609570ebf9c40c19227546b2bea362e",
+      "sDevId": "Wc635536f22ae49d3b6e4943c8de63e38",
+      "dNicName": "VPC2-eth0"
+    },
+    {
+      "dDevId": "V3e252c200e46449c935e5f552c2910e1",
+      "id": "L27b835c19d664332b6af370869fbac0d",
+      "sDevId": "Wa8a719a8154a4ca3bfef296aa8c04de2",
+      "dNicName": "Cisco-9000-Core-R1-GE0/1"
+    },
+    {
+      "dDevId": "Vba4ce112e7e94e73adced1523cec51d7",
+      "id": "Ld53296347c5342d7bb81cdb79343dc81",
+      "sDevId": "Wa8a719a8154a4ca3bfef296aa8c04de2",
+      "dNicName": "Cisco-9000-R1-GE0/1"
+    },
+    {
+      "dDevId": "Vef436c70889441a9a0b103ee27145eec",
+      "id": "Lde05be04ad784da59b66c3c4b2f1bf95",
+      "sDevId": "Wa8a719a8154a4ca3bfef296aa8c04de2",
+      "dNicName": "Cisco-9000-R2-GE0/1"
+    },
+    {
+      "dDevId": "Vba4ce112e7e94e73adced1523cec51d7",
+      "id": "L8d3adadedbd7460ab570aac0175e284b",
+      "sDevId": "Wc6b5fcc9447541a79e97f00075cc56f2",
+      "dNicName": "Cisco-9000-R1-GE0/2"
+    },
+    {
+      "dDevId": "Vba4ce112e7e94e73adced1523cec51d7",
+      "id": "L669da0d9473446b188f11f20cc71d7bf",
+      "sDevId": "W5732afd10c904cf598220fa456644f0a",
+      "dNicName": "Cisco-9000-R1-GE0/3"
+    },
+    {
+      "dDevId": "Vba4ce112e7e94e73adced1523cec51d7",
+      "id": "L1dad8b0f73b240e9941cd4ea1f23911f",
+      "sDevId": "Wef6aa4bd089c4ef6b7145034241e6565",
+      "dNicName": "Cisco-9000-R1-GE0/4"
+    },
+    {
+      "dDevId": "Vef436c70889441a9a0b103ee27145eec",
+      "id": "L3c5113af836243d9b0a8502588f07639",
+      "sDevId": "W04f5329335644cc98b99ca436a9f1a37",
+      "dNicName": "Cisco-9000-R2-GE0/2"
+    },
+    {
+      "dDevId": "Vef436c70889441a9a0b103ee27145eec",
+      "id": "L65a16140fbde49e3a906439669bb1a86",
+      "sDevId": "Wca228374dccb453680a58c772f599a42",
+      "dNicName": "Cisco-9000-R2-GE0/3"
+    },
+    {
+      "dDevId": "Vc6c2c7666c5045c7a9716a39e99df8f7",
+      "id": "Ld56a1da42a934d15adad0a3762a139ca",
+      "sDevId": "Wc6b5fcc9447541a79e97f00075cc56f2",
+      "dNicName": "A2-pc1-eth0"
+    },
+    {
+      "dDevId": "V28d4d0bab1cd4e128439e398f5b2ffa6",
+      "id": "L4edbbfa2ed4b4ddda1be1d583d4e39e5",
+      "sDevId": "Wc6b5fcc9447541a79e97f00075cc56f2",
+      "dNicName": "A2-pc2-eth0"
+    },
+    {
+      "dDevId": "V1737e867831342b6823b1c50555a2105",
+      "id": "Lf16ff37d238440afbbc65b212f31b1ed",
+      "sDevId": "Wc6b5fcc9447541a79e97f00075cc56f2",
+      "dNicName": "A2-pc3-eth0"
+    },
+    {
+      "dDevId": "V992800bc706949b996a109ea02397669",
+      "id": "Lab4990bcc8814ce9b9b11f0259dc204f",
+      "sDevId": "W5732afd10c904cf598220fa456644f0a",
+      "dNicName": "Web-eth0"
+    },
+    {
+      "dDevId": "V795a00106c934ad29c1c74a737700aa2",
+      "id": "L12cee04c7c7f47d795d8b4d2a98564a9",
+      "sDevId": "W5732afd10c904cf598220fa456644f0a",
+      "dNicName": "DB-eth0"
+    },
+    {
+      "dDevId": "V2388b863db2d4b5b882b225f0b3a631e",
+      "id": "Le5a4df8667bc4d6998b3c9e2eb2cf240",
+      "sDevId": "Wef6aa4bd089c4ef6b7145034241e6565",
+      "dNicName": "Mail-eth0"
+    },
+    {
+      "dDevId": "V5430b567579f48aca865237e85e1772f",
+      "id": "Le00315fe51104fd8b5264f0c1ffadf3a",
+      "sDevId": "Wef6aa4bd089c4ef6b7145034241e6565",
+      "dNicName": "Monitor-eth0"
+    },
+    {
+      "dDevId": "V90c1028bcad44acdafdf1adbd8e2de80",
+      "id": "L630a0f0d79474635b13fa9b14f48c87a",
+      "sDevId": "W04f5329335644cc98b99ca436a9f1a37",
+      "dNicName": "A5-pc3-eth0"
+    },
+    {
+      "dDevId": "Va6285e56efc847bfb53c74e5efbb8ace",
+      "id": "L47d5913507114dcaaf665172e82b5dd2",
+      "sDevId": "W04f5329335644cc98b99ca436a9f1a37",
+      "dNicName": "A5-pc4-eth0"
+    },
+    {
+      "dDevId": "V87f016058c73429c8e5292cf936436f1",
+      "id": "L16b3c15f19994296a72fe70bf2f745d2",
+      "sDevId": "W04f5329335644cc98b99ca436a9f1a37",
+      "dNicName": "A5-pc5-eth0"
+    },
+    {
+      "dDevId": "V9fe4c93b8fd74d4ab6ee2f21d68554b8",
+      "id": "L788462c83100472cb88f49822ab2114d",
+      "sDevId": "Wca228374dccb453680a58c772f599a42",
+      "dNicName": "A6-pc1-eth0"
+    },
+    {
+      "dDevId": "Vff2819d8f2fe4f9b8ece84449c7ea459",
+      "id": "L0be68f57ee5e48d38ce06301f2314399",
+      "sDevId": "Wca228374dccb453680a58c772f599a42",
+      "dNicName": "A6-pc2-eth0"
+    },
+    {
+      "dDevId": "Vce4124959b454dfc8d6eea259af6dabf",
+      "id": "L918f8cbca2df47449fbb80a3e4b2cde2",
+      "sDevId": "Wca228374dccb453680a58c772f599a42",
+      "dNicName": "A6-pc3-eth0"
+    }
+  ],
+  "networkList": [
+    {
+      "id": "G109bddae4615477e832ed92d76d05168",
+      "mtu": 1350,
+      "name": "sg-A1",
+      "nodeId": "Wa6c54960abb34fffb86c701b95ef5280",
+      "transmitNodeIdList": [
+        "V3744bb219ca04be184b2109cc99f86f5",
+        "V30baec0ea5164059a8bc706f15a30871",
+        "Vb45854b02678495aa1ef8c15741c6949",
+        "V3e252c200e46449c935e5f552c2910e1"
+      ]
+    },
+    {
+      "id": "G3777b0b37df341dca4e48c427b46d52f",
+      "mtu": 1350,
+      "name": "sg-A2",
+      "nodeId": "Wc6b5fcc9447541a79e97f00075cc56f2",
+      "transmitNodeIdList": [
+        "Vba4ce112e7e94e73adced1523cec51d7",
+        "Vc6c2c7666c5045c7a9716a39e99df8f7",
+        "V28d4d0bab1cd4e128439e398f5b2ffa6",
+        "V1737e867831342b6823b1c50555a2105"
+      ]
+    },
+    {
+      "id": "Gaa2c794059ac436bb01b4519392c43c2",
+      "mtu": 1350,
+      "name": "sg-A5",
+      "nodeId": "W04f5329335644cc98b99ca436a9f1a37",
+      "transmitNodeIdList": [
+        "Vef436c70889441a9a0b103ee27145eec",
+        "V90c1028bcad44acdafdf1adbd8e2de80",
+        "Va6285e56efc847bfb53c74e5efbb8ace",
+        "V87f016058c73429c8e5292cf936436f1"
+      ]
+    },
+    {
+      "id": "Gb8acf91410df45b0802c78a8d3017408",
+      "mtu": 1350,
+      "name": "sg-A6",
+      "nodeId": "Wca228374dccb453680a58c772f599a42",
+      "transmitNodeIdList": [
+        "Vef436c70889441a9a0b103ee27145eec",
+        "V9fe4c93b8fd74d4ab6ee2f21d68554b8",
+        "Vff2819d8f2fe4f9b8ece84449c7ea459",
+        "Vce4124959b454dfc8d6eea259af6dabf"
+      ]
+    },
+    {
+      "id": "G7cf60863acbb40f9a981fc2d2d48cc99",
+      "mtu": 1350,
+      "name": "sg-A3",
+      "nodeId": "W5732afd10c904cf598220fa456644f0a",
+      "transmitNodeIdList": [
+        "Vba4ce112e7e94e73adced1523cec51d7",
+        "V992800bc706949b996a109ea02397669",
+        "V795a00106c934ad29c1c74a737700aa2"
+      ]
+    },
+    {
+      "id": "G0e3fa40ac3a64b59b3f98d1e08130f61",
+      "mtu": 1350,
+      "name": "sg-A4",
+      "nodeId": "Wef6aa4bd089c4ef6b7145034241e6565",
+      "transmitNodeIdList": [
+        "Vba4ce112e7e94e73adced1523cec51d7",
+        "V2388b863db2d4b5b882b225f0b3a631e",
+        "V5430b567579f48aca865237e85e1772f"
+      ]
+    },
+    {
+      "id": "G629db13397dc49ce9f5516bf78f3a54a",
+      "mtu": 1350,
+      "name": "sg-A9",
+      "nodeId": "Wf4db2d66fd644a288980fdc9421e82de",
+      "transmitNodeIdList": [
+        "Vdc0ff6324d584a098868af391557ea92",
+        "V146a41c50ad84316ab467b3a58b3dc32"
+      ]
+    },
+    {
+      "id": "G87d1ec4768cb459280fec9f7e8da20ca",
+      "mtu": 1350,
+      "name": "sg-A8",
+      "nodeId": "Wc635536f22ae49d3b6e4943c8de63e38",
+      "transmitNodeIdList": [
+        "V3e252c200e46449c935e5f552c2910e1",
+        "Vbce44f7d453d4df5947d648e6000412a"
+      ]
+    },
+    {
+      "id": "Gda48c4c32bd744678752a7a348d2b69d",
+      "mtu": 1350,
+      "name": "sg-A7",
+      "nodeId": "Wc1b6b09825814821a42d6108905d3e38",
+      "transmitNodeIdList": [
+        "Vdc0ff6324d584a098868af391557ea92",
+        "V3e252c200e46449c935e5f552c2910e1"
+      ]
+    },
+    {
+      "id": "G9dfc2d835b9b4a1bae16bf81dc44e977",
+      "mtu": 1350,
+      "name": "sg-A10",
+      "nodeId": "Wa8a719a8154a4ca3bfef296aa8c04de2",
+      "transmitNodeIdList": [
+        "V3e252c200e46449c935e5f552c2910e1",
+        "Vba4ce112e7e94e73adced1523cec51d7",
+        "Vef436c70889441a9a0b103ee27145eec"
+      ]
+    }
+  ],
+  "nodeList": [
+    {
+      "nicList": [
+        {
+          "id": "Pd509f110560f4c0b9dc00d81443d981f",
+          "ip": "192.168.10.5",
+          "name": "VPC-eth0",
+          "subnetId": "Sf0daad5713a943ee8d1362fc510c5406"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "V146a41c50ad84316ab467b3a58b3dc32",
+        "nodeName": "VPC",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "551.75",
+        "y": "-341.83",
+        "flavor": {
+          "cpu": "1",
+          "disk": "80",
+          "ram": "2048"
+        },
+        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
+        "imageName": "VPC",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P5b45464c6c4b445e9bc8ff8fb5891262",
+          "ip": "10.0.6.3",
+          "name": "Cisco-5500-FW1-GE0/1",
+          "subnetId": "S927b76d0fafa4149aae78103ca8f2485"
+        },
+        {
+          "id": "P0a5a79dc65ba40929772926bf9e70159",
+          "ip": "192.168.10.1",
+          "name": "Cisco-5500-FW1-GE0/2",
+          "subnetId": "Sf0daad5713a943ee8d1362fc510c5406"
+        }
+      ],
+      "properties": {
+        "devType": "FW",
+        "id": "Vdc0ff6324d584a098868af391557ea92",
+        "nodeName": "Cisco-5500-FW1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "225.27",
+        "y": "-341.51",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB78514-0333-4f80-9c00-790d9b4f5d52",
+        "imageName": "Cisco-5500",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wf4db2d66fd644a288980fdc9421e82de",
+        "nodeName": "A9",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "401.98",
+        "y": "-347.15"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wc1b6b09825814821a42d6108905d3e38",
+        "nodeName": "A7",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "43.24",
+        "y": "-336.81"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pae78094442734c19984eb35863678a37",
+          "ip": "10.0.1.3",
+          "name": "A1-pc1-eth0",
+          "subnetId": "S0917f113080b4ec7a8c82c711406d11f"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V3744bb219ca04be184b2109cc99f86f5",
+        "nodeName": "A1-pc1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-463.39",
+        "y": "-279.79",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pd6b56745502f4d34bc0cef770242ab0d",
+          "ip": "192.168.20.5",
+          "name": "VPC2-eth0",
+          "subnetId": "Se02acccaa06d4a76ac3fea8513e32c3f"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "Vbce44f7d453d4df5947d648e6000412a",
+        "nodeName": "VPC2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "407.62",
+        "y": "-191.44",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pc0396acee6c74edd9f9be94a421f8fbb",
+          "ip": "10.0.6.1",
+          "name": "Cisco-9000-Core-R1-GE0/3",
+          "subnetId": "S927b76d0fafa4149aae78103ca8f2485"
+        },
+        {
+          "id": "P0054496bd6904db4b0e4bb5b4c052f7b",
+          "ip": "10.0.1.1",
+          "name": "Cisco-9000-Core-R1-GE0/2",
+          "subnetId": "S0917f113080b4ec7a8c82c711406d11f"
+        },
+        {
+          "id": "P04bc39497d95461da5041f2ed43f16c7",
+          "ip": "192.168.20.1",
+          "name": "Cisco-9000-Core-R1-GE0/4",
+          "subnetId": "Se02acccaa06d4a76ac3fea8513e32c3f"
+        },
+        {
+          "id": "P8ab3b124e6a54097a71e34a89c8e8ca6",
+          "ip": "192.168.30.1",
+          "name": "Cisco-9000-Core-R1-GE0/1",
+          "subnetId": "S8356fceb0c924f2b88822f82cbdae9d9"
+        }
+      ],
+      "properties": {
+        "devType": "DRT",
+        "id": "V3e252c200e46449c935e5f552c2910e1",
+        "nodeName": "Cisco-9000-Core-R1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "37.28",
+        "y": "-190.18",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
+        "imageName": "Cisco-9000",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pfa49e178b8a149b3a96b8592b69ae40a",
+          "ip": "10.0.1.4",
+          "name": "A1-pc2-eth0",
+          "subnetId": "S0917f113080b4ec7a8c82c711406d11f"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V30baec0ea5164059a8bc706f15a30871",
+        "nodeName": "A1-pc2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-463.39",
+        "y": "-182.66",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wc635536f22ae49d3b6e4943c8de63e38",
+        "nodeName": "A8",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "229.03",
+        "y": "-190.5"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wa6c54960abb34fffb86c701b95ef5280",
+        "nodeName": "A1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-311.12",
+        "y": "-184.23"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P2cc49b8e324f4659bdfcfcd7e155d7c6",
+          "ip": "10.0.1.5",
+          "name": "A1-pc3-eth0",
+          "subnetId": "S0917f113080b4ec7a8c82c711406d11f"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vb45854b02678495aa1ef8c15741c6949",
+        "nodeName": "A1-pc3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-463.39",
+        "y": "-86.79",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wa8a719a8154a4ca3bfef296aa8c04de2",
+        "nodeName": "A10",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "42.92",
+        "y": "6.89"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P0c238a4c45dc4032b23f29e830fedc8d",
+          "ip": "192.168.30.3",
+          "name": "Cisco-9000-R1-GE0/1",
+          "subnetId": "S8356fceb0c924f2b88822f82cbdae9d9"
+        },
+        {
+          "id": "Pf9502deda4f74b4987668b511d15944f",
+          "ip": "10.0.2.1",
+          "name": "Cisco-9000-R1-GE0/2",
+          "subnetId": "S36b1505566b84ce19f1a3bfbc3a6edab"
+        },
+        {
+          "id": "Pa636d7507bcf40c593df09e4c435255b",
+          "ip": "10.0.3.1",
+          "name": "Cisco-9000-R1-GE0/3",
+          "subnetId": "S387640cb9b6340368fdfafb31a3d8b82"
+        },
+        {
+          "id": "Pa9453365c76d41e2aa0467866a213700",
+          "ip": "10.0.10.1",
+          "name": "Cisco-9000-R1-GE0/4",
+          "subnetId": "S5f283524203a412aad88398e2eb6aca3"
+        }
+      ],
+      "properties": {
+        "devType": "DRT",
+        "id": "Vba4ce112e7e94e73adced1523cec51d7",
+        "nodeName": "Cisco-9000-R1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-219.01",
+        "y": "10.34",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
+        "imageName": "Cisco-9000",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pb5a0138b3e734bd98bd95ec87e6a064e",
+          "ip": "192.168.30.4",
+          "name": "Cisco-9000-R2-GE0/1",
+          "subnetId": "S8356fceb0c924f2b88822f82cbdae9d9"
+        },
+        {
+          "id": "P44bf610518ef4a089755e5c1ded4b408",
+          "ip": "10.0.4.1",
+          "name": "Cisco-9000-R2-GE0/2",
+          "subnetId": "S9fff2179baef43538e5889f1843da083"
+        },
+        {
+          "id": "Pe2610d678ce64a04823ff9ebaf932cd5",
+          "ip": "10.0.5.1",
+          "name": "Cisco-9000-R2-GE0/3",
+          "subnetId": "S25cd387f295e415fb1daae65a8461df5"
+        }
+      ],
+      "properties": {
+        "devType": "DRT",
+        "id": "Vef436c70889441a9a0b103ee27145eec",
+        "nodeName": "Cisco-9000-R2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "301.1",
+        "y": "10.34",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
+        "imageName": "Cisco-9000",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wc6b5fcc9447541a79e97f00075cc56f2",
+        "nodeName": "A2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-467.78",
+        "y": "191.75",
+        "district": "LAB JARINGAN"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "W5732afd10c904cf598220fa456644f0a",
+        "nodeName": "A3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-248.46",
+        "y": "191.75",
+        "district": "RUANG SERVER"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wef6aa4bd089c4ef6b7145034241e6565",
+        "nodeName": "A4",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-89.92",
+        "y": "191.75",
+        "district": "RUANG SERVER"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "W04f5329335644cc98b99ca436a9f1a37",
+        "nodeName": "A5",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "171.38",
+        "y": "191.75",
+        "district": "MANAJEMENT"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "Wca228374dccb453680a58c772f599a42",
+        "nodeName": "A6",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "465.9",
+        "y": "191.75",
+        "district": "CLIENT"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P0fbef5e34c624fd690a3016ef44b517e",
+          "ip": "10.0.3.3",
+          "name": "Web-eth0",
+          "subnetId": "S387640cb9b6340368fdfafb31a3d8b82"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "V992800bc706949b996a109ea02397669",
+        "nodeName": "Web",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-285.43",
+        "y": "303.6",
+        "district": "RUANG SERVER",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBBb9857-8ef2-4f45-a868-f4a7a37d9baa",
+        "imageName": "WEB",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P6e9f615d6f08465e9ee4fb6e1dad79df",
+          "ip": "10.0.3.4",
+          "name": "DB-eth0",
+          "subnetId": "S387640cb9b6340368fdfafb31a3d8b82"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "V795a00106c934ad29c1c74a737700aa2",
+        "nodeName": "DB",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-208.98",
+        "y": "303.6",
+        "district": "RUANG SERVER",
+        "flavor": {
+          "cpu": "1",
+          "disk": "80",
+          "ram": "2048"
+        },
+        "imageId": "BBB4bbd4-a9d0-4bf1-9361-bf595a906693",
+        "imageName": "DB",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P1b716efb7c664c03ac11a8a0f6d23026",
+          "ip": "10.0.10.3",
+          "name": "Mail-eth0",
+          "subnetId": "S5f283524203a412aad88398e2eb6aca3"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "V2388b863db2d4b5b882b225f0b3a631e",
+        "nodeName": "Mail",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-131.91",
+        "y": "303.6",
+        "district": "RUANG SERVER",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
+        "imageName": "Mail",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P8fc16ca7f2e94a159d5d1211418bdb8f",
+          "ip": "10.0.10.4",
+          "name": "Monitor-eth0",
+          "subnetId": "S5f283524203a412aad88398e2eb6aca3"
+        }
+      ],
+      "properties": {
+        "devType": "SERVER",
+        "id": "V5430b567579f48aca865237e85e1772f",
+        "nodeName": "Monitor",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-55.46",
+        "y": "303.6",
+        "district": "RUANG SERVER",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
+        "imageName": "Monitor",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P2a2e3ce1116c4e5d8a9aabb6b68b92a0",
+          "ip": "10.0.2.3",
+          "name": "A2-pc1-eth0",
+          "subnetId": "S36b1505566b84ce19f1a3bfbc3a6edab"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vc6c2c7666c5045c7a9716a39e99df8f7",
+        "nodeName": "A2-pc1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-543.6",
+        "y": "312.38",
+        "district": "LAB JARINGAN",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P897179be8d344b24a50a931e9854f9aa",
+          "ip": "10.0.2.4",
+          "name": "A2-pc2-eth0",
+          "subnetId": "S36b1505566b84ce19f1a3bfbc3a6edab"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V28d4d0bab1cd4e128439e398f5b2ffa6",
+        "nodeName": "A2-pc2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-468.41",
+        "y": "312.38",
+        "district": "LAB JARINGAN",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P9b475e93ab0b4e9ca1b0d8d32cb811ab",
+          "ip": "10.0.2.5",
+          "name": "A2-pc3-eth0",
+          "subnetId": "S36b1505566b84ce19f1a3bfbc3a6edab"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V1737e867831342b6823b1c50555a2105",
+        "nodeName": "A2-pc3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-391.96",
+        "y": "312.38",
+        "district": "LAB JARINGAN",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P3aaee0bf756c45a18a813452add7ef95",
+          "ip": "10.0.4.3",
+          "name": "A5-pc3-eth0",
+          "subnetId": "S9fff2179baef43538e5889f1843da083"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V90c1028bcad44acdafdf1adbd8e2de80",
+        "nodeName": "A5-pc3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "89.3",
+        "y": "312.38",
+        "district": "MANAJEMENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pdeca7fd448054b2d9e35a60a180fe45f",
+          "ip": "10.0.4.4",
+          "name": "A5-pc4-eth0",
+          "subnetId": "S9fff2179baef43538e5889f1843da083"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Va6285e56efc847bfb53c74e5efbb8ace",
+        "nodeName": "A5-pc4",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "167.62",
+        "y": "312.38",
+        "district": "MANAJEMENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P5f67978624e34121ad68b64537256b01",
+          "ip": "10.0.4.5",
+          "name": "A5-pc5-eth0",
+          "subnetId": "S9fff2179baef43538e5889f1843da083"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V87f016058c73429c8e5292cf936436f1",
+        "nodeName": "A5-pc5",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "245.95",
+        "y": "312.38",
+        "district": "MANAJEMENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pe898e49377d344b2af954e4446dc37b4",
+          "ip": "10.0.5.3",
+          "name": "A6-pc1-eth0",
+          "subnetId": "S25cd387f295e415fb1daae65a8461df5"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V9fe4c93b8fd74d4ab6ee2f21d68554b8",
+        "nodeName": "A6-pc1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "377.55",
+        "y": "312.38",
+        "district": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P9e1acbe3f4034a00afdcbc5252315dd2",
+          "ip": "10.0.5.4",
+          "name": "A6-pc2-eth0",
+          "subnetId": "S25cd387f295e415fb1daae65a8461df5"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vff2819d8f2fe4f9b8ece84449c7ea459",
+        "nodeName": "A6-pc2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "455.87",
+        "y": "312.38",
+        "district": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pfdc76e54983b473fa61e4ff4dcbbe301",
+          "ip": "10.0.5.5",
+          "name": "A6-pc3-eth0",
+          "subnetId": "S25cd387f295e415fb1daae65a8461df5"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vce4124959b454dfc8d6eea259af6dabf",
+        "nodeName": "A6-pc3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "534.2",
+        "y": "312.38",
+        "district": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    }
+  ],
+  "portMappingList": [],
+  "subnetList": [
+    {
+      "cidr": "10.0.1.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S0917f113080b4ec7a8c82c711406d11f",
+      "name": "sn-A1",
+      "networkId": "G109bddae4615477e832ed92d76d05168",
+      "gatewayIp": "10.0.1.1"
+    },
+    {
+      "cidr": "10.0.2.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S36b1505566b84ce19f1a3bfbc3a6edab",
+      "name": "sn-A2",
+      "networkId": "G3777b0b37df341dca4e48c427b46d52f",
+      "gatewayIp": "10.0.2.1"
+    },
+    {
+      "cidr": "10.0.4.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S9fff2179baef43538e5889f1843da083",
+      "name": "sn-A5",
+      "networkId": "Gaa2c794059ac436bb01b4519392c43c2",
+      "gatewayIp": "10.0.4.1"
+    },
+    {
+      "cidr": "10.0.5.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S25cd387f295e415fb1daae65a8461df5",
+      "name": "sn-A6",
+      "networkId": "Gb8acf91410df45b0802c78a8d3017408",
+      "gatewayIp": "10.0.5.1"
+    },
+    {
+      "cidr": "10.0.3.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S387640cb9b6340368fdfafb31a3d8b82",
+      "name": "sn-A3",
+      "networkId": "G7cf60863acbb40f9a981fc2d2d48cc99",
+      "gatewayIp": "10.0.3.1"
+    },
+    {
+      "cidr": "10.0.10.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S5f283524203a412aad88398e2eb6aca3",
+      "name": "sn-A4",
+      "networkId": "G0e3fa40ac3a64b59b3f98d1e08130f61",
+      "gatewayIp": "10.0.10.1"
+    },
+    {
+      "cidr": "192.168.10.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "Sf0daad5713a943ee8d1362fc510c5406",
+      "name": "sn-A9",
+      "networkId": "G629db13397dc49ce9f5516bf78f3a54a",
+      "gatewayIp": "192.168.10.1"
+    },
+    {
+      "cidr": "192.168.20.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "Se02acccaa06d4a76ac3fea8513e32c3f",
+      "name": "sn-A8",
+      "networkId": "G87d1ec4768cb459280fec9f7e8da20ca",
+      "gatewayIp": "192.168.20.1"
+    },
+    {
+      "cidr": "10.0.6.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S927b76d0fafa4149aae78103ca8f2485",
+      "name": "sn-A7",
+      "networkId": "Gda48c4c32bd744678752a7a348d2b69d",
+      "gatewayIp": "10.0.6.1"
+    },
+    {
+      "cidr": "192.168.30.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S8356fceb0c924f2b88822f82cbdae9d9",
+      "name": "sn-A10",
+      "networkId": "G9dfc2d835b9b4a1bae16bf81dc44e977",
+      "gatewayIp": "192.168.30.1"
+    }
+  ],
+  "version": "v2"
+}

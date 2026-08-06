@@ -1,0 +1,468 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_073",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1020.0,
+        "y": 208.0,
+        "width": 340.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting router N003 and switch N004.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1440.0,
+        "y": 208.0,
+        "width": 340.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting switch N004 and router N005.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 978.0,
+        "y": 250.0,
+        "width": 4.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting router N003 and switch N008.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 978.0,
+        "y": 470.0,
+        "width": 4.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting switch N008 and firewall N011.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 560.0,
+        "y": 650.0,
+        "width": 380.0,
+        "height": 180.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting firewall N011 and switch N012.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1020.0,
+        "y": 650.0,
+        "width": 380.0,
+        "height": 180.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting firewall N011 and switch N013.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1440.0,
+        "y": 868.0,
+        "width": 340.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line connecting switch N013 and router N014.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 558.0,
+        "y": 910.0,
+        "width": 4.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Vertical line connecting switch N012 and router N015.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 340.0,
+        "y": 1090.0,
+        "width": 180.0,
+        "height": 180.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N015 and switch N020.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 600.0,
+        "y": 1090.0,
+        "width": 160.0,
+        "height": 180.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N015 and switch N021.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 210.0,
+        "y": 1350.0,
+        "width": 130.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N020 and server N022.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 340.0,
+        "y": 1350.0,
+        "width": 90.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N020 and server N023.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 630.0,
+        "y": 1350.0,
+        "width": 130.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N021 and server N024.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 760.0,
+        "y": 1350.0,
+        "width": 90.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N021 and server N025.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1820.0,
+        "y": 110.0,
+        "width": 420.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N005 and switch N002.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2280.0,
+        "y": 60.0,
+        "width": 240.0,
+        "height": 50.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N002 and client N001.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2280.0,
+        "y": 110.0,
+        "width": 240.0,
+        "height": 110.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N002 and client N006.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1820.0,
+        "y": 250.0,
+        "width": 420.0,
+        "height": 140.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N005 and switch N009.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2280.0,
+        "y": 380.0,
+        "width": 240.0,
+        "height": 50.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N009 and client N007.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2280.0,
+        "y": 430.0,
+        "width": 240.0,
+        "height": 110.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N009 and client N010.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1240.0,
+        "y": 910.0,
+        "width": 580.0,
+        "height": 240.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N014 and switch N016.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1660.0,
+        "y": 910.0,
+        "width": 160.0,
+        "height": 240.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N014 and switch N017.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1820.0,
+        "y": 910.0,
+        "width": 260.0,
+        "height": 240.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N014 and switch N018.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1820.0,
+        "y": 910.0,
+        "width": 680.0,
+        "height": 240.0
+      },
+      "rawText": null,
+      "description": "L-shaped line connecting router N014 and switch N019.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1110.0,
+        "y": 1230.0,
+        "width": 130.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N016 and client N026.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1240.0,
+        "y": 1230.0,
+        "width": 90.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N016 and client N027.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1530.0,
+        "y": 1230.0,
+        "width": 130.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N017 and client N028.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1660.0,
+        "y": 1230.0,
+        "width": 90.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N017 and client N029.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_101",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1950.0,
+        "y": 1230.0,
+        "width": 130.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N018 and client N030.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2080.0,
+        "y": 1230.0,
+        "width": 90.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N018 and client N031.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2370.0,
+        "y": 1230.0,
+        "width": 130.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N019 and client N032.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2500.0,
+        "y": 1230.0,
+        "width": 90.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N019 and client N033.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2500.0,
+        "y": 1230.0,
+        "width": 310.0,
+        "height": 260.0
+      },
+      "rawText": null,
+      "description": "Diagonal line connecting switch N019 and client N034.",
+      "confidence": 0.95
+    }
+  ]
+}
