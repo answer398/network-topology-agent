@@ -1,449 +1,337 @@
 {
   "linkList": [
     {
-      "dDevId": "Vb5e550c192ec489a438c56aecc7ac11",
-      "dNicName": "Cisco-9000-R1-GE0/1",
-      "id": "L15a3e5a37d410fb33355db9ff9f42d5",
-      "sDevId": "Wef6fe37eb7943d0f5db0b7eb2dcacd6"
+      "dDevId": "V7c28830413b35a3eaff20781202d906",
+      "dNicName": "HW-AR6140-R1-GE0/1",
+      "id": "L2ad9d52bee51570e824880e049e327e",
+      "sDevId": "Wbc4b8fd92cb4585ea1db024689cdba7"
     },
     {
-      "dDevId": "Vca8db18e2c9a26f152843917bca8f3c",
-      "dNicName": "Cisco-9000-R2-GE0/2",
-      "id": "Lada1dfcce4929ea6fbbee4285e04ba3",
-      "sDevId": "Wef6fe37eb7943d0f5db0b7eb2dcacd6"
+      "dDevId": "V7c28830413b35a3eaff20781202d906",
+      "dNicName": "HW-AR6140-R1-GE0/2",
+      "id": "Lec4fa59d6c0457f19ce9c91468da77a",
+      "sDevId": "W2222bb20ff495643906c09c9cdcbeab"
     },
     {
-      "dDevId": "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-      "dNicName": "Cisco-9000-R3-GE0/1",
-      "id": "L3c2d2c167bc74a6ba23d5b5b7d5a390",
-      "sDevId": "Wef6fe37eb7943d0f5db0b7eb2dcacd6"
+      "dDevId": "V8bd297d5d5b95e6691a2bce117c8228",
+      "dNicName": "HW-AR6140-R4-GE0/1",
+      "id": "La7713537b97b56a290efea8dc491645",
+      "sDevId": "Wbc4b8fd92cb4585ea1db024689cdba7"
     },
     {
-      "dDevId": "Va541a082aa091be8af5af15c7d0a206",
-      "dNicName": "Cisco-9000-R4-GE0/1",
-      "id": "L11b1c061cd0481ce5349fe14da5e5df",
-      "sDevId": "Wef6fe37eb7943d0f5db0b7eb2dcacd6"
+      "dDevId": "V8bd297d5d5b95e6691a2bce117c8228",
+      "dNicName": "HW-AR6140-R4-GE0/3",
+      "id": "L337001f40ffd56518816321754cd676",
+      "sDevId": "We588ed9d5c715dcbb4350a21a679523"
     },
     {
-      "dDevId": "Vb5e550c192ec489a438c56aecc7ac11",
-      "dNicName": "Cisco-9000-R1-GE0/2",
-      "id": "Le0c5286ff0fdfd7f2b444686379dfbd",
-      "sDevId": "W706a2b4b72f96399453fbc629e7d340"
+      "dDevId": "V8bd297d5d5b95e6691a2bce117c8228",
+      "dNicName": "HW-AR6140-R4-GE0/2",
+      "id": "L9fd42675e9a150a0ae0cf8846b4f21c",
+      "sDevId": "Wdc2d773c16d75480880495a65d229eb"
     },
     {
-      "dDevId": "Vca8db18e2c9a26f152843917bca8f3c",
-      "dNicName": "Cisco-9000-R2-GE0/1",
-      "id": "L9a9af6f560b02c17bc337e9865a7fe8",
-      "sDevId": "W706a2b4b72f96399453fbc629e7d340"
-    },
-    {
-      "dDevId": "Vb8d3313593d1dc7dac1f56e9eab8454",
+      "dDevId": "V7ef5cd2419735345908e8e3fa9cae52",
       "dNicName": "HW-USG6550E-FW1-GE0/1",
-      "id": "L982f4cc5988c63734458a79d81d8709",
-      "sDevId": "W706a2b4b72f96399453fbc629e7d340"
+      "id": "Lb8bf977f01f35e268abf8ad7c67d45e",
+      "sDevId": "W2222bb20ff495643906c09c9cdcbeab"
     },
     {
-      "dDevId": "Vb5e550c192ec489a438c56aecc7ac11",
-      "dNicName": "Cisco-9000-R1-GE0/3",
-      "id": "L54c65f97145f9220b17e611721d3423",
-      "sDevId": "Waef130fdf129511609bfc857d2571a7"
-    },
-    {
-      "dDevId": "V39256bc2f4c82b7dea4c86edea8c491",
-      "dNicName": "HW-USG6550E-FW3-GE0/1",
-      "id": "Ld24308ec2e1d27f2dfa836df5cb7499",
-      "sDevId": "Waef130fdf129511609bfc857d2571a7"
-    },
-    {
-      "dDevId": "Vca8db18e2c9a26f152843917bca8f3c",
-      "dNicName": "Cisco-9000-R2-GE0/3",
-      "id": "L45921a9e689da406bf00616471d5b85",
-      "sDevId": "Wef9168d58bb9508663f765799858b75"
-    },
-    {
-      "dDevId": "Vf74245a94997382d19fefa0132aa6e0",
-      "dNicName": "HW-USG6550E-FW2-GE0/1",
-      "id": "Laedbced2db4272c89b98a64c098b97c",
-      "sDevId": "Wef9168d58bb9508663f765799858b75"
-    },
-    {
-      "dDevId": "Vb8d3313593d1dc7dac1f56e9eab8454",
-      "dNicName": "HW-USG6550E-FW1-GE0/3",
-      "id": "L9f93c75e48242f6f48a8fb246859759",
-      "sDevId": "W75f14b06e12a568607d2aba60fe7400"
-    },
-    {
-      "dDevId": "Veb464a4037c3b18cba09bb0110dddb7",
-      "dNicName": "Mail-01-eth0",
-      "id": "Laaf1b9811dfd0e2f3a363a539c03c73",
-      "sDevId": "W75f14b06e12a568607d2aba60fe7400"
-    },
-    {
-      "dDevId": "V951699cf96c0e7569bd94586ccca5d2",
-      "dNicName": "Mail-02-eth0",
-      "id": "Lba7e632985b560f4c99eb715ca9d060",
-      "sDevId": "W75f14b06e12a568607d2aba60fe7400"
-    },
-    {
-      "dDevId": "Va1fbdc1d68f29d7b59dfed0e9fd890a",
-      "dNicName": "Mail-03-eth0",
-      "id": "Lcc9d3aa855a6b3110eb4c68bafc1e04",
-      "sDevId": "W75f14b06e12a568607d2aba60fe7400"
-    },
-    {
-      "dDevId": "Vb8d3313593d1dc7dac1f56e9eab8454",
+      "dDevId": "V7ef5cd2419735345908e8e3fa9cae52",
       "dNicName": "HW-USG6550E-FW1-GE0/2",
-      "id": "L952e7a1db5eb1a638b9e5c952113508",
-      "sDevId": "W13ab1a92f64fefc7cfc159f040f198e"
+      "id": "L5f7b9b5c87a75b40b8927f65c7ca87f",
+      "sDevId": "W43f680b52fe157b39c930f439f5e3cf"
     },
     {
-      "dDevId": "Vc04dbf6b047d19a8fab3814878e8a56",
-      "dNicName": "Monitor-01-eth0",
-      "id": "La608913be344b0f338b255f9c8386ed",
-      "sDevId": "W13ab1a92f64fefc7cfc159f040f198e"
+      "dDevId": "V7ef5cd2419735345908e8e3fa9cae52",
+      "dNicName": "HW-USG6550E-FW1-GE0/3",
+      "id": "L85886c2bf65f5f989daad8471befb12",
+      "sDevId": "Wf14c837918785ba1863359bb0749f25"
     },
     {
-      "dDevId": "Vd718054f7de3bdc4247d9d5573edee1",
-      "dNicName": "Monitor-02-eth0",
-      "id": "L0eeff1329347f2e3a4ef3d94925289a",
-      "sDevId": "W13ab1a92f64fefc7cfc159f040f198e"
+      "dDevId": "V2332b086ff0453e7b9a028f173a6396",
+      "dNicName": "HW-AR6140-R3-GE0/1",
+      "id": "L804b08c56dc454e198984b01aec4d64",
+      "sDevId": "W43f680b52fe157b39c930f439f5e3cf"
     },
     {
-      "dDevId": "Ve8a761c5cd4b9482f2c12ce71215d4f",
-      "dNicName": "Monitor-03-eth0",
-      "id": "L6cb0fb580e92c9eec410b164196f9f4",
-      "sDevId": "W13ab1a92f64fefc7cfc159f040f198e"
+      "dDevId": "V2332b086ff0453e7b9a028f173a6396",
+      "dNicName": "HW-AR6140-R3-GE0/2",
+      "id": "L2400e1bb025956bbafb5cc428ec5a97",
+      "sDevId": "Wcc069aa6601b545c82db31b1927563c"
     },
     {
-      "dDevId": "V39256bc2f4c82b7dea4c86edea8c491",
-      "dNicName": "HW-USG6550E-FW3-GE0/2",
-      "id": "L9cc0ea11b6c85a596841f8a56eca04f",
-      "sDevId": "Wa2061fa162b5be28761bdc75ba48de9"
+      "dDevId": "V2332b086ff0453e7b9a028f173a6396",
+      "dNicName": "HW-AR6140-R3-GE0/3",
+      "id": "L7e0a405cf5bf59baa7765adf46125a5",
+      "sDevId": "Wa71e31af3ab155e2a6d934b3bb846c1"
     },
     {
-      "dDevId": "V4405eb23360394a89c1c668666b3da0",
-      "dNicName": "PC-1-eth0",
-      "id": "L6a3218131bae91bb3c6fc70a0bd366a",
-      "sDevId": "Wa2061fa162b5be28761bdc75ba48de9"
+      "dDevId": "V460453cea6545661891ee393bb7236f",
+      "dNicName": "HW-AR6140-R2-GE0/1",
+      "id": "Lf91e4b08d73d52cdaac7e486400e04b",
+      "sDevId": "Wf14c837918785ba1863359bb0749f25"
     },
     {
-      "dDevId": "Ve925407a1bcbeb94263886ad29e22d6",
-      "dNicName": "PC-2-eth0",
-      "id": "L7669d12ede058fb67f54fb5db131625",
-      "sDevId": "Wa2061fa162b5be28761bdc75ba48de9"
+      "dDevId": "V460453cea6545661891ee393bb7236f",
+      "dNicName": "HW-AR6140-R2-GE0/2",
+      "id": "L2440eb410d515273b7ac92fb306c54d",
+      "sDevId": "W81a8ec01b4cd55c18449062cdc690f5"
     },
     {
-      "dDevId": "V25d766c9f94559f450c5e259af7d8a9",
-      "dNicName": "PC-3-eth0",
-      "id": "L3f331dc2a1d01adcf247c46b903b994",
-      "sDevId": "Wa2061fa162b5be28761bdc75ba48de9"
+      "dDevId": "V460453cea6545661891ee393bb7236f",
+      "dNicName": "HW-AR6140-R2-GE0/3",
+      "id": "L6e95131e5c8e527ab5a0fd1fcf8a007",
+      "sDevId": "We410b2657c0251f28da6e7de5051612"
     },
     {
-      "dDevId": "V39256bc2f4c82b7dea4c86edea8c491",
-      "dNicName": "HW-USG6550E-FW3-GE0/3",
-      "id": "L97cc2b2cfb90e9acece41ecc7475be1",
-      "sDevId": "W818951ba7ea0d3b63326ec8eadf33cc"
+      "dDevId": "V460453cea6545661891ee393bb7236f",
+      "dNicName": "HW-AR6140-R2-GE0/4",
+      "id": "Lf1f4d15a80b4537ebf0ca97181891fa",
+      "sDevId": "Wdfae0d61e2d95f84b612d3362d2eaa9"
     },
     {
-      "dDevId": "Vabc648ce880a10937b42ee7f505df75",
-      "dNicName": "PC-4-eth0",
-      "id": "L1bcdd3b0ce4e0f8494fd3571d84c758",
-      "sDevId": "W818951ba7ea0d3b63326ec8eadf33cc"
+      "dDevId": "V460453cea6545661891ee393bb7236f",
+      "dNicName": "HW-AR6140-R2-GE0/5",
+      "id": "Le22f18e3de335f9a8a4450ead3cf685",
+      "sDevId": "W35b138ad42ce5425910566352a2a8ce"
     },
     {
-      "dDevId": "V47560a39209145cf2dedb21e6fbecf3",
-      "dNicName": "PC-5-eth0",
-      "id": "L08362e40a6bf6c21eb80cf192de5087",
-      "sDevId": "W818951ba7ea0d3b63326ec8eadf33cc"
+      "dDevId": "Vb622b1de67e95287a33e1e3fe447560",
+      "dNicName": "T1-PC-1-eth0",
+      "id": "L548ee4521e375d3889bb38f219f793c",
+      "sDevId": "We588ed9d5c715dcbb4350a21a679523"
     },
     {
-      "dDevId": "V7fefa3e7a4fc7fb83ad394ec83c1143",
-      "dNicName": "PC-6-eth0",
-      "id": "L6b03f4de12318174fca0f36ea55959b",
-      "sDevId": "W818951ba7ea0d3b63326ec8eadf33cc"
+      "dDevId": "Ve94e2e49f7dc5b429e3643b2ddc8c8e",
+      "dNicName": "T1-PC-2-eth0",
+      "id": "L2d071cfe1923538e9082dd64cd8d978",
+      "sDevId": "We588ed9d5c715dcbb4350a21a679523"
     },
     {
-      "dDevId": "Vf74245a94997382d19fefa0132aa6e0",
-      "dNicName": "HW-USG6550E-FW2-GE0/2",
-      "id": "Lc37f9ee0170f68dd15a8c80d88d0a70",
-      "sDevId": "Wd21fc44d2221262b78118461a12d1d3"
+      "dDevId": "V66e8fdfac2ec53f2ab4af1374ecf6f8",
+      "dNicName": "T2-PC-1-eth0",
+      "id": "Lef780d42598b5ab487ac9885f53c89a",
+      "sDevId": "Wdc2d773c16d75480880495a65d229eb"
     },
     {
-      "dDevId": "V1162820ab8d3d3af91e60115523ff92",
-      "dNicName": "VPC-1-eth0",
-      "id": "Le2eb5c2899a8a8d5a0b7c37fce6ca68",
-      "sDevId": "Wd21fc44d2221262b78118461a12d1d3"
+      "dDevId": "V16464f28ffd859f99f250b9faee73e6",
+      "dNicName": "T2-PC-2-eth0",
+      "id": "Ld54690a92bac52599bbb8ecd1b7cdc5",
+      "sDevId": "Wdc2d773c16d75480880495a65d229eb"
     },
     {
-      "dDevId": "V5c4ad49700fd9d5c2d3f34619b640a8",
-      "dNicName": "VPC-2-eth0",
-      "id": "L787950cdb44a13c69de164a924b53f6",
-      "sDevId": "Wd21fc44d2221262b78118461a12d1d3"
+      "dDevId": "Vf5cb16a16e04503d877a95d514c5684",
+      "dNicName": "WEB-eth0",
+      "id": "L9660484627325227b2b5f3c57a3272e",
+      "sDevId": "Wcc069aa6601b545c82db31b1927563c"
     },
     {
-      "dDevId": "Vc97c427f5149424147e43b41881d5d5",
-      "dNicName": "VPC-3-eth0",
-      "id": "Lb07f93ff269b39f42d89d4022c751f7",
-      "sDevId": "Wd21fc44d2221262b78118461a12d1d3"
+      "dDevId": "V549c2294e47757dcb7bfce06f973f39",
+      "dNicName": "DB-eth0",
+      "id": "L76dda8e1556756b79cc3657c58b71fe",
+      "sDevId": "Wcc069aa6601b545c82db31b1927563c"
     },
     {
-      "dDevId": "Vf74245a94997382d19fefa0132aa6e0",
-      "dNicName": "HW-USG6550E-FW2-GE0/3",
-      "id": "L2b11eb6e53b105dd97ba57cc30a0adb",
-      "sDevId": "W9c12a0bf9acbf7323e577e9b7fab4e9"
+      "dDevId": "Vc936a0117ef35527a75339d8c52556a",
+      "dNicName": "Mail-eth0",
+      "id": "L8a35a0b95d845f0999ec8141ca6e508",
+      "sDevId": "Wa71e31af3ab155e2a6d934b3bb846c1"
     },
     {
-      "dDevId": "V03bdd26bb205b4b0e78d213b3006277",
-      "dNicName": "VPC-4-eth0",
-      "id": "L871a9b3bffe9c34e78ce65535830e74",
-      "sDevId": "W9c12a0bf9acbf7323e577e9b7fab4e9"
+      "dDevId": "V1e81e9c71fcc5860bd1d172c3d0ee2d",
+      "dNicName": "Monitor-eth0",
+      "id": "Lc4b9ed2696605ef388e9d7c79ff29bd",
+      "sDevId": "Wa71e31af3ab155e2a6d934b3bb846c1"
     },
     {
-      "dDevId": "Vfa9fc70fae783a99fddc968aec44332",
-      "dNicName": "VPC-5-eth0",
-      "id": "Lf2fb24330c93499b56e57f828779e0a",
-      "sDevId": "W9c12a0bf9acbf7323e577e9b7fab4e9"
+      "dDevId": "Vdedc2605630e5377bfd87e52075a81d",
+      "dNicName": "P1-PC-1-eth0",
+      "id": "Lbe8c58ba0d525d6ea0885066f3a0c2b",
+      "sDevId": "W81a8ec01b4cd55c18449062cdc690f5"
     },
     {
-      "dDevId": "V629caf9c11de9a81956d0606efc6474",
-      "dNicName": "VPC-6-eth0",
-      "id": "L0f1b6c8f4c07dbf2f5d6f98923f6e1c",
-      "sDevId": "W9c12a0bf9acbf7323e577e9b7fab4e9"
+      "dDevId": "V9c81601408d65382a0d82cf9e56ea25",
+      "dNicName": "P1-PC-2-eth0",
+      "id": "La6a9986bc15f58ce9f1f4b5c370aed6",
+      "sDevId": "W81a8ec01b4cd55c18449062cdc690f5"
     },
     {
-      "dDevId": "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-      "dNicName": "Cisco-9000-R3-GE0/2",
-      "id": "L4da2331a62e3bdc63ca940b7c48bfc6",
-      "sDevId": "W6fedb2afe8688782c8979ef43613c61"
+      "dDevId": "Va74266ff3f6f53eb8e5a0d1faebe243",
+      "dNicName": "P2-PC-1-eth0",
+      "id": "L64f7c00381ea5fd48b4a413e46c9762",
+      "sDevId": "We410b2657c0251f28da6e7de5051612"
     },
     {
-      "dDevId": "V63459d3407dcc5595ee4b57227ecfde",
-      "dNicName": "WEB-1-eth0",
-      "id": "L69057f18bb0c46be8a4539a37bcd565",
-      "sDevId": "W6fedb2afe8688782c8979ef43613c61"
+      "dDevId": "Ve22111aaf86e5e73b7f5d71072188be",
+      "dNicName": "P2-PC-2-eth0",
+      "id": "L32b75bb53b0853a5a74517187673d25",
+      "sDevId": "We410b2657c0251f28da6e7de5051612"
     },
     {
-      "dDevId": "V16e6851ee8209043920afee84cd59f3",
-      "dNicName": "WEB-2-eth0",
-      "id": "Lc9232a783e5779fef83794fea6ec137",
-      "sDevId": "W6fedb2afe8688782c8979ef43613c61"
+      "dDevId": "Vd0172a5482af5b88a7d0cbab41f195b",
+      "dNicName": "P3-PC-1-eth0",
+      "id": "L6745782d9a4c5e988f4eba21e04a289",
+      "sDevId": "Wdfae0d61e2d95f84b612d3362d2eaa9"
     },
     {
-      "dDevId": "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-      "dNicName": "Cisco-9000-R3-GE0/3",
-      "id": "L9e04df7d7d9ff6f92740aad20fca40e",
-      "sDevId": "Wc32bf3e622f6f16b2bfb74d50f4e4d6"
+      "dDevId": "Vc3fae4337df159088370591f8262614",
+      "dNicName": "P3-PC-2-eth0",
+      "id": "L11c7d05fa28950ceb6b88707f9c1a99",
+      "sDevId": "Wdfae0d61e2d95f84b612d3362d2eaa9"
     },
     {
-      "dDevId": "V33841c96ee1ffca59eab19cc4021e0e",
-      "dNicName": "DB-1-eth0",
-      "id": "Ld62ff1bf0df5cba2de206976edd331a",
-      "sDevId": "Wc32bf3e622f6f16b2bfb74d50f4e4d6"
+      "dDevId": "Vecdf26ced1b75ef588e8612757d72cf",
+      "dNicName": "P4-PC-1-eth0",
+      "id": "L551b622591965e9f8110479ae159aca",
+      "sDevId": "W35b138ad42ce5425910566352a2a8ce"
     },
     {
-      "dDevId": "V1a745d9d4279bb389536a45a2517168",
-      "dNicName": "DB-2-eth0",
-      "id": "L49bd3750b441e675358e72d339260e6",
-      "sDevId": "Wc32bf3e622f6f16b2bfb74d50f4e4d6"
+      "dDevId": "Vf6fa2ef3969856888cd2c6acd9bacb9",
+      "dNicName": "P4-PC-2-eth0",
+      "id": "L6f700005a58e5678b9c4fdc1a8781f2",
+      "sDevId": "W35b138ad42ce5425910566352a2a8ce"
     },
     {
-      "dDevId": "Va541a082aa091be8af5af15c7d0a206",
-      "dNicName": "Cisco-9000-R4-GE0/2",
-      "id": "Lbd63f1d51b3b3d01be0545bafe4f8d5",
-      "sDevId": "W7536d142c285dd228f62820c5ad55fe"
-    },
-    {
-      "dDevId": "V96a163ca8ec020077f39a77d7ba28f6",
-      "dNicName": "Mail1-1-eth0",
-      "id": "Ld0a6be5e9ba21ba9fbc82fd4325f3a5",
-      "sDevId": "W7536d142c285dd228f62820c5ad55fe"
-    },
-    {
-      "dDevId": "V4929ca4d351e8993e7cf5acc4aee346",
-      "dNicName": "Mail1-2-eth0",
-      "id": "Lcf1f27c4bf927f695b38389990aab47",
-      "sDevId": "W7536d142c285dd228f62820c5ad55fe"
-    },
-    {
-      "dDevId": "Va541a082aa091be8af5af15c7d0a206",
-      "dNicName": "Cisco-9000-R4-GE0/3",
-      "id": "La741a8538cf539822be7395be826963",
-      "sDevId": "W59217931c9198604318085ab66e89a7"
-    },
-    {
-      "dDevId": "V3c3c34e26f63c6f7d09e3111200d290",
-      "dNicName": "Monitor1-1-eth0",
-      "id": "L0b528bcc90940f485fbfcadf0094ac7",
-      "sDevId": "W59217931c9198604318085ab66e89a7"
-    },
-    {
-      "dDevId": "Vf9c6ccf9f4824f02312e52d2e6c46b6",
-      "dNicName": "Monitor1-2-eth0",
-      "id": "Lae144e95fab468dabd93450ad687a36",
-      "sDevId": "W59217931c9198604318085ab66e89a7"
+      "dDevId": "Va072faf0d8005a6785dddc5bdc82325",
+      "dNicName": "P4-PC-3-eth0",
+      "id": "L33477a17931f515cb2efbb7907c3f13",
+      "sDevId": "W35b138ad42ce5425910566352a2a8ce"
     }
   ],
-  "networkId": "N0000000000000000000000000000000",
+  "networkId": "N05907aef158d569ea775c8c6418f2d2",
   "networkList": [
     {
-      "id": "Gfcaf707ae4a0699420b9673c5cec404",
+      "id": "Gd3396d93fe865caabbf764316f7a241",
       "mtu": 1350,
-      "name": "sg-HW-core-SW1",
-      "nodeId": "Wef6fe37eb7943d0f5db0b7eb2dcacd6",
+      "name": "sg-HW-core-SW1(S7706)",
+      "nodeId": "Wbc4b8fd92cb4585ea1db024689cdba7",
       "transmitNodeIdList": [
-        "Vb5e550c192ec489a438c56aecc7ac11",
-        "Vca8db18e2c9a26f152843917bca8f3c",
-        "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-        "Va541a082aa091be8af5af15c7d0a206"
+        "V7c28830413b35a3eaff20781202d906",
+        "V8bd297d5d5b95e6691a2bce117c8228"
       ],
-      "vlan": "25"
+      "vlan": 10
     },
     {
-      "id": "G634c6f6aa42f22b38238eb09fe4ca29",
+      "id": "G272f3149843d5ad2955c7f8000cca6d",
       "mtu": 1350,
-      "name": "sg-HW-core-SW2",
-      "nodeId": "W706a2b4b72f96399453fbc629e7d340",
+      "name": "sg-HW-core-SW2(S7706)",
+      "nodeId": "W2222bb20ff495643906c09c9cdcbeab",
       "transmitNodeIdList": [
-        "Vb5e550c192ec489a438c56aecc7ac11",
-        "Vca8db18e2c9a26f152843917bca8f3c",
-        "Vb8d3313593d1dc7dac1f56e9eab8454"
+        "V7c28830413b35a3eaff20781202d906",
+        "V7ef5cd2419735345908e8e3fa9cae52"
       ],
-      "vlan": "30"
+      "vlan": 20
     },
     {
-      "id": "G948286ef3e949374f63a95745472846",
+      "id": "G159b8d44bde1553a81dce59e714f95e",
       "mtu": 1350,
-      "name": "sg-HW-core-SW3",
-      "nodeId": "Waef130fdf129511609bfc857d2571a7",
+      "name": "sg-HW-core-SW3(S7706)",
+      "nodeId": "W43f680b52fe157b39c930f439f5e3cf",
       "transmitNodeIdList": [
-        "Vb5e550c192ec489a438c56aecc7ac11",
-        "V39256bc2f4c82b7dea4c86edea8c491"
+        "V7ef5cd2419735345908e8e3fa9cae52",
+        "V2332b086ff0453e7b9a028f173a6396"
+      ],
+      "vlan": 40
+    },
+    {
+      "id": "G9eee441c9e595d2c87376167acee52c",
+      "mtu": 1350,
+      "name": "sg-HW-core-SW4(S7706)",
+      "nodeId": "Wf14c837918785ba1863359bb0749f25",
+      "transmitNodeIdList": [
+        "V7ef5cd2419735345908e8e3fa9cae52",
+        "V460453cea6545661891ee393bb7236f"
+      ],
+      "vlan": 30
+    },
+    {
+      "id": "G437790935b8754cab4c94add7554379",
+      "mtu": 1350,
+      "name": "sg-HW-core-SW5(S7706)",
+      "nodeId": "We588ed9d5c715dcbb4350a21a679523",
+      "transmitNodeIdList": [
+        "V8bd297d5d5b95e6691a2bce117c8228",
+        "Vb622b1de67e95287a33e1e3fe447560",
+        "Ve94e2e49f7dc5b429e3643b2ddc8c8e"
       ]
     },
     {
-      "id": "Gd0e26ae778d3da3a8380d2efc0f3b89",
+      "id": "Gdb19375d2a225c739b5301acec6a969",
       "mtu": 1350,
-      "name": "sg-HW-core-SW4",
-      "nodeId": "Wef9168d58bb9508663f765799858b75",
+      "name": "sg-HW-core-SW6(S7706)",
+      "nodeId": "Wdc2d773c16d75480880495a65d229eb",
       "transmitNodeIdList": [
-        "Vca8db18e2c9a26f152843917bca8f3c",
-        "Vf74245a94997382d19fefa0132aa6e0"
+        "V8bd297d5d5b95e6691a2bce117c8228",
+        "V66e8fdfac2ec53f2ab4af1374ecf6f8",
+        "V16464f28ffd859f99f250b9faee73e6"
       ]
     },
     {
-      "id": "G9315d1dfca519a2f1b6e13e59221df8",
+      "id": "G6b7fe1c160d155689868ba748a70dc8",
       "mtu": 1350,
-      "name": "sg-HW-core-SW5",
-      "nodeId": "W75f14b06e12a568607d2aba60fe7400",
+      "name": "sg-HW-core-SW7(S7706)",
+      "nodeId": "Wcc069aa6601b545c82db31b1927563c",
       "transmitNodeIdList": [
-        "Vb8d3313593d1dc7dac1f56e9eab8454",
-        "Veb464a4037c3b18cba09bb0110dddb7",
-        "V951699cf96c0e7569bd94586ccca5d2",
-        "Va1fbdc1d68f29d7b59dfed0e9fd890a"
+        "V2332b086ff0453e7b9a028f173a6396",
+        "Vf5cb16a16e04503d877a95d514c5684",
+        "V549c2294e47757dcb7bfce06f973f39"
       ]
     },
     {
-      "id": "G37746bcef45603e0d5f68a99b019bd7",
+      "id": "Ga2d6fb00c53c52dc83508276ef95591",
       "mtu": 1350,
-      "name": "sg-HW-core-SW6",
-      "nodeId": "W13ab1a92f64fefc7cfc159f040f198e",
+      "name": "sg-HW-core-SW8(S7706)",
+      "nodeId": "Wa71e31af3ab155e2a6d934b3bb846c1",
       "transmitNodeIdList": [
-        "Vb8d3313593d1dc7dac1f56e9eab8454",
-        "Vc04dbf6b047d19a8fab3814878e8a56",
-        "Vd718054f7de3bdc4247d9d5573edee1",
-        "Ve8a761c5cd4b9482f2c12ce71215d4f"
+        "V2332b086ff0453e7b9a028f173a6396",
+        "Vc936a0117ef35527a75339d8c52556a",
+        "V1e81e9c71fcc5860bd1d172c3d0ee2d"
       ]
     },
     {
-      "id": "G589e64df8beb4c6d825ab8137423f23",
+      "id": "G1a11eb1808fb573b8c84a997c722344",
       "mtu": 1350,
-      "name": "sg-HW-core-SW7",
-      "nodeId": "W6fedb2afe8688782c8979ef43613c61",
+      "name": "sg-HW-core-SW9(S7706)",
+      "nodeId": "W81a8ec01b4cd55c18449062cdc690f5",
       "transmitNodeIdList": [
-        "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-        "V63459d3407dcc5595ee4b57227ecfde",
-        "V16e6851ee8209043920afee84cd59f3"
+        "V460453cea6545661891ee393bb7236f",
+        "Vdedc2605630e5377bfd87e52075a81d",
+        "V9c81601408d65382a0d82cf9e56ea25"
       ]
     },
     {
-      "id": "G01bd1a979f537d6149c67464033df9d",
+      "id": "Gc547bbb010865cbaa847d4eaf20d94c",
       "mtu": 1350,
-      "name": "sg-HW-core-SW8",
-      "nodeId": "Wc32bf3e622f6f16b2bfb74d50f4e4d6",
+      "name": "sg-HW-core-SW10(S7706)",
+      "nodeId": "We410b2657c0251f28da6e7de5051612",
       "transmitNodeIdList": [
-        "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-        "V33841c96ee1ffca59eab19cc4021e0e",
-        "V1a745d9d4279bb389536a45a2517168"
+        "V460453cea6545661891ee393bb7236f",
+        "Va74266ff3f6f53eb8e5a0d1faebe243",
+        "Ve22111aaf86e5e73b7f5d71072188be"
       ]
     },
     {
-      "id": "G4c5df820d26b2df0c332656bf9c1e70",
+      "id": "G41c31a5ed5815d98b2a1af83edfc0bc",
       "mtu": 1350,
-      "name": "sg-HW-core-SW9",
-      "nodeId": "W7536d142c285dd228f62820c5ad55fe",
+      "name": "sg-HW-core-SW11(S7706)",
+      "nodeId": "Wdfae0d61e2d95f84b612d3362d2eaa9",
       "transmitNodeIdList": [
-        "Va541a082aa091be8af5af15c7d0a206",
-        "V96a163ca8ec020077f39a77d7ba28f6",
-        "V4929ca4d351e8993e7cf5acc4aee346"
+        "V460453cea6545661891ee393bb7236f",
+        "Vd0172a5482af5b88a7d0cbab41f195b",
+        "Vc3fae4337df159088370591f8262614"
       ]
     },
     {
-      "id": "G4cc5d44ac125ac0029975e67c73d4c0",
+      "id": "Gd451edba1be0516b812c1c52bc3fe87",
       "mtu": 1350,
-      "name": "sg-HW-core-SW10",
-      "nodeId": "W59217931c9198604318085ab66e89a7",
+      "name": "sg-HW-core-SW12(S7706)",
+      "nodeId": "W35b138ad42ce5425910566352a2a8ce",
       "transmitNodeIdList": [
-        "Va541a082aa091be8af5af15c7d0a206",
-        "V3c3c34e26f63c6f7d09e3111200d290",
-        "Vf9c6ccf9f4824f02312e52d2e6c46b6"
-      ]
-    },
-    {
-      "id": "G0a3dc76d432d1448fec7b40ff5822d2",
-      "mtu": 1350,
-      "name": "sg-HW-core-SW11",
-      "nodeId": "Wd21fc44d2221262b78118461a12d1d3",
-      "transmitNodeIdList": [
-        "Vf74245a94997382d19fefa0132aa6e0",
-        "V1162820ab8d3d3af91e60115523ff92",
-        "V5c4ad49700fd9d5c2d3f34619b640a8",
-        "Vc97c427f5149424147e43b41881d5d5"
-      ]
-    },
-    {
-      "id": "G3b4a170557ba93f1219b7f177adc5f3",
-      "mtu": 1350,
-      "name": "sg-HW-core-SW12",
-      "nodeId": "W9c12a0bf9acbf7323e577e9b7fab4e9",
-      "transmitNodeIdList": [
-        "Vf74245a94997382d19fefa0132aa6e0",
-        "V03bdd26bb205b4b0e78d213b3006277",
-        "Vfa9fc70fae783a99fddc968aec44332",
-        "V629caf9c11de9a81956d0606efc6474"
-      ]
-    },
-    {
-      "id": "Gc2a79830ca949b4ae843179837f0cc5",
-      "mtu": 1350,
-      "name": "sg-HW-core-SW13",
-      "nodeId": "Wa2061fa162b5be28761bdc75ba48de9",
-      "transmitNodeIdList": [
-        "V39256bc2f4c82b7dea4c86edea8c491",
-        "V4405eb23360394a89c1c668666b3da0",
-        "Ve925407a1bcbeb94263886ad29e22d6",
-        "V25d766c9f94559f450c5e259af7d8a9"
-      ]
-    },
-    {
-      "id": "G9f325cca8eb9c8dc4aeac7d36ca55c7",
-      "mtu": 1350,
-      "name": "sg-HW-core-SW14",
-      "nodeId": "W818951ba7ea0d3b63326ec8eadf33cc",
-      "transmitNodeIdList": [
-        "V39256bc2f4c82b7dea4c86edea8c491",
-        "Vabc648ce880a10937b42ee7f505df75",
-        "V47560a39209145cf2dedb21e6fbecf3",
-        "V7fefa3e7a4fc7fb83ad394ec83c1143"
+        "V460453cea6545661891ee393bb7236f",
+        "Vecdf26ced1b75ef588e8612757d72cf",
+        "Vf6fa2ef3969856888cd2c6acd9bacb9",
+        "Va072faf0d8005a6785dddc5bdc82325"
       ]
     }
   ],
@@ -452,14 +340,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "Wef6fe37eb7943d0f5db0b7eb2dcacd6",
-        "nodeName": "HW-core-SW1",
+        "id": "Wbc4b8fd92cb4585ea1db024689cdba7",
+        "nodeName": "HW-core-SW1(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-14",
-        "y": "76.5",
-        "description": "骨干互联核心交换机，连接实验室与管理/客户端汇聚节点；提供高带宽数据交换，启用VLAN隔离与链路聚合。"
+        "x": "-118",
+        "y": "-331"
       },
       "type": "SW"
     },
@@ -467,13 +354,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W706a2b4b72f96399453fbc629e7d340",
-        "nodeName": "HW-core-SW2",
+        "id": "W2222bb20ff495643906c09c9cdcbeab",
+        "nodeName": "HW-core-SW2(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-14",
-        "y": "-133.5"
+        "x": "-344",
+        "y": "-226"
       },
       "type": "SW"
     },
@@ -481,13 +368,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "Waef130fdf129511609bfc857d2571a7",
-        "nodeName": "HW-core-SW3",
+        "id": "W43f680b52fe157b39c930f439f5e3cf",
+        "nodeName": "HW-core-SW3(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-374",
-        "y": "-13.5"
+        "x": "-508",
+        "y": "36"
       },
       "type": "SW"
     },
@@ -495,13 +382,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "Wef9168d58bb9508663f765799858b75",
-        "nodeName": "HW-core-SW4",
+        "id": "Wf14c837918785ba1863359bb0749f25",
+        "nodeName": "HW-core-SW4(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "386",
-        "y": "-13.5"
+        "x": "-168",
+        "y": "36"
       },
       "type": "SW"
     },
@@ -509,13 +396,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W75f14b06e12a568607d2aba60fe7400",
-        "nodeName": "HW-core-SW5",
+        "id": "We588ed9d5c715dcbb4350a21a679523",
+        "nodeName": "HW-core-SW5(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-164",
-        "y": "-358.5"
+        "x": "320",
+        "y": "-436"
       },
       "type": "SW"
     },
@@ -523,15 +410,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W13ab1a92f64fefc7cfc159f040f198e",
-        "nodeName": "HW-core-SW6",
+        "id": "Wdc2d773c16d75480880495a65d229eb",
+        "nodeName": "HW-core-SW6(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "86",
-        "y": "-358.5",
-        "district": "集群-01",
-        "fillColor": "255,235,204"
+        "x": "319",
+        "y": "-234"
       },
       "type": "SW"
     },
@@ -539,13 +424,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W6fedb2afe8688782c8979ef43613c61",
-        "nodeName": "HW-core-SW7",
+        "id": "Wcc069aa6601b545c82db31b1927563c",
+        "nodeName": "HW-core-SW7(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-404",
-        "y": "326.5"
+        "x": "-640",
+        "y": "286"
       },
       "type": "SW"
     },
@@ -553,15 +438,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "Wc32bf3e622f6f16b2bfb74d50f4e4d6",
-        "nodeName": "HW-core-SW8",
+        "id": "Wa71e31af3ab155e2a6d934b3bb846c1",
+        "nodeName": "HW-core-SW8(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "-174",
-        "y": "326.5",
-        "district": "存储中心",
-        "fillColor": "198,224,180"
+        "x": "-431",
+        "y": "286"
       },
       "type": "SW"
     },
@@ -569,13 +452,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W7536d142c285dd228f62820c5ad55fe",
-        "nodeName": "HW-core-SW9",
+        "id": "W81a8ec01b4cd55c18449062cdc690f5",
+        "nodeName": "HW-core-SW9(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "136",
-        "y": "326.5"
+        "x": "-148",
+        "y": "236"
       },
       "type": "SW"
     },
@@ -583,13 +466,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W59217931c9198604318085ab66e89a7",
-        "nodeName": "HW-core-SW10",
+        "id": "We410b2657c0251f28da6e7de5051612",
+        "nodeName": "HW-core-SW10(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "366",
-        "y": "326.5"
+        "x": "78",
+        "y": "236"
       },
       "type": "SW"
     },
@@ -597,15 +480,13 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "Wd21fc44d2221262b78118461a12d1d3",
-        "nodeName": "HW-core-SW11",
+        "id": "Wdfae0d61e2d95f84b612d3362d2eaa9",
+        "nodeName": "HW-core-SW11(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "786",
-        "y": "-123.5",
-        "district": "VPC一区",
-        "fillColor": "255,235,204"
+        "x": "316",
+        "y": "236"
       },
       "type": "SW"
     },
@@ -613,263 +494,125 @@
       "nicList": [],
       "properties": {
         "devType": "SW",
-        "id": "W9c12a0bf9acbf7323e577e9b7fab4e9",
-        "nodeName": "HW-core-SW12",
+        "id": "W35b138ad42ce5425910566352a2a8ce",
+        "nodeName": "HW-core-SW12(S7706)",
         "otherAttributeList": [],
         "singleNetwork": false,
         "transparent": 0,
-        "x": "786",
-        "y": "106.5",
-        "district": "VPC二区",
-        "fillColor": "242,220,219"
-      },
-      "type": "SW"
-    },
-    {
-      "nicList": [],
-      "properties": {
-        "devType": "SW",
-        "id": "Wa2061fa162b5be28761bdc75ba48de9",
-        "nodeName": "HW-core-SW13",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "transparent": 0,
-        "x": "-714",
-        "y": "-113.5",
-        "district": "办公一区",
-        "fillColor": "207,226,243"
-      },
-      "type": "SW"
-    },
-    {
-      "nicList": [],
-      "properties": {
-        "devType": "SW",
-        "id": "W818951ba7ea0d3b63326ec8eadf33cc",
-        "nodeName": "HW-core-SW14",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "transparent": 0,
-        "x": "-714",
-        "y": "166.5",
-        "district": "办公二区",
-        "fillColor": "207,226,243"
+        "x": "570",
+        "y": "236"
       },
       "type": "SW"
     },
     {
       "nicList": [
         {
-          "id": "Pb61533073b6db0b437734a503abc6c5",
-          "ip": "192.168.1.4",
-          "name": "Cisco-9000-R1-GE0/1",
-          "subnetId": "S9c16b5512d4798bf9fd000c1a7e123f",
-          "macAddress": "3C:22:FB:9D:8E:6F"
+          "id": "P017d518d3bf358378aac1b077e78aec",
+          "ip": "10.20.1.1",
+          "name": "HW-AR6140-R1-GE0/1",
+          "subnetId": "S18e6c38a32f6533bad8ab401e7e62cf"
         },
         {
-          "id": "P4f39f37b613ad74a7ec85b5fa1ac8d4",
-          "ip": "192.168.2.1",
-          "name": "Cisco-9000-R1-GE0/2",
-          "subnetId": "S63db5b13341b3c198ed89247742b010",
-          "macAddress": "DC:A6:32:FE:ED:C3"
-        },
-        {
-          "id": "P7005588dc6bcf1ffbe6bc27e7a7a3e7",
-          "ip": "192.168.15.1",
-          "name": "Cisco-9000-R1-GE0/3",
-          "subnetId": "S9417a9bc465b38465343491903c7a2a",
-          "macAddress": "40:6C:8F:44:55:66"
+          "id": "P7182746b190d57268183eee29157ac5",
+          "ip": "10.20.2.1",
+          "name": "HW-AR6140-R1-GE0/2",
+          "subnetId": "Sdaeb276058cc5d14934807cb8c7fad5"
         }
       ],
       "properties": {
         "devType": "DRT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
+          "disk": "10",
+          "ram": "1024"
         },
-        "id": "Vb5e550c192ec489a438c56aecc7ac11",
-        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
-        "imageName": "Cisco-9000",
+        "id": "V7c28830413b35a3eaff20781202d906",
+        "imageId": "BBB1ace8-3895-4aab-9a9e-e67cda9bbef6",
+        "imageName": "HW-AR6140",
         "metadata": [],
-        "nodeName": "Cisco-9000-R1",
+        "nodeName": "HW-AR6140-R1",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
-        "userData": "router ospf 1\n network 192.168.1.0 0.0.0.255 area 0\n network 192.168.2.0 0.0.0.255 area 0\n network 192.168.15.0 0.0.0.255 area 0\nexit",
-        "x": "-244",
-        "y": "-13.5"
+        "userData": "",
+        "x": "-338",
+        "y": "-331"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pd3a5e281057208b1fecfeae85aa0500",
-          "ip": "192.168.2.2",
-          "name": "Cisco-9000-R2-GE0/1",
-          "subnetId": "S63db5b13341b3c198ed89247742b010",
-          "macAddress": "08:00:27:89:AB:C3"
+          "id": "P24345845784b5687a6a49dd10061339",
+          "ip": "10.20.1.2",
+          "name": "HW-AR6140-R4-GE0/1",
+          "subnetId": "S18e6c38a32f6533bad8ab401e7e62cf"
         },
         {
-          "id": "P1bf3b452a4c920098e3f0f1416b2c88",
-          "ip": "192.168.1.2",
-          "name": "Cisco-9000-R2-GE0/2",
-          "subnetId": "S9c16b5512d4798bf9fd000c1a7e123f",
-          "macAddress": "00:1A:2B:3C:4D:5E"
+          "id": "P8b15cd67c58853dfa507017d8127cd6",
+          "ip": "192.168.30.1",
+          "name": "HW-AR6140-R4-GE0/3",
+          "subnetId": "Sac09fe309742573d93a9bc519255ef0"
         },
         {
-          "id": "P75ba8db9f2e9d2323c887bac97268a0",
-          "ip": "192.168.14.1",
-          "name": "Cisco-9000-R2-GE0/3",
-          "subnetId": "Sb76849921613542e7cb60de3872bf48",
-          "macAddress": "00:1B:44:11:3A:B8"
+          "id": "P401012992afb546eacb419413912fc2",
+          "ip": "192.168.31.1",
+          "name": "HW-AR6140-R4-GE0/2",
+          "subnetId": "Se7441700102f57959df7a4e7d2cfa8f"
         }
       ],
       "properties": {
         "devType": "DRT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
+          "disk": "10",
+          "ram": "1024"
         },
-        "id": "Vca8db18e2c9a26f152843917bca8f3c",
-        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
-        "imageName": "Cisco-9000",
+        "id": "V8bd297d5d5b95e6691a2bce117c8228",
+        "imageId": "BBB1ace8-3895-4aab-9a9e-e67cda9bbef6",
+        "imageName": "HW-AR6140",
         "metadata": [],
-        "nodeName": "Cisco-9000-R2",
+        "nodeName": "HW-AR6140-R4",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
-        "userData": "router ospf 1\n network 192.168.1.0 0.0.0.255 area 0\n network 192.168.2.0 0.0.0.255 area 0\n network 192.168.14.0 0.0.0.255 area 0\nexit",
-        "x": "226",
-        "y": "-13.5"
+        "userData": "",
+        "x": "114",
+        "y": "-331"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pd5c151c2f1e02b9a9d90fd456d5b628",
-          "ip": "192.168.1.1",
-          "name": "Cisco-9000-R3-GE0/1",
-          "subnetId": "S9c16b5512d4798bf9fd000c1a7e123f",
-          "macAddress": "00:50:56:C0:00:08"
-        },
-        {
-          "id": "P0b7d7c62006f9d0d763828353f4c21f",
-          "ip": "192.168.10.1",
-          "name": "Cisco-9000-R3-GE0/2",
-          "subnetId": "S0929a72361dfff7b868178f2681012c",
-          "macAddress": "34:F3:9A:AB:CD:EF"
-        },
-        {
-          "id": "P2ac3adc444c66557cc8456858fbaab1",
-          "ip": "192.168.11.1",
-          "name": "Cisco-9000-R3-GE0/3",
-          "subnetId": "S5103ce230dd9f6881513ef7384d5733",
-          "macAddress": "00:0C:29:1A:2B:3C"
-        }
-      ],
-      "properties": {
-        "devType": "DRT",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
-        },
-        "id": "V8c1959ccefc5a97ffb16b4eeca2a5e7",
-        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
-        "imageName": "Cisco-9000",
-        "metadata": [],
-        "nodeName": "Cisco-9000-R3",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "router ospf 1\n network 192.168.1.0 0.0.0.255 area 0\n network 192.168.10.0 0.0.0.255 area 0\n network 192.168.11.0 0.0.0.255 area 0\nexit",
-        "x": "-234",
-        "y": "206.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P1f7dc999acb3923cd0d21baf2ac1e10",
-          "ip": "192.168.1.3",
-          "name": "Cisco-9000-R4-GE0/1",
-          "subnetId": "S9c16b5512d4798bf9fd000c1a7e123f",
-          "macAddress": "B8:27:EB:12:34:56"
-        },
-        {
-          "id": "P3e90ce41b9ec0e5c3a06c9391edb50b",
-          "ip": "192.168.12.1",
-          "name": "Cisco-9000-R4-GE0/2",
-          "subnetId": "Sfeaa5bd709d89539f693db2b05133ff",
-          "macAddress": "98:FA:9B:7C:8D:9E"
-        },
-        {
-          "id": "Pc0670f7cc0f8165b282cc8ef6b92a08",
-          "ip": "192.168.13.1",
-          "name": "Cisco-9000-R4-GE0/3",
-          "subnetId": "S11286ea4aefb65e6c1af26b42b81597",
-          "macAddress": "54:EE:75:12:34:56"
-        }
-      ],
-      "properties": {
-        "devType": "DRT",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
-        },
-        "id": "Va541a082aa091be8af5af15c7d0a206",
-        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
-        "imageName": "Cisco-9000",
-        "metadata": [],
-        "nodeName": "Cisco-9000-R4",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "router ospf 1\n network 192.168.1.0 0.0.0.255 area 0\n network 192.168.12.0 0.0.0.255 area 0\n network 192.168.13.0 0.0.0.255 area 0\nexit",
-        "x": "246",
-        "y": "206.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P60ea234ac34dc46660f7c4ffcc0e03e",
-          "ip": "192.168.2.3",
+          "id": "Pd1cb66d1db635d688a54c888f8519c3",
+          "ip": "10.20.2.2",
           "name": "HW-USG6550E-FW1-GE0/1",
-          "subnetId": "S63db5b13341b3c198ed89247742b010"
+          "subnetId": "Sdaeb276058cc5d14934807cb8c7fad5"
         },
         {
-          "id": "Pb75add45f4906455e6429dbf5221231",
-          "ip": "192.168.21.1",
+          "id": "P3e0f487ff6d15dbeb7f52c9f976939c",
+          "ip": "10.20.3.2",
           "name": "HW-USG6550E-FW1-GE0/2",
-          "subnetId": "S10e8c4c4fd632fff1c8aa91d4d93f79"
+          "subnetId": "Se7140ee43c175cdf84c8f2f5ab0edc5"
         },
         {
-          "id": "Pd1d25ad13884f1b42697e683c014ccf",
-          "ip": "192.168.20.1",
+          "id": "P93d2d3736d915cf38fca93dc92f5c5f",
+          "ip": "10.20.4.2",
           "name": "HW-USG6550E-FW1-GE0/3",
-          "subnetId": "Sc77ebc504efd1fb2478935274ef398a"
+          "subnetId": "Se9f43001b1db5a1fb0f865b2ba72305"
         }
       ],
       "properties": {
         "devType": "FW",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
+          "disk": "10",
+          "ram": "1024"
         },
-        "id": "Vb8d3313593d1dc7dac1f56e9eab8454",
+        "id": "V7ef5cd2419735345908e8e3fa9cae52",
         "imageId": "BBB370d9-4d64-4fef-896e-f7e2287064ab",
         "imageName": "USG6550E",
         "metadata": [],
@@ -879,1079 +622,747 @@
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "-14",
-        "y": "-283.5",
-        "description": "网络安全边界网关。核心功能：执行访问控制、IPS入侵防御及边界NAT（PAT/端口映射）。运维策略：安全日志合规留存6个月，定期审计冗余规则。"
+        "x": "-344",
+        "y": "-78"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P86f4c223a2dcf6fc1fcfe8caaacb980",
-          "ip": "192.168.14.3",
-          "name": "HW-USG6550E-FW2-GE0/1",
-          "subnetId": "Sb76849921613542e7cb60de3872bf48"
+          "id": "P4f754f5bae8c5c3aace4ee4e6686d2e",
+          "ip": "10.20.3.1",
+          "name": "HW-AR6140-R3-GE0/1",
+          "subnetId": "Se7140ee43c175cdf84c8f2f5ab0edc5"
         },
         {
-          "id": "Pb8036c3e506e017125cd5f8bda04eba",
-          "ip": "192.168.40.1",
-          "name": "HW-USG6550E-FW2-GE0/2",
-          "subnetId": "Sbfffa27301a4219032ea415e2331241"
+          "id": "Pf6c09bec12e35790ac13a782fb989b8",
+          "ip": "192.168.10.1",
+          "name": "HW-AR6140-R3-GE0/2",
+          "subnetId": "S1a30fc3e326a5b06b73ef838e385c89"
         },
         {
-          "id": "Peddf60aac184686c5d8800098e1534d",
-          "ip": "192.168.41.1",
-          "name": "HW-USG6550E-FW2-GE0/3",
-          "subnetId": "S1884620a007ee437baf86304087e634"
+          "id": "P7260fcef61c553b0b68be607ace3ea4",
+          "ip": "192.168.11.1",
+          "name": "HW-AR6140-R3-GE0/3",
+          "subnetId": "S63c943f43b805004bc547f81b3c08bb"
         }
       ],
       "properties": {
-        "devType": "FW",
+        "devType": "DRT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
+          "disk": "10",
+          "ram": "1024"
         },
-        "id": "Vf74245a94997382d19fefa0132aa6e0",
-        "imageId": "BBB370d9-4d64-4fef-896e-f7e2287064ab",
-        "imageName": "USG6550E",
+        "id": "V2332b086ff0453e7b9a028f173a6396",
+        "imageId": "BBB1ace8-3895-4aab-9a9e-e67cda9bbef6",
+        "imageName": "HW-AR6140",
         "metadata": [],
-        "nodeName": "HW-USG6550E-FW2",
+        "nodeName": "HW-AR6140-R3",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "576",
-        "y": "-13.5",
-        "description": "网络安全边界网关。核心功能：执行访问控制、IPS入侵防御及边界NAT（PAT/端口映射）。运维策略：安全日志合规留存6个月，定期审计冗余规则。"
+        "x": "-506",
+        "y": "166"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P72cef8fc2cdb099a726d41b73f77344",
-          "ip": "192.168.15.3",
-          "name": "HW-USG6550E-FW3-GE0/1",
-          "subnetId": "S9417a9bc465b38465343491903c7a2a"
+          "id": "P40df2c5a59a258a4aec98d6d64a130c",
+          "ip": "10.20.4.1",
+          "name": "HW-AR6140-R2-GE0/1",
+          "subnetId": "Se9f43001b1db5a1fb0f865b2ba72305"
         },
         {
-          "id": "Pdeaa18b603a12aaec943a79e06eaa9c",
-          "ip": "192.168.30.1",
-          "name": "HW-USG6550E-FW3-GE0/2",
-          "subnetId": "Sf7dd2474d0a3534d97fa337c88dab47"
+          "id": "P98ffc1380f065e7db34419498a47fdf",
+          "ip": "192.168.20.1",
+          "name": "HW-AR6140-R2-GE0/2",
+          "subnetId": "S62249edfb1fc536b8045b97ce54c212"
         },
         {
-          "id": "P892b85452b3d9dcbb9fe0f4d63fd194",
-          "ip": "192.168.31.1",
-          "name": "HW-USG6550E-FW3-GE0/3",
-          "subnetId": "S5c57d2d0719a8290bd19f5f133a5ab2"
+          "id": "P86144e0191d455d1b300f29d2b9e6c1",
+          "ip": "192.168.21.1",
+          "name": "HW-AR6140-R2-GE0/3",
+          "subnetId": "S0e0b3b5f31b955fe939f105fba04ce7"
+        },
+        {
+          "id": "P1a6b69be33da5c57a62a2da3f59c666",
+          "ip": "192.168.22.1",
+          "name": "HW-AR6140-R2-GE0/4",
+          "subnetId": "S99347a176e765567a32894c053958b0"
+        },
+        {
+          "id": "Pd52eed439d235c23a5214f54a068e6d",
+          "ip": "192.168.23.1",
+          "name": "HW-AR6140-R2-GE0/5",
+          "subnetId": "Sb1ef14a9702a59eb968e1ba18ec4ac9"
         }
       ],
       "properties": {
-        "devType": "FW",
+        "devType": "DRT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "10"
+          "disk": "10",
+          "ram": "1024"
         },
-        "id": "V39256bc2f4c82b7dea4c86edea8c491",
-        "imageId": "BBB370d9-4d64-4fef-896e-f7e2287064ab",
-        "imageName": "USG6550E",
+        "id": "V460453cea6545661891ee393bb7236f",
+        "imageId": "BBB1ace8-3895-4aab-9a9e-e67cda9bbef6",
+        "imageName": "HW-AR6140",
         "metadata": [],
-        "nodeName": "HW-USG6550E-FW3",
+        "nodeName": "HW-AR6140-R2",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "-524",
-        "y": "-13.5",
-        "description": "网络安全边界网关。核心功能：执行访问控制、IPS入侵防御及边界NAT（PAT/端口映射）。运维策略：安全日志合规留存6个月，定期审计冗余规则。"
+        "x": "180",
+        "y": "36"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P6f979cffdc5fb25934a412425db5995",
+          "id": "Pb4e77dd7e1dd55b480b16cf9aad4f48",
           "ip": "192.168.30.3",
-          "name": "PC-1-eth0",
-          "subnetId": "Sf7dd2474d0a3534d97fa337c88dab47",
-          "macAddress": "00:1B:44:11:3A:B7"
+          "name": "T1-PC-1-eth0",
+          "subnetId": "Sac09fe309742573d93a9bc519255ef0"
         }
       ],
       "properties": {
         "devType": "CLIENT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "V4405eb23360394a89c1c668666b3da0",
+        "id": "Vb622b1de67e95287a33e1e3fe447560",
         "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
         "imageName": "PC",
         "metadata": [],
-        "nodeName": "PC-1",
+        "nodeName": "T1-PC-1",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Windows",
         "transparent": 0,
         "userData": "",
-        "x": "-864",
-        "y": "-203.5",
-        "district": "办公一区",
-        "fillColor": "207,226,243"
+        "x": "523",
+        "y": "-484"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pc159a992ae062aa5960e98a3d07d53b",
+          "id": "P621028a6c81150a3b6839202758d49d",
           "ip": "192.168.30.4",
-          "name": "PC-2-eth0",
-          "subnetId": "Sf7dd2474d0a3534d97fa337c88dab47",
-          "macAddress": "00:1E:67:AA:BB:CC"
+          "name": "T1-PC-2-eth0",
+          "subnetId": "Sac09fe309742573d93a9bc519255ef0"
         }
       ],
       "properties": {
         "devType": "CLIENT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "Ve925407a1bcbeb94263886ad29e22d6",
+        "id": "Ve94e2e49f7dc5b429e3643b2ddc8c8e",
         "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
         "imageName": "PC",
         "metadata": [],
-        "nodeName": "PC-2",
+        "nodeName": "T1-PC-2",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Windows",
         "transparent": 0,
         "userData": "",
-        "x": "-864",
-        "y": "-113.5",
-        "district": "办公一区",
-        "fillColor": "207,226,243"
+        "x": "523",
+        "y": "-380"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pbadc50126a9d8b1afc13e5755d8174c",
-          "ip": "192.168.30.5",
-          "name": "PC-3-eth0",
-          "subnetId": "Sf7dd2474d0a3534d97fa337c88dab47",
-          "macAddress": "F0:18:98:5A:6B:7C"
-        }
-      ],
-      "properties": {
-        "devType": "CLIENT",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V25d766c9f94559f450c5e259af7d8a9",
-        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
-        "imageName": "PC",
-        "metadata": [],
-        "nodeName": "PC-3",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Windows",
-        "transparent": 0,
-        "userData": "",
-        "x": "-864",
-        "y": "-23.5",
-        "district": "办公一区",
-        "fillColor": "207,226,243"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P7a8e254eb62bf778c782c94477a755a",
+          "id": "P770f8d77f7cf573e8123b0a5e7da4e1",
           "ip": "192.168.31.3",
-          "name": "PC-4-eth0",
-          "subnetId": "S5c57d2d0719a8290bd19f5f133a5ab2",
-          "macAddress": "3C:22:FB:9D:8E:7F"
+          "name": "T2-PC-1-eth0",
+          "subnetId": "Se7441700102f57959df7a4e7d2cfa8f"
         }
       ],
       "properties": {
         "devType": "CLIENT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "Vabc648ce880a10937b42ee7f505df75",
+        "id": "V66e8fdfac2ec53f2ab4af1374ecf6f8",
         "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
         "imageName": "PC",
         "metadata": [],
-        "nodeName": "PC-4",
+        "nodeName": "T2-PC-1",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Windows",
         "transparent": 0,
         "userData": "",
-        "x": "-864",
-        "y": "76.5",
-        "district": "办公二区",
-        "fillColor": "207,226,243"
+        "x": "523",
+        "y": "-258"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P29c7e08e73d1a09c6e678c7c11de1ed",
+          "id": "P3b11d771489b5128a47e8bab76c44d8",
           "ip": "192.168.31.4",
-          "name": "PC-5-eth0",
-          "subnetId": "S5c57d2d0719a8290bd19f5f133a5ab2",
-          "macAddress": "DC:A6:32:FE:ED:CC"
+          "name": "T2-PC-2-eth0",
+          "subnetId": "Se7441700102f57959df7a4e7d2cfa8f"
         }
       ],
       "properties": {
         "devType": "CLIENT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "V47560a39209145cf2dedb21e6fbecf3",
+        "id": "V16464f28ffd859f99f250b9faee73e6",
         "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
         "imageName": "PC",
         "metadata": [],
-        "nodeName": "PC-5",
+        "nodeName": "T2-PC-2",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Windows",
         "transparent": 0,
         "userData": "",
-        "x": "-864",
-        "y": "171.5",
-        "district": "办公二区",
-        "fillColor": "207,226,243"
+        "x": "523",
+        "y": "-143"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P4f5d9d9cfef08fc9a024bdd20533b9b",
-          "ip": "192.168.31.5",
-          "name": "PC-6-eth0",
-          "subnetId": "S5c57d2d0719a8290bd19f5f133a5ab2",
-          "macAddress": "08:00:27:89:AB:CD"
-        }
-      ],
-      "properties": {
-        "devType": "CLIENT",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V7fefa3e7a4fc7fb83ad394ec83c1143",
-        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
-        "imageName": "PC",
-        "metadata": [],
-        "nodeName": "PC-6",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Windows",
-        "transparent": 0,
-        "userData": "",
-        "x": "-864",
-        "y": "266.5",
-        "district": "办公二区",
-        "fillColor": "207,226,243"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pd8c61eb0958ae31fccad9f1f34db3d4",
-          "ip": "192.168.20.3",
-          "name": "Mail-01-eth0",
-          "subnetId": "Sc77ebc504efd1fb2478935274ef398a"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "Veb464a4037c3b18cba09bb0110dddb7",
-        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
-        "imageName": "Mail",
-        "metadata": [],
-        "nodeName": "Mail-01",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "-224",
-        "y": "-443.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pa9c59191e1e8423b485d81ec68c80d3",
-          "ip": "192.168.20.4",
-          "name": "Mail-02-eth0",
-          "subnetId": "Sc77ebc504efd1fb2478935274ef398a"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V951699cf96c0e7569bd94586ccca5d2",
-        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
-        "imageName": "Mail",
-        "metadata": [],
-        "nodeName": "Mail-02",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "-164",
-        "y": "-443.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P42c2441e86bbc42bfd20e1a9655fbb4",
-          "ip": "192.168.20.5",
-          "name": "Mail-03-eth0",
-          "subnetId": "Sc77ebc504efd1fb2478935274ef398a"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "Va1fbdc1d68f29d7b59dfed0e9fd890a",
-        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
-        "imageName": "Mail",
-        "metadata": [],
-        "nodeName": "Mail-03",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "-104",
-        "y": "-443.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P3cd40359a7aea957543654e3a23a9ae",
-          "ip": "192.168.21.3",
-          "name": "Monitor-01-eth0",
-          "subnetId": "S10e8c4c4fd632fff1c8aa91d4d93f79"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "Vc04dbf6b047d19a8fab3814878e8a56",
-        "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
-        "imageName": "Monitor",
-        "metadata": [],
-        "nodeName": "Monitor-01",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "26",
-        "y": "-443.5",
-        "district": "集群-01",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P19538f417a5c4ec221024cf3759fe4d",
-          "ip": "192.168.21.4",
-          "name": "Monitor-02-eth0",
-          "subnetId": "S10e8c4c4fd632fff1c8aa91d4d93f79"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "Vd718054f7de3bdc4247d9d5573edee1",
-        "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
-        "imageName": "Monitor",
-        "metadata": [],
-        "nodeName": "Monitor-02",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "86",
-        "y": "-443.5",
-        "district": "集群-01",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P3a4a17e51f95c86e9e3d20d385c4f49",
-          "ip": "192.168.21.5",
-          "name": "Monitor-03-eth0",
-          "subnetId": "S10e8c4c4fd632fff1c8aa91d4d93f79"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "Ve8a761c5cd4b9482f2c12ce71215d4f",
-        "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
-        "imageName": "Monitor",
-        "metadata": [],
-        "nodeName": "Monitor-03",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "146",
-        "y": "-443.5",
-        "district": "集群-01",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pdd0c439d1845500670ce3c7006292ff",
-          "ip": "192.168.40.3",
-          "name": "VPC-1-eth0",
-          "subnetId": "Sbfffa27301a4219032ea415e2331241"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "V1162820ab8d3d3af91e60115523ff92",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-1",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "-193.5",
-        "district": "VPC一区",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P09f7be24c2847ad7dc0ccd462d2f3f5",
-          "ip": "192.168.40.4",
-          "name": "VPC-2-eth0",
-          "subnetId": "Sbfffa27301a4219032ea415e2331241"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "V5c4ad49700fd9d5c2d3f34619b640a8",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-2",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "-113.5",
-        "district": "VPC一区",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pd0c77bd74637e7ca4a0fc6ac3651799",
-          "ip": "192.168.40.5",
-          "name": "VPC-3-eth0",
-          "subnetId": "Sbfffa27301a4219032ea415e2331241"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "Vc97c427f5149424147e43b41881d5d5",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-3",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "-33.5",
-        "district": "VPC一区",
-        "fillColor": "255,235,204"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pf131cd19f49b475d8858d5e3013d76b",
-          "ip": "192.168.41.3",
-          "name": "VPC-4-eth0",
-          "subnetId": "S1884620a007ee437baf86304087e634"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "V03bdd26bb205b4b0e78d213b3006277",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-4",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "41.5",
-        "district": "VPC二区",
-        "fillColor": "242,220,219"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P4ba2d5bcb8bf0a16534edf1bdd7fc8b",
-          "ip": "192.168.41.4",
-          "name": "VPC-5-eth0",
-          "subnetId": "S1884620a007ee437baf86304087e634"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "Vfa9fc70fae783a99fddc968aec44332",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-5",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "121.5",
-        "district": "VPC二区",
-        "fillColor": "242,220,219"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pceb748f99529bfafd5e56e24b238025",
-          "ip": "192.168.41.5",
-          "name": "VPC-6-eth0",
-          "subnetId": "S1884620a007ee437baf86304087e634"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
-        },
-        "id": "V629caf9c11de9a81956d0606efc6474",
-        "imageId": "BBB12d7f-573b-4d45-b78d-6ed6baf5743b",
-        "imageName": "VPC",
-        "metadata": [],
-        "nodeName": "VPC-6",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "926",
-        "y": "201.5",
-        "district": "VPC二区",
-        "fillColor": "242,220,219"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P618bbd4d8a4d1f33ae52721aefd7f8b",
+          "id": "P788a139d3fa9566a865075495eccf28",
           "ip": "192.168.10.3",
-          "name": "WEB-1-eth0",
-          "subnetId": "S0929a72361dfff7b868178f2681012c"
+          "name": "WEB-eth0",
+          "subnetId": "S1a30fc3e326a5b06b73ef838e385c89"
         }
       ],
       "properties": {
         "devType": "SERVER",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "V63459d3407dcc5595ee4b57227ecfde",
+        "id": "Vf5cb16a16e04503d877a95d514c5684",
         "imageId": "BBBb9857-8ef2-4f45-a868-f4a7a37d9baa",
         "imageName": "WEB",
         "metadata": [],
-        "nodeName": "WEB-1",
+        "nodeName": "WEB",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "-454",
-        "y": "476.5"
+        "x": "-713",
+        "y": "422"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pe3d1e0c9289ffea2f28368818d794b0",
+          "id": "Pbd96d619a7935411b5e82c08cf0afe3",
           "ip": "192.168.10.4",
-          "name": "WEB-2-eth0",
-          "subnetId": "S0929a72361dfff7b868178f2681012c"
+          "name": "DB-eth0",
+          "subnetId": "S1a30fc3e326a5b06b73ef838e385c89"
         }
       ],
       "properties": {
         "devType": "SERVER",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "80",
+          "ram": "1024"
         },
-        "id": "V16e6851ee8209043920afee84cd59f3",
-        "imageId": "BBBb9857-8ef2-4f45-a868-f4a7a37d9baa",
-        "imageName": "WEB",
+        "id": "V549c2294e47757dcb7bfce06f973f39",
+        "imageId": "BBB4bbd4-a9d0-4bf1-9361-bf595a906693",
+        "imageName": "DB",
         "metadata": [],
-        "nodeName": "WEB-2",
+        "nodeName": "DB",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "-334",
-        "y": "476.5"
+        "x": "-594",
+        "y": "422"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P10c144c99a581d07214b074324a75f2",
+          "id": "P8dcb255ff0315dd99f0b1808d60936d",
           "ip": "192.168.11.3",
-          "name": "DB-1-eth0",
-          "subnetId": "S5103ce230dd9f6881513ef7384d5733"
+          "name": "Mail-eth0",
+          "subnetId": "S63c943f43b805004bc547f81b3c08bb"
         }
       ],
       "properties": {
         "devType": "SERVER",
         "flavor": {
           "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "V33841c96ee1ffca59eab19cc4021e0e",
-        "imageId": "BBB4bbd4-a9d0-4bf1-9361-bf595a906693",
-        "imageName": "DB",
+        "id": "Vc936a0117ef35527a75339d8c52556a",
+        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
+        "imageName": "Mail",
         "metadata": [],
-        "nodeName": "DB-1",
+        "nodeName": "Mail",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "-204",
-        "y": "476.5",
-        "district": "存储中心",
-        "fillColor": "198,224,180"
+        "x": "-477",
+        "y": "422"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "P960e140ac403f0d41610c718d34c92c",
+          "id": "P279bc91aaef65c18a164344b9dbf6d3",
           "ip": "192.168.11.4",
-          "name": "DB-2-eth0",
-          "subnetId": "S5103ce230dd9f6881513ef7384d5733"
+          "name": "Monitor-eth0",
+          "subnetId": "S63c943f43b805004bc547f81b3c08bb"
         }
       ],
       "properties": {
         "devType": "SERVER",
         "flavor": {
           "cpu": "1",
-          "ram": "2048",
-          "disk": "80"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "V1a745d9d4279bb389536a45a2517168",
-        "imageId": "BBB4bbd4-a9d0-4bf1-9361-bf595a906693",
-        "imageName": "DB",
-        "metadata": [],
-        "nodeName": "DB-2",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "iptables -A INPUT -s 192.168.11.3 -j DROP\niptables -A INPUT -p tcp -s 192.168.10.4 --dport 80 -j ACCEPT",
-        "x": "-84",
-        "y": "476.5",
-        "district": "存储中心",
-        "fillColor": "198,224,180"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P7a249a53a2aaea963e6c6a80d0cb9d8",
-          "ip": "192.168.12.3",
-          "name": "Mail1-1-eth0",
-          "subnetId": "Sfeaa5bd709d89539f693db2b05133ff"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V96a163ca8ec020077f39a77d7ba28f6",
-        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
-        "imageName": "Mail",
-        "metadata": [],
-        "nodeName": "Mail1-1",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "96",
-        "y": "476.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "P7b2e83151c67c73c9779d81e22a3668",
-          "ip": "192.168.12.4",
-          "name": "Mail1-2-eth0",
-          "subnetId": "Sfeaa5bd709d89539f693db2b05133ff"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V4929ca4d351e8993e7cf5acc4aee346",
-        "imageId": "BBB2bfdc-2328-447c-8124-b21c155f9d49",
-        "imageName": "Mail",
-        "metadata": [],
-        "nodeName": "Mail1-2",
-        "otherAttributeList": [],
-        "singleNetwork": false,
-        "sysType": "Linux",
-        "transparent": 0,
-        "userData": "",
-        "x": "216",
-        "y": "476.5"
-      },
-      "type": "VM"
-    },
-    {
-      "nicList": [
-        {
-          "id": "Pe6c142c544dd56671bbe492419ad787",
-          "ip": "192.168.13.3",
-          "name": "Monitor1-1-eth0",
-          "subnetId": "S11286ea4aefb65e6c1af26b42b81597"
-        }
-      ],
-      "properties": {
-        "devType": "SERVER",
-        "flavor": {
-          "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
-        },
-        "id": "V3c3c34e26f63c6f7d09e3111200d290",
+        "id": "V1e81e9c71fcc5860bd1d172c3d0ee2d",
         "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
         "imageName": "Monitor",
         "metadata": [],
-        "nodeName": "Monitor1-1",
+        "nodeName": "Monitor",
         "otherAttributeList": [],
         "singleNetwork": false,
         "sysType": "Linux",
         "transparent": 0,
         "userData": "",
-        "x": "336",
-        "y": "476.5"
+        "x": "-358",
+        "y": "422"
       },
       "type": "VM"
     },
     {
       "nicList": [
         {
-          "id": "Pff8d7ba8e36fe26dc512a64eefc1c91",
-          "ip": "192.168.13.4",
-          "name": "Monitor1-2-eth0",
-          "subnetId": "S11286ea4aefb65e6c1af26b42b81597"
+          "id": "P5895f4311a085ddc8a772dd83199972",
+          "ip": "192.168.20.3",
+          "name": "P1-PC-1-eth0",
+          "subnetId": "S62249edfb1fc536b8045b97ce54c212"
         }
       ],
       "properties": {
-        "devType": "SERVER",
+        "devType": "CLIENT",
         "flavor": {
           "cpu": "1",
-          "ram": "1024",
-          "disk": "40"
+          "disk": "40",
+          "ram": "1024"
         },
-        "id": "Vf9c6ccf9f4824f02312e52d2e6c46b6",
-        "imageId": "BBB10719-16d0-46b6-bef3-8b98c939707b",
-        "imageName": "Monitor",
+        "id": "Vdedc2605630e5377bfd87e52075a81d",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
         "metadata": [],
-        "nodeName": "Monitor1-2",
+        "nodeName": "P1-PC-1",
         "otherAttributeList": [],
         "singleNetwork": false,
-        "sysType": "Linux",
+        "sysType": "Windows",
         "transparent": 0,
         "userData": "",
-        "x": "456",
-        "y": "476.5"
+        "x": "-225",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P889be448fbb65657bc2444d442ff23e",
+          "ip": "192.168.20.4",
+          "name": "P1-PC-2-eth0",
+          "subnetId": "S62249edfb1fc536b8045b97ce54c212"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "V9c81601408d65382a0d82cf9e56ea25",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P1-PC-2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "-102",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P588c8433795c5322b7e2a372a4adf51",
+          "ip": "192.168.21.3",
+          "name": "P2-PC-1-eth0",
+          "subnetId": "S0e0b3b5f31b955fe939f105fba04ce7"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Va74266ff3f6f53eb8e5a0d1faebe243",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P2-PC-1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "5",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P6820503205905adaa505a02b362ec6b",
+          "ip": "192.168.21.4",
+          "name": "P2-PC-2-eth0",
+          "subnetId": "S0e0b3b5f31b955fe939f105fba04ce7"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Ve22111aaf86e5e73b7f5d71072188be",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P2-PC-2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "132",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P8f57bf11580e5d44a7de7a408521411",
+          "ip": "192.168.22.3",
+          "name": "P3-PC-1-eth0",
+          "subnetId": "S99347a176e765567a32894c053958b0"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Vd0172a5482af5b88a7d0cbab41f195b",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P3-PC-1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "249",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P3d1334eae31b584481cbea766a71e3f",
+          "ip": "192.168.22.4",
+          "name": "P3-PC-2-eth0",
+          "subnetId": "S99347a176e765567a32894c053958b0"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Vc3fae4337df159088370591f8262614",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P3-PC-2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "372",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pdd1707069b3a58df82f626fa7bbbf90",
+          "ip": "192.168.23.3",
+          "name": "P4-PC-1-eth0",
+          "subnetId": "Sb1ef14a9702a59eb968e1ba18ec4ac9"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Vecdf26ced1b75ef588e8612757d72cf",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P4-PC-1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "472",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pd241b43f770b513bbaee6090d3ea8a3",
+          "ip": "192.168.23.4",
+          "name": "P4-PC-2-eth0",
+          "subnetId": "Sb1ef14a9702a59eb968e1ba18ec4ac9"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Vf6fa2ef3969856888cd2c6acd9bacb9",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P4-PC-2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "594",
+        "y": "422"
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P4827e3e824bb5fb5a5d8dbb6ab5b133",
+          "ip": "192.168.23.5",
+          "name": "P4-PC-3-eth0",
+          "subnetId": "Sb1ef14a9702a59eb968e1ba18ec4ac9"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "id": "Va072faf0d8005a6785dddc5bdc82325",
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "nodeName": "P4-PC-3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "sysType": "Windows",
+        "transparent": 0,
+        "userData": "",
+        "x": "692",
+        "y": "422"
       },
       "type": "VM"
     }
   ],
-  "portMappingList": [
-    "Vb8d3313593d1dc7dac1f56e9eab8454||192.168.2.3:9092_192.168.21.3:19092",
-    "Vf74245a94997382d19fefa0132aa6e0||192.168.14.3:443_192.168.40.3:1443",
-    "V39256bc2f4c82b7dea4c86edea8c491||192.168.15.3:443_192.168.30.3:1443"
-  ],
-  "projectId": "J0000000000000000000000000000000",
+  "portMappingList": [],
+  "projectId": "Jbc84660e2a7d599f9349e97a9131516",
   "subnetList": [
     {
-      "cidr": "192.168.1.0/24",
+      "cidr": "10.20.1.0/24",
       "dns": "",
       "enableDhcp": true,
-      "gatewayIp": "192.168.1.1",
-      "id": "S9c16b5512d4798bf9fd000c1a7e123f",
-      "name": "sn-HW-core-SW1",
-      "networkId": "Gfcaf707ae4a0699420b9673c5cec404"
+      "gatewayIp": "10.20.1.1",
+      "id": "S18e6c38a32f6533bad8ab401e7e62cf",
+      "name": "sn-HW-core-SW1(S7706)",
+      "networkId": "Gd3396d93fe865caabbf764316f7a241"
     },
     {
-      "cidr": "192.168.2.0/24",
+      "cidr": "10.20.2.0/24",
       "dns": "",
       "enableDhcp": true,
-      "gatewayIp": "192.168.2.1",
-      "id": "S63db5b13341b3c198ed89247742b010",
-      "name": "sn-HW-core-SW2",
-      "networkId": "G634c6f6aa42f22b38238eb09fe4ca29"
+      "gatewayIp": "10.20.2.1",
+      "id": "Sdaeb276058cc5d14934807cb8c7fad5",
+      "name": "sn-HW-core-SW2(S7706)",
+      "networkId": "G272f3149843d5ad2955c7f8000cca6d"
     },
     {
-      "cidr": "192.168.15.0/24",
+      "cidr": "10.20.3.0/24",
       "dns": "",
       "enableDhcp": true,
-      "gatewayIp": "192.168.15.1",
-      "id": "S9417a9bc465b38465343491903c7a2a",
-      "name": "sn-HW-core-SW3",
-      "networkId": "G948286ef3e949374f63a95745472846"
+      "gatewayIp": "10.20.3.1",
+      "id": "Se7140ee43c175cdf84c8f2f5ab0edc5",
+      "name": "sn-HW-core-SW3(S7706)",
+      "networkId": "G159b8d44bde1553a81dce59e714f95e"
     },
     {
-      "cidr": "192.168.14.0/24",
+      "cidr": "10.20.4.0/24",
       "dns": "",
       "enableDhcp": true,
-      "gatewayIp": "192.168.14.1",
-      "id": "Sb76849921613542e7cb60de3872bf48",
-      "name": "sn-HW-core-SW4",
-      "networkId": "Gd0e26ae778d3da3a8380d2efc0f3b89"
-    },
-    {
-      "cidr": "192.168.20.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.20.1",
-      "id": "Sc77ebc504efd1fb2478935274ef398a",
-      "name": "sn-HW-core-SW5",
-      "networkId": "G9315d1dfca519a2f1b6e13e59221df8"
-    },
-    {
-      "cidr": "192.168.21.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.21.1",
-      "id": "S10e8c4c4fd632fff1c8aa91d4d93f79",
-      "name": "sn-HW-core-SW6",
-      "networkId": "G37746bcef45603e0d5f68a99b019bd7"
-    },
-    {
-      "cidr": "192.168.10.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.10.1",
-      "id": "S0929a72361dfff7b868178f2681012c",
-      "name": "sn-HW-core-SW7",
-      "networkId": "G589e64df8beb4c6d825ab8137423f23"
-    },
-    {
-      "cidr": "192.168.11.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.11.1",
-      "id": "S5103ce230dd9f6881513ef7384d5733",
-      "name": "sn-HW-core-SW8",
-      "networkId": "G01bd1a979f537d6149c67464033df9d"
-    },
-    {
-      "cidr": "192.168.12.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.12.1",
-      "id": "Sfeaa5bd709d89539f693db2b05133ff",
-      "name": "sn-HW-core-SW9",
-      "networkId": "G4c5df820d26b2df0c332656bf9c1e70"
-    },
-    {
-      "cidr": "192.168.13.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.13.1",
-      "id": "S11286ea4aefb65e6c1af26b42b81597",
-      "name": "sn-HW-core-SW10",
-      "networkId": "G4cc5d44ac125ac0029975e67c73d4c0"
-    },
-    {
-      "cidr": "192.168.40.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.40.1",
-      "id": "Sbfffa27301a4219032ea415e2331241",
-      "name": "sn-HW-core-SW11",
-      "networkId": "G0a3dc76d432d1448fec7b40ff5822d2"
-    },
-    {
-      "cidr": "192.168.41.0/24",
-      "dns": "",
-      "enableDhcp": true,
-      "gatewayIp": "192.168.41.1",
-      "id": "S1884620a007ee437baf86304087e634",
-      "name": "sn-HW-core-SW12",
-      "networkId": "G3b4a170557ba93f1219b7f177adc5f3"
+      "gatewayIp": "10.20.4.1",
+      "id": "Se9f43001b1db5a1fb0f865b2ba72305",
+      "name": "sn-HW-core-SW4(S7706)",
+      "networkId": "G9eee441c9e595d2c87376167acee52c"
     },
     {
       "cidr": "192.168.30.0/24",
       "dns": "",
       "enableDhcp": true,
       "gatewayIp": "192.168.30.1",
-      "id": "Sf7dd2474d0a3534d97fa337c88dab47",
-      "name": "sn-HW-core-SW13",
-      "networkId": "Gc2a79830ca949b4ae843179837f0cc5"
+      "id": "Sac09fe309742573d93a9bc519255ef0",
+      "name": "sn-HW-core-SW5(S7706)",
+      "networkId": "G437790935b8754cab4c94add7554379"
     },
     {
       "cidr": "192.168.31.0/24",
       "dns": "",
       "enableDhcp": true,
       "gatewayIp": "192.168.31.1",
-      "id": "S5c57d2d0719a8290bd19f5f133a5ab2",
-      "name": "sn-HW-core-SW14",
-      "networkId": "G9f325cca8eb9c8dc4aeac7d36ca55c7"
+      "id": "Se7441700102f57959df7a4e7d2cfa8f",
+      "name": "sn-HW-core-SW6(S7706)",
+      "networkId": "Gdb19375d2a225c739b5301acec6a969"
+    },
+    {
+      "cidr": "192.168.10.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.10.1",
+      "id": "S1a30fc3e326a5b06b73ef838e385c89",
+      "name": "sn-HW-core-SW7(S7706)",
+      "networkId": "G6b7fe1c160d155689868ba748a70dc8"
+    },
+    {
+      "cidr": "192.168.11.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.11.1",
+      "id": "S63c943f43b805004bc547f81b3c08bb",
+      "name": "sn-HW-core-SW8(S7706)",
+      "networkId": "Ga2d6fb00c53c52dc83508276ef95591"
+    },
+    {
+      "cidr": "192.168.20.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.20.1",
+      "id": "S62249edfb1fc536b8045b97ce54c212",
+      "name": "sn-HW-core-SW9(S7706)",
+      "networkId": "G1a11eb1808fb573b8c84a997c722344"
+    },
+    {
+      "cidr": "192.168.21.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.21.1",
+      "id": "S0e0b3b5f31b955fe939f105fba04ce7",
+      "name": "sn-HW-core-SW10(S7706)",
+      "networkId": "Gc547bbb010865cbaa847d4eaf20d94c"
+    },
+    {
+      "cidr": "192.168.22.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.22.1",
+      "id": "S99347a176e765567a32894c053958b0",
+      "name": "sn-HW-core-SW11(S7706)",
+      "networkId": "G41c31a5ed5815d98b2a1af83edfc0bc"
+    },
+    {
+      "cidr": "192.168.23.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "gatewayIp": "192.168.23.1",
+      "id": "Sb1ef14a9702a59eb968e1ba18ec4ac9",
+      "name": "sn-HW-core-SW12(S7706)",
+      "networkId": "Gd451edba1be0516b812c1c52bc3fe87"
     }
   ],
   "version": "v2"
