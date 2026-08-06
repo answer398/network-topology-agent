@@ -1,0 +1,342 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 430.0,
+        "y": 103.0,
+        "width": 492.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line joining router N003 right edge to switch N001 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 430.0,
+        "y": 104.5,
+        "width": 492.0,
+        "height": 1.0
+      },
+      "rawText": "GE0/1\nGE0/1",
+      "description": "Interface labels at both ends of the horizontal line",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1028.0,
+        "y": 103.0,
+        "width": 287.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line joining switch N001 right edge to router N004 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1028.0,
+        "y": 104.5,
+        "width": 287.0,
+        "height": 1.0
+      },
+      "rawText": "GE0/2\nGE0/1",
+      "description": "Interface labels at both ends of the horizontal line",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1425.0,
+        "y": 103.0,
+        "width": 287.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line joining router N004 right edge to switch N002 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1425.0,
+        "y": 104.5,
+        "width": 287.0,
+        "height": 1.0
+      },
+      "rawText": "GE0/2\nGE0/1",
+      "description": "Interface labels at both ends of the horizontal line",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 215.0,
+        "y": 145.0,
+        "width": 140.0,
+        "height": 227.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from router N003 bottom down-left to switch N005 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 215.0,
+        "y": 145.0,
+        "width": 140.0,
+        "height": 227.0
+      },
+      "rawText": "GE0/2\nGE0/1",
+      "description": "Interface labels near N003 lower-left and N005 right",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 400.0,
+        "y": 145.0,
+        "width": 185.0,
+        "height": 227.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from router N003 bottom down-right to switch N006 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 400.0,
+        "y": 145.0,
+        "width": 185.0,
+        "height": 227.0
+      },
+      "rawText": "GE0/3\nGE0/1",
+      "description": "Interface labels near N003 lower-right and N006 left",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 880.0,
+        "y": 163.0,
+        "width": 85.0,
+        "height": 209.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N001 bottom down-left to server N007 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 880.0,
+        "y": 163.0,
+        "width": 85.0,
+        "height": 209.0
+      },
+      "rawText": "GE0/3\neth0",
+      "description": "Interface labels near N001 lower-left and N007 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 990.0,
+        "y": 163.0,
+        "width": 130.0,
+        "height": 209.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N001 bottom down-right to server N008 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 990.0,
+        "y": 163.0,
+        "width": 130.0,
+        "height": 209.0
+      },
+      "rawText": "GE0/4\neth0",
+      "description": "Interface labels near N001 lower-right and N008 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1660.0,
+        "y": 163.0,
+        "width": 90.0,
+        "height": 209.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N002 bottom down-left to client N009 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_043",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1660.0,
+        "y": 163.0,
+        "width": 90.0,
+        "height": 209.0
+      },
+      "rawText": "GE0/2\neth0",
+      "description": "Interface labels near N002 lower-left and N009 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_044",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1780.0,
+        "y": 163.0,
+        "width": 175.0,
+        "height": 209.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N002 bottom down-right to client N010 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_045",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1780.0,
+        "y": 163.0,
+        "width": 175.0,
+        "height": 209.0
+      },
+      "rawText": "GE0/3\neth0",
+      "description": "Interface labels near N002 lower-right and N010 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_046",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 110.0,
+        "y": 488.0,
+        "width": 90.0,
+        "height": 184.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N005 bottom down-left to client N011 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_047",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 110.0,
+        "y": 488.0,
+        "width": 90.0,
+        "height": 184.0
+      },
+      "rawText": "GE0/2\neth0",
+      "description": "Interface labels near N005 lower-left and N011 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_048",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 230.0,
+        "y": 488.0,
+        "width": 90.0,
+        "height": 184.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from switch N005 bottom down-right to client N012 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_049",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 230.0,
+        "y": 488.0,
+        "width": 110.0,
+        "height": 184.0
+      },
+      "rawText": "GE0/3\neth0",
+      "description": "Interface labels near N005 lower-right and N012 top",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_050",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 595.0,
+        "y": 488.0,
+        "width": 6.0,
+        "height": 189.0
+      },
+      "rawText": null,
+      "description": "Near-vertical line from switch N006 bottom to server N013 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_051",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 597.0,
+        "y": 488.0,
+        "width": 3.0,
+        "height": 189.0
+      },
+      "rawText": "GE0/2\neth0",
+      "description": "Interface labels near N006 lower-right and N013 top",
+      "confidence": 0.85
+    }
+  ]
+}

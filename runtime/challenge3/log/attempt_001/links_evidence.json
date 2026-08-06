@@ -1,0 +1,692 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1742.974,
+        "y": 306.017,
+        "width": 81.958,
+        "height": 86.34
+      },
+      "rawText": null,
+      "description": "line from Mail-01 bottom to SW5 upper-left",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1842.416,
+        "y": 292.902,
+        "width": 9.835,
+        "height": 99.455
+      },
+      "rawText": null,
+      "description": "line from Mail-02 bottom to SW5 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1869.735,
+        "y": 306.017,
+        "width": 87.422,
+        "height": 86.34
+      },
+      "rawText": null,
+      "description": "line from Mail-03 bottom to SW5 upper-right",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2300.288,
+        "y": 281.972,
+        "width": 81.958,
+        "height": 110.385
+      },
+      "rawText": null,
+      "description": "line from Monitor-01 bottom to SW6 upper-left",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_106",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2401.916,
+        "y": 281.972,
+        "width": 6.557,
+        "height": 110.385
+      },
+      "rawText": null,
+      "description": "line from Monitor-02 bottom to SW6 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_107",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2427.05,
+        "y": 295.087,
+        "width": 85.236,
+        "height": 97.27
+      },
+      "rawText": null,
+      "description": "line from Monitor-03 bottom to SW6 upper-right",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_108",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1844.602,
+        "y": 597.825,
+        "width": 302.698,
+        "height": 115.849
+      },
+      "rawText": null,
+      "description": "line SW5 to FW1 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_109",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2191.011,
+        "y": 481.976,
+        "width": 215.276,
+        "height": 120.221
+      },
+      "rawText": null,
+      "description": "line SW6 to FW1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_110",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2166.97,
+        "y": 687.444,
+        "width": 4.371,
+        "height": 207.654
+      },
+      "rawText": null,
+      "description": "vertical line FW1 bottom to SW2 top with GE0/1 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_111",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 713.674,
+        "width": 226.204,
+        "height": 148.637
+      },
+      "rawText": null,
+      "description": "line PC-1 to SW13 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_112",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 852.475,
+        "width": 226.204,
+        "height": 31.695
+      },
+      "rawText": null,
+      "description": "line PC-2 to SW13 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_113",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 907.121,
+        "width": 226.204,
+        "height": 95.084
+      },
+      "rawText": null,
+      "description": "line PC-3 to SW13 with GE0/4 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_114",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 676.427,
+        "y": 883.076,
+        "width": 211.998,
+        "height": 186.889
+      },
+      "rawText": null,
+      "description": "line SW13 to FW3 with GE0/2 and 192.168.30.1/24 labels",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_115",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 1186.907,
+        "width": 215.276,
+        "height": 145.358
+      },
+      "rawText": null,
+      "description": "line PC-4 to SW14 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_116",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 1328.986,
+        "width": 215.276,
+        "height": 25.137
+      },
+      "rawText": null,
+      "description": "line PC-5 to SW14 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_117",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 354.059,
+        "y": 1377.075,
+        "width": 215.276,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "line PC-6 to SW14 with GE0/4 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_118",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 665.499,
+        "y": 1103.845,
+        "width": 222.926,
+        "height": 253.557
+      },
+      "rawText": null,
+      "description": "line SW14 to FW3 with GE0/3 and 192.168.31.1/24 labels",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_119",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 980.218,
+        "y": 1085.266,
+        "width": 250.245,
+        "height": 4.372
+      },
+      "rawText": null,
+      "description": "horizontal line FW3 to SW3 with GE0/1 192.168.15.3/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_120",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1326.627,
+        "y": 1085.266,
+        "width": 253.523,
+        "height": 4.372
+      },
+      "rawText": null,
+      "description": "horizontal line SW3 to R1 with GE0/3 192.168.15.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_121",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1698.17,
+        "y": 945.373,
+        "width": 422.903,
+        "height": 135.522
+      },
+      "rawText": null,
+      "description": "line R1 to SW2 with GE0/2 192.168.2.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_122",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2217.237,
+        "y": 937.722,
+        "width": 521.253,
+        "height": 132.243
+      },
+      "rawText": null,
+      "description": "line SW2 to R2 with GE0/1 192.168.2.2/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_123",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1656.645,
+        "y": 1133.354,
+        "width": 474.264,
+        "height": 187.982
+      },
+      "rawText": null,
+      "description": "line R1 down-right to SW1 with Vlan 26 tag",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_124",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2213.959,
+        "y": 1122.425,
+        "width": 572.613,
+        "height": 198.911
+      },
+      "rawText": null,
+      "description": "line R2 down-left to SW1 with Vlan 35 tag",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_125",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1645.717,
+        "y": 1133.354,
+        "width": 37.154,
+        "height": 471.047
+      },
+      "rawText": null,
+      "description": "line R1 bottom to R3 top with GE0/1 192.168.1.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_126",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2804.057,
+        "y": 1122.425,
+        "width": 31.69,
+        "height": 481.976
+      },
+      "rawText": null,
+      "description": "line R2 bottom to R4 top with GE0/2 and GE0/1 labels",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_127",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1744.066,
+        "y": 1371.61,
+        "width": 377.007,
+        "height": 244.813
+      },
+      "rawText": null,
+      "description": "line SW1 down-left to R3 with Vlan 25 tag",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_128",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2217.237,
+        "y": 1371.61,
+        "width": 558.407,
+        "height": 244.813
+      },
+      "rawText": null,
+      "description": "line SW1 down-right to R4 with Vlan 28 tag",
+      "confidence": 0.85
+    },
+    {
+      "evidenceId": "evidence_129",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2856.51,
+        "y": 1074.337,
+        "width": 264.451,
+        "height": 4.372
+      },
+      "rawText": null,
+      "description": "horizontal line R2 to SW4 with GE0/3 192.168.14.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_130",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3217.125,
+        "y": 1074.337,
+        "width": 283.028,
+        "height": 4.372
+      },
+      "rawText": null,
+      "description": "horizontal line SW4 to FW2 with GE0/1 192.168.14.3/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_131",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3591.946,
+        "y": 921.328,
+        "width": 250.245,
+        "height": 137.707
+      },
+      "rawText": null,
+      "description": "line FW2 up-right to SW11 with GE0/2 192.168.40.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_132",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3591.946,
+        "y": 1092.916,
+        "width": 250.245,
+        "height": 237.163
+      },
+      "rawText": null,
+      "description": "line FW2 down-right to SW12 with GE0/3 192.168.41.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_133",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 773.785,
+        "width": 251.338,
+        "height": 126.778
+      },
+      "rawText": null,
+      "description": "line SW11 to VPC-1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_134",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 904.935,
+        "width": 251.338,
+        "height": 20.765
+      },
+      "rawText": null,
+      "description": "line SW11 to VPC-2 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_135",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 945.373,
+        "width": 251.338,
+        "height": 95.084
+      },
+      "rawText": null,
+      "description": "line SW11 to VPC-3 with GE0/4 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_136",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 1183.628,
+        "width": 251.338,
+        "height": 121.314
+      },
+      "rawText": null,
+      "description": "line SW12 to VPC-4 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_137",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 1314.778,
+        "width": 251.338,
+        "height": 15.301
+      },
+      "rawText": null,
+      "description": "line SW12 to VPC-5 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_138",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3938.355,
+        "y": 1349.752,
+        "width": 251.338,
+        "height": 100.548
+      },
+      "rawText": null,
+      "description": "line SW12 to VPC-6 with GE0/4 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_139",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1441.368,
+        "y": 1677.626,
+        "width": 187.957,
+        "height": 190.167
+      },
+      "rawText": null,
+      "description": "line R3 down-left to SW7 with GE0/2 192.168.10.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_140",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1711.283,
+        "y": 1696.206,
+        "width": 103.813,
+        "height": 171.588
+      },
+      "rawText": null,
+      "description": "line R3 down-right to SW8 with GE0/3 192.168.11.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_141",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2632.491,
+        "y": 1677.626,
+        "width": 143.153,
+        "height": 190.167
+      },
+      "rawText": null,
+      "description": "line R4 down-left to SW9 with GE0/2 192.168.12.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_142",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2889.293,
+        "y": 1677.626,
+        "width": 62.288,
+        "height": 190.167
+      },
+      "rawText": null,
+      "description": "line R4 down-right to SW10 with GE0/3 192.168.13.1/24 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_143",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1287.287,
+        "y": 1950.856,
+        "width": 84.144,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW7 to WEB-1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_144",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1416.234,
+        "y": 1950.856,
+        "width": 77.587,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW7 to WEB-2 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_145",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1757.18,
+        "y": 1950.856,
+        "width": 84.144,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW8 to DB-1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_146",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1886.127,
+        "y": 1950.856,
+        "width": 77.587,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW8 to DB-2 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_147",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2478.41,
+        "y": 1950.856,
+        "width": 84.144,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW9 to Mail1-1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_148",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2607.357,
+        "y": 1950.856,
+        "width": 77.587,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW9 to Mail1-2 with GE0/3 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_149",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2899.128,
+        "y": 1950.856,
+        "width": 78.68,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW10 to Monitor-1 with GE0/2 label",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_150",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 3022.611,
+        "y": 1950.856,
+        "width": 83.051,
+        "height": 174.867
+      },
+      "rawText": null,
+      "description": "line SW10 to Monitor-2 with GE0/3 label",
+      "confidence": 0.9
+    }
+  ]
+}

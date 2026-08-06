@@ -1,0 +1,245 @@
+{
+  "taskId": "challenge1",
+  "currentStage": "links",
+  "image": {
+    "width": 2062,
+    "height": 881,
+    "format": "PNG"
+  },
+  "view": {
+    "viewId": "global_links",
+    "width": 2062,
+    "height": 881,
+    "coversCompleteImage": true,
+    "coordinateMapping": {
+      "modelSource": "current-view pixels centered at image center (0,0), x right, y down, at most two decimals",
+      "target": "EXIF-corrected original pixels",
+      "viewCenterX": 1031.0,
+      "viewCenterY": 440.5,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0
+    }
+  },
+  "numberedStructure": {
+    "nodes": [
+      {
+        "id": "N001",
+        "bbox": {
+          "x": -726.0,
+          "y": -385.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -681.0,
+          "y": -340.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N002",
+        "bbox": {
+          "x": -46.0,
+          "y": -385.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -1.0,
+          "y": -340.5
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N003",
+        "bbox": {
+          "x": 334.0,
+          "y": -385.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": 379.0,
+          "y": -340.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N004",
+        "bbox": {
+          "x": 614.0,
+          "y": -385.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": 659.0,
+          "y": -340.5
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N005",
+        "bbox": {
+          "x": -926.0,
+          "y": -85.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -881.0,
+          "y": -40.5
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N006",
+        "bbox": {
+          "x": -526.0,
+          "y": -85.5,
+          "width": 90.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -481.0,
+          "y": -40.5
+        },
+        "typeCandidates": [
+          "switch_l3",
+          "switch_l2"
+        ]
+      },
+      {
+        "id": "N007",
+        "bbox": {
+          "x": -146.0,
+          "y": -85.5,
+          "width": 60.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -116.0,
+          "y": -40.5
+        },
+        "typeCandidates": [
+          "web_server",
+          "server"
+        ]
+      },
+      {
+        "id": "N008",
+        "bbox": {
+          "x": 134.0,
+          "y": -85.5,
+          "width": 60.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": 164.0,
+          "y": -40.5
+        },
+        "typeCandidates": [
+          "mail_server",
+          "server"
+        ]
+      },
+      {
+        "id": "N009",
+        "bbox": {
+          "x": 534.0,
+          "y": -85.5,
+          "width": 80.0,
+          "height": 80.0
+        },
+        "center": {
+          "x": 574.0,
+          "y": -45.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N010",
+        "bbox": {
+          "x": 814.0,
+          "y": -85.5,
+          "width": 80.0,
+          "height": 80.0
+        },
+        "center": {
+          "x": 854.0,
+          "y": -45.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N011",
+        "bbox": {
+          "x": -1026.0,
+          "y": 264.5,
+          "width": 80.0,
+          "height": 80.0
+        },
+        "center": {
+          "x": -986.0,
+          "y": 304.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N012",
+        "bbox": {
+          "x": -746.0,
+          "y": 264.5,
+          "width": 80.0,
+          "height": 80.0
+        },
+        "center": {
+          "x": -706.0,
+          "y": 304.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N013",
+        "bbox": {
+          "x": -516.0,
+          "y": 264.5,
+          "width": 60.0,
+          "height": 90.0
+        },
+        "center": {
+          "x": -486.0,
+          "y": 309.5
+        },
+        "typeCandidates": [
+          "vpc_server",
+          "server"
+        ]
+      }
+    ],
+    "regions": []
+  }
+}

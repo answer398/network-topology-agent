@@ -1,0 +1,230 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 201.0,
+        "y": 61.5,
+        "width": 195.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Solid horizontal stroke from left router icon right edge to center switch icon left edge.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 205.0,
+        "y": 17.0,
+        "width": 232.0,
+        "height": 69.0
+      },
+      "rawText": "GE0/0\nGE0/1",
+      "description": "Interface labels at line ends: GE0/0 near router side, GE0/1 above switch left side.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 482.0,
+        "y": 61.5,
+        "width": 146.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Solid horizontal stroke from center switch icon right edge to right router icon left edge.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 483.0,
+        "y": 17.0,
+        "width": 171.0,
+        "height": 81.0
+      },
+      "rawText": "GE0/2\nGE0/0",
+      "description": "Interface labels at line ends: GE0/2 above switch right side, GE0/0 near right router left side.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 165.0,
+        "y": 96.0,
+        "width": 2.0,
+        "height": 234.0
+      },
+      "rawText": null,
+      "description": "Solid vertical stroke from left router icon bottom edge to left switch icon top edge.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 131.0,
+        "y": 94.0,
+        "width": 77.0,
+        "height": 229.0
+      },
+      "rawText": "GE0/1\nGE0/1",
+      "description": "GE0/1 label below router bottom and GE0/1 label above switch top along the vertical line.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 662.0,
+        "y": 96.0,
+        "width": 2.0,
+        "height": 234.0
+      },
+      "rawText": null,
+      "description": "Solid vertical stroke from right router icon bottom edge to right switch icon top edge.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 676.0,
+        "y": 97.0,
+        "width": 42.0,
+        "height": 226.0
+      },
+      "rawText": "GE0/1\nGE0/3",
+      "description": "GE0/1 label below router bottom right and GE0/3 label above switch top along the vertical line.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 67.0,
+        "y": 380.0,
+        "width": 73.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from left switch icon bottom-left to first PC icon top.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 66.0,
+        "y": 387.0,
+        "width": 81.0,
+        "height": 107.0
+      },
+      "rawText": "GE0/2\neth0",
+      "description": "GE0/2 label at switch bottom-left and eth0 label at PC top along the diagonal line.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 200.0,
+        "y": 380.0,
+        "width": 43.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from left switch icon bottom-right to second PC icon top.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 213.0,
+        "y": 387.0,
+        "width": 92.0,
+        "height": 107.0
+      },
+      "rawText": "GE0/3\neth0",
+      "description": "GE0/3 label at switch bottom-right and eth0 label at PC top along the diagonal line.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 590.0,
+        "y": 380.0,
+        "width": 40.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from right switch icon bottom-left to third PC icon top.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 586.0,
+        "y": 387.0,
+        "width": 78.0,
+        "height": 107.0
+      },
+      "rawText": "GE0/2\neth0",
+      "description": "GE0/2 label at switch bottom-left and eth0 label at PC top along the diagonal line.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 690.0,
+        "y": 380.0,
+        "width": 80.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from right switch icon bottom-right to fourth PC icon top.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 700.0,
+        "y": 387.0,
+        "width": 123.0,
+        "height": 107.0
+      },
+      "rawText": "GE0/1\neth0",
+      "description": "GE0/1 label at switch bottom-right and eth0 label at PC top along the diagonal line.",
+      "confidence": 0.9
+    }
+  ]
+}

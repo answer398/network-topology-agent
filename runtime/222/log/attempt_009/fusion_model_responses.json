@@ -1,0 +1,49 @@
+{
+  "stage": "fusion",
+  "responseCount": 1,
+  "responses": [
+    {
+      "model": "qwen3.8-max",
+      "requestId": "c069c02e-f01c-9eb8-b86b-de4ce38e3a2e",
+      "finishReason": "stop",
+      "rawText": "{\n  \"decisions\": [\n    {\n      \"conflictId\": \"conflict_001\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_VPC_SUPPORTS_VPC_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_002\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_003\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_004\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_VPC2_SUPPORTS_VPC_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_005\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_006\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_007\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_008\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_009\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_010\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_011\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_012\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_013\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_WEB_SUPPORTS_WEB_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_014\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_DB_SUPPORTS_DATABASE_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_015\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_MAIL_SUPPORTS_MAIL_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_016\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_MONITOR_SUPPORTS_MONITOR_SERVER\"\n    }\n  ],\n  \"consistencyFindings\": []\n}",
+      "response": {
+        "id": "chatcmpl-c069c02e-f01c-9eb8-b86b-de4ce38e3a2e",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "{\n  \"decisions\": [\n    {\n      \"conflictId\": \"conflict_001\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_VPC_SUPPORTS_VPC_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_002\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_003\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_004\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_VPC2_SUPPORTS_VPC_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_005\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_006\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_007\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_008\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_009\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_010\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_011\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_012\",\n      \"action\": \"LEAVE_UNRESOLVED\",\n      \"selectedCandidateIndexes\": [],\n      \"confidence\": 0.5,\n      \"reasonCode\": \"GENERIC_SWITCH_ICON_NO_L3_EVIDENCE\"\n    },\n    {\n      \"conflictId\": \"conflict_013\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_WEB_SUPPORTS_WEB_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_014\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_DB_SUPPORTS_DATABASE_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_015\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_MAIL_SUPPORTS_MAIL_SERVER\"\n    },\n    {\n      \"conflictId\": \"conflict_016\",\n      \"action\": \"SELECT_CANDIDATE\",\n      \"selectedCandidateIndexes\": [\n        0\n      ],\n      \"confidence\": 0.95,\n      \"reasonCode\": \"LABEL_MONITOR_SUPPORTS_MONITOR_SERVER\"\n    }\n  ],\n  \"consistencyFindings\": []\n}",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1785949556,
+        "model": "qwen3.8-max",
+        "object": "chat.completion",
+        "moderation": null,
+        "service_tier": null,
+        "system_fingerprint": null,
+        "usage": {
+          "completion_tokens": 1165,
+          "prompt_tokens": 32102,
+          "total_tokens": 33267,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 7168,
+            "text_tokens": 32102
+          }
+        }
+      }
+    }
+  ]
+}

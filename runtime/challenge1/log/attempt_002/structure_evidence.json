@@ -1,0 +1,370 @@
+{
+  "stage": "structure",
+  "sourceViewId": "global_structure",
+  "evidence": [
+    {
+      "evidenceId": "evidence_001",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 305.0,
+        "y": 55.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_002",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 285.0,
+        "y": 10.0,
+        "width": 130.0,
+        "height": 20.0
+      },
+      "rawText": "HW-AR6140-R1",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_003",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 985.0,
+        "y": 55.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_004",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 925.0,
+        "y": 10.0,
+        "width": 210.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW1(S7706)",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_005",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1365.0,
+        "y": 55.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_006",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1345.0,
+        "y": 10.0,
+        "width": 130.0,
+        "height": 20.0
+      },
+      "rawText": "HW-AR6140-R2",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_007",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1645.0,
+        "y": 55.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_008",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1585.0,
+        "y": 10.0,
+        "width": 210.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW2(S7706)",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_009",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 105.0,
+        "y": 355.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_010",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 45.0,
+        "y": 310.0,
+        "width": 210.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW3(S7706)",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_011",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 505.0,
+        "y": 355.0,
+        "width": 90.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_012",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 445.0,
+        "y": 310.0,
+        "width": 210.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW4(S7706)",
+      "description": "Device name label above icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_013",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 885.0,
+        "y": 355.0,
+        "width": 60.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Server tower icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_014",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 895.0,
+        "y": 455.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "WEB",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_015",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1165.0,
+        "y": 355.0,
+        "width": 60.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Server tower icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_016",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1175.0,
+        "y": 455.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "Mail",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_017",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1565.0,
+        "y": 355.0,
+        "width": 80.0,
+        "height": 80.0
+      },
+      "rawText": null,
+      "description": "Desktop PC icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_018",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1585.0,
+        "y": 455.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "PC-3",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1845.0,
+        "y": 355.0,
+        "width": 80.0,
+        "height": 80.0
+      },
+      "rawText": null,
+      "description": "Desktop PC icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1865.0,
+        "y": 455.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "PC-4",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 5.0,
+        "y": 705.0,
+        "width": 80.0,
+        "height": 80.0
+      },
+      "rawText": null,
+      "description": "Desktop PC icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 25.0,
+        "y": 805.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "PC-1",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 285.0,
+        "y": 705.0,
+        "width": 80.0,
+        "height": 80.0
+      },
+      "rawText": null,
+      "description": "Desktop PC icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 305.0,
+        "y": 805.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "PC-2",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 515.0,
+        "y": 705.0,
+        "width": 60.0,
+        "height": 90.0
+      },
+      "rawText": null,
+      "description": "Server tower icon",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 525.0,
+        "y": 805.0,
+        "width": 40.0,
+        "height": 20.0
+      },
+      "rawText": "VPC",
+      "description": "Device name label below icon",
+      "confidence": 0.98
+    }
+  ]
+}

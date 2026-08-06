@@ -1,0 +1,1083 @@
+{
+  "taskId": "111",
+  "imageWidth": 879,
+  "imageHeight": 628,
+  "nodes": [
+    {
+      "id": "obs_node_001",
+      "stableNumber": "N001",
+      "bbox": {
+        "x": 131.0,
+        "y": 40.0,
+        "width": 70.0,
+        "height": 54.0
+      },
+      "center": {
+        "x": 166.0,
+        "y": 67.0
+      },
+      "nameCandidates": [
+        "Cisco-9000-R1"
+      ],
+      "typeCandidates": [
+        "router"
+      ],
+      "evidenceIds": [
+        "evidence_001",
+        "evidence_002",
+        "evidence_027",
+        "evidence_028"
+      ]
+    },
+    {
+      "id": "obs_node_002",
+      "stableNumber": "N002",
+      "bbox": {
+        "x": 658.0,
+        "y": 40.0,
+        "width": 70.0,
+        "height": 54.0
+      },
+      "center": {
+        "x": 693.0,
+        "y": 67.0
+      },
+      "nameCandidates": [
+        "Cisco-9000-R2"
+      ],
+      "typeCandidates": [
+        "router"
+      ],
+      "evidenceIds": [
+        "evidence_003",
+        "evidence_004",
+        "evidence_029",
+        "evidence_030"
+      ]
+    },
+    {
+      "id": "obs_node_003",
+      "stableNumber": "N003",
+      "bbox": {
+        "x": 397.0,
+        "y": 47.0,
+        "width": 85.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 439.5,
+        "y": 72.0
+      },
+      "nameCandidates": [
+        "Cisco-2960-24TT-CoreSW"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ]
+    },
+    {
+      "id": "obs_node_004",
+      "stableNumber": "N004",
+      "bbox": {
+        "x": 124.0,
+        "y": 330.0,
+        "width": 85.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 166.5,
+        "y": 355.0
+      },
+      "nameCandidates": [
+        "Cisco-2960-24TT-SW1"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ]
+    },
+    {
+      "id": "obs_node_005",
+      "stableNumber": "N005",
+      "bbox": {
+        "x": 649.0,
+        "y": 330.0,
+        "width": 85.0,
+        "height": 50.0
+      },
+      "center": {
+        "x": 691.5,
+        "y": 355.0
+      },
+      "nameCandidates": [
+        "Cisco-2960-24TT-SW2"
+      ],
+      "typeCandidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "evidenceIds": [
+        "evidence_009",
+        "evidence_010"
+      ]
+    },
+    {
+      "id": "obs_node_006",
+      "stableNumber": "N006",
+      "bbox": {
+        "x": 27.0,
+        "y": 495.0,
+        "width": 81.0,
+        "height": 75.0
+      },
+      "center": {
+        "x": 67.5,
+        "y": 532.5
+      },
+      "nameCandidates": [
+        "PC-PT"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_011",
+        "evidence_012",
+        "evidence_031"
+      ]
+    },
+    {
+      "id": "obs_node_007",
+      "stableNumber": "N007",
+      "bbox": {
+        "x": 217.0,
+        "y": 495.0,
+        "width": 81.0,
+        "height": 75.0
+      },
+      "center": {
+        "x": 257.5,
+        "y": 532.5
+      },
+      "nameCandidates": [
+        "PC-PT2"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_013",
+        "evidence_014",
+        "evidence_032"
+      ]
+    },
+    {
+      "id": "obs_node_008",
+      "stableNumber": "N008",
+      "bbox": {
+        "x": 569.0,
+        "y": 495.0,
+        "width": 81.0,
+        "height": 75.0
+      },
+      "center": {
+        "x": 609.5,
+        "y": 532.5
+      },
+      "nameCandidates": [
+        "PC-PT3"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_015",
+        "evidence_016",
+        "evidence_033"
+      ]
+    },
+    {
+      "id": "obs_node_009",
+      "stableNumber": "N009",
+      "bbox": {
+        "x": 760.0,
+        "y": 495.0,
+        "width": 81.0,
+        "height": 75.0
+      },
+      "center": {
+        "x": 800.5,
+        "y": 532.5
+      },
+      "nameCandidates": [
+        "PC-PT4"
+      ],
+      "typeCandidates": [
+        "client"
+      ],
+      "evidenceIds": [
+        "evidence_017",
+        "evidence_018",
+        "evidence_034"
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "obs_if_001",
+      "nodeId": "obs_node_001",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/0",
+      "nameCandidates": [
+        "GE0/0"
+      ],
+      "rawIpText": "192.168.12.1/24",
+      "ipCandidates": [
+        "192.168.12.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_027",
+        "evidence_028",
+        "evidence_019"
+      ]
+    },
+    {
+      "id": "obs_if_002",
+      "nodeId": "obs_node_001",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.1.1/24",
+      "ipCandidates": [
+        "192.168.1.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_027",
+        "evidence_028",
+        "evidence_021"
+      ]
+    },
+    {
+      "id": "obs_if_003",
+      "nodeId": "obs_node_002",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/0",
+      "nameCandidates": [
+        "GE0/0"
+      ],
+      "rawIpText": "192.168.12.2/24",
+      "ipCandidates": [
+        "192.168.12.2/24"
+      ],
+      "evidenceIds": [
+        "evidence_029",
+        "evidence_030",
+        "evidence_020"
+      ]
+    },
+    {
+      "id": "obs_if_004",
+      "nodeId": "obs_node_002",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.2.1/24",
+      "ipCandidates": [
+        "192.168.2.1/24"
+      ],
+      "evidenceIds": [
+        "evidence_029",
+        "evidence_030",
+        "evidence_022"
+      ]
+    },
+    {
+      "id": "obs_if_009",
+      "nodeId": "obs_node_003",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_019"
+      ]
+    },
+    {
+      "id": "obs_if_010",
+      "nodeId": "obs_node_003",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_020"
+      ]
+    },
+    {
+      "id": "obs_if_011",
+      "nodeId": "obs_node_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_021"
+      ]
+    },
+    {
+      "id": "obs_if_013",
+      "nodeId": "obs_node_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_023"
+      ]
+    },
+    {
+      "id": "obs_if_014",
+      "nodeId": "obs_node_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_024"
+      ]
+    },
+    {
+      "id": "obs_if_012",
+      "nodeId": "obs_node_005",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_022"
+      ]
+    },
+    {
+      "id": "obs_if_015",
+      "nodeId": "obs_node_005",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_025"
+      ]
+    },
+    {
+      "id": "obs_if_016",
+      "nodeId": "obs_node_005",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "evidenceIds": [
+        "evidence_026"
+      ]
+    },
+    {
+      "id": "obs_if_005",
+      "nodeId": "obs_node_006",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.1.2/24",
+      "ipCandidates": [
+        "192.168.1.2/24"
+      ],
+      "evidenceIds": [
+        "evidence_031",
+        "evidence_023"
+      ]
+    },
+    {
+      "id": "obs_if_006",
+      "nodeId": "obs_node_007",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.1.3/24",
+      "ipCandidates": [
+        "192.168.1.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_032",
+        "evidence_024"
+      ]
+    },
+    {
+      "id": "obs_if_007",
+      "nodeId": "obs_node_008",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.2.2/24",
+      "ipCandidates": [
+        "192.168.2.2/24"
+      ],
+      "evidenceIds": [
+        "evidence_033",
+        "evidence_025"
+      ]
+    },
+    {
+      "id": "obs_if_008",
+      "nodeId": "obs_node_009",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.2.3/24",
+      "ipCandidates": [
+        "192.168.2.3/24"
+      ],
+      "evidenceIds": [
+        "evidence_034",
+        "evidence_026"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "id": "obs_link_001",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_003"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_001"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_009"
+      ],
+      "polyline": [
+        {
+          "x": 201.0,
+          "y": 62.0
+        },
+        {
+          "x": 397.0,
+          "y": 62.0
+        }
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_019"
+      ]
+    },
+    {
+      "id": "obs_link_002",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_002"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_010"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_003"
+      ],
+      "polyline": [
+        {
+          "x": 482.0,
+          "y": 62.0
+        },
+        {
+          "x": 658.0,
+          "y": 62.0
+        }
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_020"
+      ]
+    },
+    {
+      "id": "obs_link_003",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_004"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_002"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_011"
+      ],
+      "polyline": [
+        {
+          "x": 166.0,
+          "y": 94.0
+        },
+        {
+          "x": 166.0,
+          "y": 330.0
+        }
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_021"
+      ]
+    },
+    {
+      "id": "obs_link_004",
+      "sourceNodeCandidates": [
+        "obs_node_002"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_005"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_004"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_012"
+      ],
+      "polyline": [
+        {
+          "x": 693.0,
+          "y": 94.0
+        },
+        {
+          "x": 693.0,
+          "y": 330.0
+        }
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_022"
+      ]
+    },
+    {
+      "id": "obs_link_005",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_006"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_013"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_005"
+      ],
+      "polyline": [
+        {
+          "x": 145.0,
+          "y": 380.0
+        },
+        {
+          "x": 70.0,
+          "y": 495.0
+        }
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_023"
+      ]
+    },
+    {
+      "id": "obs_link_006",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_007"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_014"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_006"
+      ],
+      "polyline": [
+        {
+          "x": 185.0,
+          "y": 380.0
+        },
+        {
+          "x": 255.0,
+          "y": 495.0
+        }
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_024"
+      ]
+    },
+    {
+      "id": "obs_link_007",
+      "sourceNodeCandidates": [
+        "obs_node_005"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_008"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_015"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_007"
+      ],
+      "polyline": [
+        {
+          "x": 670.0,
+          "y": 380.0
+        },
+        {
+          "x": 605.0,
+          "y": 495.0
+        }
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_025"
+      ]
+    },
+    {
+      "id": "obs_link_008",
+      "sourceNodeCandidates": [
+        "obs_node_005"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_009"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_016"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_008"
+      ],
+      "polyline": [
+        {
+          "x": 712.0,
+          "y": 380.0
+        },
+        {
+          "x": 790.0,
+          "y": 495.0
+        }
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_026"
+      ]
+    }
+  ],
+  "regions": [],
+  "conflicts": [
+    {
+      "conflictId": "conflict_001",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_003"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_005",
+            "evidence_006"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_005",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 397.0,
+                "y": 47.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_006",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 397.0,
+                "y": 100.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-CoreSW",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_005",
+            "evidence_006"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_005",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 397.0,
+                "y": 47.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_006",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 397.0,
+                "y": 100.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-CoreSW",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_005",
+        "evidence_006"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 397.0,
+          "y": 47.0,
+          "width": 85.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 439.5,
+          "y": 72.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_002",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_004"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_007",
+            "evidence_008"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_007",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 124.0,
+                "y": 330.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_008",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 124.0,
+                "y": 435.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-SW1",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_007",
+            "evidence_008"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_007",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 124.0,
+                "y": 330.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_008",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 124.0,
+                "y": 435.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-SW1",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_007",
+        "evidence_008"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 124.0,
+          "y": 330.0,
+          "width": 85.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 166.5,
+          "y": 355.0
+        }
+      }
+    },
+    {
+      "conflictId": "conflict_003",
+      "conflictType": "NODE_TYPE_CONFLICT",
+      "targetIds": [
+        "obs_node_005"
+      ],
+      "field": "semanticType",
+      "candidateOptions": [
+        {
+          "candidateIndex": 0,
+          "value": "switch_l2",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_009",
+            "evidence_010"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_009",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 649.0,
+                "y": 330.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_010",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 649.0,
+                "y": 435.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-SW2",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        },
+        {
+          "candidateIndex": 1,
+          "value": "switch_l3",
+          "sourceStage": "structure",
+          "sourceViewId": "global_structure",
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_009",
+            "evidence_010"
+          ],
+          "evidence": [
+            {
+              "id": "evidence_009",
+              "sourceType": "VISUAL_ICON",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 649.0,
+                "y": 330.0,
+                "width": 85.0,
+                "height": 50.0
+              },
+              "rawText": null,
+              "description": "3D box icon with two arrows, switch body",
+              "confidence": 0.95
+            },
+            {
+              "id": "evidence_010",
+              "sourceType": "VISUAL_TEXT",
+              "sourceViewId": "global_structure",
+              "bbox": {
+                "x": 649.0,
+                "y": 435.0,
+                "width": 85.0,
+                "height": 30.0
+              },
+              "rawText": "Cisco-2960-24TT-SW2",
+              "description": "two-line name text below icon",
+              "confidence": 0.93
+            }
+          ]
+        }
+      ],
+      "supportingEvidenceIds": [
+        "evidence_009",
+        "evidence_010"
+      ],
+      "spatialContext": {
+        "bbox": {
+          "x": 649.0,
+          "y": 330.0,
+          "width": 85.0,
+          "height": 50.0
+        },
+        "center": {
+          "x": 691.5,
+          "y": 355.0
+        }
+      }
+    }
+  ],
+  "unresolvedItems": [],
+  "pendingBindings": []
+}

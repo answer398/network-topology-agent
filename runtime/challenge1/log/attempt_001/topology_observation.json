@@ -1,0 +1,2982 @@
+{
+  "taskId": "challenge1",
+  "image": {
+    "width": 2062,
+    "height": 881,
+    "format": "PNG",
+    "viewIds": [
+      "original",
+      "global_structure",
+      "global_links",
+      "global_text"
+    ]
+  },
+  "observedNodes": [
+    {
+      "observationId": "obs_node_001",
+      "rawName": "HW-core-SW1(S7706)",
+      "nameCandidates": [
+        "HW-core-SW1(S7706)"
+      ],
+      "semanticType": "switch_l3",
+      "typeCandidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 930.0,
+        "y": 44.0,
+        "width": 102.0,
+        "height": 122.0
+      },
+      "center": {
+        "x": 981.0,
+        "y": 105.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_013",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_001"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_028"
+          ]
+        },
+        {
+          "observationId": "obs_if_014",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_002"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_029"
+          ]
+        },
+        {
+          "observationId": "obs_if_021",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_009"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_036"
+          ]
+        },
+        {
+          "observationId": "obs_if_022",
+          "nodeCandidates": [
+            "obs_node_001"
+          ],
+          "rawName": "GE0/4",
+          "nameCandidates": [
+            "GE0/4"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_010"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_037"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_001",
+        "evidence_002"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_002",
+      "rawName": "HW-core-SW2(S7706)",
+      "nameCandidates": [
+        "HW-core-SW2(S7706)"
+      ],
+      "semanticType": "switch_l3",
+      "typeCandidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1688.0,
+        "y": 44.0,
+        "width": 110.0,
+        "height": 122.0
+      },
+      "center": {
+        "x": 1743.0,
+        "y": 105.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_015",
+          "nodeCandidates": [
+            "obs_node_002"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_003"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_030"
+          ]
+        },
+        {
+          "observationId": "obs_if_023",
+          "nodeCandidates": [
+            "obs_node_002"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_011"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_038"
+          ]
+        },
+        {
+          "observationId": "obs_if_024",
+          "nodeCandidates": [
+            "obs_node_002"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_012"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_039"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_003",
+        "evidence_004"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_003",
+      "rawName": "HW-AR6140-R1",
+      "nameCandidates": [
+        "HW-AR6140-R1"
+      ],
+      "semanticType": "router",
+      "typeCandidates": [
+        "router"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 320.0,
+        "y": 64.0,
+        "width": 112.0,
+        "height": 82.0
+      },
+      "center": {
+        "x": 376.0,
+        "y": 105.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_001",
+          "nodeCandidates": [
+            "obs_node_003"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "192.168.10.2/24",
+          "ipCandidates": [
+            "192.168.10.2/24"
+          ],
+          "labelBBox": {
+            "x": 210.0,
+            "y": 55.0,
+            "width": 375.0,
+            "height": 115.0
+          },
+          "ipBBox": {
+            "x": 160.0,
+            "y": 85.0,
+            "width": 480.0,
+            "height": 115.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_001",
+            "obs_link_004",
+            "obs_link_005"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_040",
+            "evidence_028"
+          ]
+        },
+        {
+          "observationId": "obs_if_002",
+          "nodeCandidates": [
+            "obs_node_003"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "192.168.1.1/24",
+          "ipCandidates": [
+            "192.168.1.1/24"
+          ],
+          "labelBBox": {
+            "x": 210.0,
+            "y": 55.0,
+            "width": 375.0,
+            "height": 115.0
+          },
+          "ipBBox": {
+            "x": 160.0,
+            "y": 85.0,
+            "width": 480.0,
+            "height": 115.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_001",
+            "obs_link_004",
+            "obs_link_005"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_040",
+            "evidence_031"
+          ]
+        },
+        {
+          "observationId": "obs_if_003",
+          "nodeCandidates": [
+            "obs_node_003"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": "192.168.2.1/24",
+          "ipCandidates": [
+            "192.168.2.1/24"
+          ],
+          "labelBBox": {
+            "x": 210.0,
+            "y": 55.0,
+            "width": 375.0,
+            "height": 115.0
+          },
+          "ipBBox": {
+            "x": 160.0,
+            "y": 85.0,
+            "width": 480.0,
+            "height": 115.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_001",
+            "obs_link_004",
+            "obs_link_005"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_040",
+            "evidence_032"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_005",
+        "evidence_006",
+        "evidence_040"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_004",
+      "rawName": "HW-AR6140-R2",
+      "nameCandidates": [
+        "HW-AR6140-R2"
+      ],
+      "semanticType": "router",
+      "typeCandidates": [
+        "router"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1318.0,
+        "y": 64.0,
+        "width": 102.0,
+        "height": 82.0
+      },
+      "center": {
+        "x": 1369.0,
+        "y": 105.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_004",
+          "nodeCandidates": [
+            "obs_node_004"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": "192.168.10.1/24",
+          "ipCandidates": [
+            "192.168.10.1/24"
+          ],
+          "labelBBox": {
+            "x": 1220.0,
+            "y": 135.0,
+            "width": 290.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 1155.0,
+            "y": 165.0,
+            "width": 415.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_002",
+            "obs_link_003"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_041",
+            "evidence_029"
+          ]
+        },
+        {
+          "observationId": "obs_if_005",
+          "nodeCandidates": [
+            "obs_node_004"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": "192.168.20.1/24",
+          "ipCandidates": [
+            "192.168.20.1/24"
+          ],
+          "labelBBox": {
+            "x": 1220.0,
+            "y": 135.0,
+            "width": 290.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 1155.0,
+            "y": 165.0,
+            "width": 415.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_002",
+            "obs_link_003"
+          ],
+          "confidence": 0.95,
+          "evidenceIds": [
+            "evidence_041",
+            "evidence_030"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_007",
+        "evidence_008",
+        "evidence_041"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_005",
+      "rawName": "PC-3",
+      "nameCandidates": [
+        "PC-3"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1595.0,
+        "y": 365.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "center": {
+        "x": 1657.5,
+        "y": 422.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_006",
+          "nodeCandidates": [
+            "obs_node_005"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.20.3/24",
+          "ipCandidates": [
+            "192.168.20.3/24"
+          ],
+          "labelBBox": {
+            "x": 1620.0,
+            "y": 335.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 1555.0,
+            "y": 515.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_011"
+          ],
+          "confidence": 0.93,
+          "evidenceIds": [
+            "evidence_042",
+            "evidence_038"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_009",
+        "evidence_010",
+        "evidence_042"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_006",
+      "rawName": "PC-4",
+      "nameCandidates": [
+        "PC-4"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1875.0,
+        "y": 365.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "center": {
+        "x": 1937.5,
+        "y": 422.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_007",
+          "nodeCandidates": [
+            "obs_node_006"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.20.4/24",
+          "ipCandidates": [
+            "192.168.20.4/24"
+          ],
+          "labelBBox": {
+            "x": 1905.0,
+            "y": 330.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 1835.0,
+            "y": 515.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_012"
+          ],
+          "confidence": 0.93,
+          "evidenceIds": [
+            "evidence_043",
+            "evidence_039"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_011",
+        "evidence_012",
+        "evidence_043"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_007",
+      "rawName": "HW-core-SW3(S7706)",
+      "nameCandidates": [
+        "HW-core-SW3(S7706)"
+      ],
+      "semanticType": "switch_l3",
+      "typeCandidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 145.0,
+        "y": 370.0,
+        "width": 117.0,
+        "height": 120.0
+      },
+      "center": {
+        "x": 203.5,
+        "y": 430.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_016",
+          "nodeCandidates": [
+            "obs_node_007"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_004"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_031"
+          ]
+        },
+        {
+          "observationId": "obs_if_018",
+          "nodeCandidates": [
+            "obs_node_007"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_006"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_033"
+          ]
+        },
+        {
+          "observationId": "obs_if_019",
+          "nodeCandidates": [
+            "obs_node_007"
+          ],
+          "rawName": "GE0/3",
+          "nameCandidates": [
+            "GE0/3"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_007"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_034"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_013",
+        "evidence_014"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_008",
+      "rawName": "HW-core-SW4(S7706)",
+      "nameCandidates": [
+        "HW-core-SW4(S7706)"
+      ],
+      "semanticType": "switch_l3",
+      "typeCandidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 540.0,
+        "y": 370.0,
+        "width": 110.0,
+        "height": 120.0
+      },
+      "center": {
+        "x": 595.0,
+        "y": 430.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_017",
+          "nodeCandidates": [
+            "obs_node_008"
+          ],
+          "rawName": "GE0/1",
+          "nameCandidates": [
+            "GE0/1"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_005"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_032"
+          ]
+        },
+        {
+          "observationId": "obs_if_020",
+          "nodeCandidates": [
+            "obs_node_008"
+          ],
+          "rawName": "GE0/2",
+          "nameCandidates": [
+            "GE0/2"
+          ],
+          "rawIpText": null,
+          "ipCandidates": [],
+          "labelBBox": null,
+          "ipBBox": null,
+          "nearbyLinkIds": [
+            "obs_link_008"
+          ],
+          "confidence": 0.93,
+          "evidenceIds": [
+            "evidence_035"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_015",
+        "evidence_016"
+      ],
+      "sourceViewIds": [
+        "global_structure"
+      ]
+    },
+    {
+      "observationId": "obs_node_009",
+      "rawName": "WEB",
+      "nameCandidates": [
+        "WEB"
+      ],
+      "semanticType": "web_server",
+      "typeCandidates": [
+        "web_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 845.0,
+        "y": 370.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "center": {
+        "x": 880.0,
+        "y": 425.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_008",
+          "nodeCandidates": [
+            "obs_node_009"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.10.3/24",
+          "ipCandidates": [
+            "192.168.10.3/24"
+          ],
+          "labelBBox": {
+            "x": 840.0,
+            "y": 335.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 775.0,
+            "y": 515.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_009"
+          ],
+          "confidence": 0.94,
+          "evidenceIds": [
+            "evidence_044",
+            "evidence_036"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_017",
+        "evidence_018",
+        "evidence_044"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_010",
+      "rawName": "Mail",
+      "nameCandidates": [
+        "Mail"
+      ],
+      "semanticType": "mail_server",
+      "typeCandidates": [
+        "mail_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 1090.0,
+        "y": 370.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "center": {
+        "x": 1125.0,
+        "y": 425.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_009",
+          "nodeCandidates": [
+            "obs_node_010"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.10.4/24",
+          "ipCandidates": [
+            "192.168.10.4/24"
+          ],
+          "labelBBox": {
+            "x": 1110.0,
+            "y": 335.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 1030.0,
+            "y": 515.0,
+            "width": 180.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_010"
+          ],
+          "confidence": 0.94,
+          "evidenceIds": [
+            "evidence_045",
+            "evidence_037"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_019",
+        "evidence_020",
+        "evidence_045"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_011",
+      "rawName": "PC-1",
+      "nameCandidates": [
+        "PC-1"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 50.0,
+        "y": 675.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "center": {
+        "x": 112.5,
+        "y": 732.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_010",
+          "nodeCandidates": [
+            "obs_node_011"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.1.3/24",
+          "ipCandidates": [
+            "192.168.1.3/24"
+          ],
+          "labelBBox": {
+            "x": 145.0,
+            "y": 655.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 20.0,
+            "y": 835.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_006"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_046",
+            "evidence_033"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_021",
+        "evidence_022",
+        "evidence_046"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_012",
+      "rawName": "PC-2",
+      "nameCandidates": [
+        "PC-2"
+      ],
+      "semanticType": "client",
+      "typeCandidates": [
+        "client"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 290.0,
+        "y": 675.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "center": {
+        "x": 352.5,
+        "y": 732.5
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_011",
+          "nodeCandidates": [
+            "obs_node_012"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.1.4/24",
+          "ipCandidates": [
+            "192.168.1.4/24"
+          ],
+          "labelBBox": {
+            "x": 320.0,
+            "y": 650.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 245.0,
+            "y": 835.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_007"
+          ],
+          "confidence": 0.92,
+          "evidenceIds": [
+            "evidence_047",
+            "evidence_034"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_023",
+        "evidence_024",
+        "evidence_047"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    },
+    {
+      "observationId": "obs_node_013",
+      "rawName": "VPC",
+      "nameCandidates": [
+        "VPC"
+      ],
+      "semanticType": "vpc_server",
+      "typeCandidates": [
+        "vpc_server",
+        "server"
+      ],
+      "vendorModel": null,
+      "bbox": {
+        "x": 560.0,
+        "y": 680.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "center": {
+        "x": 595.0,
+        "y": 735.0
+      },
+      "observedInterfaces": [
+        {
+          "observationId": "obs_if_012",
+          "nodeCandidates": [
+            "obs_node_013"
+          ],
+          "rawName": "eth0",
+          "nameCandidates": [
+            "eth0"
+          ],
+          "rawIpText": "192.168.2.3/24",
+          "ipCandidates": [
+            "192.168.2.3/24"
+          ],
+          "labelBBox": {
+            "x": 610.0,
+            "y": 650.0,
+            "width": 50.0,
+            "height": 20.0
+          },
+          "ipBBox": {
+            "x": 500.0,
+            "y": 835.0,
+            "width": 175.0,
+            "height": 20.0
+          },
+          "nearbyLinkIds": [
+            "obs_link_008"
+          ],
+          "confidence": 0.93,
+          "evidenceIds": [
+            "evidence_048",
+            "evidence_035"
+          ]
+        }
+      ],
+      "regionCandidates": [],
+      "confidence": 0.9,
+      "evidenceIds": [
+        "evidence_025",
+        "evidence_026",
+        "evidence_048"
+      ],
+      "sourceViewIds": [
+        "global_structure",
+        "global_text"
+      ]
+    }
+  ],
+  "observedInterfaces": [
+    {
+      "observationId": "obs_if_001",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.10.2/24",
+      "ipCandidates": [
+        "192.168.10.2/24"
+      ],
+      "labelBBox": {
+        "x": 210.0,
+        "y": 55.0,
+        "width": 375.0,
+        "height": 115.0
+      },
+      "ipBBox": {
+        "x": 160.0,
+        "y": 85.0,
+        "width": 480.0,
+        "height": 115.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_001",
+        "obs_link_004",
+        "obs_link_005"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_040",
+        "evidence_028"
+      ]
+    },
+    {
+      "observationId": "obs_if_002",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "192.168.1.1/24",
+      "ipCandidates": [
+        "192.168.1.1/24"
+      ],
+      "labelBBox": {
+        "x": 210.0,
+        "y": 55.0,
+        "width": 375.0,
+        "height": 115.0
+      },
+      "ipBBox": {
+        "x": 160.0,
+        "y": 85.0,
+        "width": 480.0,
+        "height": 115.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_001",
+        "obs_link_004",
+        "obs_link_005"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_040",
+        "evidence_031"
+      ]
+    },
+    {
+      "observationId": "obs_if_003",
+      "nodeCandidates": [
+        "obs_node_003"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": "192.168.2.1/24",
+      "ipCandidates": [
+        "192.168.2.1/24"
+      ],
+      "labelBBox": {
+        "x": 210.0,
+        "y": 55.0,
+        "width": 375.0,
+        "height": 115.0
+      },
+      "ipBBox": {
+        "x": 160.0,
+        "y": 85.0,
+        "width": 480.0,
+        "height": 115.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_001",
+        "obs_link_004",
+        "obs_link_005"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_040",
+        "evidence_032"
+      ]
+    },
+    {
+      "observationId": "obs_if_004",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": "192.168.10.1/24",
+      "ipCandidates": [
+        "192.168.10.1/24"
+      ],
+      "labelBBox": {
+        "x": 1220.0,
+        "y": 135.0,
+        "width": 290.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 1155.0,
+        "y": 165.0,
+        "width": 415.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_002",
+        "obs_link_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_041",
+        "evidence_029"
+      ]
+    },
+    {
+      "observationId": "obs_if_005",
+      "nodeCandidates": [
+        "obs_node_004"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": "192.168.20.1/24",
+      "ipCandidates": [
+        "192.168.20.1/24"
+      ],
+      "labelBBox": {
+        "x": 1220.0,
+        "y": 135.0,
+        "width": 290.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 1155.0,
+        "y": 165.0,
+        "width": 415.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_002",
+        "obs_link_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_041",
+        "evidence_030"
+      ]
+    },
+    {
+      "observationId": "obs_if_006",
+      "nodeCandidates": [
+        "obs_node_005"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.20.3/24",
+      "ipCandidates": [
+        "192.168.20.3/24"
+      ],
+      "labelBBox": {
+        "x": 1620.0,
+        "y": 335.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 1555.0,
+        "y": 515.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_011"
+      ],
+      "confidence": 0.93,
+      "evidenceIds": [
+        "evidence_042",
+        "evidence_038"
+      ]
+    },
+    {
+      "observationId": "obs_if_007",
+      "nodeCandidates": [
+        "obs_node_006"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.20.4/24",
+      "ipCandidates": [
+        "192.168.20.4/24"
+      ],
+      "labelBBox": {
+        "x": 1905.0,
+        "y": 330.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 1835.0,
+        "y": 515.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_012"
+      ],
+      "confidence": 0.93,
+      "evidenceIds": [
+        "evidence_043",
+        "evidence_039"
+      ]
+    },
+    {
+      "observationId": "obs_if_008",
+      "nodeCandidates": [
+        "obs_node_009"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.10.3/24",
+      "ipCandidates": [
+        "192.168.10.3/24"
+      ],
+      "labelBBox": {
+        "x": 840.0,
+        "y": 335.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 775.0,
+        "y": 515.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_009"
+      ],
+      "confidence": 0.94,
+      "evidenceIds": [
+        "evidence_044",
+        "evidence_036"
+      ]
+    },
+    {
+      "observationId": "obs_if_009",
+      "nodeCandidates": [
+        "obs_node_010"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.10.4/24",
+      "ipCandidates": [
+        "192.168.10.4/24"
+      ],
+      "labelBBox": {
+        "x": 1110.0,
+        "y": 335.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 1030.0,
+        "y": 515.0,
+        "width": 180.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_010"
+      ],
+      "confidence": 0.94,
+      "evidenceIds": [
+        "evidence_045",
+        "evidence_037"
+      ]
+    },
+    {
+      "observationId": "obs_if_010",
+      "nodeCandidates": [
+        "obs_node_011"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.1.3/24",
+      "ipCandidates": [
+        "192.168.1.3/24"
+      ],
+      "labelBBox": {
+        "x": 145.0,
+        "y": 655.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 20.0,
+        "y": 835.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_006"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_046",
+        "evidence_033"
+      ]
+    },
+    {
+      "observationId": "obs_if_011",
+      "nodeCandidates": [
+        "obs_node_012"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.1.4/24",
+      "ipCandidates": [
+        "192.168.1.4/24"
+      ],
+      "labelBBox": {
+        "x": 320.0,
+        "y": 650.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 245.0,
+        "y": 835.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_007"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_047",
+        "evidence_034"
+      ]
+    },
+    {
+      "observationId": "obs_if_012",
+      "nodeCandidates": [
+        "obs_node_013"
+      ],
+      "rawName": "eth0",
+      "nameCandidates": [
+        "eth0"
+      ],
+      "rawIpText": "192.168.2.3/24",
+      "ipCandidates": [
+        "192.168.2.3/24"
+      ],
+      "labelBBox": {
+        "x": 610.0,
+        "y": 650.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "ipBBox": {
+        "x": 500.0,
+        "y": 835.0,
+        "width": 175.0,
+        "height": 20.0
+      },
+      "nearbyLinkIds": [
+        "obs_link_008"
+      ],
+      "confidence": 0.93,
+      "evidenceIds": [
+        "evidence_048",
+        "evidence_035"
+      ]
+    },
+    {
+      "observationId": "obs_if_013",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_001"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_028"
+      ]
+    },
+    {
+      "observationId": "obs_if_014",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_002"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_029"
+      ]
+    },
+    {
+      "observationId": "obs_if_015",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_003"
+      ],
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_030"
+      ]
+    },
+    {
+      "observationId": "obs_if_016",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_004"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_031"
+      ]
+    },
+    {
+      "observationId": "obs_if_017",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "GE0/1",
+      "nameCandidates": [
+        "GE0/1"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_005"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_032"
+      ]
+    },
+    {
+      "observationId": "obs_if_018",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_006"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_033"
+      ]
+    },
+    {
+      "observationId": "obs_if_019",
+      "nodeCandidates": [
+        "obs_node_007"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_007"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_034"
+      ]
+    },
+    {
+      "observationId": "obs_if_020",
+      "nodeCandidates": [
+        "obs_node_008"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_008"
+      ],
+      "confidence": 0.93,
+      "evidenceIds": [
+        "evidence_035"
+      ]
+    },
+    {
+      "observationId": "obs_if_021",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_009"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_036"
+      ]
+    },
+    {
+      "observationId": "obs_if_022",
+      "nodeCandidates": [
+        "obs_node_001"
+      ],
+      "rawName": "GE0/4",
+      "nameCandidates": [
+        "GE0/4"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_010"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_037"
+      ]
+    },
+    {
+      "observationId": "obs_if_023",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/2",
+      "nameCandidates": [
+        "GE0/2"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_011"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_038"
+      ]
+    },
+    {
+      "observationId": "obs_if_024",
+      "nodeCandidates": [
+        "obs_node_002"
+      ],
+      "rawName": "GE0/3",
+      "nameCandidates": [
+        "GE0/3"
+      ],
+      "rawIpText": null,
+      "ipCandidates": [],
+      "labelBBox": null,
+      "ipBBox": null,
+      "nearbyLinkIds": [
+        "obs_link_012"
+      ],
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_039"
+      ]
+    }
+  ],
+  "observedLinks": [
+    {
+      "observationId": "obs_link_001",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_001"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_001"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_013"
+      ],
+      "polyline": [
+        {
+          "x": 432.0,
+          "y": 107.0
+        },
+        {
+          "x": 930.0,
+          "y": 107.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_028"
+      ]
+    },
+    {
+      "observationId": "obs_link_002",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_004"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_014"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_004"
+      ],
+      "polyline": [
+        {
+          "x": 1032.0,
+          "y": 107.0
+        },
+        {
+          "x": 1318.0,
+          "y": 107.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_029"
+      ]
+    },
+    {
+      "observationId": "obs_link_003",
+      "sourceNodeCandidates": [
+        "obs_node_004"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_002"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_005"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_015"
+      ],
+      "polyline": [
+        {
+          "x": 1420.0,
+          "y": 107.0
+        },
+        {
+          "x": 1688.0,
+          "y": 107.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.95,
+      "evidenceIds": [
+        "evidence_030"
+      ]
+    },
+    {
+      "observationId": "obs_link_004",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_007"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_002"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_016"
+      ],
+      "polyline": [
+        {
+          "x": 365.0,
+          "y": 146.0
+        },
+        {
+          "x": 205.0,
+          "y": 370.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_031"
+      ]
+    },
+    {
+      "observationId": "obs_link_005",
+      "sourceNodeCandidates": [
+        "obs_node_003"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_008"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_003"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_017"
+      ],
+      "polyline": [
+        {
+          "x": 395.0,
+          "y": 146.0
+        },
+        {
+          "x": 590.0,
+          "y": 370.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_032"
+      ]
+    },
+    {
+      "observationId": "obs_link_006",
+      "sourceNodeCandidates": [
+        "obs_node_007"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_011"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_018"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_010"
+      ],
+      "polyline": [
+        {
+          "x": 180.0,
+          "y": 490.0
+        },
+        {
+          "x": 115.0,
+          "y": 675.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_033"
+      ]
+    },
+    {
+      "observationId": "obs_link_007",
+      "sourceNodeCandidates": [
+        "obs_node_007"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_012"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_019"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_011"
+      ],
+      "polyline": [
+        {
+          "x": 230.0,
+          "y": 490.0
+        },
+        {
+          "x": 350.0,
+          "y": 675.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_034"
+      ]
+    },
+    {
+      "observationId": "obs_link_008",
+      "sourceNodeCandidates": [
+        "obs_node_008"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_013"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_020"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_012"
+      ],
+      "polyline": [
+        {
+          "x": 600.0,
+          "y": 490.0
+        },
+        {
+          "x": 597.0,
+          "y": 680.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.93,
+      "evidenceIds": [
+        "evidence_035"
+      ]
+    },
+    {
+      "observationId": "obs_link_009",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_009"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_021"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_008"
+      ],
+      "polyline": [
+        {
+          "x": 960.0,
+          "y": 166.0
+        },
+        {
+          "x": 885.0,
+          "y": 370.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_036"
+      ]
+    },
+    {
+      "observationId": "obs_link_010",
+      "sourceNodeCandidates": [
+        "obs_node_001"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_010"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_022"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_009"
+      ],
+      "polyline": [
+        {
+          "x": 1005.0,
+          "y": 166.0
+        },
+        {
+          "x": 1120.0,
+          "y": 370.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_037"
+      ]
+    },
+    {
+      "observationId": "obs_link_011",
+      "sourceNodeCandidates": [
+        "obs_node_002"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_005"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_023"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_006"
+      ],
+      "polyline": [
+        {
+          "x": 1720.0,
+          "y": 166.0
+        },
+        {
+          "x": 1660.0,
+          "y": 365.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_038"
+      ]
+    },
+    {
+      "observationId": "obs_link_012",
+      "sourceNodeCandidates": [
+        "obs_node_002"
+      ],
+      "targetNodeCandidates": [
+        "obs_node_006"
+      ],
+      "sourceInterfaceCandidates": [
+        "obs_if_024"
+      ],
+      "targetInterfaceCandidates": [
+        "obs_if_007"
+      ],
+      "polyline": [
+        {
+          "x": 1770.0,
+          "y": 166.0
+        },
+        {
+          "x": 1930.0,
+          "y": 365.0
+        }
+      ],
+      "crossingUncertain": false,
+      "confidence": 0.92,
+      "evidenceIds": [
+        "evidence_039"
+      ]
+    }
+  ],
+  "observedRegions": [],
+  "evidence": [
+    {
+      "evidenceId": "evidence_001",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 930.0,
+        "y": 44.0,
+        "width": 102.0,
+        "height": 122.0
+      },
+      "rawText": null,
+      "description": "box switch icon with two crossing double-headed arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_002",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 884.0,
+        "y": 10.0,
+        "width": 193.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW1(S7706)",
+      "description": "name label above switch icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_003",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1688.0,
+        "y": 44.0,
+        "width": 110.0,
+        "height": 122.0
+      },
+      "rawText": null,
+      "description": "box switch icon with two crossing double-headed arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_004",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1646.0,
+        "y": 10.0,
+        "width": 202.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW2(S7706)",
+      "description": "name label above switch icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_005",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 320.0,
+        "y": 64.0,
+        "width": 112.0,
+        "height": 82.0
+      },
+      "rawText": null,
+      "description": "circular router icon with four arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_006",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 310.0,
+        "y": 25.0,
+        "width": 127.0,
+        "height": 20.0
+      },
+      "rawText": "HW-AR6140-R1",
+      "description": "name label above router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_007",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1318.0,
+        "y": 64.0,
+        "width": 102.0,
+        "height": 82.0
+      },
+      "rawText": null,
+      "description": "circular router icon with four arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_008",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1300.0,
+        "y": 25.0,
+        "width": 127.0,
+        "height": 20.0
+      },
+      "rawText": "HW-AR6140-R2",
+      "description": "name label above router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_009",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1595.0,
+        "y": 365.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor and tower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_010",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1630.0,
+        "y": 485.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "rawText": "PC-3",
+      "description": "name label below PC icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_011",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1875.0,
+        "y": 365.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor and tower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_012",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1910.0,
+        "y": 485.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "rawText": "PC-4",
+      "description": "name label below PC icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_013",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 145.0,
+        "y": 370.0,
+        "width": 117.0,
+        "height": 120.0
+      },
+      "rawText": null,
+      "description": "box switch icon with two crossing double-headed arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_014",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 40.0,
+        "y": 335.0,
+        "width": 207.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW3(S7706)",
+      "description": "name label at upper left of switch icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_015",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 540.0,
+        "y": 370.0,
+        "width": 110.0,
+        "height": 120.0
+      },
+      "rawText": null,
+      "description": "box switch icon with two crossing double-headed arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_016",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 522.0,
+        "y": 300.0,
+        "width": 206.0,
+        "height": 20.0
+      },
+      "rawText": "HW-core-SW4(S7706)",
+      "description": "name label above switch icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_017",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 845.0,
+        "y": 370.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "rawText": null,
+      "description": "tower server icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_018",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 860.0,
+        "y": 485.0,
+        "width": 45.0,
+        "height": 20.0
+      },
+      "rawText": "WEB",
+      "description": "name label below server icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1090.0,
+        "y": 370.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "rawText": null,
+      "description": "tower server icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1105.0,
+        "y": 485.0,
+        "width": 45.0,
+        "height": 20.0
+      },
+      "rawText": "Mail",
+      "description": "name label below server icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 50.0,
+        "y": 675.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor and tower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 85.0,
+        "y": 805.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "rawText": "PC-1",
+      "description": "name label below PC icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 290.0,
+        "y": 675.0,
+        "width": 125.0,
+        "height": 115.0
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor and tower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 325.0,
+        "y": 805.0,
+        "width": 50.0,
+        "height": 20.0
+      },
+      "rawText": "PC-2",
+      "description": "name label below PC icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 560.0,
+        "y": 680.0,
+        "width": 70.0,
+        "height": 110.0
+      },
+      "rawText": null,
+      "description": "tower server icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 575.0,
+        "y": 805.0,
+        "width": 45.0,
+        "height": 20.0
+      },
+      "rawText": "VPC",
+      "description": "name label below tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "MODEL_INFERENCE",
+      "sourceViewId": "global_structure",
+      "bbox": null,
+      "rawText": null,
+      "description": "generic switch icon with crossing arrows; layer role not marked on canvas",
+      "confidence": 0.6
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 432.0,
+        "y": 104.5,
+        "width": 498.0,
+        "height": 5.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from R1 right edge to SW1 left edge with GE0/1 labels at both ends",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1032.0,
+        "y": 104.5,
+        "width": 286.0,
+        "height": 5.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from SW1 right edge to R2 left edge, GE0/2 near SW1 and GE0/1 near R2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1420.0,
+        "y": 104.5,
+        "width": 268.0,
+        "height": 5.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from R2 right edge to SW2 left edge, GE0/2 near R2 and GE0/1 near SW2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 205.0,
+        "y": 146.0,
+        "width": 160.0,
+        "height": 224.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R1 bottom to SW3 top, GE0/2 label near R1 and GE0/1 near SW3",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 395.0,
+        "y": 146.0,
+        "width": 195.0,
+        "height": 224.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R1 bottom to SW4 top, GE0/3 label near R1 and GE0/1 near SW4",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 115.0,
+        "y": 490.0,
+        "width": 65.0,
+        "height": 185.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW3 bottom to PC-1 top, GE0/2 near SW3 and eth0 near PC-1",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 230.0,
+        "y": 490.0,
+        "width": 120.0,
+        "height": 185.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW3 bottom to PC-2 top, GE0/3 near SW3 and eth0 near PC-2",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 595.0,
+        "y": 490.0,
+        "width": 8.0,
+        "height": 190.0
+      },
+      "rawText": null,
+      "description": "Vertical line from SW4 bottom to VPC top, GE0/2 near SW4 and eth0 near VPC",
+      "confidence": 0.93
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 885.0,
+        "y": 166.0,
+        "width": 75.0,
+        "height": 204.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW1 bottom to WEB top, GE0/3 near SW1 and eth0 near WEB",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1005.0,
+        "y": 166.0,
+        "width": 115.0,
+        "height": 204.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW1 bottom to Mail top, GE0/4 near SW1 and eth0 near Mail",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1660.0,
+        "y": 166.0,
+        "width": 60.0,
+        "height": 199.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW2 bottom to PC-3 top, GE0/2 near SW2 and eth0 near PC-3",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1770.0,
+        "y": 166.0,
+        "width": 160.0,
+        "height": 199.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW2 bottom to PC-4 top, GE0/3 near SW2 and eth0 near PC-4",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 160.0,
+        "y": 55.0,
+        "width": 480.0,
+        "height": 145.0
+      },
+      "rawText": "GE0/1 192.168.10.2/24\nGE0/2 192.168.1.1/24\nGE0/3 192.168.2.1/24",
+      "description": "R1 three interface lines each with IPv4/prefix",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1155.0,
+        "y": 135.0,
+        "width": 446.0,
+        "height": 50.0
+      },
+      "rawText": "GE0/1 192.168.10.1/24\nGE0/2 192.168.20.1/24",
+      "description": "R2 two interface lines each with IPv4/prefix",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1555.0,
+        "y": 335.0,
+        "width": 175.0,
+        "height": 200.0
+      },
+      "rawText": "eth0 192.168.20.3/24",
+      "description": "PC-3 eth0 label and IP below node name",
+      "confidence": 0.93
+    },
+    {
+      "evidenceId": "evidence_043",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1835.0,
+        "y": 330.0,
+        "width": 175.0,
+        "height": 205.0
+      },
+      "rawText": "eth0 192.168.20.4/24",
+      "description": "PC-4 eth0 label and IP below node name",
+      "confidence": 0.93
+    },
+    {
+      "evidenceId": "evidence_044",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 775.0,
+        "y": 335.0,
+        "width": 175.0,
+        "height": 200.0
+      },
+      "rawText": "eth0 192.168.10.3/24",
+      "description": "WEB eth0 label and IP below node name",
+      "confidence": 0.94
+    },
+    {
+      "evidenceId": "evidence_045",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 1030.0,
+        "y": 335.0,
+        "width": 180.0,
+        "height": 200.0
+      },
+      "rawText": "eth0 192.168.10.4/24",
+      "description": "Mail eth0 label and IP below node name",
+      "confidence": 0.94
+    },
+    {
+      "evidenceId": "evidence_046",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 20.0,
+        "y": 655.0,
+        "width": 175.0,
+        "height": 200.0
+      },
+      "rawText": "eth0 192.168.1.3/24",
+      "description": "PC-1 eth0 label and IP below node name",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_047",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 245.0,
+        "y": 650.0,
+        "width": 175.0,
+        "height": 205.0
+      },
+      "rawText": "eth0 192.168.1.4/24",
+      "description": "PC-2 eth0 label and IP below node name",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_048",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 500.0,
+        "y": 650.0,
+        "width": 175.0,
+        "height": 205.0
+      },
+      "rawText": "eth0 192.168.2.3/24",
+      "description": "VPC eth0 label and IP below node name",
+      "confidence": 0.93
+    }
+  ],
+  "unresolvedItems": [
+    {
+      "tempId": "unresolved_001",
+      "category": "UNSUPPORTED_TOPOLOGY_PATTERN",
+      "objectIds": [
+        "obs_node_001",
+        "obs_node_002",
+        "obs_node_007",
+        "obs_node_008"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l2",
+        "switch_l3"
+      ],
+      "reason": "switch icon shape and S7706 model text do not visually fix L2 vs L3 role",
+      "blocking": false,
+      "recommendedAction": "preserve candidates",
+      "evidenceIds": [
+        "evidence_027"
+      ]
+    },
+    {
+      "tempId": "unresolved_002",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_001"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "reason": "fusion action KEEP_MULTIPLE_CANDIDATES preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_001",
+        "evidence_002"
+      ]
+    },
+    {
+      "tempId": "unresolved_003",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_002"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "reason": "fusion action KEEP_MULTIPLE_CANDIDATES preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_003",
+        "evidence_004"
+      ]
+    },
+    {
+      "tempId": "unresolved_004",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_007"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "reason": "fusion action KEEP_MULTIPLE_CANDIDATES preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_013",
+        "evidence_014"
+      ]
+    },
+    {
+      "tempId": "unresolved_005",
+      "category": "NODE_TYPE_CONFLICT",
+      "objectIds": [
+        "obs_node_008"
+      ],
+      "field": "semanticType",
+      "candidates": [
+        "switch_l3",
+        "switch_l2"
+      ],
+      "reason": "fusion action KEEP_MULTIPLE_CANDIDATES preserves ambiguity",
+      "blocking": false,
+      "recommendedAction": "retain candidates and evidence",
+      "evidenceIds": [
+        "evidence_015",
+        "evidence_016"
+      ]
+    }
+  ],
+  "summary": {
+    "nodeCount": 13,
+    "interfaceCount": 24,
+    "linkCount": 12,
+    "regionCount": 0,
+    "evidenceCount": 48,
+    "unresolvedCount": 5,
+    "blockingUnresolvedCount": 0,
+    "nodes": 13,
+    "interfaces": 24,
+    "links": 12,
+    "regions": 0,
+    "evidence": 48,
+    "unresolvedItems": 5,
+    "structureLogicalCalls": 1,
+    "linksLogicalCalls": 1,
+    "textLogicalCalls": 1,
+    "fusionLogicalCalls": 1,
+    "structureHttpRequests": 1,
+    "linksHttpRequests": 1,
+    "textHttpRequests": 1,
+    "fusionHttpRequests": 1,
+    "structureInputTokens": 12764,
+    "structureOutputTokens": 11064,
+    "linksInputTokens": 13879,
+    "linksOutputTokens": 10718,
+    "textInputTokens": 15378,
+    "textOutputTokens": 14762,
+    "fusionInputTokens": 17913,
+    "fusionOutputTokens": 1491,
+    "totalLogicalCalls": 4,
+    "totalHttpRequests": 4,
+    "totalInputTokens": 59934,
+    "totalOutputTokens": 38035,
+    "totalTokens": 97969,
+    "nodeCountAfterPass1": 13,
+    "additionalNodeCountAfterPass2": 0,
+    "textObservationCount": 12,
+    "fusionConflictCount": 7,
+    "fusionDecisionCount": 7,
+    "rejectedFusionDecisionCount": 0,
+    "finalUnresolvedCount": 5
+  }
+}

@@ -1,0 +1,1499 @@
+{
+  "stage": "structure",
+  "sourceViewId": "global_structure",
+  "evidence": [
+    {
+      "evidenceId": "evidence_001",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2262.041,
+        "y": 174.867,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_002",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2172.434,
+        "y": 245.906,
+        "width": 87.422,
+        "height": 51.367
+      },
+      "rawText": "Monitor-01",
+      "description": "name label left of icon",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_003",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2371.318,
+        "y": 174.867,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_004",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2351.648,
+        "y": 107.106,
+        "width": 109.277,
+        "height": 45.902
+      },
+      "rawText": "Monitor-02",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_005",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1814.004,
+        "y": 180.331,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_006",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1816.189,
+        "y": 107.106,
+        "width": 96.164,
+        "height": 45.902
+      },
+      "rawText": "Mail-02",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_007",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2480.596,
+        "y": 180.331,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_008",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2513.379,
+        "y": 278.694,
+        "width": 109.277,
+        "height": 49.181
+      },
+      "rawText": "Monitor-03",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_009",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1704.727,
+        "y": 185.796,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_010",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1549.553,
+        "y": 281.972,
+        "width": 111.463,
+        "height": 45.902
+      },
+      "rawText": "Mail-01",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_011",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1923.281,
+        "y": 202.19,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_012",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1953.879,
+        "y": 278.694,
+        "width": 100.535,
+        "height": 49.181
+      },
+      "rawText": "Mail-03",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_013",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2354.927,
+        "y": 371.592,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_014",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2360.391,
+        "y": 497.277,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW6(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_015",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1797.612,
+        "y": 382.521,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_016",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1750.623,
+        "y": 515.856,
+        "width": 152.988,
+        "height": 28.416
+      },
+      "rawText": "HW-core-SW5(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_017",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2174.619,
+        "y": 595.639,
+        "width": 65.566,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "firewall icon with brick pattern",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_018",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2136.372,
+        "y": 699.466,
+        "width": 147.524,
+        "height": 27.323
+      },
+      "rawText": "HW-USG6550E-FW1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 655.75,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 65.566,
+        "y": 655.75,
+        "width": 109.277,
+        "height": 65.575
+      },
+      "rawText": "PC-1",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 721.325,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 754.112,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-1",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 808.758,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 43.711,
+        "y": 808.758,
+        "width": 131.133,
+        "height": 65.575
+      },
+      "rawText": "PC-2",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 562.778,
+        "y": 830.616,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 551.851,
+        "y": 939.908,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW13(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 852.475,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 885.262,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-2",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3824.707,
+        "y": 863.404,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3770.068,
+        "y": 972.695,
+        "width": 163.916,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW11(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2158.228,
+        "y": 890.727,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2158.228,
+        "y": 1000.018,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW2(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 950.837,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 43.711,
+        "y": 950.837,
+        "width": 131.133,
+        "height": 65.575
+      },
+      "rawText": "PC-3",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 983.625,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 1016.412,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-3",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3108.94,
+        "y": 1027.341,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3108.94,
+        "y": 1131.168,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW4(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1218.442,
+        "y": 1032.806,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1218.442,
+        "y": 1136.633,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW3(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 885.146,
+        "y": 1038.27,
+        "width": 65.566,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "firewall icon with brick pattern",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 841.436,
+        "y": 1136.633,
+        "width": 147.524,
+        "height": 27.323
+      },
+      "rawText": "HW-USG6550E-FW3",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_043",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1584.521,
+        "y": 1038.27,
+        "width": 109.277,
+        "height": 76.504
+      },
+      "rawText": null,
+      "description": "cylindrical router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_044",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1584.521,
+        "y": 1125.704,
+        "width": 120.205,
+        "height": 27.323
+      },
+      "rawText": "Cisco-9000-R1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_045",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2721.006,
+        "y": 1038.27,
+        "width": 109.277,
+        "height": 76.504
+      },
+      "rawText": null,
+      "description": "cylindrical router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_046",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2721.006,
+        "y": 1125.704,
+        "width": 120.205,
+        "height": 27.323
+      },
+      "rawText": "Cisco-9000-R2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_047",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3507.803,
+        "y": 1038.27,
+        "width": 65.566,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "firewall icon with brick pattern",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_048",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3431.309,
+        "y": 1136.633,
+        "width": 147.524,
+        "height": 27.323
+      },
+      "rawText": "HW-USG6550E-FW2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_049",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 1147.562,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_050",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 43.711,
+        "y": 1147.562,
+        "width": 131.133,
+        "height": 65.575
+      },
+      "rawText": "PC-4",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_051",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 1147.562,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_052",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 1180.35,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-4",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_053",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3824.707,
+        "y": 1267.783,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_054",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3770.068,
+        "y": 1377.075,
+        "width": 163.916,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW12(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_055",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 1267.783,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_056",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 1300.57,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-5",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_057",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 1289.641,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_058",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 43.711,
+        "y": 1289.641,
+        "width": 131.133,
+        "height": 65.575
+      },
+      "rawText": "PC-5",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_059",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 562.778,
+        "y": 1311.5,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_060",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 551.851,
+        "y": 1420.791,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW14(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_061",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2158.228,
+        "y": 1316.964,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_062",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2158.228,
+        "y": 1420.791,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW1(S7706)",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_063",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4174.395,
+        "y": 1398.933,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_064",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 4239.961,
+        "y": 1431.72,
+        "width": 109.277,
+        "height": 54.646
+      },
+      "rawText": "VPC-6",
+      "description": "name label right of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_065",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 262.266,
+        "y": 1431.72,
+        "width": 98.35,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "desktop PC icon with monitor",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_066",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 43.711,
+        "y": 1431.72,
+        "width": 131.133,
+        "height": 65.575
+      },
+      "rawText": "PC-6",
+      "description": "name label left of icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_067",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1628.232,
+        "y": 1617.516,
+        "width": 109.277,
+        "height": 76.504
+      },
+      "rawText": null,
+      "description": "cylindrical router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_068",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1617.305,
+        "y": 1704.949,
+        "width": 120.205,
+        "height": 27.323
+      },
+      "rawText": "Cisco-9000-R3",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_069",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2764.717,
+        "y": 1617.516,
+        "width": 109.277,
+        "height": 76.504
+      },
+      "rawText": null,
+      "description": "cylindrical router icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_070",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2753.789,
+        "y": 1704.949,
+        "width": 120.205,
+        "height": 27.323
+      },
+      "rawText": "Cisco-9000-R4",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_071",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1338.647,
+        "y": 1857.958,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_072",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1256.689,
+        "y": 1814.241,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW7(S7706)",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_073",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1808.54,
+        "y": 1857.958,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1803.076,
+        "y": 1814.241,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW8(S7706)",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2540.698,
+        "y": 1857.958,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2458.74,
+        "y": 1814.241,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW9(S7706)",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2945.024,
+        "y": 1857.958,
+        "width": 103.813,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "switch box icon with arrows",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2939.561,
+        "y": 1814.241,
+        "width": 152.988,
+        "height": 27.323
+      },
+      "rawText": "HW-core-SW10(S7706)",
+      "description": "name label above icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1278.545,
+        "y": 2131.187,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1245.762,
+        "y": 2273.266,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "WEB-1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1436.997,
+        "y": 2131.187,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1404.214,
+        "y": 2273.266,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "WEB-2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1737.51,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1704.727,
+        "y": 2284.195,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "DB-1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1912.354,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1879.57,
+        "y": 2284.195,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "DB-2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2425.957,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2393.174,
+        "y": 2284.195,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "Mail1-1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2611.729,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2578.945,
+        "y": 2284.195,
+        "width": 98.35,
+        "height": 43.717
+      },
+      "rawText": "Mail1-2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2873.994,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2841.211,
+        "y": 2284.195,
+        "width": 109.277,
+        "height": 43.717
+      },
+      "rawText": "Monitor-1",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3059.766,
+        "y": 2142.116,
+        "width": 54.639,
+        "height": 98.362
+      },
+      "rawText": null,
+      "description": "server tower icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3026.982,
+        "y": 2284.195,
+        "width": 109.277,
+        "height": 43.717
+      },
+      "rawText": "Monitor-2",
+      "description": "name label below icon",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2136.372,
+        "y": 5.465,
+        "width": 551.851,
+        "height": 530.064
+      },
+      "rawText": null,
+      "description": "orange background region box at top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2174.619,
+        "y": 32.787,
+        "width": 98.35,
+        "height": 32.787
+      },
+      "rawText": "集群-01",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 5.464,
+        "y": 612.033,
+        "width": 704.839,
+        "height": 480.883
+      },
+      "rawText": null,
+      "description": "blue background region box at left",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 524.531,
+        "y": 633.891,
+        "width": 87.422,
+        "height": 32.787
+      },
+      "rawText": "办公一区",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3764.604,
+        "y": 666.679,
+        "width": 704.839,
+        "height": 426.237
+      },
+      "rawText": null,
+      "description": "orange background region box at right",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3890.273,
+        "y": 1027.341,
+        "width": 109.277,
+        "height": 32.787
+      },
+      "rawText": "VPC一区",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_101",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 5.464,
+        "y": 1125.704,
+        "width": 704.839,
+        "height": 480.883
+      },
+      "rawText": null,
+      "description": "gray background region box at left lower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 524.531,
+        "y": 1147.562,
+        "width": 87.422,
+        "height": 32.787
+      },
+      "rawText": "办公二区",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3764.604,
+        "y": 1125.704,
+        "width": 704.839,
+        "height": 426.237
+      },
+      "rawText": null,
+      "description": "pink background region box at right lower",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 3890.273,
+        "y": 1475.437,
+        "width": 109.277,
+        "height": 32.787
+      },
+      "rawText": "VPC二区",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1628.232,
+        "y": 1792.383,
+        "width": 710.303,
+        "height": 579.246
+      },
+      "rawText": null,
+      "description": "green background region box at bottom center",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_106",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 2141.836,
+        "y": 2284.195,
+        "width": 98.35,
+        "height": 32.787
+      },
+      "rawText": "存储中心",
+      "description": "region title inside box",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_107",
+      "sourceType": "MODEL_INFERENCE",
+      "sourceViewId": "global_structure",
+      "bbox": null,
+      "rawText": null,
+      "description": "box-with-arrows icons labeled HW-core-SW*; layer not visible in text",
+      "confidence": 0.7
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_070",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1070.0,
+        "y": 74.0,
+        "width": 200.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A7 right edge to FW1 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_071",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1355.0,
+        "y": 69.0,
+        "width": 190.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from FW1 right edge to A9 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_072",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1645.0,
+        "y": 69.0,
+        "width": 160.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A9 right edge to VPC left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_073",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1020.0,
+        "y": 107.0,
+        "width": 4.0,
+        "height": 186.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A7 bottom to Core-R1 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 258.0,
+        "y": 176.0,
+        "width": 152.0,
+        "height": 155.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A1-pc1 right edge converging at A1 left edge",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 258.0,
+        "y": 329.0,
+        "width": 152.0,
+        "height": 4.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A1-pc2 right edge to A1 left edge",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 258.0,
+        "y": 331.0,
+        "width": 152.0,
+        "height": 150.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A1-pc3 right edge converging at A1 left edge",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 510.0,
+        "y": 320.0,
+        "width": 475.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Long horizontal line from A1 right edge to Core-R1 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1060.0,
+        "y": 317.0,
+        "width": 215.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from Core-R1 right edge to A8 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1375.0,
+        "y": 316.0,
+        "width": 205.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A8 right edge to VPC2 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1020.0,
+        "y": 350.0,
+        "width": 5.0,
+        "height": 254.0
+      },
+      "rawText": null,
+      "description": "Vertical line from Core-R1 bottom to A10 top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 655.0,
+        "y": 628.0,
+        "width": 320.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A10 left edge to R1 right edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1075.0,
+        "y": 628.0,
+        "width": 325.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from A10 right edge to R2 left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 255.0,
+        "y": 665.0,
+        "width": 345.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R1 bottom-left to A2 top-right, crossing R001 border",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 560.0,
+        "y": 665.0,
+        "width": 60.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "Near-vertical line from R1 bottom to A3 top",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 635.0,
+        "y": 665.0,
+        "width": 170.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R1 bottom-right to A4 top",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1235.0,
+        "y": 665.0,
+        "width": 190.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R2 bottom-left to A5 top",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1460.0,
+        "y": 665.0,
+        "width": 240.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R2 bottom-right to A6 top, crossing R004 border",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 88.0,
+        "y": 970.0,
+        "width": 97.0,
+        "height": 118.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A2 bottom-left to A2-pc1 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 208.0,
+        "y": 970.0,
+        "width": 4.0,
+        "height": 118.0
+      },
+      "rawText": null,
+      "description": "Vertical line from A2 bottom to A2-pc2 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 235.0,
+        "y": 970.0,
+        "width": 93.0,
+        "height": 118.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A2 bottom-right to A2-pc3 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 505.0,
+        "y": 975.0,
+        "width": 35.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A3 bottom-left to Web server top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 580.0,
+        "y": 975.0,
+        "width": 45.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A3 bottom-right to DB server top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 745.0,
+        "y": 975.0,
+        "width": 40.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A4 bottom-left to Mail server top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 820.0,
+        "y": 975.0,
+        "width": 45.0,
+        "height": 100.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A4 bottom-right to Monitor server top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1100.0,
+        "y": 975.0,
+        "width": 105.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A5 bottom-left to A5-pc3 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1220.0,
+        "y": 975.0,
+        "width": 10.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Near-vertical line from A5 bottom to A5-pc4 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1255.0,
+        "y": 975.0,
+        "width": 85.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A5 bottom-right to A5-pc5 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1560.0,
+        "y": 975.0,
+        "width": 115.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A6 bottom-left to A6-pc1 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1680.0,
+        "y": 975.0,
+        "width": 20.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Near-vertical line from A6 bottom to A6-pc2 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1725.0,
+        "y": 975.0,
+        "width": 75.0,
+        "height": 113.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from A6 bottom-right to A6-pc3 top",
+      "confidence": 0.9
+    }
+  ]
+}

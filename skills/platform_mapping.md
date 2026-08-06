@@ -12,7 +12,6 @@
 - `firewall` 对应 VM 类防火墙，候选 `devType=FW`。
 - `ids`、`waf`、`des` 只在语义明确时对应各自 VM 设备类型。
 - `switch_l2` 对应平台二层交换机 `SW/SW`，不绑定普通 VM 镜像。
-- `switch_l3` 对应平台三层交换机 `TSW/TSW`，服从三层交换机平台规则。
 - `unknown` 没有可提交的平台类型，必须保持阻塞，不能伪造 VM、SW 或 TSW。
 
 该映射只解释语义候选；最终平台对象由程序依据 `config/device_mapping.yaml` 编译。

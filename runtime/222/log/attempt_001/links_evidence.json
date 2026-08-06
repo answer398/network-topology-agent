@@ -1,0 +1,454 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1620.0,
+        "y": 918.0,
+        "width": 50.0,
+        "height": 14.0
+      },
+      "rawText": "GE0/1",
+      "description": "GE0/1 text at N019 upper-left and again at right side",
+      "confidence": 0.75
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1077.0,
+        "y": 74.0,
+        "width": 198.0,
+        "height": 10.0
+      },
+      "rawText": null,
+      "description": "near-horizontal line from N004 right edge to N002 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1362.0,
+        "y": 70.0,
+        "width": 183.0,
+        "height": 8.0
+      },
+      "rawText": null,
+      "description": "line from N002 right edge to N003 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1648.0,
+        "y": 70.0,
+        "width": 152.0,
+        "height": 7.0
+      },
+      "rawText": null,
+      "description": "line from N003 right edge to N001 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1022.0,
+        "y": 108.0,
+        "width": 6.0,
+        "height": 184.0
+      },
+      "rawText": null,
+      "description": "vertical line from N004 bottom to N007 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 262.0,
+        "y": 196.0,
+        "width": 148.0,
+        "height": 134.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N005 right side to N010 left convergence point",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 262.0,
+        "y": 328.0,
+        "width": 148.0,
+        "height": 5.0
+      },
+      "rawText": null,
+      "description": "horizontal line from N009 right side to N010 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 262.0,
+        "y": 332.0,
+        "width": 148.0,
+        "height": 149.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N011 right side up to N010 left convergence point",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 512.0,
+        "y": 319.0,
+        "width": 473.0,
+        "height": 12.0
+      },
+      "rawText": null,
+      "description": "long horizontal line from N010 right edge to N007 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1062.0,
+        "y": 315.0,
+        "width": 213.0,
+        "height": 8.0
+      },
+      "rawText": null,
+      "description": "line from N007 right edge to N008 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1377.0,
+        "y": 313.0,
+        "width": 198.0,
+        "height": 6.0
+      },
+      "rawText": null,
+      "description": "line from N008 right edge to N006 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1021.5,
+        "y": 350.0,
+        "width": 7.0,
+        "height": 255.0
+      },
+      "rawText": null,
+      "description": "vertical line from N007 bottom to N012 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 650.0,
+        "y": 628.0,
+        "width": 325.0,
+        "height": 14.0
+      },
+      "rawText": null,
+      "description": "horizontal line from N012 left edge to N013 right edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1077.0,
+        "y": 628.0,
+        "width": 331.0,
+        "height": 14.0
+      },
+      "rawText": null,
+      "description": "horizontal line from N012 right edge to N014 left edge",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 240.0,
+        "y": 665.0,
+        "width": 345.0,
+        "height": 250.0
+      },
+      "rawText": null,
+      "description": "long diagonal line from N013 lower-left to N015 top-right, crosses R001 border",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 563.0,
+        "y": 670.0,
+        "width": 44.0,
+        "height": 250.0
+      },
+      "rawText": null,
+      "description": "steep diagonal line from N013 bottom to N017 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 628.0,
+        "y": 668.0,
+        "width": 164.0,
+        "height": 252.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N013 lower-right to N018 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1253.0,
+        "y": 668.0,
+        "width": 179.0,
+        "height": 247.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N014 lower-left to N016 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1468.0,
+        "y": 668.0,
+        "width": 224.0,
+        "height": 252.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N014 lower-right to N019 top, crosses R004 border",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 86.0,
+        "y": 965.0,
+        "width": 101.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N015 lower-left to N024 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 205.0,
+        "y": 965.0,
+        "width": 8.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "near-vertical line from N015 bottom to N025 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 235.0,
+        "y": 965.0,
+        "width": 95.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N015 lower-right to N026 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 503.0,
+        "y": 970.0,
+        "width": 34.0,
+        "height": 95.0
+      },
+      "rawText": null,
+      "description": "steep line from N017 lower-left to N020 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 585.0,
+        "y": 970.0,
+        "width": 42.0,
+        "height": 95.0
+      },
+      "rawText": null,
+      "description": "steep line from N017 lower-right to N021 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 743.0,
+        "y": 970.0,
+        "width": 44.0,
+        "height": 95.0
+      },
+      "rawText": null,
+      "description": "steep line from N018 lower-left to N022 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 835.0,
+        "y": 970.0,
+        "width": 32.0,
+        "height": 95.0
+      },
+      "rawText": null,
+      "description": "steep line from N018 lower-right to N023 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1098.0,
+        "y": 965.0,
+        "width": 109.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N016 lower-left to N027 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_101",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1223.0,
+        "y": 965.0,
+        "width": 10.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "near-vertical line from N016 bottom to N028 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1255.0,
+        "y": 965.0,
+        "width": 97.0,
+        "height": 125.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N016 lower-right to N029 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1558.0,
+        "y": 970.0,
+        "width": 119.0,
+        "height": 120.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N019 lower-left to N030 top",
+      "confidence": 0.88
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1683.0,
+        "y": 970.0,
+        "width": 20.0,
+        "height": 120.0
+      },
+      "rawText": null,
+      "description": "near-vertical line from N019 bottom to N031 top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1725.0,
+        "y": 970.0,
+        "width": 87.0,
+        "height": 120.0
+      },
+      "rawText": null,
+      "description": "diagonal line from N019 lower-right to N032 top; nearby label reads GE0/1 which duplicates the uplink label",
+      "confidence": 0.8
+    }
+  ]
+}

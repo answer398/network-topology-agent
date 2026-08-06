@@ -1,0 +1,177 @@
+{
+  "taskId": "111",
+  "currentStage": "links",
+  "image": {
+    "width": 879,
+    "height": 628,
+    "format": "PNG"
+  },
+  "view": {
+    "viewId": "global_links",
+    "width": 879,
+    "height": 628,
+    "coversCompleteImage": true,
+    "coordinateMapping": {
+      "modelSource": "current-view pixels centered at image center (0,0), x right, y down, at most two decimals",
+      "target": "EXIF-corrected original pixels",
+      "viewCenterX": 439.5,
+      "viewCenterY": 314.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0
+    }
+  },
+  "numberedStructure": {
+    "nodes": [
+      {
+        "id": "N001",
+        "bbox": {
+          "x": -302.5,
+          "y": -274.0,
+          "width": 76.0,
+          "height": 55.0
+        },
+        "center": {
+          "x": -264.5,
+          "y": -246.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N002",
+        "bbox": {
+          "x": 223.5,
+          "y": -274.0,
+          "width": 77.0,
+          "height": 55.0
+        },
+        "center": {
+          "x": 262.0,
+          "y": -246.5
+        },
+        "typeCandidates": [
+          "router"
+        ]
+      },
+      {
+        "id": "N003",
+        "bbox": {
+          "x": -56.5,
+          "y": -270.0,
+          "width": 107.0,
+          "height": 53.0
+        },
+        "center": {
+          "x": -3.0,
+          "y": -243.5
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ]
+      },
+      {
+        "id": "N004",
+        "bbox": {
+          "x": -312.5,
+          "y": 16.0,
+          "width": 105.0,
+          "height": 53.0
+        },
+        "center": {
+          "x": -260.0,
+          "y": 42.5
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ]
+      },
+      {
+        "id": "N005",
+        "bbox": {
+          "x": 177.5,
+          "y": 16.0,
+          "width": 105.0,
+          "height": 53.0
+        },
+        "center": {
+          "x": 230.0,
+          "y": 42.5
+        },
+        "typeCandidates": [
+          "switch_l2",
+          "switch_l3"
+        ]
+      },
+      {
+        "id": "N006",
+        "bbox": {
+          "x": -406.5,
+          "y": 183.0,
+          "width": 77.0,
+          "height": 81.0
+        },
+        "center": {
+          "x": -368.0,
+          "y": 223.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N007",
+        "bbox": {
+          "x": -221.5,
+          "y": 183.0,
+          "width": 77.0,
+          "height": 81.0
+        },
+        "center": {
+          "x": -183.0,
+          "y": 223.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N008",
+        "bbox": {
+          "x": 128.5,
+          "y": 183.0,
+          "width": 77.0,
+          "height": 81.0
+        },
+        "center": {
+          "x": 167.0,
+          "y": 223.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      },
+      {
+        "id": "N009",
+        "bbox": {
+          "x": 313.5,
+          "y": 183.0,
+          "width": 77.0,
+          "height": 81.0
+        },
+        "center": {
+          "x": 352.0,
+          "y": 223.5
+        },
+        "typeCandidates": [
+          "client"
+        ]
+      }
+    ],
+    "regions": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "decisions": [
+    {
+      "conflictId": "conflict_001",
+      "action": "KEEP_MULTIPLE_CANDIDATES",
+      "selectedCandidateIndexes": [
+        0,
+        1
+      ],
+      "confidence": 0.55,
+      "reasonCode": "ICON_AND_MODEL_TEXT_DO_NOT_FIX_L2_L3"
+    },
+    {
+      "conflictId": "conflict_002",
+      "action": "KEEP_MULTIPLE_CANDIDATES",
+      "selectedCandidateIndexes": [
+        0,
+        1
+      ],
+      "confidence": 0.55,
+      "reasonCode": "ICON_AND_MODEL_TEXT_DO_NOT_FIX_L2_L3"
+    },
+    {
+      "conflictId": "conflict_003",
+      "action": "KEEP_MULTIPLE_CANDIDATES",
+      "selectedCandidateIndexes": [
+        0,
+        1
+      ],
+      "confidence": 0.55,
+      "reasonCode": "ICON_AND_MODEL_TEXT_DO_NOT_FIX_L2_L3"
+    },
+    {
+      "conflictId": "conflict_004",
+      "action": "KEEP_MULTIPLE_CANDIDATES",
+      "selectedCandidateIndexes": [
+        0,
+        1
+      ],
+      "confidence": 0.55,
+      "reasonCode": "ICON_AND_MODEL_TEXT_DO_NOT_FIX_L2_L3"
+    },
+    {
+      "conflictId": "conflict_005",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.88,
+      "reasonCode": "NAME_LABEL_WEB_SUPPORTS_WEB_SERVER"
+    },
+    {
+      "conflictId": "conflict_006",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.88,
+      "reasonCode": "NAME_LABEL_MAIL_SUPPORTS_MAIL_SERVER"
+    },
+    {
+      "conflictId": "conflict_007",
+      "action": "SELECT_CANDIDATE",
+      "selectedCandidateIndexes": [
+        0
+      ],
+      "confidence": 0.85,
+      "reasonCode": "NAME_LABEL_VPC_SUPPORTS_VPC_SERVER"
+    }
+  ],
+  "consistencyFindings": []
+}

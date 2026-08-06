@@ -317,7 +317,6 @@ portMappingList
 |---|---|---|
 | `VM` | 虚拟机类节点 | VM 设备类型 |
 | `SW` | 二层交换机 | `SW` |
-| `TSW` | 三层交换机 | `TSW` |
 
 VM 的 `devType`：
 
@@ -352,7 +351,6 @@ VM 的 `devType`：
 | `waf` | `VM` | `WAF` | WAF |
 | `des` | `VM` | `DES` | DES |
 | `switch_l2` | `SW` | `SW` | 不绑定普通 VM 镜像 |
-| `switch_l3` | `TSW` | `TSW` | 按三层交换机规则 |
 
 ---
 
@@ -684,7 +682,6 @@ networkId
 |---|---|
 | VM 节点 | `V` |
 | 二层交换机 | `W` |
-| 三层交换机 | `T` |
 | NIC | `P` |
 | Link | `L` |
 | Network | `G` |

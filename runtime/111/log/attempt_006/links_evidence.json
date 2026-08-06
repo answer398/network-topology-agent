@@ -1,0 +1,118 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 201.0,
+        "y": 60.5,
+        "width": 196.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from N001 right edge to N003 left edge; labels GE0/0 near N001, GE0/1 above N003 left.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 482.0,
+        "y": 60.5,
+        "width": 176.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from N003 right edge to N002 left edge; labels GE0/2 above N003 right, GE0/0 near N002.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 164.5,
+        "y": 94.0,
+        "width": 3.0,
+        "height": 236.0
+      },
+      "rawText": null,
+      "description": "Vertical line from N001 bottom to N004 top; GE0/1 label at N001 bottom and at N004 top.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 691.5,
+        "y": 94.0,
+        "width": 3.0,
+        "height": 236.0
+      },
+      "rawText": null,
+      "description": "Vertical line from N002 bottom to N005 top; GE0/1 label at N002 bottom right, GE0/3 at N005 top.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 68.5,
+        "y": 378.0,
+        "width": 78.0,
+        "height": 119.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from N004 bottom-left to N006 top; GE0/2 at N004 lower left, eth0 at N006 top.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 183.5,
+        "y": 378.0,
+        "width": 73.0,
+        "height": 119.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from N004 bottom-right to N007 top; GE0/3 at N004 lower right, eth0 at N007 top.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 603.5,
+        "y": 378.0,
+        "width": 68.0,
+        "height": 119.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from N005 bottom-left to N008 top; GE0/2 at N005 lower left, eth0 at N008 top.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 710.5,
+        "y": 378.0,
+        "width": 81.0,
+        "height": 119.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from N005 bottom-right to N009 top; GE0/1 at N005 lower right, eth0 at N009 top.",
+      "confidence": 0.92
+    }
+  ]
+}

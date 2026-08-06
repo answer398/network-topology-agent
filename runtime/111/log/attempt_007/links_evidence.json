@@ -1,0 +1,118 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 213.0,
+        "y": 62.5,
+        "width": 170.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Horizontal stroke from R1 icon right edge to CoreSW icon left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 490.0,
+        "y": 62.5,
+        "width": 173.0,
+        "height": 3.0
+      },
+      "rawText": null,
+      "description": "Horizontal stroke from CoreSW icon right edge to R2 icon left edge",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 174.5,
+        "y": 95.0,
+        "width": 3.0,
+        "height": 235.0
+      },
+      "rawText": null,
+      "description": "Vertical stroke from R1 icon bottom to SW1 icon top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 698.5,
+        "y": 95.0,
+        "width": 3.0,
+        "height": 235.0
+      },
+      "rawText": null,
+      "description": "Vertical stroke from R2 icon bottom to SW2 icon top",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 75.0,
+        "y": 383.0,
+        "width": 75.0,
+        "height": 114.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from SW1 icon lower-left to PC-PT icon top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 208.0,
+        "y": 383.0,
+        "width": 44.0,
+        "height": 114.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from SW1 icon lower-right to PC-PT2 icon top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 608.0,
+        "y": 383.0,
+        "width": 40.0,
+        "height": 114.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from SW2 icon lower-left to PC-PT3 icon top",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 698.0,
+        "y": 383.0,
+        "width": 92.0,
+        "height": 114.0
+      },
+      "rawText": null,
+      "description": "Diagonal stroke from SW2 icon lower-right to PC-PT4 icon top",
+      "confidence": 0.9
+    }
+  ]
+}

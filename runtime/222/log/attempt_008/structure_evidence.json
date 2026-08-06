@@ -1,0 +1,1014 @@
+{
+  "stage": "structure",
+  "sourceViewId": "global_structure",
+  "evidence": [
+    {
+      "evidenceId": "evidence_001",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1210.0,
+        "y": 38.0,
+        "width": 70.0,
+        "height": 55.0
+      },
+      "rawText": null,
+      "description": "Brick wall icon indicating firewall device.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_002",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1205.0,
+        "y": 3.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-5500-FW1",
+      "description": "Device label above the icon.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_003",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1640.0,
+        "y": 43.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_004",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1650.0,
+        "y": 108.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "VPC",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_005",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 990.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_006",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1010.0,
+        "y": 23.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A7",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_007",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1440.0,
+        "y": 53.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_008",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1460.0,
+        "y": 88.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A9",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_009",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 175.0,
+        "y": 153.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_010",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 180.0,
+        "y": 203.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_011",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 990.0,
+        "y": 293.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_012",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 970.0,
+        "y": 358.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-Core-R1",
+      "description": "Label below the router.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_013",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1590.0,
+        "y": 293.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_014",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1600.0,
+        "y": 358.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "VPC2",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_015",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 175.0,
+        "y": 303.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_016",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 180.0,
+        "y": 353.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_017",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 375.0,
+        "y": 303.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_018",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 395.0,
+        "y": 273.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A1",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_019",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1340.0,
+        "y": 303.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_020",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1360.0,
+        "y": 338.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A8",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_021",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 175.0,
+        "y": 453.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_022",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 180.0,
+        "y": 503.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A1-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_023",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 590.0,
+        "y": 693.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_024",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 570.0,
+        "y": 658.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-R1",
+      "description": "Label above the router.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_025",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1390.0,
+        "y": 693.0,
+        "width": 60.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Circular router icon with arrows.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_026",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1370.0,
+        "y": 658.0,
+        "width": 100.0,
+        "height": 30.0
+      },
+      "rawText": "Cisco-9000-R2",
+      "description": "Label above the router.",
+      "confidence": 0.98
+    },
+    {
+      "evidenceId": "evidence_027",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 990.0,
+        "y": 703.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_028",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1010.0,
+        "y": 748.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "A10",
+      "description": "Label below the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_029",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 275.0,
+        "y": 943.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_030",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 295.0,
+        "y": 913.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A2",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_031",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 575.0,
+        "y": 943.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_032",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 595.0,
+        "y": 913.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A3",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_033",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 775.0,
+        "y": 943.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_034",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 795.0,
+        "y": 913.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A4",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1175.0,
+        "y": 943.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1195.0,
+        "y": 913.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A5",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1575.0,
+        "y": 943.0,
+        "width": 60.0,
+        "height": 40.0
+      },
+      "rawText": null,
+      "description": "Rectangular switch icon with arrows.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1595.0,
+        "y": 913.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "A6",
+      "description": "Label above the switch.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 525.0,
+        "y": 1083.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 535.0,
+        "y": 1148.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "Web",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 625.0,
+        "y": 1083.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 635.0,
+        "y": 1148.0,
+        "width": 20.0,
+        "height": 15.0
+      },
+      "rawText": "DB",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_043",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 725.0,
+        "y": 1083.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_044",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 735.0,
+        "y": 1148.0,
+        "width": 30.0,
+        "height": 15.0
+      },
+      "rawText": "Mail",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_045",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 825.0,
+        "y": 1083.0,
+        "width": 40.0,
+        "height": 60.0
+      },
+      "rawText": null,
+      "description": "Server tower icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_046",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 815.0,
+        "y": 1148.0,
+        "width": 50.0,
+        "height": 15.0
+      },
+      "rawText": "Monitor",
+      "description": "Label below the server.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_047",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 175.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_048",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 180.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_049",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 275.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_050",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 280.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_051",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 375.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_052",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 380.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A2-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_053",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1075.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_054",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1080.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_055",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1175.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_056",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1180.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc4",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_057",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1275.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_058",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1280.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A5-pc5",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_059",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1475.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_060",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1480.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc1",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_061",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1575.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_062",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1580.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc2",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_063",
+      "sourceType": "VISUAL_ICON",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1675.0,
+        "y": 1093.0,
+        "width": 50.0,
+        "height": 45.0
+      },
+      "rawText": null,
+      "description": "PC monitor and base icon.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_064",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1680.0,
+        "y": 1143.0,
+        "width": 40.0,
+        "height": 15.0
+      },
+      "rawText": "A6-pc3",
+      "description": "Label below the PC.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_065",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 125.0,
+        "y": 873.0,
+        "width": 350.0,
+        "height": 350.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A2 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_066",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 135.0,
+        "y": 883.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "LAB JARINGAN",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_067",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 475.0,
+        "y": 873.0,
+        "width": 400.0,
+        "height": 350.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A3, A4 and servers.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_068",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 485.0,
+        "y": 883.0,
+        "width": 80.0,
+        "height": 30.0
+      },
+      "rawText": "RUANG SERVER",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_069",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 875.0,
+        "y": 873.0,
+        "width": 450.0,
+        "height": 350.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A5 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_070",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 885.0,
+        "y": 883.0,
+        "width": 80.0,
+        "height": 15.0
+      },
+      "rawText": "MANAJEMENT",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_071",
+      "sourceType": "VISUAL_REGION",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1325.0,
+        "y": 873.0,
+        "width": 450.0,
+        "height": 350.0
+      },
+      "rawText": null,
+      "description": "Rectangular border enclosing A6 and PCs.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_072",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_structure",
+      "bbox": {
+        "x": 1335.0,
+        "y": 883.0,
+        "width": 50.0,
+        "height": 15.0
+      },
+      "rawText": "CLIENT",
+      "description": "Region title in top-left corner.",
+      "confidence": 0.95
+    }
+  ]
+}

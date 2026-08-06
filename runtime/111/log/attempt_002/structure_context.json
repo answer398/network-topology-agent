@@ -1,0 +1,25 @@
+{
+  "taskId": "111",
+  "currentStage": "structure",
+  "image": {
+    "width": 879,
+    "height": 628,
+    "format": "PNG"
+  },
+  "view": {
+    "viewId": "global_structure",
+    "width": 879,
+    "height": 628,
+    "coversCompleteImage": true,
+    "coordinateMapping": {
+      "modelSource": "current-view pixels centered at image center (0,0), x right, y down, at most two decimals",
+      "target": "EXIF-corrected original pixels",
+      "viewCenterX": 439.5,
+      "viewCenterY": 314.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "offsetX": 0.0,
+      "offsetY": 0.0
+    }
+  }
+}

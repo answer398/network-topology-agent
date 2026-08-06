@@ -1,17 +1,33 @@
 model:
-  baseUrl: https://llm-9i4swuft956lxkp5.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+  baseUrl: https://ws-ek4hlexe8vudbgh2.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
   modelName: qwen3.8-max
   textOnlyModelName: qwen3.8-max
   enableThinking: true
-  thinkingBudget: 8129
+  thinkingBudget: 16348
   temperature: 0.0
-  maxTokens: 32768
+  maxTokens: 49062
   timeoutSeconds: 2400
   textStage:
-    maxTokens: 32768
+    maxTokens: 49062
     degradedMaxTokens: 8192
     enableThinking: true
-    thinkingBudget: 8192
+    thinkingBudget: 16348
+
+# model:
+#   baseUrl: https://ws-ek4hlexe8vudbgh2.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+#   modelName: qwen3.8-max
+#   textOnlyModelName: qwen3.8-max
+#   enableThinking: false
+#   thinkingBudget: 0
+#   temperature: 0.0
+#   maxTokens: 32768
+#   timeoutSeconds: 2400
+#   textStage:
+#     maxTokens: 32768
+#     # maxTokens: 65536
+#     degradedMaxTokens: 8192
+#     enableThinking: false
+#     thinkingBudget: 0
 
 platform:
   baseUrl: http://10.199.100.253/api

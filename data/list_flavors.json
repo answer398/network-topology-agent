@@ -69,6 +69,23 @@
     "companyId": ""
   },
   {
+    "id": "RS00-001-001024-00080",
+    "flavorName": "1C-1G-80G",
+    "cpu": 1,
+    "disk": 80,
+    "ram": 1024,
+    "description": "",
+    "created": "2026-08-05 11:54:45",
+    "isBase": "0",
+    "creator": "35e30783153649b5ac19be2ccfe23ed4",
+    "creatorName": "选手38",
+    "creatorAvatar": "/files//photo/d38deeafe9a94de3b20cf93d31ed130e.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
+  },
+  {
     "id": "RS00-001-002048-00010",
     "flavorName": "1C-2G-10G",
     "cpu": 1,
@@ -267,6 +284,23 @@
     "companyName": "盾立方"
   },
   {
+    "id": "RS00-002-002048-00120",
+    "flavorName": "2C-2G-120G",
+    "cpu": 2,
+    "disk": 120,
+    "ram": 2048,
+    "description": "",
+    "created": "2026-08-05 04:05:48",
+    "isBase": "0",
+    "creator": "a0ba389728ff42919613c0fe02623ed7",
+    "creatorName": "选手37",
+    "creatorAvatar": "/files//photo/07f4c7232af44c4b8718858c0f1d647a.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
+  },
+  {
     "id": "RS00-002-004096-00010",
     "flavorName": "2C-4G-10G",
     "cpu": 2,
@@ -317,6 +351,23 @@
     "creator": "",
     "systemId": "",
     "companyId": ""
+  },
+  {
+    "id": "RS00-002-004096-00060",
+    "flavorName": "2C-4G-60G",
+    "cpu": 2,
+    "disk": 60,
+    "ram": 4096,
+    "description": "",
+    "created": "2026-08-04 18:09:32",
+    "isBase": "0",
+    "creator": "12f05c7fe01d4aa4ba34dd5e0a62389a",
+    "creatorName": "选手13",
+    "creatorAvatar": "/files//photo/ea6c018374d44b32937da7eeffb56e5f.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
   },
   {
     "id": "RS00-002-004096-00080",
@@ -452,6 +503,23 @@
     "companyName": "极核开发测试单位"
   },
   {
+    "id": "RS00-004-040960-00080",
+    "flavorName": "4C-40G-80G",
+    "cpu": 4,
+    "disk": 80,
+    "ram": 40960,
+    "description": "",
+    "created": "2026-08-05 13:51:51",
+    "isBase": "0",
+    "creator": "2a0a4076a02b4a0b941a808d6476de78",
+    "creatorName": "选手11",
+    "creatorAvatar": "/files//photo/0e0ae42bcd2b420490c7005eb96ae94d.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
+  },
+  {
     "id": "RS00-008-004096-00040",
     "flavorName": "8C-4G-40G",
     "cpu": 8,
@@ -549,6 +617,23 @@
     "creator": "",
     "systemId": "",
     "companyId": ""
+  },
+  {
+    "id": "RS00-016-065536-00500",
+    "flavorName": "16C-64G-500G",
+    "cpu": 16,
+    "disk": 500,
+    "ram": 65536,
+    "description": "",
+    "created": "2026-08-06 13:51:27",
+    "isBase": "0",
+    "creator": "2a0a4076a02b4a0b941a808d6476de78",
+    "creatorName": "选手11",
+    "creatorAvatar": "/files//photo/0e0ae42bcd2b420490c7005eb96ae94d.jpeg",
+    "systemId": "52136882273746bf97feb327470f0e5a",
+    "systemName": "蜜阵",
+    "companyId": "1dc08ce3e96d445fa45df7c7a4906f88",
+    "companyName": "盾立方"
   },
   {
     "id": "RS00-032-000128-00020",

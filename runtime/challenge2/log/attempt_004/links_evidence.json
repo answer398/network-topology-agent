@@ -1,0 +1,468 @@
+{
+  "stage": "links",
+  "sourceViewId": "global_links",
+  "evidence": [
+    {
+      "evidenceId": "evidence_074",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 880.0,
+        "y": 351.0,
+        "width": 385.0,
+        "height": 8.0
+      },
+      "rawText": null,
+      "description": "Horizontal line between R1 right edge and SW1 left edge, GE0/1 labels at both ends.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_075",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1360.0,
+        "y": 347.0,
+        "width": 360.0,
+        "height": 8.0
+      },
+      "rawText": null,
+      "description": "Horizontal line between SW1 right edge and R4 left edge, GE0/2 and GE0/1 labels.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_076",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1788.0,
+        "y": 177.0,
+        "width": 334.0,
+        "height": 136.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R4 upper right to SW5 lower left, GE0/3 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_077",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2213.0,
+        "y": 88.0,
+        "width": 319.0,
+        "height": 36.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW5 top right to T1-PC-1 lower left, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_078",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2213.0,
+        "y": 177.0,
+        "width": 319.0,
+        "height": 96.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW5 right to T1-PC-2 left, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_079",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1788.0,
+        "y": 397.0,
+        "width": 334.0,
+        "height": 146.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R4 lower right to SW6 left, GE0/2 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_080",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2213.0,
+        "y": 507.0,
+        "width": 319.0,
+        "height": 36.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW6 upper right to T2-PC-1 left, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_081",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2213.0,
+        "y": 607.0,
+        "width": 319.0,
+        "height": 126.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW6 lower right to T2-PC-2 left, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_082",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 832.0,
+        "y": 397.0,
+        "width": 18.0,
+        "height": 161.0
+      },
+      "rawText": null,
+      "description": "Vertical line from R1 bottom to SW2 top, GE0/2 and GE0/1 labels.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_083",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 832.0,
+        "y": 667.0,
+        "width": 18.0,
+        "height": 156.0
+      },
+      "rawText": null,
+      "description": "Vertical line from SW2 bottom to firewall top, GE0/2 and GE0/1 labels.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_084",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 558.0,
+        "y": 897.0,
+        "width": 240.0,
+        "height": 146.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from firewall lower left to SW3 upper right, GE0/2 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_085",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 872.0,
+        "y": 897.0,
+        "width": 281.0,
+        "height": 151.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from firewall lower right to SW4 upper left, GE0/3 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_086",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 507.0,
+        "y": 1142.0,
+        "width": 16.0,
+        "height": 171.0
+      },
+      "rawText": null,
+      "description": "Vertical line from SW3 bottom to R3 top, GE0/2 and GE0/1 labels.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_087",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1245.0,
+        "y": 1091.0,
+        "width": 600.0,
+        "height": 8.0
+      },
+      "rawText": null,
+      "description": "Horizontal line from SW4 right to R2 left, GE0/2 and GE0/1 labels.",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_088",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 288.0,
+        "y": 1377.0,
+        "width": 185.0,
+        "height": 176.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R3 lower left to SW7 upper right, GE0/2 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_089",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 547.0,
+        "y": 1377.0,
+        "width": 106.0,
+        "height": 176.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R3 lower right to SW8 upper left, GE0/3 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_090",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 120.0,
+        "y": 1647.0,
+        "width": 98.0,
+        "height": 166.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW7 lower left to WEB server top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_091",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 277.0,
+        "y": 1647.0,
+        "width": 58.0,
+        "height": 166.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW7 lower right to DB server top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_092",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 584.0,
+        "y": 1647.0,
+        "width": 79.0,
+        "height": 166.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW8 lower left to Mail server top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_093",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 722.0,
+        "y": 1647.0,
+        "width": 93.0,
+        "height": 166.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW8 lower right to Monitor server top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_094",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1247.0,
+        "y": 1127.0,
+        "width": 606.0,
+        "height": 316.0
+      },
+      "rawText": null,
+      "description": "Long diagonal line from R2 lower left to SW9 upper right, GE0/2 and GE0/1 labels.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_095",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1689.0,
+        "y": 1137.0,
+        "width": 189.0,
+        "height": 301.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R2 bottom to SW10 top, GE0/3 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_096",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1917.0,
+        "y": 1127.0,
+        "width": 253.0,
+        "height": 311.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from R2 lower right to SW11 top, GE0/4 and GE0/1 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_097",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1933.0,
+        "y": 1107.0,
+        "width": 752.0,
+        "height": 331.0
+      },
+      "rawText": null,
+      "description": "Long diagonal line from R2 right to SW12 top, GE0/5 and GE0/1 labels.",
+      "confidence": 0.9
+    },
+    {
+      "evidenceId": "evidence_098",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1074.0,
+        "y": 1537.0,
+        "width": 94.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW9 lower left to P1-PC-1 top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_099",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1237.0,
+        "y": 1537.0,
+        "width": 88.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW9 lower right to P1-PC-2 top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_100",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1559.0,
+        "y": 1537.0,
+        "width": 94.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW10 lower left to P2-PC-1 top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_101",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 1722.0,
+        "y": 1537.0,
+        "width": 83.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW10 lower right to P2-PC-2 top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_102",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2039.0,
+        "y": 1537.0,
+        "width": 89.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW11 lower left to P3-PC-1 top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_103",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2197.0,
+        "y": 1537.0,
+        "width": 88.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW11 lower right to P3-PC-2 top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_104",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2524.0,
+        "y": 1537.0,
+        "width": 119.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW12 lower left to P4-PC-1 top, GE0/2 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_105",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2679.0,
+        "y": 1542.0,
+        "width": 31.0,
+        "height": 271.0
+      },
+      "rawText": null,
+      "description": "Near-vertical line from SW12 bottom to P4-PC-2 top, GE0/3 and eth0 labels.",
+      "confidence": 0.92
+    },
+    {
+      "evidenceId": "evidence_106",
+      "sourceType": "VISUAL_LINE",
+      "sourceViewId": "global_links",
+      "bbox": {
+        "x": 2722.0,
+        "y": 1537.0,
+        "width": 188.0,
+        "height": 276.0
+      },
+      "rawText": null,
+      "description": "Diagonal line from SW12 lower right to P4-PC-3 top, GE0/4 and eth0 labels.",
+      "confidence": 0.92
+    }
+  ]
+}

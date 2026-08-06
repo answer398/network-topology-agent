@@ -1,0 +1,359 @@
+{
+  "linkList": [
+    {
+      "dDevId": "Vb488cbdd61af481e831bc748ce201119",
+      "id": "L8276444dc2214dd6b032fcd57f9d63d7",
+      "sDevId": "W418bb3adde3b4750914b020ed4b14f59",
+      "dNicName": "Cisco-9000-R1-GE0/0"
+    },
+    {
+      "dDevId": "V678965944d17416ab4c411aa924c5522",
+      "id": "L48204351cf74406f91c7948f00dce901",
+      "sDevId": "W418bb3adde3b4750914b020ed4b14f59",
+      "dNicName": "Cisco-9000-R2-GE0/0"
+    },
+    {
+      "dDevId": "Vb488cbdd61af481e831bc748ce201119",
+      "id": "La862b8e886fe4843ae1a50cd28f376ee",
+      "sDevId": "W0b1ae656a3d147498d0c7f332d0998f2",
+      "dNicName": "Cisco-9000-R1-GE0/1"
+    },
+    {
+      "dDevId": "V678965944d17416ab4c411aa924c5522",
+      "id": "L0152fc6b944b44cca679d27d10bb8f47",
+      "sDevId": "W716ee2e1014443a6a0bfea5711e71816",
+      "dNicName": "Cisco-9000-R2-GE0/1"
+    },
+    {
+      "dDevId": "V5eb01d4fd5e347cea8204db5e0ceccce",
+      "id": "L0cca3873a75149bca971128a731a4bfb",
+      "sDevId": "W0b1ae656a3d147498d0c7f332d0998f2",
+      "dNicName": "PC-PT-eth0"
+    },
+    {
+      "dDevId": "Vf6011daab2f7494383c9a702c243377c",
+      "id": "L9d6e4228619f4deca833fb40def7b66c",
+      "sDevId": "W0b1ae656a3d147498d0c7f332d0998f2",
+      "dNicName": "PC-PT2-eth0"
+    },
+    {
+      "dDevId": "Vb6b8f448b4174d60bbac57ba47a9a72f",
+      "id": "Le8d3f60462294516ae635914be7629d2",
+      "sDevId": "W716ee2e1014443a6a0bfea5711e71816",
+      "dNicName": "PC-PT3-eth0"
+    },
+    {
+      "dDevId": "V09a35b16e8084922af8e46247d86e399",
+      "id": "L645b8c01f2bc4a65af5607718838e2cc",
+      "sDevId": "W716ee2e1014443a6a0bfea5711e71816",
+      "dNicName": "PC-PT4-eth0"
+    }
+  ],
+  "networkList": [
+    {
+      "id": "Gc6a72043a57943a2972e1bc3b488bc92",
+      "mtu": 1350,
+      "name": "sg-Cisco-2960-24TT-SW1",
+      "nodeId": "W0b1ae656a3d147498d0c7f332d0998f2",
+      "transmitNodeIdList": [
+        "Vb488cbdd61af481e831bc748ce201119",
+        "V5eb01d4fd5e347cea8204db5e0ceccce",
+        "Vf6011daab2f7494383c9a702c243377c"
+      ]
+    },
+    {
+      "id": "G1a664ff3d55a435bb92ff07811d14cb6",
+      "mtu": 1350,
+      "name": "sg-Cisco-2960-24TT-SW2",
+      "nodeId": "W716ee2e1014443a6a0bfea5711e71816",
+      "transmitNodeIdList": [
+        "V678965944d17416ab4c411aa924c5522",
+        "Vb6b8f448b4174d60bbac57ba47a9a72f",
+        "V09a35b16e8084922af8e46247d86e399"
+      ]
+    },
+    {
+      "id": "Ga8c5d8c078c64e0592539304e043d855",
+      "mtu": 1350,
+      "name": "sg-Cisco-2960-24TT-CoreSW",
+      "nodeId": "W418bb3adde3b4750914b020ed4b14f59",
+      "transmitNodeIdList": [
+        "Vb488cbdd61af481e831bc748ce201119",
+        "V678965944d17416ab4c411aa924c5522"
+      ]
+    }
+  ],
+  "nodeList": [
+    {
+      "nicList": [
+        {
+          "id": "P82728808900c401aa9d42110dd951571",
+          "ip": "192.168.12.1",
+          "name": "Cisco-9000-R1-GE0/0",
+          "subnetId": "S4031410fad0a48e4940777ed07cb1fe9"
+        },
+        {
+          "id": "Pc211a7c0f3254474ba36748f63062a3e",
+          "ip": "192.168.1.1",
+          "name": "Cisco-9000-R1-GE0/1",
+          "subnetId": "S676d62ce9fa84423b61ccf6517ef6fbc"
+        }
+      ],
+      "properties": {
+        "devType": "DRT",
+        "id": "Vb488cbdd61af481e831bc748ce201119",
+        "nodeName": "Cisco-9000-R1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-336.94",
+        "y": "-314.01",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
+        "imageName": "Cisco-9000",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P5b9cc6147c284d46b5f524c766a11f14",
+          "ip": "192.168.12.2",
+          "name": "Cisco-9000-R2-GE0/0",
+          "subnetId": "S4031410fad0a48e4940777ed07cb1fe9"
+        },
+        {
+          "id": "P874bf7c9dae34dfd91d74a11d39ab45a",
+          "ip": "192.168.2.1",
+          "name": "Cisco-9000-R2-GE0/1",
+          "subnetId": "S1743a78e4bd6444aab1a7d9a8764a734"
+        }
+      ],
+      "properties": {
+        "devType": "DRT",
+        "id": "V678965944d17416ab4c411aa924c5522",
+        "nodeName": "Cisco-9000-R2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "333.76",
+        "y": "-314.01",
+        "flavor": {
+          "cpu": "1",
+          "disk": "10",
+          "ram": "1024"
+        },
+        "imageId": "BBB2d52c-f425-4960-a8cd-0423992cbaef",
+        "imageName": "Cisco-9000",
+        "metadata": [],
+        "sysType": "Linux",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "W418bb3adde3b4750914b020ed4b14f59",
+        "nodeName": "Cisco-2960-24TT-CoreSW",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-3.82",
+        "y": "-310.19"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "W0b1ae656a3d147498d0c7f332d0998f2",
+        "nodeName": "Cisco-2960-24TT-SW1",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-331.21",
+        "y": "54.14"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [],
+      "properties": {
+        "devType": "SW",
+        "id": "W716ee2e1014443a6a0bfea5711e71816",
+        "nodeName": "Cisco-2960-24TT-SW2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "292.99",
+        "y": "54.14"
+      },
+      "type": "SW"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P2c56d1d9900f4495ae2ab010a9717968",
+          "ip": "192.168.1.2",
+          "name": "PC-PT-eth0",
+          "subnetId": "S676d62ce9fa84423b61ccf6517ef6fbc"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V5eb01d4fd5e347cea8204db5e0ceccce",
+        "nodeName": "PC-PT",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-468.79",
+        "y": "284.71",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pa0f9045174fe439c980c382e2c6717a8",
+          "ip": "192.168.1.3",
+          "name": "PC-PT2-eth0",
+          "subnetId": "S676d62ce9fa84423b61ccf6517ef6fbc"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vf6011daab2f7494383c9a702c243377c",
+        "nodeName": "PC-PT2",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "-233.12",
+        "y": "284.71",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "P37b5f1a608eb48fe9828d6b05797511b",
+          "ip": "192.168.2.2",
+          "name": "PC-PT3-eth0",
+          "subnetId": "S1743a78e4bd6444aab1a7d9a8764a734"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "Vb6b8f448b4174d60bbac57ba47a9a72f",
+        "nodeName": "PC-PT3",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "212.74",
+        "y": "284.71",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    },
+    {
+      "nicList": [
+        {
+          "id": "Pf96730c0b1ae49329b66aecbfc3058e3",
+          "ip": "192.168.2.3",
+          "name": "PC-PT4-eth0",
+          "subnetId": "S1743a78e4bd6444aab1a7d9a8764a734"
+        }
+      ],
+      "properties": {
+        "devType": "CLIENT",
+        "id": "V09a35b16e8084922af8e46247d86e399",
+        "nodeName": "PC-PT4",
+        "otherAttributeList": [],
+        "singleNetwork": false,
+        "transparent": 0,
+        "x": "448.41",
+        "y": "284.71",
+        "flavor": {
+          "cpu": "1",
+          "disk": "40",
+          "ram": "1024"
+        },
+        "imageId": "BBB1de49-4653-4ee3-a203-bb263ea58a94",
+        "imageName": "PC",
+        "metadata": [],
+        "sysType": "Windows",
+        "userData": ""
+      },
+      "type": "VM"
+    }
+  ],
+  "portMappingList": [],
+  "subnetList": [
+    {
+      "cidr": "192.168.1.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S676d62ce9fa84423b61ccf6517ef6fbc",
+      "name": "sn-Cisco-2960-24TT-SW1",
+      "networkId": "Gc6a72043a57943a2972e1bc3b488bc92",
+      "gatewayIp": "192.168.1.1"
+    },
+    {
+      "cidr": "192.168.2.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S1743a78e4bd6444aab1a7d9a8764a734",
+      "name": "sn-Cisco-2960-24TT-SW2",
+      "networkId": "G1a664ff3d55a435bb92ff07811d14cb6",
+      "gatewayIp": "192.168.2.1"
+    },
+    {
+      "cidr": "192.168.12.0/24",
+      "dns": "",
+      "enableDhcp": true,
+      "id": "S4031410fad0a48e4940777ed07cb1fe9",
+      "name": "sn-Cisco-2960-24TT-CoreSW",
+      "networkId": "Ga8c5d8c078c64e0592539304e043d855",
+      "gatewayIp": "192.168.12.1"
+    }
+  ],
+  "version": "v2"
+}

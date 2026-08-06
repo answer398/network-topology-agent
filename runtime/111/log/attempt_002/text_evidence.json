@@ -1,0 +1,118 @@
+{
+  "stage": "text",
+  "sourceViewId": "global_text",
+  "evidence": [
+    {
+      "evidenceId": "evidence_035",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 89.5,
+        "y": 84.0,
+        "width": 120.0,
+        "height": 60.0
+      },
+      "rawText": "GE0/0 192.168.12.1/24 GE0/1 192.168.1.1/24",
+      "description": "Interface and IP labels near Cisco-9000-R1",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_036",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 89.5,
+        "y": 84.0,
+        "width": 120.0,
+        "height": 60.0
+      },
+      "rawText": "GE0/0 192.168.12.1/24\nGE0/1 192.168.1.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_037",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 619.5,
+        "y": 84.0,
+        "width": 120.0,
+        "height": 60.0
+      },
+      "rawText": "GE0/0 192.168.12.2/24 GE0/1 192.168.2.1/24",
+      "description": "Interface and IP labels near Cisco-9000-R2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_038",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 619.5,
+        "y": 84.0,
+        "width": 120.0,
+        "height": 60.0
+      },
+      "rawText": "GE0/0 192.168.12.2/24\nGE0/1 192.168.2.1/24",
+      "description": "visible text",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_039",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 19.5,
+        "y": 554.0,
+        "width": 100.0,
+        "height": 40.0
+      },
+      "rawText": "eth0 192.168.1.2/24",
+      "description": "Interface and IP labels near PC-PT",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_040",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 199.5,
+        "y": 554.0,
+        "width": 100.0,
+        "height": 40.0
+      },
+      "rawText": "eth0 192.168.1.3/24",
+      "description": "Interface and IP labels near PC-PT2",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_041",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 549.5,
+        "y": 554.0,
+        "width": 100.0,
+        "height": 40.0
+      },
+      "rawText": "eth0 192.168.2.2/24",
+      "description": "Interface and IP labels near PC-PT3",
+      "confidence": 0.95
+    },
+    {
+      "evidenceId": "evidence_042",
+      "sourceType": "VISUAL_TEXT",
+      "sourceViewId": "global_text",
+      "bbox": {
+        "x": 729.5,
+        "y": 554.0,
+        "width": 100.0,
+        "height": 40.0
+      },
+      "rawText": "eth0 192.168.2.3/24",
+      "description": "Interface and IP labels near PC-PT4",
+      "confidence": 0.95
+    }
+  ]
+}
